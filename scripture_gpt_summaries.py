@@ -5,16 +5,16 @@
 
 # Usage Examples:
 # 1. Update an entire volume:
-#    python3 gpt_summaries.py --update new_testament.json
+#    python3 scripture_gpt_summaries.py --update new_testament.json
 #
 # 2. Update all chapters in a specific book:
-#    python3 gpt_summaries.py --update Matthew
+#    python3 scripture_gpt_summaries.py --update Matthew
 #
 # 3. Update a specific chapter in a book:
-#    python3 gpt_summaries.py --update "Matthew 5"
+#    python3 scripture_gpt_summaries.py --update "Matthew 5"
 #
 # 4. Update with debug logging enabled:
-#    python3 gpt_summaries.py --update "Matthew 5" --debug
+#    python3 scripture_gpt_summaries.py --update "Matthew 5" --debug
 #
 # Note: For books with aliases like "D&C", it will automatically map to "Doctrine and Covenants".
 # Ensure the JSON files (e.g., new_testament.json) contain the structured data with books, chapters, and verses.

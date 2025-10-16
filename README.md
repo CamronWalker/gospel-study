@@ -28,3 +28,30 @@ Scrapes the LDS conference and adds a few of the easier (have't or rarely error)
 
 ### md_scripture_resource_updater.py
 This is a multi purpose script that either creates the scriptures_json folder with the markdown files in it or updates the headings of the markdown files so that any footnotes, highlights, etc. are preserved. Run it to create the markdown files or run it to update the resources on existing markdown files. 
+
+
+Sample talk resources (to remember the goal):
+```json
+"talk-resources": [
+    {
+    "name": "Gospel Library",
+    "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/11eyring?lang=eng"
+    },
+    {
+    "name": "Saints AI Study Guide",
+    "url": "https://saintsai.org/study/general-conference/2024/10/11eyring/study-guide"
+    },
+    {
+    "name": "BYU Citation Index",
+    "url": null
+    },
+    {
+    "name": "YouTube Video",
+    "url": "https://www.youtube.com/watch?v=vb9BkYmzPZc"
+    },
+    {
+    "name": "Church News Summary",
+    "url": "clear"
+    }
+]
+```
