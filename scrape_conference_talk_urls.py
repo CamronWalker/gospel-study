@@ -2,7 +2,7 @@
 Sample Usage:
 - To scrape conferences from 2020 to 2025:
   python script.py 2020 2025
-  (This will scrape resources for April and October conferences in the specified years and save to 'json_conference/conference_resources.json'. Existing conferences will be skipped.)
+  (This will scrape resources for April and October conferences in the specified years and save to 'conference_json/conference_resources.json'. Existing conferences will be skipped.)
 
 - To run in debug mode (scrape all and output differences):
   python script.py 2020 2025 --debug
@@ -15,6 +15,7 @@ import sys
 import time
 import re
 import difflib
+from tqdm import tqdm
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -92,27 +93,37 @@ if __name__ == '__main__':
             existing_resources = json.load(f)
         resources = existing_resources.copy()
     
+    # Prepare list of conferences to process
+    conf_list = []
     for year in range(start_year, end_year + 1):
         for month in ['April', 'October']:
             conf_key = f"{year}-{month}"
             should_scrape = debug or conf_key not in existing_resources
             if should_scrape:
-                print(f"Scraping {conf_key}...")
-                talk_dict = get_conference_resources(year, month)
-                if talk_dict:
-                    new_talk_dict = dict(sorted(talk_dict.items()))
-                    if debug and conf_key in existing_resources:
-                        old_talk_dict = existing_resources[conf_key]
-                        differences = dict_diff(new_talk_dict, old_talk_dict)
-                        if differences:
-                            print(f"Differences for {conf_key}:")
-                            for d in differences:
-                                print(d)
-                        else:
-                            print(f"No differences for {conf_key}")
-                    resources[conf_key] = new_talk_dict
-            else:
-                print(f"Skipping existing {conf_key}")
+                conf_list.append((year, month, conf_key))
+    
+    if conf_list:
+        pbar = tqdm(conf_list)
+        for year, month, conf_key in pbar:
+            pbar.set_description(f"Scraping {conf_key}")
+            talk_dict = get_conference_resources(year, month)
+            if talk_dict:
+                new_talk_dict = dict(sorted(talk_dict.items()))
+                if debug and conf_key in existing_resources:
+                    old_talk_dict = existing_resources[conf_key]
+                    differences = dict_diff(new_talk_dict, old_talk_dict)
+                    if differences:
+                        print(f"Differences for {conf_key}:")
+                        for d in differences:
+                            print(d)
+                    else:
+                        print(f"No differences for {conf_key}")
+                resources[conf_key] = new_talk_dict
+    else:
+        print("No conferences to scrape.")
+    
+    # Sort conferences in chronological order
+    resources = dict(sorted(resources.items()))
     
     with open(filename, 'w') as f:
         json.dump(resources, f, indent=2)
