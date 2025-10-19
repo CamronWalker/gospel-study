@@ -23,6 +23,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
+import utils
 
 JSON_DIR = 'conference_json'
 os.makedirs(JSON_DIR, exist_ok=True)
@@ -51,13 +52,25 @@ def get_conference_resources(year, month):
         # Find all li in ul.doc-map
         li_elements = driver.find_elements(By.CSS_SELECTOR, 'ul.doc-map > li')
         for li in li_elements:
-            a = li.find_element(By.TAG_NAME, 'a')
-            href = a.get_attribute('href')
-            full_url = href if href.startswith('https') else f"https://www.churchofjesuschrist.org{href}"
-            last_segment = full_url.split('/')[-1].split('?')[0]
-            if re.match(r'^\d{2}[a-z]+$', last_segment, re.IGNORECASE):
-                path = f"{year}/{month_code}/{last_segment}"
-                talk_urls[path] = {"Gospel Library": full_url}
+            try:
+                a = li.find_element(By.TAG_NAME, 'a')
+                href = a.get_attribute('href')
+                full_url = href if href.startswith('https') else f"https://www.churchofjesuschrist.org{href}"
+                full_text = a.text.strip()
+                lines = full_text.split('\n')
+                if len(lines) >= 3:
+                    speaker = lines[0]
+                    title = lines[1]
+                else:
+                    speaker = ''
+                    title = lines[0]
+                key = href.split('/')[-1].split('?')[0]  # e.g., "14johnson"
+                speaker_norm = utils.normalize_speaker(speaker)
+                title_norm = utils.get_uniform_talk_key(title)
+                talk_urls[key] = {"Gospel Library": full_url, "author": speaker_norm, "title": title_norm}
+            except Exception as e:
+                print(f"Error processing li: {e}")
+                continue
     except Exception as e:
         print(f"Error scraping conference {year} {month}: {e}")
     finally:

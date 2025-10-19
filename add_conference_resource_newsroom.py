@@ -25,6 +25,7 @@ from xai_sdk.chat import user
 from xai_sdk.search import SearchParameters, web_source
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
+import utils
 
 # Load .env from same directory
 load_dotenv()
@@ -51,11 +52,8 @@ def get_speaker_search_term(speaker, speaker_role):
     return prefix + last_name
 
 def get_talk_key(talk, year, month):
-    """Generate URL-style key: year/month/daylastnames"""
-    day = talk.get('day', '01')  # default to 01 if no day
-    speaker = normalize_speaker(talk['speaker'])
-    last_name = speaker.split()[-1].lower()
-    return f"{year}/{month}/{day}{last_name}"
+    """Generate author|title key"""
+    return utils.get_author_title_key(talk['title'], talk['speaker'])
 
 def find_newsroom_summary_url_with_grok(title, speaker, speaker_role, year, month, search_limit=4):
     speaker_search = get_speaker_search_term(speaker, speaker_role)
@@ -225,7 +223,7 @@ if __name__ == '__main__':
         sys.exit(1)
     
     # Load existing conference_resources.json or create new
-    output_file = 'conference_resources.json'
+    output_file = 'conference_json/conference_resources.json'
     try:
         with open(output_file, 'r') as f:
             output_resources = json.load(f)

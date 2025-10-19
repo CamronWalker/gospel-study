@@ -20,13 +20,17 @@ Not included. You will need to scrape this from the internet on your own (tbh I 
 ### add_scripture_resource.py
 There can be various of these functions included. 
 
+### other future resource adder...
+
 ### ai_scripture_resource.py
 
 
 ### scrape_conference.py
 Scrapes the LDS conference and adds a few of the easier (have't or rarely error) resources. Uses the selenium project so you will need to be sure it's installed to run the python command.
 
-### md_scripture_resource_updater.py
+### md_conference_updater.py
+
+### md_scripture_updater.py
 This is a multi purpose script that either creates the scriptures_json folder with the markdown files in it or updates the headings of the markdown files so that any footnotes, highlights, etc. are preserved. Run it to create the markdown files or run it to update the resources on existing markdown files. 
 
 
@@ -43,7 +47,7 @@ Sample talk resources (to remember the goal):
     },
     {
     "name": "BYU Citation Index",
-    "url": null
+    "url": ...
     },
     {
     "name": "YouTube Video",
@@ -51,7 +55,7 @@ Sample talk resources (to remember the goal):
     },
     {
     "name": "Church News Summary",
-    "url": "clear"
+    "url":  ...
     }
 ]
 ```
