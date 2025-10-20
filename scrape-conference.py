@@ -1,193 +1,638 @@
-import requests
-from bs4 import BeautifulSoup
+"""
+Sample Usage:
+- To scrape an entire General Conference:
+  python scrape-conference.py 2023 October
+  (This will scrape all talks from the specified conference and save to a JSON file like 'conference_json/2023-october.json'. Note: Month must be 'April' or 'October'.)
+
+- To scrape with replace:
+  python scrape-conference.py 2023 October --replace
+  (This will replace existing resources.)
+
+- To scrape a single talk:
+  python scrape-conference.py https://www.churchofjesuschrist.org/study/general-conference/2023/10/12nelson?lang=eng
+  (This will scrape the individual talk, determine the conference, and add/update it in the corresponding conference JSON file like 'conference_json/2023-october.json'. If the file doesn't exist, it will create it with just that talk.)
+"""
+
+import os
 import json
+import time
+import sys
 import re
-from urllib.parse import urljoin, quote
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
+import requests
+from urllib.parse import urlparse, quote
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from tqdm import tqdm
+from dotenv import load_dotenv
+import argparse
 
-# Function to create a session with retries
-def create_session():
-    session = requests.Session()
-    retry = Retry(total=5, backoff_factor=0.1, status_forcelist=[500, 502, 503, 504])
-    adapter = HTTPAdapter(max_retries=retry)
-    session.mount('http://', adapter)
-    session.mount('https://', adapter)
-    return session
+# Load .env from parent directory
+load_dotenv(dotenv_path='../.env')
 
-session = create_session()
+# Create conference_json directory if it doesn't exist
+JSON_DIR = 'conference_json'
+os.makedirs(JSON_DIR, exist_ok=True)
 
-def fetch_page(url):
-    response = session.get(url)
-    response.raise_for_status()
-    return BeautifulSoup(response.text, 'html.parser')
+# Book map for scripture abbreviations to full names
+book_map = {
+    # Book of Mormon
+    'bofm/1-ne': '1 Nephi',
+    'bofm/2-ne': '2 Nephi',
+    'bofm/jacob': 'Jacob',
+    'bofm/enos': 'Enos',
+    'bofm/jarom': 'Jarom',
+    'bofm/omni': 'Omni',
+    'bofm/w-of-m': 'Words of Mormon',
+    'bofm/mosiah': 'Mosiah',
+    'bofm/alma': 'Alma',
+    'bofm/hel': 'Helaman',
+    'bofm/3-ne': '3 Nephi',
+    'bofm/4-ne': '4 Nephi',
+    'bofm/morm': 'Mormon',
+    'bofm/ether': 'Ether',
+    'bofm/moro': 'Moroni',
+    # Doctrine and Covenants
+    'dc-testament/dc': 'D&C',
+    # Old Testament
+    'ot/gen': 'Genesis',
+    'ot/ex': 'Exodus',
+    'ot/lev': 'Leviticus',
+    'ot/num': 'Numbers',
+    'ot/deut': 'Deuteronomy',
+    'ot/josh': 'Joshua',
+    'ot/judg': 'Judges',
+    'ot/ruth': 'Ruth',
+    'ot/1-sam': '1 Samuel',
+    'ot/2-sam': '2 Samuel',
+    'ot/1-kgs': '1 Kings',
+    'ot/2-kgs': '2 Kings',
+    'ot/1-chr': '1 Chronicles',
+    'ot/2-chr': '2 Chronicles',
+    'ot/ezra': 'Ezra',
+    'ot/neh': 'Nehemiah',
+    'ot/esth': 'Esther',
+    'ot/job': 'Job',
+    'ot/ps': 'Psalms',
+    'ot/prov': 'Proverbs',
+    'ot/eccl': 'Ecclesiastes',
+    'ot/song': 'Song of Solomon',
+    'ot/isa': 'Isaiah',
+    'ot/jer': 'Jeremiah',
+    'ot/lam': 'Lamentations',
+    'ot/ezek': 'Ezekiel',
+    'ot/dan': 'Daniel',
+    'ot/hosea': 'Hosea',
+    'ot/joel': 'Joel',
+    'ot/amos': 'Amos',
+    'ot/obad': 'Obadiah',
+    'ot/jonah': 'Jonah',
+    'ot/micah': 'Micah',
+    'ot/nahum': 'Nahum',
+    'ot/hab': 'Habakkuk',
+    'ot/zeph': 'Zephaniah',
+    'ot/hag': 'Haggai',
+    'ot/zech': 'Zechariah',
+    'ot/mal': 'Malachi',
+    # New Testament
+    'nt/matt': 'Matthew',
+    'nt/mark': 'Mark',
+    'nt/luke': 'Luke',
+    'nt/john': 'John',
+    'nt/acts': 'Acts',
+    'nt/rom': 'Romans',
+    'nt/1-cor': '1 Corinthians',
+    'nt/2-cor': '2 Corinthians',
+    'nt/gal': 'Galatians',
+    'nt/eph': 'Ephesians',
+    'nt/phlp': 'Philippians',
+    'nt/col': 'Colossians',
+    'nt/1-thes': '1 Thessalonians',
+    'nt/2-thes': '2 Thessalonians',
+    'nt/1-tim': '1 Timothy',
+    'nt/2-tim': '2 Timothy',
+    'nt/titus': 'Titus',
+    'nt/philem': 'Philemon',
+    'nt/heb': 'Hebrews',
+    'nt/james': 'James',
+    'nt/1-pet': '1 Peter',
+    'nt/2-pet': '2 Peter',
+    'nt/1-jn': '1 John',
+    'nt/2-jn': '2 John',
+    'nt/3-jn': '3 John',
+    'nt/jude': 'Jude',
+    'nt/rev': 'Revelation',
+    # Pearl of Great Price (included for completeness)
+    'pgp/moses': 'Moses',
+    'pgp/abr': 'Abraham',
+    'pgp/js-m': 'Joseph Smith—Matthew',
+    'pgp/js-h': 'Joseph Smith—History',
+    'pgp/a-of-f': 'Articles of Faith',
+}
 
-def extract_sessions(soup):
-    sessions = {}
-    current_session = None
-    for element in soup.find_all(['h2', 'li']):
-        if element.name == 'h2':
-            current_session = element.text.strip()
-            sessions[current_session] = []
-        elif current_session and 'class' in element.attrs and 'talk' in element.attrs['class']:
-            a = element.find('a')
-            if a:
-                talk = {
-                    'session': current_session,
-                    'url': urljoin("https://www.churchofjesuschrist.org", a['href']),
-                    'title': a.find('span', class_='title').text.strip() if a.find('span', class_='title') else '',
-                    'speaker': a.find('span', class_='speaker').text.strip() if a.find('span', class_='speaker') else ''
-                }
-                sessions[current_session].append(talk)
-    return sessions
+def normalize_speaker(speaker):
+    speaker = re.sub(r'By\s+', '', speaker, flags=re.IGNORECASE)
+    speaker = re.sub(r'^(Elder|President|Sister|Brother|Bishop)\s+', '', speaker, flags=re.IGNORECASE)
+    speaker = re.sub(r'[^a-zA-Z0-9\s]', '', speaker)
+    return speaker.strip()
 
-def fetch_talk_details(talk_url):
-    soup = fetch_page(talk_url)
-    
-    # Extract thumbnail
-    thumbnail_img = soup.find('img', attrs={'srcset': re.compile(r'.*')})
-    thumbnail_url = ''
-    if thumbnail_img and 'srcset' in thumbnail_img.attrs:
-        # Parse srcset to get a URL
-        srcset = thumbnail_img['srcset'].split(',')
-        thumbnail_url = srcset[0].strip().split(' ')[0] if srcset else ''
-    
-    # Extract speaker_role, subtitle, kicker
-    speaker_role = soup.find('p', class_='author-role').text.strip() if soup.find('p', class_='author-role') else ''
-    subtitle = soup.find('p', class_='subtitle').text.strip() if soup.find('p', class_='subtitle') else None
-    kicker = soup.find('p', class_='kicker').text.strip() if soup.find('p', class_='kicker') else None
-    
-    # Extract full_markdown and body
-    body_content = soup.find('div', class_='body-block')
-    full_markdown = ''
-    body = []
-    verse = 1
-    if body_content:
-        for child in body_content.children:
-            if child.name == 'p':
-                md = child.text.strip()
-                if md:
-                    full_markdown += md + '\n\n'
-                    body.append({
-                        'verse': verse,
-                        'type': 'paragraph',
-                        'markdown': md
-                    })
-                    verse += 1
-            elif child.name in ['h2', 'h3', 'h4']:
-                md = child.text.strip()
-                if md:
-                    level = int(child.name[1])
-                    full_markdown += '#' * level + ' ' + md + '\n\n'
-                    body.append({
-                        'type': 'heading',
-                        'level': level,
-                        'markdown': md
-                    })
-                    # In example, headings have verse sometimes, but adjust as needed
-                    verse += 1
-    
-    # Extract sources (footnotes)
-    sources = []
-    notes_section = soup.find('div', id='notesSection')
-    if notes_section:
-        for i, note in enumerate(notes_section.find_all('li'), start=1):
-            md = note.text.strip()
-            # Remove number if present
-            md = re.sub(r'^\d+\.\s*', '', md)
-            sources.append({
-                'number': i,
-                'id': f'note{i}',
-                'markdown': md
-            })
-    
-    return {
-        'speaker_role': speaker_role,
-        'thumbnail': thumbnail_url,
-        'subtitle': subtitle,
-        'kicker': kicker,
-        'full_markdown': full_markdown.strip(),
-        'body': body,
-        'sources': sources
-    }
+def normalize_role(role):
+    if not role:
+        return None
+    role = re.sub(r'^Of the ', '', role, flags=re.IGNORECASE).strip()
+    role = re.sub(r'Quorum of the (Twelve|twelve|12) Apostles|Q_of_12|Council of the 12', 'Quorum of the 12', role, flags=re.IGNORECASE)
+    role = re.sub(r'Q_of_70|70|Assistant to the Q_of_12|First Council of the Seventy|Presidency of the First Q_of_70|Emeritus member of the Seventy|Released Member of the Seventy|Former member of the Seventy', 'Seventy', role, flags=re.IGNORECASE)
+    role = re.sub(r'President of The Church of Jesus Christ of Latter-day Saints|President of the Church', 'President of the Church', role, flags=re.IGNORECASE)
+    return role
 
-# Resource functions - add new ones here
-def get_gospel_library(talk):
-    return {"name": "Gospel Library", "url": talk['url']}
+def get_uniform_talk_key(title):
+    return re.sub(r'[^a-zA-Z0-9\s]', '', title.strip()).lower()
 
-def get_saints_ai(talk):
-    talk_id = talk['url'].split('/')[-1].split('?')[0]
-    year = talk['url'].split('/')[-4]
-    month_short = talk['url'].split('/')[-3]
-    return {"name": "Saints AI Study Guide", "url": f"https://saintsai.org/study/general-conference/{year}/{month_short}/{talk_id}/study-guide"}
+def get_author_title_key(title, speaker):
+    norm_speaker = normalize_speaker(speaker).lower()
+    norm_title = get_uniform_talk_key(title)
+    return f"{norm_speaker}|{norm_title}"
 
-def get_byu_citation(talk):
-    # Example construction; adjust if needed
-    title_quoted = quote(talk['title'])
-    return {"name": "BYU Citation Index", "url": f"https://scriptures.byu.edu/#::t{title_quoted}"}
+def get_wikilink(href, text):
+    try:
+        parsed_url = urlparse(href)
+        if not parsed_url.path.startswith('/study/scriptures/'):
+            return None
+        parts = parsed_url.path.split('/')[3:]
+        if len(parts) < 2:
+            return None
+        corpus = parts[0]
+        book_abbr = parts[1]
+        chapter = ''
+        if len(parts) > 2:
+            chapter = parts[2]
+        verses_str = ''
+        if 'id' in parsed_url.query:
+            query_params = dict(q.split('=') for q in parsed_url.query.split('&'))
+            verses_str = query_params.get('id', '')
+        elif parsed_url.fragment:
+            verses_str = parsed_url.fragment[1:]
+        verses_str = verses_str.lower()
+        verses_str = re.sub(r'^p', '', verses_str)
+        key = f"{corpus}/{book_abbr}"
+        book_name = book_map.get(key)
+        if not book_name:
+            return None
+        page_name = f"D&C {chapter}" if book_name == 'D&C' else f"{book_name} {chapter}"
+        if not verses_str:
+            return f"[[{page_name}|{text}]]"
+        verse_parts = verses_str.split(',')
+        all_verses = []
+        for part in verse_parts:
+            part = part.strip()
+            if '-' in part:
+                range_parts = part.split('-')
+                start = re.sub(r'^p', '', range_parts[0], flags=re.IGNORECASE).strip()
+                end = re.sub(r'^p', '', range_parts[1], flags=re.IGNORECASE).strip() if len(range_parts) > 1 else ''
+                start_num = int(start) if start else None
+                end_num = int(end) if end else None
+                if start_num is not None and end_num is not None:
+                    all_verses.extend(range(start_num, end_num + 1))
+            else:
+                part_num = re.sub(r'^p', '', part, flags=re.IGNORECASE).strip()
+                if part_num:
+                    all_verses.append(int(part_num))
+        if not all_verses:
+            return f"[[{page_name}|{text}]]"
+        md = f"[[{page_name}#{all_verses[0]}|{text}]]"
+        for v in all_verses[1:]:
+            md += f"[[{page_name}#{v}|]]"
+        return md
+    except Exception as e:
+        print(f"Error parsing scripture link: {e}")
+        return None
 
-def get_youtube(talk):
-    # To get actual YouTube, would need search; placeholder with search link
-    query = quote(f"general conference {talk['title']} {talk['speaker']} youtube")
-    search_url = f"https://www.youtube.com/results?search_query={query}"
-    # In real script, parse to find video url; for now, return search
-    return {"name": "YouTube Video", "url": search_url}
+def html_to_markdown(html, is_source=False):
+    html = re.sub(r'<em>(.*?)</em>', r'*\1*', html, flags=re.IGNORECASE | re.DOTALL)
+    html = re.sub(r'<i>(.*?)</i>', r'*\1*', html, flags=re.IGNORECASE | re.DOTALL)
+    html = re.sub(r'<strong>(.*?)</strong>', r'**\1**', html, flags=re.IGNORECASE | re.DOTALL)
+    html = re.sub(r'<b>(.*?)</b>', r'**\1**', html, flags=re.IGNORECASE | re.DOTALL)
+    html = re.sub(r'<span[^>]*>(.*?)</span>', r'\1', html, flags=re.IGNORECASE | re.DOTALL)
+    html = re.sub(r'<sup[^>]*><a[^>]+href="#([^"]+)"[^>]*>([^<]+)</a></sup>', r'[^ \1]', html, flags=re.IGNORECASE | re.DOTALL)
+    if is_source:
+        html = re.sub(r'<a[^>]+class="backref"[^>]*>.*?</a>', '', html, flags=re.IGNORECASE | re.DOTALL)
+    def link_repl(match):
+        href = match.group(1)
+        text = match.group(2)
+        abs_href = href if href.startswith('http') else f"https://www.churchofjesuschrist.org{href}"
+        wiki = get_wikilink(abs_href, text)
+        if wiki:
+            return wiki
+        return f"[{text}]({abs_href})"
+    html = re.sub(r'<a[^>]+href="([^"]+)"[^>]*>([^<]+)</a>', link_repl, html, flags=re.IGNORECASE | re.DOTALL)
+    html = re.sub(r'<[^>]+>', '', html)
+    return html.strip()
 
-def get_church_news(talk):
-    query = quote(f"church news summary {talk['title']} {talk['speaker']}")
-    search_url = f"https://www.thechurchnews.com/search?q={query}"
-    return {"name": "Church News Summary", "url": search_url}
+def get_driver():
+    options = Options()
+    options.add_argument('--headless')
+    options.add_argument('--disable-gpu')
+    options.add_argument('--no-sandbox')
+    options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36')
+    service = Service(ChromeDriverManager().install())
+    return webdriver.Chrome(service=service, options=options)
 
-# List of resource functions; add new funcs to this list
-resource_functions = [
-    get_gospel_library,
-    get_saints_ai,
-    get_byu_citation,
-    get_youtube,
-    get_church_news
-]
+def find_youtube_url(title, speaker, year, month):
+    api_key = os.getenv('YOUTUBE_API_KEY')
+    if not api_key:
+        raise ValueError("YOUTUBE_API_KEY is missing from .env file")
+    query = f'"{title}" {speaker} General Conference {month} {year}'
+    channel_id = 'UCdNjexbMNWwYnYPIfjD3cQ'  # Official General Conference channel ID
+    api_url = f"https://www.googleapis.com/youtube/v3/search?part=snippet&q={quote(query)}&channelId={channel_id}&type=video&maxResults=1&key={api_key}"
+    try:
+        response = requests.get(api_url)
+        response.raise_for_status()
+        data = response.json()
+        if 'items' in data and data['items']:
+            video_id = data['items'][0]['id']['videoId']
+            return f"https://www.youtube.com/watch?v={video_id}"
+        else:
+            print(f"No YouTube results for \"{title}\"")
+            return None
+    except requests.exceptions.RequestException as e:
+        print(f"Error querying YouTube API for \"{title}\": {e}")
+        return None
 
-def add_resources(talk):
-    resources = []
-    for func in resource_functions:
+def scrape_talk_basics(url, session_name, year=None, month=None, driver=None):
+    if driver is None:
+        driver = get_driver()
+        own_driver = True
+    else:
+        own_driver = False
+    talk_data = {}
+    talk_data['session'] = session_name
+    talk_data['url'] = url
+    talk_data['resources'] = [{'name': 'Gospel Library', 'url': url}]
+    talk_data['resources'].append({'name': 'Saints AI Study Guide', 'url': url.replace('www.churchofjesuschrist.org', 'saintsai.org').split('?')[0] + '/study-guide'})
+    try:
+        driver.get(url)
+        WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.TAG_NAME, 'body')))
+        time.sleep(3)
+        title_element = driver.find_element(By.TAG_NAME, 'h1')
+        talk_data['title'] = title_element.text
+        speaker_element = driver.find_element(By.CLASS_NAME, 'author-name')
+        talk_data['speaker'] = normalize_speaker(speaker_element.text)
+        speaker_role = None
         try:
-            res = func(talk)
-            if res:
-                resources.append(res)
-        except Exception:
-            pass  # Skip if error
-    talk['resources'] = resources
+            role_element = driver.find_element(By.CLASS_NAME, 'author-role')
+            speaker_role = role_element.text
+        except:
+            pass
+        talk_data['speaker_role'] = normalize_role(speaker_role)
+        thumbnail = None
+        try:
+            thumbnail = driver.find_element(By.CSS_SELECTOR, 'img[class*="posterFallback"]').get_attribute('src')
+        except:
+            pass
+        if not thumbnail:
+            try:
+                thumbnail = driver.find_element(By.CSS_SELECTOR, 'header img, .article-header img').get_attribute('src')
+            except:
+                pass
+        if not thumbnail:
+            try:
+                thumbnail = driver.find_element(By.CSS_SELECTOR, 'img[src*="churchofjesuschrist.org/imgs"]').get_attribute('src')
+            except:
+                pass
+        if not thumbnail:
+            try:
+                thumbnail = driver.find_element(By.TAG_NAME, 'img').get_attribute('src')
+            except:
+                pass
+        talk_data['thumbnail'] = thumbnail
+        subtitle = None
+        try:
+            subtitle_element = driver.find_element(By.CLASS_NAME, 'subtitle')
+            subtitle = subtitle_element.text
+        except:
+            pass
+        talk_data['subtitle'] = subtitle
+        kicker = None
+        try:
+            kicker_element = driver.find_element(By.CLASS_NAME, 'kicker')
+            kicker = kicker_element.text
+        except:
+            pass
+        if not kicker:
+            try:
+                kicker = driver.find_element(By.CSS_SELECTOR, '.body-block p.intro, .body-content p.intro').text
+            except:
+                pass
+        talk_data['kicker'] = kicker
+        try:
+            body_element = driver.find_element(By.CLASS_NAME, 'body-block')
+        except:
+            try:
+                body_element = driver.find_element(By.CLASS_NAME, 'body-content')
+            except Exception as e:
+                print(f"Error: Body container not found for talk at {url}: {e}")
+                return None
+        full_html = body_element.get_attribute('innerHTML')
+        talk_data['full_markdown'] = html_to_markdown(full_html)
+        talk_data['body'] = []
+        all_elements = body_element.find_elements(By.CSS_SELECTOR, 'h1, h2, h3, h4, h5, h6, p, figure')
+        verse = 0
+        for elem in all_elements:
+            tag = elem.tag_name
+            inner_html = elem.get_attribute('innerHTML')
+            markdown = html_to_markdown(inner_html)
+            if tag in ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']:
+                level = int(tag[1])
+                talk_data['body'].append({'type': 'heading', 'level': level, 'markdown': markdown})
+            elif tag == 'p':
+                this_verse = verse + 1
+                verse += 1
+                id_attr = elem.get_attribute('id')
+                if id_attr and id_attr.startswith('p'):
+                    id_num = int(id_attr[1:])
+                    if id_num:
+                        this_verse = id_num
+                        verse = max(verse, this_verse)
+                talk_data['body'].append({'verse': this_verse, 'type': 'paragraph', 'markdown': markdown})
+            elif tag == 'figure':
+                try:
+                    img = elem.find_element(By.TAG_NAME, 'img')
+                    src = img.get_attribute('src')
+                    alt = img.get_attribute('alt')
+                    talk_data['body'].append({'type': 'image', 'src': src, 'alt': alt})
+                except Exception as e:
+                    print(f"Error extracting image for talk at {url}: {e}")
+        talk_data['sources'] = []
+        try:
+            notes_section = driver.find_element(By.CLASS_NAME, 'notes')
+            ol = notes_section.find_element(By.TAG_NAME, 'ol')
+            lis = ol.find_elements(By.TAG_NAME, 'li')
+            for i, li in enumerate(lis):
+                id_attr = li.get_attribute('id')
+                number = i + 1
+                inner_html = li.get_attribute('innerHTML')
+                markdown = html_to_markdown(inner_html, True)
+                talk_data['sources'].append({'number': number, 'id': id_attr, 'markdown': markdown})
+        except:
+            pass
+        return talk_data
+    except Exception as e:
+        print(f"Error during scraping talk basics {url}: {e}")
+        return None
+    finally:
+        if own_driver:
+            driver.quit()
 
-def scrape_conference(year, month):
-    month_short = '04' if month.lower() == 'april' else '10'
-    conference_url = f"https://www.churchofjesuschrist.org/study/general-conference/{year}/{month_short}?lang=eng"
-    soup = fetch_page(conference_url)
-    sessions = extract_sessions(soup)
-    
-    conference_data = {
-        "conference": f"{year}-{month.capitalize()}",
-        "year": year,
-        "month": month.capitalize(),
-        "sessions": sessions
-    }
-    
-    for session_name, talks in sessions.items():
-        for talk in talks:
-            details = fetch_talk_details(talk['url'])
-            talk.update(details)
-            add_resources(talk)
-    
-    output_file = f"{year}-{month.lower()}.json"
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(conference_data, f, indent=2, ensure_ascii=False)
-    
-    print(f"Output saved to {output_file}")
+def add_youtube_resource(talk, year, month, replace=False):
+    if not replace and any(r['name'] == 'YouTube Video' for r in talk['resources']):
+        return
+    youtube_url = find_youtube_url(talk['title'], talk['speaker'], year, month)
+    if youtube_url:
+        talk['resources'] = [r for r in talk['resources'] if r['name'] != 'YouTube Video']
+        talk['resources'].append({'name': 'YouTube Video', 'url': youtube_url})
 
-# Usage: python scrape_conference.py 2024 October
-if __name__ == "__main__":
-    import sys
-    if len(sys.argv) != 3:
-        print("Usage: python scrape_conference.py <year> <month>")
-        sys.exit(1)
-    year, month = sys.argv[1], sys.argv[2]
-    scrape_conference(year, month)
+def add_byu_resource(talk, byu_talks, conf_hash, replace=False):
+    if not replace and any(r['name'] == 'BYU Citation Index' for r in talk['resources']):
+        return
+    norm_title = get_uniform_talk_key(talk['title'])
+    norm_speaker = normalize_speaker(talk['speaker'])
+    matching = next((b for b in byu_talks if get_uniform_talk_key(b['title']) == norm_title and normalize_speaker(b['speaker']) == norm_speaker), None)
+    if matching:
+        url = f"https://scriptures.byu.edu/#:t{matching['t_hash']}:g{conf_hash}"
+        talk['resources'] = [r for r in talk['resources'] if r['name'] != 'BYU Citation Index']
+        talk['resources'].append({'name': 'BYU Citation Index', 'url': url})
+
+def fetch_byu_talks(driver, year, month):
+    month_code = '04' if month.lower() == 'april' else '10'
+    annual = 'A' if month_code == '04' else 'O'
+    year_num = int(year) - 1830
+    if annual == 'O':
+        year_num += 2048
+    conf_hash = format(year_num, 'x')
+    byu_conf_url = f"https://scriptures.byu.edu/#::g{conf_hash}"
+    byu_talks = []
+    try:
+        driver.get(byu_conf_url)
+        WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.TAG_NAME, 'body')))
+        time.sleep(5)
+        li_elements = driver.find_elements(By.CSS_SELECTOR, 'ul.talksblock li')
+        for li in li_elements:
+            try:
+                a = li.find_element(By.CSS_SELECTOR, 'a[onclick*="getTalk"]')
+            except:
+                continue
+            onclick = a.get_attribute('onclick')
+            id_match = re.search(r"getTalk\('(\d+)'\)", onclick)
+            talk_id = id_match.group(1) if id_match else None
+            if not talk_id:
+                continue
+            t_hash = format(int(talk_id), 'x')
+            title = ''
+            speaker = ''
+            try:
+                title = li.find_element(By.CSS_SELECTOR, 'div.talktitle').text.strip()
+                speaker = li.find_element(By.CSS_SELECTOR, 'div.speaker').text.strip()
+                speaker = normalize_speaker(speaker)
+            except:
+                continue
+            if t_hash and title and speaker:
+                byu_talks.append({'title': title, 'speaker': speaker, 't_hash': t_hash})
+        return byu_talks, conf_hash
+    except Exception as e:
+        print(f"Error fetching BYU talks: {e}")
+        return [], conf_hash
+
+def add_church_news_resource(talk, driver, year, month, replace=False):
+    if not replace and any(r['name'] == 'Church News Summary' for r in talk['resources']):
+        return
+    query = quote(f"{talk['title']} {talk['speaker']} general conference summary {month} {year}")
+    search_url = f"https://www.thechurchnews.com/search?q={query}"
+    try:
+        driver.get(search_url)
+        WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'div.search-results')))
+        result_links = driver.find_elements(By.CSS_SELECTOR, 'div.search-results a[href*="summary"]')
+        if result_links:
+            href = result_links[0].get_attribute('href')
+            talk['resources'] = [r for r in talk['resources'] if r['name'] != 'Church News Summary']
+            talk['resources'].append({'name': 'Church News Summary', 'url': href})
+    except Exception as e:
+        print(f"Error finding Church News summary for \"{talk['title']}\": {e}")
+
+def get_conference_filename(year, month):
+    sanitized_conference = re.sub(r'[^a-z0-9\- ]', '', f"{year}-{month.lower()}", flags=re.IGNORECASE)
+    return os.path.join(JSON_DIR, f"{sanitized_conference}.json")
+
+def scrape_conference(year, month, replace=False):
+    month_code = '04' if month.lower() in ['apr', 'april'] else '10' if month.lower() in ['oct', 'october'] else None
+    if not month_code:
+        raise ValueError('Invalid month: Must be April or October')
+    conference_url = f"https://www.churchofjesuschrist.org/study/general-conference/{year}/{month_code}?lang=eng"
+    conference = f"{year}-{month.capitalize()}"
+    filename = get_conference_filename(year, month)
+    if os.path.exists(filename):
+        with open(filename, 'r') as f:
+            conference_data = json.load(f)
+    else:
+        conference_data = {'conference': conference, 'year': year, 'month': month.capitalize(), 'sessions': {}}
+    driver = get_driver()
+    talk_list = []
+    try:
+        driver.get(conference_url)
+        WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.TAG_NAME, 'body')))
+        time.sleep(3)
+        for _ in range(5):
+            driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')
+            time.sleep(1)
+        li_elements = driver.find_elements(By.CSS_SELECTOR, 'ul.doc-map > li')
+        current_session_name = None
+        for li in li_elements:
+            a = li.find_element(By.TAG_NAME, 'a')
+            href = a.get_attribute('href')
+            full_url = href if href.startswith('https') else f"https://www.churchofjesuschrist.org{href}"
+            last_segment = full_url.split('/')[-1].split('?')[0]
+            if re.match(r'^\d{2}[a-z]+$', last_segment, re.IGNORECASE):
+                if current_session_name:
+                    talk_list.append({'url': full_url, 'session': current_session_name})
+            else:
+                try:
+                    title_p = li.find_element(By.CSS_SELECTOR, 'p.title')
+                    current_session_name = title_p.text
+                except:
+                    current_session_name = 'Unknown Session'
+                if current_session_name not in conference_data['sessions']:
+                    conference_data['sessions'][current_session_name] = []
+        # Determine missing talks
+        existing_urls = set()
+        for session, talks in conference_data['sessions'].items():
+            for talk in talks:
+                existing_urls.add(talk['url'])
+        missing_talks = [t for t in talk_list if t['url'] not in existing_urls]
+        # Scrape missing talk basics
+        total_missing = len(missing_talks)
+        if total_missing > 0:
+            print('Scraping missing talk basics:')
+        with tqdm(total=total_missing, desc="Scraping missing basics") as pbar:
+            for talk_item in missing_talks:
+                talk = scrape_talk_basics(talk_item['url'], talk_item['session'], year, month, driver=driver)
+                if talk:
+                    conference_data['sessions'][talk_item['session']].append(talk)
+                else:
+                    print(f"Failed to scrape basics at {talk_item['url']}")
+                pbar.update(1)
+        # Fetch batch resources
+        byu_talks, conf_hash = fetch_byu_talks(driver, year, month)
+        # Add missing resources to all talks
+        total_talks = sum(len(talks) for talks in conference_data['sessions'].values())
+        print('Adding missing resources to talks:')
+        with tqdm(total=total_talks, desc="Adding resources") as pbar:
+            for session_name, talks in conference_data['sessions'].items():
+                for talk in talks:
+                    add_youtube_resource(talk, year, month, replace)
+                    add_byu_resource(talk, byu_talks, conf_hash, replace)
+                    add_church_news_resource(talk, driver, year, month, replace)
+                    # Add calls to new resource functions here
+                    pbar.update(1)
+        # Save
+        with open(filename, 'w') as f:
+            json.dump(conference_data, f, indent=2)
+        print(f"Saved conference data to {filename}")
+    finally:
+        driver.quit()
+
+def scrape_single_talk(url, replace=False):
+    match = re.search(r'/general-conference/(\d{4})/(\d{2})/', url)
+    year = match.group(1) if match else None
+    month_code = match.group(2) if match else None
+    month = 'April' if month_code == '04' else 'October' if month_code == '10' else None
+    if not year or not month:
+        print("Error: Cannot determine conference from URL.")
+        return
+    conference_url = f"https://www.churchofjesuschrist.org/study/general-conference/{year}/{month_code}?lang=eng"
+    driver = get_driver()
+    try:
+        driver.get(conference_url)
+        WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.TAG_NAME, 'body')))
+        time.sleep(3)
+        for _ in range(5):
+            driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')
+            time.sleep(1)
+        li_elements = driver.find_elements(By.CSS_SELECTOR, 'ul.doc-map > li')
+        current_session = 'Unknown Session'
+        session_name = 'Unknown Session'
+        talk_last_segment = url.split('/')[-1].split('?')[0]
+        found = False
+        for li in li_elements:
+            a = li.find_element(By.TAG_NAME, 'a')
+            href = a.get_attribute('href')
+            full_url = href if href.startswith('https') else f"https://www.churchofjesuschrist.org{href}"
+            last_seg = full_url.split('/')[-1].split('?')[0]
+            if re.match(r'^\d{2}[a-z]+$', last_seg, re.IGNORECASE):
+                if last_seg == talk_last_segment:
+                    session_name = current_session
+                    found = True
+                    break
+            else:
+                try:
+                    title_p = li.find_element(By.CSS_SELECTOR, 'p.title')
+                    current_session = title_p.text
+                except:
+                    current_session = 'Unknown Session'
+        if not found:
+            print(f"Warning: Could not find session for talk at {url}. Using 'Unknown Session'.")
+        talk_basics = scrape_talk_basics(url, session_name, year, month, driver=driver)
+        if not talk_basics:
+            print('Failed to scrape single talk basics')
+            return
+        filename = get_conference_filename(year, month)
+        if os.path.exists(filename):
+            with open(filename, 'r') as f:
+                conference_data = json.load(f)
+        else:
+            conference_data = {'conference': f"{year}-{month.capitalize()}", 'year': year, 'month': month.capitalize(), 'sessions': {}}
+        if session_name not in conference_data['sessions']:
+            conference_data['sessions'][session_name] = []
+        existing_talk = next((t for t in conference_data['sessions'][session_name] if t['url'] == url), None)
+        if existing_talk:
+            if replace:
+                existing_talk.update(talk_basics)
+            print(f"Updated talk basics '{talk_basics['title']}' in {filename}" if replace else f"Talk basics already exist for '{talk_basics['title']}'")
+            talk_to_update = existing_talk
+        else:
+            conference_data['sessions'][session_name].append(talk_basics)
+            print(f"Added talk basics '{talk_basics['title']}' to {filename}")
+            talk_to_update = talk_basics
+        # Fetch batch resources
+        byu_talks, conf_hash = fetch_byu_talks(driver, year, month)
+        # Add resources
+        add_youtube_resource(talk_to_update, year, month, replace)
+        add_byu_resource(talk_to_update, byu_talks, conf_hash, replace)
+        add_church_news_resource(talk_to_update, driver, year, month, replace)
+        # Add calls to new resource functions here
+        with open(filename, 'w') as f:
+            json.dump(conference_data, f, indent=2)
+        print(f"Saved updated data to {filename}")
+    finally:
+        driver.quit()
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description="Scrape General Conference data")
+    parser.add_argument('year_or_url', help="Year or URL")
+    parser.add_argument('month', nargs='?', choices=['April', 'October'], help="Month (April or October)")
+    parser.add_argument('--replace', action='store_true', help="Replace existing resources")
+    args = parser.parse_args()
+    if args.month:
+        year = int(args.year_or_url)
+        month = args.month
+        scrape_conference(year, month, args.replace)
+    else:
+        url = args.year_or_url
+        if url.startswith('https://'):
+            scrape_single_talk(url, args.replace)
+        else:
+            print('Invalid URL or year')
+            sys.exit(1)
