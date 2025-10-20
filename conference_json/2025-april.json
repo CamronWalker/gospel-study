@@ -1,14 +1,24 @@
 {
   "conference": "2025-April",
-  "year": "2025",
+  "year": 2025,
   "month": "April",
   "sessions": {
     "Saturday Morning Session": [
       {
         "session": "Saturday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/11oaks?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/11oaks?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/11oaks/study-guide"
+          }
+        ],
         "title": "Sustaining of General Authorities, Area Seventies, and General Officers",
-        "speaker": "Presented President Dallin H. Oaks",
+        "speaker": "Presented President Dallin H Oaks",
         "speaker_role": "First Counselor in the First Presidency",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fcrywrj8frgh8t1qj5a2awtyf8nlyhvac0ll9qu4j%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -242,8 +252,18 @@
       {
         "session": "Saturday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/12larson?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/12larson?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/12larson/study-guide"
+          }
+        ],
         "title": "Church Auditing Department Report, 2024",
-        "speaker": "Presented Jared B. Larson",
+        "speaker": "Presented Jared B Larson",
         "speaker_role": "Managing Director, Church Auditing Department",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Ffq5mzp3y757tcuxg7b3m28cqqirmk0g2jo07ij9f%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -291,8 +311,30 @@
       {
         "session": "Saturday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/13holland?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/13holland?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/13holland/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=0u99kLy0cHg"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2241:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2025/04/05/president-jeffrey-holland-april-2025-general-conference-children-love/"
+          }
+        ],
         "title": "As a Little Child",
-        "speaker": "Jeffrey R. Holland",
+        "speaker": "Jeffrey R Holland",
         "speaker_role": "Acting President of the Quorum of the 12",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fe6v6f8eosyr3myvwoxy5hre4yro0kicjyv60o9bf%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -496,8 +538,30 @@
       {
         "session": "Saturday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/14johnson?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/14johnson?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/14johnson/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=Y3pTZgGeXio"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2242:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2025/04/05/president-camille-johnson-april-2025-general-conference-spiritually-whole/"
+          }
+        ],
         "title": "Spiritually Whole in Him",
-        "speaker": "Camille N. Johnson",
+        "speaker": "Camille N Johnson",
         "speaker_role": "Relief Society General President",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Foj63l5mrqyhm8750e16ihe6m0es9xuvpzjlt676a%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -911,8 +975,30 @@
       {
         "session": "Saturday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/15rasband?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/15rasband?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/15rasband/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=kAL3pyVEbZ4"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2243:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/members/2025/05/12/ronald-rasband-study-help-april-2025-general-conference/"
+          }
+        ],
         "title": "Right Before Our Eyes",
-        "speaker": "Ronald A. Rasband",
+        "speaker": "Ronald A Rasband",
         "speaker_role": "Quorum of the 12",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fbulm1n4ripp5t3mgjl06i7judu3pq5026a6rcz56%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -1251,8 +1337,30 @@
       {
         "session": "Saturday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/16cook?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/16cook?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/16cook/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=VPtVjNhhFZ8"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2244:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2025/04/05/elder-quentin-cook-april-2025-general-conference-jesus-atonement-rescue/"
+          }
+        ],
         "title": "The Atonement of Jesus Christ Provides the Ultimate Rescue",
-        "speaker": "Quentin L. Cook",
+        "speaker": "Quentin L Cook",
         "speaker_role": "Quorum of the 12",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fzc38zzbopb061mo1tkoxxy687wuwly69gh3e43nn%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -1595,9 +1703,203 @@
       },
       {
         "session": "Saturday Morning Session",
+        "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/17gimenez?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/17gimenez?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/17gimenez/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=hAVEjJExEs4"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2245:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2025/04/05/elder-gimenez-april-2025-general-conference-love-for-savior-is-why/"
+          }
+        ],
+        "title": "My Love for the Savior Is My \u201cWhy\u201d",
+        "speaker": "Ricardo P Gimnez",
+        "speaker_role": "Seventy",
+        "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fvtvuabe81v0dpki5jwc0e1190oq1qv5f8bexo7m3%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
+        "subtitle": null,
+        "kicker": "I love our Savior. This is the real and most powerful reason why I do what I do.",
+        "full_markdown": "Have you ever noticed that our dear prophet, President Russell&nbsp;M. Nelson, continuously extends invitations to us? Not surprisingly, he has invited us to study and ponder the messages shared at the last two conferences. In April 2024, he said, \u201cI hope you will repeatedly study the messages of this conference throughout the coming months.\u201d Then, in October 2024, he said: \u201cI urge you to study [the speakers\u2019] messages. Use them as a litmus test of what is true and what is not during the next six months.\u201d\nThese invitations can be added to prophetic invitations we have received throughout our lifetimes, including and especially those we have received in recent years. We may feel or think these invitations are another thing we need to add to our to-do lists, simply because we were invited or asked to do it. But could there be more to it?\nPondering over this and all the invitations we had received, I recalled something that I learned and decided long ago. I am trying to do these things which are essential to me because I love Him; I love our Savior. This is the real and most powerful reason why I do what I do, and then connected with this is my love for you, my fellow brothers and sisters.\nAs your brother, I hope you will consider my words as a sincere invitation to seek to understand the opportunity to link everything we do with our love for the Savior.\nDoing this will help us understand the real \u201cwhy\u201d behind everything we do as disciples of the Savior. This will help us strengthen our covenantal connection with God, understanding His divine and eternal truths\u2014His eternal and absolute truths that will never change. Eternal truths like \u201cFor God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.\u201d\nIt is interesting that sometimes because we have consistently done things to the point that they have turned into traditions, we allow these traditions or activities to dictate our efforts to build faith in Jesus Christ. It seems that we do these things because we have done them for many years, without considering their impact on our covenantal connection with the Savior.\nIn our world, we usually focus on what we do and on consistently accomplishing tasks and goals. In a spiritual sphere, we have the opportunity to go beyond just doing things or achieving goals by understanding why we are doing them. If we can understand and connect that the reason behind our actions relates to our love for the Savior and our Heavenly Father, by taking advantage of these opportunities we will understand that even though doing righteous things like having Church activities or traditions and appropriately doing them is a good thing, when we connect them with the \u201cwhy,\u201d we will be blessed to understand the reason. It won\u2019t be just doing good things or doing them right; we will also get them right.\nFor example, when you set a goal to read the scriptures, offer sincere prayers, or prepare an activity for your family or ward, is the real goal simply to accomplish these tasks? Or are these actions the means, the tools at your disposal, to achieve the true goal? Is the purpose merely to hold an activity because we have done it for many years and then check the box that we have completed it? Or, once again, are these the means we use to learn, to feel, and to connect with the Savior?\nPlease don\u2019t misunderstand my point about having activities and traditions or setting goals and working hard to achieve them; there is nothing wrong with this. However, I invite you to open your hearts and minds to the opportunity and blessing of understanding why we do these things and how we practice our religion.\nA prime example of Christ-centered traditions is the challenge President Dallin&nbsp;H. Oaks extended to all of us in the name of the First Presidency. President Oaks said: \u201cAs we enter this new year, let us prepare for an Easter celebration of the atoning sacrifice of Jesus Christ.&nbsp;\u2026 No matter what others believe or do, we should celebrate the Resurrection of our living Savior by studying His teachings and helping to establish Easter traditions in our society as a whole, especially within our own families.\u201d As you can see, it is not just an invitation to have traditions. Instead, we use these traditions as a means to learn more about the Savior and remember His Resurrection.\nThe more we can connect the reason with our love for the Savior, the more we will be able to receive what we need or are seeking. President Nelson said, \u201cWhatever questions or problems you have, the answer is always found in the life and teachings of Jesus Christ.\u201d And then he extended this invitation: \u201cLearn more about His Atonement, His love, His mercy, His doctrine, and His restored gospel of healing and progression. Turn to Him! Follow Him!\u201d\nPonder this in your hearts and minds: Do you believe President Nelson\u2019s invitation had the intention of helping us prepare a checklist where we will accumulate more knowledge and complete tasks so we can check off his invitation from our to-do lists? Or is he inviting us to consider the aspects of these eternal truths and principles as an opportunity to understand the \u201cwhy\u201d and connect the Savior\u2019s covenantal love for us with our lifelong discipleship journey?\nLet me illustrate the principle that I am trying to convey. One option, which is probably extreme, could be to read all the messages from general conference all at once; then, when I am done, I will check this invitation from my to-do list without doing anything else with what I read. I understand this is an extreme case, but it is not unreal. Probably, many are at some point between this and the ideal.\nThe invitation is to study and ponder the messages from the general conference and use them to determine and understand what we each can do to improve.\nWhen we accept the invitation, understanding the \u201cwhy\u201d behind it, we will have more opportunities to become closer to the Savior. We will begin to understand that because I love the Savior, I want to learn more about Him by studying the words of the living prophets. And because I love my fellow man, I will share the teachings of prophets, seers, and revelators with others, starting with my loved ones.\nIn both examples, you are doing a righteous thing. In one, the goal seems to be using the means that Heavenly Father and the Savior have given us, which are the messages shared during general conference. The second version embraces the profound blessing of gaining insight into the underlying reasons, offering a pathway to understand eternal truth and the blessings promised to all who make the teachings and life of our Savior, Jesus Christ, the focal point of their lives.\nDear brothers and sisters, I hope you can feel and see the importance of connecting our actions with our love for the Savior. In a globalized world, many voices will try to influence you and, if possible, lead you to believe that some fundamental truths of the restored gospel of Jesus Christ are unnecessary. These voices start with the essential truth of the need for a restoration in these the last days, including the necessity of having God\u2019s kingdom on earth, represented by the restored Church of Jesus Christ of Latter-day Saints.\nYou may hear voices insisting that only a personal relationship or understanding with the Savior is sufficient and that religion or the restored Church is unnecessary or nonessential. I invite you to be slow to consider or even be immune to being influenced by these misleading ideas and to be quicker to remember what the Savior has been telling and teaching us since ancient times\u2014beginning with the love of Heavenly Father and Jesus Christ for us and connecting our love for Them as the reason to follow Them.\nGod the Father and His Son came and spoke with Joseph Smith to restore Jesus Christ\u2019s Church and to initiate the dispensation of the fulness of times, His kingdom on earth. Therefore, The Church of Jesus Christ of Latter-day Saints is the means established by Heavenly Father to access covenants that enable us to return home. Thus, we need more than just a personal relationship with Heavenly Father and His Son; we require essential priesthood ordinances through which we make covenants with Them. This provides a covenantal connection with Them and grants us access to Their covenantal love, making it possible to attain the highest kingdom of glory prepared for all those who are true and faithful to their covenants.\nWith all the energy of my soul, I bear witness to the reality and divinity of our Savior, Jesus Christ. He loves you. He knows what is happening in your life. His arms are wide open, extending the invitation \u201cCome unto me,&nbsp;\u2026 and I will give you rest.\u201d\nI love the Savior, and my love for Him is my \u201cwhy.\u201d In the name of Jesus Christ, amen.",
+        "body": [
+          {
+            "verse": 1,
+            "type": "paragraph",
+            "markdown": "Have you ever noticed that our dear prophet, President Russell&nbsp;M. Nelson, continuously extends invitations to us? Not surprisingly, he has invited us to study and ponder the messages shared at the last two conferences. In April 2024, he said, \u201cI hope you will repeatedly study the messages of this conference throughout the coming months.\u201d Then, in October 2024, he said: \u201cI urge you to study [the speakers\u2019] messages. Use them as a litmus test of what is true and what is not during the next six months.\u201d"
+          },
+          {
+            "verse": 2,
+            "type": "paragraph",
+            "markdown": "These invitations can be added to prophetic invitations we have received throughout our lifetimes, including and especially those we have received in recent years. We may feel or think these invitations are another thing we need to add to our to-do lists, simply because we were invited or asked to do it. But could there be more to it?"
+          },
+          {
+            "verse": 3,
+            "type": "paragraph",
+            "markdown": "Pondering over this and all the invitations we had received, I recalled something that I learned and decided long ago. I am trying to do these things which are essential to me because I love Him; I love our Savior. This is the real and most powerful reason why I do what I do, and then connected with this is my love for you, my fellow brothers and sisters."
+          },
+          {
+            "verse": 4,
+            "type": "paragraph",
+            "markdown": "As your brother, I hope you will consider my words as a sincere invitation to seek to understand the opportunity to link everything we do with our love for the Savior."
+          },
+          {
+            "verse": 5,
+            "type": "paragraph",
+            "markdown": "Doing this will help us understand the real \u201cwhy\u201d behind everything we do as disciples of the Savior. This will help us strengthen our covenantal connection with God, understanding His divine and eternal truths\u2014His eternal and absolute truths that will never change. Eternal truths like \u201cFor God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.\u201d"
+          },
+          {
+            "verse": 6,
+            "type": "paragraph",
+            "markdown": "It is interesting that sometimes because we have consistently done things to the point that they have turned into traditions, we allow these traditions or activities to dictate our efforts to build faith in Jesus Christ. It seems that we do these things because we have done them for many years, without considering their impact on our covenantal connection with the Savior."
+          },
+          {
+            "verse": 7,
+            "type": "paragraph",
+            "markdown": "In our world, we usually focus on what we do and on consistently accomplishing tasks and goals. In a spiritual sphere, we have the opportunity to go beyond just doing things or achieving goals by understanding why we are doing them. If we can understand and connect that the reason behind our actions relates to our love for the Savior and our Heavenly Father, by taking advantage of these opportunities we will understand that even though doing righteous things like having Church activities or traditions and appropriately doing them is a good thing, when we connect them with the \u201cwhy,\u201d we will be blessed to understand the reason. It won\u2019t be just doing good things or doing them right; we will also get them right."
+          },
+          {
+            "verse": 8,
+            "type": "paragraph",
+            "markdown": "For example, when you set a goal to read the scriptures, offer sincere prayers, or prepare an activity for your family or ward, is the real goal simply to accomplish these tasks? Or are these actions the means, the tools at your disposal, to achieve the true goal? Is the purpose merely to hold an activity because we have done it for many years and then check the box that we have completed it? Or, once again, are these the means we use to learn, to feel, and to connect with the Savior?"
+          },
+          {
+            "verse": 9,
+            "type": "paragraph",
+            "markdown": "Please don\u2019t misunderstand my point about having activities and traditions or setting goals and working hard to achieve them; there is nothing wrong with this. However, I invite you to open your hearts and minds to the opportunity and blessing of understanding why we do these things and how we practice our religion."
+          },
+          {
+            "verse": 10,
+            "type": "paragraph",
+            "markdown": "A prime example of Christ-centered traditions is the challenge President Dallin&nbsp;H. Oaks extended to all of us in the name of the First Presidency. President Oaks said: \u201cAs we enter this new year, let us prepare for an Easter celebration of the atoning sacrifice of Jesus Christ.&nbsp;\u2026 No matter what others believe or do, we should celebrate the Resurrection of our living Savior by studying His teachings and helping to establish Easter traditions in our society as a whole, especially within our own families.\u201d As you can see, it is not just an invitation to have traditions. Instead, we use these traditions as a means to learn more about the Savior and remember His Resurrection."
+          },
+          {
+            "verse": 11,
+            "type": "paragraph",
+            "markdown": "The more we can connect the reason with our love for the Savior, the more we will be able to receive what we need or are seeking. President Nelson said, \u201cWhatever questions or problems you have, the answer is always found in the life and teachings of Jesus Christ.\u201d And then he extended this invitation: \u201cLearn more about His Atonement, His love, His mercy, His doctrine, and His restored gospel of healing and progression. Turn to Him! Follow Him!\u201d"
+          },
+          {
+            "verse": 12,
+            "type": "paragraph",
+            "markdown": "Ponder this in your hearts and minds: Do you believe President Nelson\u2019s invitation had the intention of helping us prepare a checklist where we will accumulate more knowledge and complete tasks so we can check off his invitation from our to-do lists? Or is he inviting us to consider the aspects of these eternal truths and principles as an opportunity to understand the \u201cwhy\u201d and connect the Savior\u2019s covenantal love for us with our lifelong discipleship journey?"
+          },
+          {
+            "verse": 13,
+            "type": "paragraph",
+            "markdown": "Let me illustrate the principle that I am trying to convey. One option, which is probably extreme, could be to read all the messages from general conference all at once; then, when I am done, I will check this invitation from my to-do list without doing anything else with what I read. I understand this is an extreme case, but it is not unreal. Probably, many are at some point between this and the ideal."
+          },
+          {
+            "verse": 14,
+            "type": "paragraph",
+            "markdown": "The invitation is to study and ponder the messages from the general conference and use them to determine and understand what we each can do to improve."
+          },
+          {
+            "verse": 15,
+            "type": "paragraph",
+            "markdown": "When we accept the invitation, understanding the \u201cwhy\u201d behind it, we will have more opportunities to become closer to the Savior. We will begin to understand that because I love the Savior, I want to learn more about Him by studying the words of the living prophets. And because I love my fellow man, I will share the teachings of prophets, seers, and revelators with others, starting with my loved ones."
+          },
+          {
+            "verse": 16,
+            "type": "paragraph",
+            "markdown": "In both examples, you are doing a righteous thing. In one, the goal seems to be using the means that Heavenly Father and the Savior have given us, which are the messages shared during general conference. The second version embraces the profound blessing of gaining insight into the underlying reasons, offering a pathway to understand eternal truth and the blessings promised to all who make the teachings and life of our Savior, Jesus Christ, the focal point of their lives."
+          },
+          {
+            "verse": 17,
+            "type": "paragraph",
+            "markdown": "Dear brothers and sisters, I hope you can feel and see the importance of connecting our actions with our love for the Savior. In a globalized world, many voices will try to influence you and, if possible, lead you to believe that some fundamental truths of the restored gospel of Jesus Christ are unnecessary. These voices start with the essential truth of the need for a restoration in these the last days, including the necessity of having God\u2019s kingdom on earth, represented by the restored Church of Jesus Christ of Latter-day Saints."
+          },
+          {
+            "verse": 18,
+            "type": "paragraph",
+            "markdown": "You may hear voices insisting that only a personal relationship or understanding with the Savior is sufficient and that religion or the restored Church is unnecessary or nonessential. I invite you to be slow to consider or even be immune to being influenced by these misleading ideas and to be quicker to remember what the Savior has been telling and teaching us since ancient times\u2014beginning with the love of Heavenly Father and Jesus Christ for us and connecting our love for Them as the reason to follow Them."
+          },
+          {
+            "verse": 19,
+            "type": "paragraph",
+            "markdown": "God the Father and His Son came and spoke with Joseph Smith to restore Jesus Christ\u2019s Church and to initiate the dispensation of the fulness of times, His kingdom on earth. Therefore, The Church of Jesus Christ of Latter-day Saints is the means established by Heavenly Father to access covenants that enable us to return home. Thus, we need more than just a personal relationship with Heavenly Father and His Son; we require essential priesthood ordinances through which we make covenants with Them. This provides a covenantal connection with Them and grants us access to Their covenantal love, making it possible to attain the highest kingdom of glory prepared for all those who are true and faithful to their covenants."
+          },
+          {
+            "verse": 20,
+            "type": "paragraph",
+            "markdown": "With all the energy of my soul, I bear witness to the reality and divinity of our Savior, Jesus Christ. He loves you. He knows what is happening in your life. His arms are wide open, extending the invitation \u201cCome unto me,&nbsp;\u2026 and I will give you rest.\u201d"
+          },
+          {
+            "verse": 21,
+            "type": "paragraph",
+            "markdown": "I love the Savior, and my love for Him is my \u201cwhy.\u201d In the name of Jesus Christ, amen."
+          }
+        ],
+        "sources": [
+          {
+            "number": 1,
+            "id": "note1",
+            "markdown": "Russell&nbsp;M. Nelson, \u201c[Rejoice in the Gift of Priesthood Keys](https://www.churchofjesuschrist.org/study/general-conference/2024/04/57nelson?lang=eng),\u201d Liahona, May 2024, 119."
+          },
+          {
+            "number": 2,
+            "id": "note2",
+            "markdown": "Russell&nbsp;M. Nelson, \u201c[The Lord Jesus Christ Will Come Again](https://www.churchofjesuschrist.org/study/general-conference/2024/10/57nelson?lang=eng),\u201d Liahona, Nov. 2024, 121."
+          },
+          {
+            "number": 3,
+            "id": "note3",
+            "markdown": "[[John 3|John 3:16]]."
+          },
+          {
+            "number": 4,
+            "id": "note4",
+            "markdown": "Dallin&nbsp;H. Oaks, Facebook, Feb.&nbsp;16, 2025, facebook.com/dallin.h.oaks."
+          },
+          {
+            "number": 5,
+            "id": "note5",
+            "markdown": "Russell&nbsp;M. Nelson, \u201c[The Answer Is Always Jesus Christ](https://www.churchofjesuschrist.org/study/general-conference/2023/04/58nelson?lang=eng),\u201d Liahona, May 2023, 127."
+          },
+          {
+            "number": 6,
+            "id": "note6",
+            "markdown": "[[Matthew 11|Matthew 11:28]]."
+          }
+        ]
+      },
+      {
+        "session": "Saturday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/18eyring?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/18eyring?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/18eyring/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=saj41CfNB74"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2246:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/members/2025/05/15/henry-eyring-study-help-april-2025-general-conference/"
+          }
+        ],
         "title": "\u201cDraw Near unto Me\u201d",
-        "speaker": "Henry B. Eyring",
+        "speaker": "Henry B Eyring",
         "speaker_role": "Second Counselor in the First Presidency",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F9dscua986sb9t2w3nxqrixhywfp0i3c08xg5icmz%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -1897,164 +2199,36 @@
             "markdown": "[[Matthew 25|Matthew 25:21]]."
           }
         ]
-      },
-      {
-        "session": "Saturday Morning Session",
-        "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/17gimenez?lang=eng",
-        "title": "My Love for the Savior Is My \u201cWhy\u201d",
-        "speaker": "Ricardo P. Gim\u00e9nez",
-        "speaker_role": "Seventy",
-        "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fvtvuabe81v0dpki5jwc0e1190oq1qv5f8bexo7m3%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
-        "subtitle": null,
-        "kicker": "I love our Savior. This is the real and most powerful reason why I do what I do.",
-        "full_markdown": "Have you ever noticed that our dear prophet, President Russell&nbsp;M. Nelson, continuously extends invitations to us? Not surprisingly, he has invited us to study and ponder the messages shared at the last two conferences. In April 2024, he said, \u201cI hope you will repeatedly study the messages of this conference throughout the coming months.\u201d Then, in October 2024, he said: \u201cI urge you to study [the speakers\u2019] messages. Use them as a litmus test of what is true and what is not during the next six months.\u201d\nThese invitations can be added to prophetic invitations we have received throughout our lifetimes, including and especially those we have received in recent years. We may feel or think these invitations are another thing we need to add to our to-do lists, simply because we were invited or asked to do it. But could there be more to it?\nPondering over this and all the invitations we had received, I recalled something that I learned and decided long ago. I am trying to do these things which are essential to me because I love Him; I love our Savior. This is the real and most powerful reason why I do what I do, and then connected with this is my love for you, my fellow brothers and sisters.\nAs your brother, I hope you will consider my words as a sincere invitation to seek to understand the opportunity to link everything we do with our love for the Savior.\nDoing this will help us understand the real \u201cwhy\u201d behind everything we do as disciples of the Savior. This will help us strengthen our covenantal connection with God, understanding His divine and eternal truths\u2014His eternal and absolute truths that will never change. Eternal truths like \u201cFor God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.\u201d\nIt is interesting that sometimes because we have consistently done things to the point that they have turned into traditions, we allow these traditions or activities to dictate our efforts to build faith in Jesus Christ. It seems that we do these things because we have done them for many years, without considering their impact on our covenantal connection with the Savior.\nIn our world, we usually focus on what we do and on consistently accomplishing tasks and goals. In a spiritual sphere, we have the opportunity to go beyond just doing things or achieving goals by understanding why we are doing them. If we can understand and connect that the reason behind our actions relates to our love for the Savior and our Heavenly Father, by taking advantage of these opportunities we will understand that even though doing righteous things like having Church activities or traditions and appropriately doing them is a good thing, when we connect them with the \u201cwhy,\u201d we will be blessed to understand the reason. It won\u2019t be just doing good things or doing them right; we will also get them right.\nFor example, when you set a goal to read the scriptures, offer sincere prayers, or prepare an activity for your family or ward, is the real goal simply to accomplish these tasks? Or are these actions the means, the tools at your disposal, to achieve the true goal? Is the purpose merely to hold an activity because we have done it for many years and then check the box that we have completed it? Or, once again, are these the means we use to learn, to feel, and to connect with the Savior?\nPlease don\u2019t misunderstand my point about having activities and traditions or setting goals and working hard to achieve them; there is nothing wrong with this. However, I invite you to open your hearts and minds to the opportunity and blessing of understanding why we do these things and how we practice our religion.\nA prime example of Christ-centered traditions is the challenge President Dallin&nbsp;H. Oaks extended to all of us in the name of the First Presidency. President Oaks said: \u201cAs we enter this new year, let us prepare for an Easter celebration of the atoning sacrifice of Jesus Christ.&nbsp;\u2026 No matter what others believe or do, we should celebrate the Resurrection of our living Savior by studying His teachings and helping to establish Easter traditions in our society as a whole, especially within our own families.\u201d As you can see, it is not just an invitation to have traditions. Instead, we use these traditions as a means to learn more about the Savior and remember His Resurrection.\nThe more we can connect the reason with our love for the Savior, the more we will be able to receive what we need or are seeking. President Nelson said, \u201cWhatever questions or problems you have, the answer is always found in the life and teachings of Jesus Christ.\u201d And then he extended this invitation: \u201cLearn more about His Atonement, His love, His mercy, His doctrine, and His restored gospel of healing and progression. Turn to Him! Follow Him!\u201d\nPonder this in your hearts and minds: Do you believe President Nelson\u2019s invitation had the intention of helping us prepare a checklist where we will accumulate more knowledge and complete tasks so we can check off his invitation from our to-do lists? Or is he inviting us to consider the aspects of these eternal truths and principles as an opportunity to understand the \u201cwhy\u201d and connect the Savior\u2019s covenantal love for us with our lifelong discipleship journey?\nLet me illustrate the principle that I am trying to convey. One option, which is probably extreme, could be to read all the messages from general conference all at once; then, when I am done, I will check this invitation from my to-do list without doing anything else with what I read. I understand this is an extreme case, but it is not unreal. Probably, many are at some point between this and the ideal.\nThe invitation is to study and ponder the messages from the general conference and use them to determine and understand what we each can do to improve.\nWhen we accept the invitation, understanding the \u201cwhy\u201d behind it, we will have more opportunities to become closer to the Savior. We will begin to understand that because I love the Savior, I want to learn more about Him by studying the words of the living prophets. And because I love my fellow man, I will share the teachings of prophets, seers, and revelators with others, starting with my loved ones.\nIn both examples, you are doing a righteous thing. In one, the goal seems to be using the means that Heavenly Father and the Savior have given us, which are the messages shared during general conference. The second version embraces the profound blessing of gaining insight into the underlying reasons, offering a pathway to understand eternal truth and the blessings promised to all who make the teachings and life of our Savior, Jesus Christ, the focal point of their lives.\nDear brothers and sisters, I hope you can feel and see the importance of connecting our actions with our love for the Savior. In a globalized world, many voices will try to influence you and, if possible, lead you to believe that some fundamental truths of the restored gospel of Jesus Christ are unnecessary. These voices start with the essential truth of the need for a restoration in these the last days, including the necessity of having God\u2019s kingdom on earth, represented by the restored Church of Jesus Christ of Latter-day Saints.\nYou may hear voices insisting that only a personal relationship or understanding with the Savior is sufficient and that religion or the restored Church is unnecessary or nonessential. I invite you to be slow to consider or even be immune to being influenced by these misleading ideas and to be quicker to remember what the Savior has been telling and teaching us since ancient times\u2014beginning with the love of Heavenly Father and Jesus Christ for us and connecting our love for Them as the reason to follow Them.\nGod the Father and His Son came and spoke with Joseph Smith to restore Jesus Christ\u2019s Church and to initiate the dispensation of the fulness of times, His kingdom on earth. Therefore, The Church of Jesus Christ of Latter-day Saints is the means established by Heavenly Father to access covenants that enable us to return home. Thus, we need more than just a personal relationship with Heavenly Father and His Son; we require essential priesthood ordinances through which we make covenants with Them. This provides a covenantal connection with Them and grants us access to Their covenantal love, making it possible to attain the highest kingdom of glory prepared for all those who are true and faithful to their covenants.\nWith all the energy of my soul, I bear witness to the reality and divinity of our Savior, Jesus Christ. He loves you. He knows what is happening in your life. His arms are wide open, extending the invitation \u201cCome unto me,&nbsp;\u2026 and I will give you rest.\u201d\nI love the Savior, and my love for Him is my \u201cwhy.\u201d In the name of Jesus Christ, amen.",
-        "body": [
-          {
-            "verse": 1,
-            "type": "paragraph",
-            "markdown": "Have you ever noticed that our dear prophet, President Russell&nbsp;M. Nelson, continuously extends invitations to us? Not surprisingly, he has invited us to study and ponder the messages shared at the last two conferences. In April 2024, he said, \u201cI hope you will repeatedly study the messages of this conference throughout the coming months.\u201d Then, in October 2024, he said: \u201cI urge you to study [the speakers\u2019] messages. Use them as a litmus test of what is true and what is not during the next six months.\u201d"
-          },
-          {
-            "verse": 2,
-            "type": "paragraph",
-            "markdown": "These invitations can be added to prophetic invitations we have received throughout our lifetimes, including and especially those we have received in recent years. We may feel or think these invitations are another thing we need to add to our to-do lists, simply because we were invited or asked to do it. But could there be more to it?"
-          },
-          {
-            "verse": 3,
-            "type": "paragraph",
-            "markdown": "Pondering over this and all the invitations we had received, I recalled something that I learned and decided long ago. I am trying to do these things which are essential to me because I love Him; I love our Savior. This is the real and most powerful reason why I do what I do, and then connected with this is my love for you, my fellow brothers and sisters."
-          },
-          {
-            "verse": 4,
-            "type": "paragraph",
-            "markdown": "As your brother, I hope you will consider my words as a sincere invitation to seek to understand the opportunity to link everything we do with our love for the Savior."
-          },
-          {
-            "verse": 5,
-            "type": "paragraph",
-            "markdown": "Doing this will help us understand the real \u201cwhy\u201d behind everything we do as disciples of the Savior. This will help us strengthen our covenantal connection with God, understanding His divine and eternal truths\u2014His eternal and absolute truths that will never change. Eternal truths like \u201cFor God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.\u201d"
-          },
-          {
-            "verse": 6,
-            "type": "paragraph",
-            "markdown": "It is interesting that sometimes because we have consistently done things to the point that they have turned into traditions, we allow these traditions or activities to dictate our efforts to build faith in Jesus Christ. It seems that we do these things because we have done them for many years, without considering their impact on our covenantal connection with the Savior."
-          },
-          {
-            "verse": 7,
-            "type": "paragraph",
-            "markdown": "In our world, we usually focus on what we do and on consistently accomplishing tasks and goals. In a spiritual sphere, we have the opportunity to go beyond just doing things or achieving goals by understanding why we are doing them. If we can understand and connect that the reason behind our actions relates to our love for the Savior and our Heavenly Father, by taking advantage of these opportunities we will understand that even though doing righteous things like having Church activities or traditions and appropriately doing them is a good thing, when we connect them with the \u201cwhy,\u201d we will be blessed to understand the reason. It won\u2019t be just doing good things or doing them right; we will also get them right."
-          },
-          {
-            "verse": 8,
-            "type": "paragraph",
-            "markdown": "For example, when you set a goal to read the scriptures, offer sincere prayers, or prepare an activity for your family or ward, is the real goal simply to accomplish these tasks? Or are these actions the means, the tools at your disposal, to achieve the true goal? Is the purpose merely to hold an activity because we have done it for many years and then check the box that we have completed it? Or, once again, are these the means we use to learn, to feel, and to connect with the Savior?"
-          },
-          {
-            "verse": 9,
-            "type": "paragraph",
-            "markdown": "Please don\u2019t misunderstand my point about having activities and traditions or setting goals and working hard to achieve them; there is nothing wrong with this. However, I invite you to open your hearts and minds to the opportunity and blessing of understanding why we do these things and how we practice our religion."
-          },
-          {
-            "verse": 10,
-            "type": "paragraph",
-            "markdown": "A prime example of Christ-centered traditions is the challenge President Dallin&nbsp;H. Oaks extended to all of us in the name of the First Presidency. President Oaks said: \u201cAs we enter this new year, let us prepare for an Easter celebration of the atoning sacrifice of Jesus Christ.&nbsp;\u2026 No matter what others believe or do, we should celebrate the Resurrection of our living Savior by studying His teachings and helping to establish Easter traditions in our society as a whole, especially within our own families.\u201d As you can see, it is not just an invitation to have traditions. Instead, we use these traditions as a means to learn more about the Savior and remember His Resurrection."
-          },
-          {
-            "verse": 11,
-            "type": "paragraph",
-            "markdown": "The more we can connect the reason with our love for the Savior, the more we will be able to receive what we need or are seeking. President Nelson said, \u201cWhatever questions or problems you have, the answer is always found in the life and teachings of Jesus Christ.\u201d And then he extended this invitation: \u201cLearn more about His Atonement, His love, His mercy, His doctrine, and His restored gospel of healing and progression. Turn to Him! Follow Him!\u201d"
-          },
-          {
-            "verse": 12,
-            "type": "paragraph",
-            "markdown": "Ponder this in your hearts and minds: Do you believe President Nelson\u2019s invitation had the intention of helping us prepare a checklist where we will accumulate more knowledge and complete tasks so we can check off his invitation from our to-do lists? Or is he inviting us to consider the aspects of these eternal truths and principles as an opportunity to understand the \u201cwhy\u201d and connect the Savior\u2019s covenantal love for us with our lifelong discipleship journey?"
-          },
-          {
-            "verse": 13,
-            "type": "paragraph",
-            "markdown": "Let me illustrate the principle that I am trying to convey. One option, which is probably extreme, could be to read all the messages from general conference all at once; then, when I am done, I will check this invitation from my to-do list without doing anything else with what I read. I understand this is an extreme case, but it is not unreal. Probably, many are at some point between this and the ideal."
-          },
-          {
-            "verse": 14,
-            "type": "paragraph",
-            "markdown": "The invitation is to study and ponder the messages from the general conference and use them to determine and understand what we each can do to improve."
-          },
-          {
-            "verse": 15,
-            "type": "paragraph",
-            "markdown": "When we accept the invitation, understanding the \u201cwhy\u201d behind it, we will have more opportunities to become closer to the Savior. We will begin to understand that because I love the Savior, I want to learn more about Him by studying the words of the living prophets. And because I love my fellow man, I will share the teachings of prophets, seers, and revelators with others, starting with my loved ones."
-          },
-          {
-            "verse": 16,
-            "type": "paragraph",
-            "markdown": "In both examples, you are doing a righteous thing. In one, the goal seems to be using the means that Heavenly Father and the Savior have given us, which are the messages shared during general conference. The second version embraces the profound blessing of gaining insight into the underlying reasons, offering a pathway to understand eternal truth and the blessings promised to all who make the teachings and life of our Savior, Jesus Christ, the focal point of their lives."
-          },
-          {
-            "verse": 17,
-            "type": "paragraph",
-            "markdown": "Dear brothers and sisters, I hope you can feel and see the importance of connecting our actions with our love for the Savior. In a globalized world, many voices will try to influence you and, if possible, lead you to believe that some fundamental truths of the restored gospel of Jesus Christ are unnecessary. These voices start with the essential truth of the need for a restoration in these the last days, including the necessity of having God\u2019s kingdom on earth, represented by the restored Church of Jesus Christ of Latter-day Saints."
-          },
-          {
-            "verse": 18,
-            "type": "paragraph",
-            "markdown": "You may hear voices insisting that only a personal relationship or understanding with the Savior is sufficient and that religion or the restored Church is unnecessary or nonessential. I invite you to be slow to consider or even be immune to being influenced by these misleading ideas and to be quicker to remember what the Savior has been telling and teaching us since ancient times\u2014beginning with the love of Heavenly Father and Jesus Christ for us and connecting our love for Them as the reason to follow Them."
-          },
-          {
-            "verse": 19,
-            "type": "paragraph",
-            "markdown": "God the Father and His Son came and spoke with Joseph Smith to restore Jesus Christ\u2019s Church and to initiate the dispensation of the fulness of times, His kingdom on earth. Therefore, The Church of Jesus Christ of Latter-day Saints is the means established by Heavenly Father to access covenants that enable us to return home. Thus, we need more than just a personal relationship with Heavenly Father and His Son; we require essential priesthood ordinances through which we make covenants with Them. This provides a covenantal connection with Them and grants us access to Their covenantal love, making it possible to attain the highest kingdom of glory prepared for all those who are true and faithful to their covenants."
-          },
-          {
-            "verse": 20,
-            "type": "paragraph",
-            "markdown": "With all the energy of my soul, I bear witness to the reality and divinity of our Savior, Jesus Christ. He loves you. He knows what is happening in your life. His arms are wide open, extending the invitation \u201cCome unto me,&nbsp;\u2026 and I will give you rest.\u201d"
-          },
-          {
-            "verse": 21,
-            "type": "paragraph",
-            "markdown": "I love the Savior, and my love for Him is my \u201cwhy.\u201d In the name of Jesus Christ, amen."
-          }
-        ],
-        "sources": [
-          {
-            "number": 1,
-            "id": "note1",
-            "markdown": "Russell&nbsp;M. Nelson, \u201c[Rejoice in the Gift of Priesthood Keys](https://www.churchofjesuschrist.org/study/general-conference/2024/04/57nelson?lang=eng),\u201d Liahona, May 2024, 119."
-          },
-          {
-            "number": 2,
-            "id": "note2",
-            "markdown": "Russell&nbsp;M. Nelson, \u201c[The Lord Jesus Christ Will Come Again](https://www.churchofjesuschrist.org/study/general-conference/2024/10/57nelson?lang=eng),\u201d Liahona, Nov. 2024, 121."
-          },
-          {
-            "number": 3,
-            "id": "note3",
-            "markdown": "[[John 3|John 3:16]]."
-          },
-          {
-            "number": 4,
-            "id": "note4",
-            "markdown": "Dallin&nbsp;H. Oaks, Facebook, Feb.&nbsp;16, 2025, facebook.com/dallin.h.oaks."
-          },
-          {
-            "number": 5,
-            "id": "note5",
-            "markdown": "Russell&nbsp;M. Nelson, \u201c[The Answer Is Always Jesus Christ](https://www.churchofjesuschrist.org/study/general-conference/2023/04/58nelson?lang=eng),\u201d Liahona, May 2023, 127."
-          },
-          {
-            "number": 6,
-            "id": "note6",
-            "markdown": "[[Matthew 11|Matthew 11:28]]."
-          }
-        ]
       }
     ],
     "Saturday Afternoon Session": [
       {
         "session": "Saturday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/21andersen?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/21andersen?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/21andersen/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=H95Ta75rkTA"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2247:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/members/2025/05/19/neil-andersen-study-help-april-2025-general-conference/"
+          }
+        ],
         "title": "Cherishing Life",
-        "speaker": "Neil L. Andersen",
+        "speaker": "Neil L Andersen",
         "speaker_role": "Quorum of the 12",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F0w9rz0ptw4qduvw5y1hg5pvrgofwpjjb2ax7uohm%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -2403,8 +2577,30 @@
       {
         "session": "Saturday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/22lund?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/22lund?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/22lund/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=MKQqeVj7saQ"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2248:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2025/04/05/president-lund-april-2025-general-conference-divine-authority-sublime-young-men/"
+          }
+        ],
         "title": "Divine Authority, Sublime Young Men",
-        "speaker": "Steven J. Lund",
+        "speaker": "Steven J Lund",
         "speaker_role": "Young Men General President",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fvs5ag981osh1xzsx89zzuilr5di626iv891bt3nr%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -2663,8 +2859,30 @@
       {
         "session": "Saturday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/23palmer?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/23palmer?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/23palmer/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=YygKh4dIsXw"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2249:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2025/04/05/elder-mark-palmer-april-2025-general-conference-return-to-church/"
+          }
+        ],
         "title": "\u201cReturn unto Me \u2026 That I May Heal You\u201d",
-        "speaker": "S. Mark Palmer",
+        "speaker": "S Mark Palmer",
         "speaker_role": "Presidency of the Seventy",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fu6u6gv1mk6txh50y1k70a5lkqi3i2u4z6rsfxt8i%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -2903,6 +3121,28 @@
       {
         "session": "Saturday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/24roman?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/24roman?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/24roman/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=DTNqjPk6GDY"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t224a:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/members/2025/05/22/sandino-roman-study-help-april-2025-general-conference/"
+          }
+        ],
         "title": "Faith: A Bond of Trust and Loyalty",
         "speaker": "Sandino Roman",
         "speaker_role": "Seventy",
@@ -3273,8 +3513,30 @@
       {
         "session": "Saturday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/25renlund?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/25renlund?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/25renlund/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=fjqXtT-QLcw"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t224b:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/members/2025/05/23/dale-renlund-study-help-april-2025-general-conference/"
+          }
+        ],
         "title": "Personal Preparation to Meet the Savior",
-        "speaker": "Dale G. Renlund",
+        "speaker": "Dale G Renlund",
         "speaker_role": "Quorum of the 12",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fwwzr6zox9kb52iy1unjnom4azano7fj2s22yot1h%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -3633,8 +3895,30 @@
       {
         "session": "Saturday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/26boom?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/26boom?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/26boom/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=QgHTuFtanvQ"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t224c:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/members/2025/05/26/hans-boom-study-help-april-2025-general-conference/"
+          }
+        ],
         "title": "True to the Faith That Our Parents Have Cherished",
-        "speaker": "Hans T. Boom",
+        "speaker": "Hans T Boom",
         "speaker_role": "Seventy",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Frhwrrcsy0v5o1t6vkh01rqvjn3gbggvlt9ncewxb%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -3908,8 +4192,30 @@
       {
         "session": "Saturday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/27uchtdorf?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/27uchtdorf?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/27uchtdorf/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=EItYaDpAjl0"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t224d:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2025/04/05/elder-dieter-uchtdorf-april-2025-general-conference-love-for-god-and-his-children/"
+          }
+        ],
         "title": "\u201cBy This All Will Know That You Are My Disciples\u201d",
-        "speaker": "Dieter F. Uchtdorf",
+        "speaker": "Dieter F Uchtdorf",
         "speaker_role": "Quorum of the 12",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fekgsx47zm13sfldxef3gudm406t851mgb0jyduvq%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -4230,8 +4536,30 @@
       {
         "session": "Saturday Evening Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/31stevenson?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/31stevenson?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/31stevenson/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=5a25WJPoKpk"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t224e:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2025/04/05/elder-gary-stevenson-april-2025-general-conference-talk-of-christ/"
+          }
+        ],
         "title": "And We Talk of Christ",
-        "speaker": "Gary E. Stevenson",
+        "speaker": "Gary E Stevenson",
         "speaker_role": "Quorum of the 12",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fblso7y9k8irap1we60euz76vo6jx8ydahupxyo7p%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -4630,8 +4958,30 @@
       {
         "session": "Saturday Evening Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/32wright?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/32wright?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/32wright/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=RH4hAcV682c"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t224f:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2025/04/05/amy-wright-april-2025-general-conference-thou-art-christ/"
+          }
+        ],
         "title": "Thou Art the Christ",
-        "speaker": "Amy A. Wright",
+        "speaker": "Amy A Wright",
         "speaker_role": "First Counselor in the Primary General Presidency",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fb9degrfc68r4uplcucypwmpkurrloqg8j45o7d7c%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": "(Matthew 16:16)",
@@ -5055,8 +5405,30 @@
       {
         "session": "Saturday Evening Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/33rasband?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/33rasband?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/33rasband/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=_eTl1xDg-zk"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2250:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/members/2025/05/30/james-rasband-study-help-april-2025-general-conference/"
+          }
+        ],
         "title": "The Plan of Mercy",
-        "speaker": "James R. Rasband",
+        "speaker": "James R Rasband",
         "speaker_role": "Seventy",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F77wdfe8ef7xjbmk80imphj7jyf6sjvcjs2jtw47z%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -5400,8 +5772,30 @@
       {
         "session": "Saturday Evening Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/34vargas?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/34vargas?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/34vargas/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=3qtZq6WsURg"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2251:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2025/04/05/elder-vargas-april-2025-general-conference-christ-our-heavenly-guidance-system/"
+          }
+        ],
         "title": "Our Heavenly Guidance System",
-        "speaker": "Sergio R. Vargas",
+        "speaker": "Sergio R Vargas",
         "speaker_role": "Seventy",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fcll6y3ps5rrpb888wjxfejtowgh6787fnwv0ofw4%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -5670,8 +6064,30 @@
       {
         "session": "Saturday Evening Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/35christofferson?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/35christofferson?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/35christofferson/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=B29YJcAQUio"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2252:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/members/2025/06/03/d-todd-christofferson-study-help-april-2025-general-conference/"
+          }
+        ],
         "title": "Worship",
-        "speaker": "D. Todd Christofferson",
+        "speaker": "D Todd Christofferson",
         "speaker_role": "Quorum of the 12",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fxrr8vcmq8qf4ol6op0c43rn4yv83niak62p3mght%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -6022,8 +6438,30 @@
       {
         "session": "Sunday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/41bednar?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/41bednar?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/41bednar/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=NiqP07UXq2E"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2253:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/members/2025/06/04/david-bednar-study-help-april-2025-general-conference/"
+          }
+        ],
         "title": "The Times of Restitution of All Things",
-        "speaker": "David A. Bednar",
+        "speaker": "David A Bednar",
         "speaker_role": "Quorum of the 12",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fvt25dbdv7m1kbrh6tgic2yji93pct2ajiyzbdjzi%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": "(Acts 3:21)",
@@ -6402,8 +6840,30 @@
       {
         "session": "Sunday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/42shumway?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/42shumway?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/42shumway/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=7zQU-4osSbM"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2254:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/members/2025/06/05/steven-shumway-study-help-april-2025-general-conference/"
+          }
+        ],
         "title": "Participate to Prepare for Christ\u2019s Return",
-        "speaker": "Steven D. Shumway",
+        "speaker": "Steven D Shumway",
         "speaker_role": "Seventy",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fu5mod7iu5g3mhouoos0nsjkixg6pcca48p3om9ag%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -6757,8 +7217,30 @@
       {
         "session": "Sunday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/43runia?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/43runia?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/43runia/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=UkHFwCiT5U8"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2255:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2025/04/06/sister-tamara-runia-april-2025-general-conference-your-repentance-doesnt-burden-jesus-christ-it-brightens-his-joy/"
+          }
+        ],
         "title": "Your Repentance Doesn\u2019t Burden Jesus Christ; It Brightens His Joy",
-        "speaker": "Tamara W. Runia",
+        "speaker": "Tamara W Runia",
         "speaker_role": "First Counselor in the Young Women General Presidency",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fm0mm7u3r4by9ws8y7wo8t1adl4ufn91alkqw954n%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -7197,8 +7679,30 @@
       {
         "session": "Sunday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/44causse?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/44causse?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/44causse/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=JKLd7B2YNTg"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2256:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/search?q=April%202025%20General%20Conference%20Grald%20Causs%20Compensating%20Blessings"
+          }
+        ],
         "title": "Compensating Blessings",
-        "speaker": "Bishop G\u00e9rald Causs\u00e9",
+        "speaker": "Grald Causs",
         "speaker_role": "Presiding Bishop",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fgc59y5pduaw04y6v2vggw3o7tcrgus03w6up4qy3%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -7382,8 +7886,30 @@
       {
         "session": "Sunday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/45gong?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/45gong?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/45gong/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=9l7cXXTVjIA"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2257:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2025/04/06/elder-gerrit-gong-april-2025-general-conference-atonement-resurrection-restoration/"
+          }
+        ],
         "title": "Eternity\u2019s Great Gifts: Jesus Christ\u2019s Atonement, Resurrection, Restoration",
-        "speaker": "Gerrit W. Gong",
+        "speaker": "Gerrit W Gong",
         "speaker_role": "Quorum of the 12",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Ffd9h4wcfs149ekculymu7gii04dc71xi9ldm1km4%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -7732,8 +8258,30 @@
       {
         "session": "Sunday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/46mccune?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/46mccune?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/46mccune/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=tUW6hop4Rgs"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2258:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2025/04/06/elder-mccune-april-2025-general-conference-joy-covenants/"
+          }
+        ],
         "title": "Joy Through Covenant Discipleship",
-        "speaker": "John A. McCune",
+        "speaker": "John A McCune",
         "speaker_role": "Seventy",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fjumo1gy642gxzl6fyrgtqn4vngo19376htpm7thg%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -7917,8 +8465,30 @@
       {
         "session": "Sunday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/47oaks?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/47oaks?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/47oaks/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=sYdcxvELtrc"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2259:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/members/2025/06/12/dallin-oaks-study-help-april-2025-general-conference/"
+          }
+        ],
         "title": "Divine Helps for Mortality",
-        "speaker": "Dallin H. Oaks",
+        "speaker": "Dallin H Oaks",
         "speaker_role": "First Counselor in the First Presidency",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F9jtt8gbc3pkb16c5k61ksccxqxt2tx17qin4mmnt%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -8109,6 +8679,28 @@
       {
         "session": "Sunday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/51soares?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/51soares?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/51soares/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=HfjoP6jvbbk"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t225a:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/members/2025/06/13/ulisses-soares-study-help-april-2025-general-conference/"
+          }
+        ],
         "title": "Reverence for Sacred Things",
         "speaker": "Ulisses Soares",
         "speaker_role": "Quorum of the 12",
@@ -8279,8 +8871,30 @@
       {
         "session": "Sunday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/52strong?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/52strong?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/52strong/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=UScS1vx13CI"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t225b:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/members/2025/06/16/michael-strong-study-help-april-2025-general-conference/"
+          }
+        ],
         "title": "Charity\u2014a Sign of True Discipleship",
-        "speaker": "Michael B. Strong",
+        "speaker": "Michael B Strong",
         "speaker_role": "Seventy",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F54a7grdozx9c8z5sp04epoc3y07lnp2tjzrzsc7r%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -8594,8 +9208,30 @@
       {
         "session": "Sunday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/53whiting?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/53whiting?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/53whiting/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=9KW0XIJghuk"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t225c:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/members/2025/06/17/scott-whiting-study-help-april-2025-general-conference/"
+          }
+        ],
         "title": "Beware the Second Temptation",
-        "speaker": "Scott D. Whiting",
+        "speaker": "Scott D Whiting",
         "speaker_role": "Seventy",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F4dl9bby9djw33bw4ea92t9a4u9kijytswtcg9q2w%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -8844,8 +9480,30 @@
       {
         "session": "Sunday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/54kim?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/54kim?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/54kim/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=nk5ovPMOCvg"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t225d:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/members/2025/06/18/christopher-kim-study-help-april-2025-general-conference/"
+          }
+        ],
         "title": "Harden Not Your Heart",
-        "speaker": "Christopher H. Kim",
+        "speaker": "Christopher H Kim",
         "speaker_role": "Seventy",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fe66eanzrhl528vai04s8luals697lobn28zq9vr0%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -9079,6 +9737,28 @@
       {
         "session": "Sunday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/55kearon?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/55kearon?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/55kearon/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=EqpMXW3YJ5M"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t225e:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/members/2025/06/19/patrick-kearon-study-help-april-2025-general-conference/"
+          }
+        ],
         "title": "Receive His Gift",
         "speaker": "Patrick Kearon",
         "speaker_role": "Quorum of the 12",
@@ -9334,8 +10014,30 @@
       {
         "session": "Sunday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/56tai?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/56tai?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/56tai/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=T0VwZw2kYaw"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t225f:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/search?q=April%202025%20General%20Conference%20Benjamin%20M%20Z%20Tai%20The%20Love%20of%20God"
+          }
+        ],
         "title": "The Love of God",
-        "speaker": "Benjamin M. Z. Tai",
+        "speaker": "Benjamin M Z Tai",
         "speaker_role": "Seventy",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fqlvicmn5tvpmnudy3u9nlml4bnf3i1dv3x30n8jn%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -9599,8 +10301,30 @@
       {
         "session": "Sunday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/57nelson?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/57nelson?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2025/04/57nelson/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=zNybFgH7c4Y"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2260:gc3"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/members/2025/05/08/russell-nelson-study-help-april-2025-general-conference/"
+          }
+        ],
         "title": "Confidence in the Presence of God",
-        "speaker": "Russell M. Nelson",
+        "speaker": "Russell M Nelson",
         "speaker_role": "President of the Church",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fu1w3kqlwz31momabuqno4frbltlso5i31qaflvfd%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,

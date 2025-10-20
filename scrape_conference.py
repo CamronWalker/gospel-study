@@ -247,41 +247,16 @@ def get_driver():
     service = Service(ChromeDriverManager().install())
     return webdriver.Chrome(service=service, options=options)
 
-def fetch_conference_playlist_id(year, month):
+def fetch_conference_videos(year, month):  # FIX: New function to search videos on the channel instead of using playlist
     api_key = os.getenv('YOUTUBE_API_KEY')
     if not api_key:
         raise ValueError("YOUTUBE_API_KEY is missing from .env file")
     channel_id = 'UCSdPpMokMoGCSSNShOecP9w'  # Official General Conference channel ID
-    playlists = []
-    page_token = None
-    while True:
-        api_url = f"https://www.googleapis.com/youtube/v3/playlists?part=snippet&channelId={channel_id}&maxResults=50&key={api_key}"
-        if page_token:
-            api_url += f"&pageToken={page_token}"
-        try:
-            response = requests.get(api_url)
-            response.raise_for_status()
-            data = response.json()
-            playlists.extend(data.get('items', []))
-            page_token = data.get('nextPageToken')
-            if not page_token:
-                break
-        except requests.exceptions.RequestException as e:
-            print(f"Error fetching playlists: {e}")
-            return None
-    for p in playlists:
-        title = p['snippet']['title'].lower()
-        if "general conference" in title and month.lower() in title and str(year) in title and "music" not in title:
-            return p['id']
-    print(f"No matching playlist found for {month} {year} General Conference")
-    return None
-
-def fetch_playlist_videos(playlist_id):
-    api_key = os.getenv('YOUTUBE_API_KEY')
+    query = f"{month} {year} General Conference"
     videos = []
     page_token = None
     while True:
-        api_url = f"https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId={playlist_id}&maxResults=50&key={api_key}"
+        api_url = f"https://www.googleapis.com/youtube/v3/search?part=snippet&channelId={channel_id}&q={quote(query)}&type=video&maxResults=50&order=relevance&key={api_key}"
         if page_token:
             api_url += f"&pageToken={page_token}"
         try:
@@ -290,15 +265,17 @@ def fetch_playlist_videos(playlist_id):
             data = response.json()
             for item in data.get('items', []):
                 snippet = item['snippet']
-                video_id = snippet['resourceId']['videoId']
+                video_id = item['id']['videoId']
                 title = snippet['title']
                 videos.append({'title': title, 'video_id': video_id})
             page_token = data.get('nextPageToken')
             if not page_token:
                 break
         except requests.exceptions.RequestException as e:
-            print(f"Error fetching playlist items: {e}")
+            print(f"Error fetching videos: {e}")
             break
+    if not videos:
+        print(f"No videos found for {month} {year} General Conference")
     return videos
 
 def scrape_talk_basics(url, session_name, year=None, month=None, driver=None):
@@ -392,10 +369,12 @@ def scrape_talk_basics(url, session_name, year=None, month=None, driver=None):
                 verse += 1
                 id_attr = elem.get_attribute('id')
                 if id_attr and id_attr.startswith('p'):
-                    id_num = int(id_attr[1:])
-                    if id_num:
-                        this_verse = id_num
-                        verse = max(verse, this_verse)
+                    rest = id_attr[1:]
+                    if rest.isdigit():  # FIX: Only parse if the rest is numeric (handles non-numeric IDs like '_cdUJm')
+                        id_num = int(rest)
+                        if id_num:
+                            this_verse = id_num
+                            verse = max(verse, this_verse)
                 talk_data['body'].append({'verse': this_verse, 'type': 'paragraph', 'markdown': markdown})
             elif tag == 'figure':
                 try:
@@ -434,7 +413,8 @@ def add_youtube_resource(talk, videos, replace=False):
     for video in videos:
         video_title_lower = video['title'].lower()
         norm_video_title = re.sub(r'[^a-z0-9\s]', '', video_title_lower)
-        if norm_title in norm_video_title and norm_speaker in video_title_lower:
+        norm_video_for_speaker = re.sub(r'[^a-z0-9\s]', '', video_title_lower)  # FIX: Normalize for speaker check to handle punctuation like "H."
+        if norm_title in norm_video_title and norm_speaker in norm_video_for_speaker:
             url = f"https://www.youtube.com/watch?v={video['video_id']}"
             talk['resources'] = [r for r in talk['resources'] if r['name'] != 'YouTube Video']
             talk['resources'].append({'name': 'YouTube Video', 'url': url})
@@ -618,9 +598,8 @@ def scrape_conference(year, month, replace=False):
                 else:
                     print(f"Failed to scrape basics at {talk_item['url']}")
                 pbar.update(1)
-        # Fetch YouTube playlist and videos
-        playlist_id = fetch_conference_playlist_id(year, month)
-        videos = fetch_playlist_videos(playlist_id) if playlist_id else []
+        # Fetch YouTube videos via search  # FIX: Changed from playlist to search
+        videos = fetch_conference_videos(year, month)
         # Fetch batch resources
         byu_talks, conf_hash = fetch_byu_talks(driver, year, month)
         # Add missing resources to all talks
@@ -702,9 +681,8 @@ def scrape_single_talk(url, replace=False):
             conference_data['sessions'][session_name].append(talk_basics)
             print(f"Added talk basics '{talk_basics['title']}' to {filename}")
             talk_to_update = talk_basics
-        # Fetch YouTube playlist and videos for single talk (efficient, same as batch)
-        playlist_id = fetch_conference_playlist_id(year, month)
-        videos = fetch_playlist_videos(playlist_id) if playlist_id else []
+        # Fetch YouTube videos via search for single talk (efficient, same as batch)  # FIX: Changed from playlist to search
+        videos = fetch_conference_videos(year, month)
         # Fetch batch resources
         byu_talks, conf_hash = fetch_byu_talks(driver, year, month)
         # Add resources
