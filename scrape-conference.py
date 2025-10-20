@@ -30,10 +30,15 @@ from webdriver_manager.chrome import ChromeDriverManager
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 from dotenv import load_dotenv
+from bs4 import BeautifulSoup
 import argparse
+import logging
 
-# Load .env from parent directory
-load_dotenv(dotenv_path='../.env')
+# Suppress Selenium stacktraces
+logging.getLogger('selenium').setLevel(logging.WARNING)
+
+# Load .env from the same directory as the script
+load_dotenv()
 
 # Create conference_json directory if it doesn't exist
 JSON_DIR = 'conference_json'
@@ -242,26 +247,59 @@ def get_driver():
     service = Service(ChromeDriverManager().install())
     return webdriver.Chrome(service=service, options=options)
 
-def find_youtube_url(title, speaker, year, month):
+def fetch_conference_playlist_id(year, month):
     api_key = os.getenv('YOUTUBE_API_KEY')
     if not api_key:
         raise ValueError("YOUTUBE_API_KEY is missing from .env file")
-    query = f'"{title}" {speaker} General Conference {month} {year}'
-    channel_id = 'UCdNjexbMNWwYnYPIfjD3cQ'  # Official General Conference channel ID
-    api_url = f"https://www.googleapis.com/youtube/v3/search?part=snippet&q={quote(query)}&channelId={channel_id}&type=video&maxResults=1&key={api_key}"
-    try:
-        response = requests.get(api_url)
-        response.raise_for_status()
-        data = response.json()
-        if 'items' in data and data['items']:
-            video_id = data['items'][0]['id']['videoId']
-            return f"https://www.youtube.com/watch?v={video_id}"
-        else:
-            print(f"No YouTube results for \"{title}\"")
+    channel_id = 'UCSdPpMokMoGCSSNShOecP9w'  # Corrected General Conference channel ID
+    playlists = []
+    page_token = None
+    while True:
+        api_url = f"https://www.googleapis.com/youtube/v3/playlists?part=snippet&channelId={channel_id}&maxResults=50&key={api_key}"
+        if page_token:
+            api_url += f"&pageToken={page_token}"
+        try:
+            response = requests.get(api_url)
+            response.raise_for_status()
+            data = response.json()
+            playlists.extend(data.get('items', []))
+            page_token = data.get('nextPageToken')
+            if not page_token:
+                break
+        except requests.exceptions.RequestException as e:
+            print(f"Error fetching playlists: {e}")
             return None
-    except requests.exceptions.RequestException as e:
-        print(f"Error querying YouTube API for \"{title}\": {e}")
-        return None
+    for p in playlists:
+        title = p['snippet']['title'].lower()
+        if "general conference" in title and month.lower() in title and str(year) in title and "music" not in title:
+            return p['id']
+    print(f"No matching playlist found for {month} {year} General Conference")
+    return None
+
+def fetch_playlist_videos(playlist_id):
+    api_key = os.getenv('YOUTUBE_API_KEY')
+    videos = []
+    page_token = None
+    while True:
+        api_url = f"https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId={playlist_id}&maxResults=50&key={api_key}"
+        if page_token:
+            api_url += f"&pageToken={page_token}"
+        try:
+            response = requests.get(api_url)
+            response.raise_for_status()
+            data = response.json()
+            for item in data.get('items', []):
+                snippet = item['snippet']
+                video_id = snippet['resourceId']['videoId']
+                title = snippet['title']
+                videos.append({'title': title, 'video_id': video_id})
+            page_token = data.get('nextPageToken')
+            if not page_token:
+                break
+        except requests.exceptions.RequestException as e:
+            print(f"Error fetching playlist items: {e}")
+            break
+    return videos
 
 def scrape_talk_basics(url, session_name, year=None, month=None, driver=None):
     if driver is None:
@@ -388,13 +426,20 @@ def scrape_talk_basics(url, session_name, year=None, month=None, driver=None):
         if own_driver:
             driver.quit()
 
-def add_youtube_resource(talk, year, month, replace=False):
+def add_youtube_resource(talk, videos, replace=False):
     if not replace and any(r['name'] == 'YouTube Video' for r in talk['resources']):
         return
-    youtube_url = find_youtube_url(talk['title'], talk['speaker'], year, month)
-    if youtube_url:
-        talk['resources'] = [r for r in talk['resources'] if r['name'] != 'YouTube Video']
-        talk['resources'].append({'name': 'YouTube Video', 'url': youtube_url})
+    norm_title = get_uniform_talk_key(talk['title'])
+    norm_speaker = normalize_speaker(talk['speaker']).lower()
+    for video in videos:
+        video_title_lower = video['title'].lower()
+        norm_video_title = re.sub(r'[^a-z0-9\s]', '', video_title_lower)
+        if norm_title in norm_video_title and norm_speaker in norm_video_title:
+            url = f"https://www.youtube.com/watch?v={video['video_id']}"
+            talk['resources'] = [r for r in talk['resources'] if r['name'] != 'YouTube Video']
+            talk['resources'].append({'name': 'YouTube Video', 'url': url})
+            return
+    print(f"No matching YouTube video found for \"{talk['title']}\"")
 
 def add_byu_resource(talk, byu_talks, conf_hash, replace=False):
     if not replace and any(r['name'] == 'BYU Citation Index' for r in talk['resources']):
@@ -447,21 +492,38 @@ def fetch_byu_talks(driver, year, month):
         print(f"Error fetching BYU talks: {e}")
         return [], conf_hash
 
-def add_church_news_resource(talk, driver, year, month, replace=False):
-    if not replace and any(r['name'] == 'Church News Summary' for r in talk['resources']):
+def add_church_news_resource(talk, year, month, replace=False):
+    if not replace and any(r['name'] == 'Church News Article' for r in talk['resources']):
         return
-    query = quote(f"{talk['title']} {talk['speaker']} general conference summary {month} {year}")
+    query = quote(f"{talk['title']} {talk['speaker']} general conference {month} {year}")
     search_url = f"https://www.thechurchnews.com/search?q={query}"
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
     try:
-        driver.get(search_url)
-        WebDriverWait(driver, 15).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'div.search-results')))
-        result_links = driver.find_elements(By.CSS_SELECTOR, 'div.search-results a[href*="summary"]')
-        if result_links:
-            href = result_links[0].get_attribute('href')
-            talk['resources'] = [r for r in talk['resources'] if r['name'] != 'Church News Summary']
-            talk['resources'].append({'name': 'Church News Summary', 'url': href})
+        response = requests.get(search_url, headers=headers)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+        item_rows = soup.find_all('div', class_='queryly_item_row')
+        norm_title = get_uniform_talk_key(talk['title'])
+        norm_speaker = normalize_speaker(talk['speaker']).lower()
+        for row in item_rows:
+            try:
+                a = row.find('a')
+                href = a['href'] if a else None
+                title_elem = row.find('div', class_='queryly_item_title')
+                title_text = title_elem.text.strip().lower() if title_elem else ''
+                norm_title_text = re.sub(r'[^a-z0-9\s]', '', title_text)
+                if 'episode' in title_text or 'podcast' in title_text:
+                    continue
+                if norm_title in norm_title_text and norm_speaker in norm_title_text:
+                    full_href = href if href.startswith('https') else f"https://www.thechurchnews.com{href}"
+                    talk['resources'] = [r for r in talk['resources'] if r['name'] != 'Church News Article']
+                    talk['resources'].append({'name': 'Church News Article', 'url': full_href})
+                    return
+            except:
+                continue
+        print(f"No matching Church News article found for \"{talk['title']}\"")
     except Exception as e:
-        print(f"Error finding Church News summary for \"{talk['title']}\": {e}")
+        print(f"Error finding Church News article for \"{talk['title']}\": {str(e)}")
 
 def get_conference_filename(year, month):
     sanitized_conference = re.sub(r'[^a-z0-9\- ]', '', f"{year}-{month.lower()}", flags=re.IGNORECASE)
@@ -524,6 +586,9 @@ def scrape_conference(year, month, replace=False):
                 else:
                     print(f"Failed to scrape basics at {talk_item['url']}")
                 pbar.update(1)
+        # Fetch YouTube playlist and videos
+        playlist_id = fetch_conference_playlist_id(year, month)
+        videos = fetch_playlist_videos(playlist_id) if playlist_id else []
         # Fetch batch resources
         byu_talks, conf_hash = fetch_byu_talks(driver, year, month)
         # Add missing resources to all talks
@@ -532,10 +597,9 @@ def scrape_conference(year, month, replace=False):
         with tqdm(total=total_talks, desc="Adding resources") as pbar:
             for session_name, talks in conference_data['sessions'].items():
                 for talk in talks:
-                    add_youtube_resource(talk, year, month, replace)
+                    add_youtube_resource(talk, videos, replace)
                     add_byu_resource(talk, byu_talks, conf_hash, replace)
-                    add_church_news_resource(talk, driver, year, month, replace)
-                    # Add calls to new resource functions here
+                    add_church_news_resource(talk, year, month, replace)
                     pbar.update(1)
         # Save
         with open(filename, 'w') as f:
@@ -606,13 +670,15 @@ def scrape_single_talk(url, replace=False):
             conference_data['sessions'][session_name].append(talk_basics)
             print(f"Added talk basics '{talk_basics['title']}' to {filename}")
             talk_to_update = talk_basics
+        # Fetch YouTube playlist and videos for single talk (efficient, same as batch)
+        playlist_id = fetch_conference_playlist_id(year, month)
+        videos = fetch_playlist_videos(playlist_id) if playlist_id else []
         # Fetch batch resources
         byu_talks, conf_hash = fetch_byu_talks(driver, year, month)
         # Add resources
-        add_youtube_resource(talk_to_update, year, month, replace)
+        add_youtube_resource(talk_to_update, videos, replace)
         add_byu_resource(talk_to_update, byu_talks, conf_hash, replace)
-        add_church_news_resource(talk_to_update, driver, year, month, replace)
-        # Add calls to new resource functions here
+        add_church_news_resource(talk_to_update, year, month, replace)
         with open(filename, 'w') as f:
             json.dump(conference_data, f, indent=2)
         print(f"Saved updated data to {filename}")
