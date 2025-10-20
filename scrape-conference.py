@@ -251,7 +251,7 @@ def fetch_conference_playlist_id(year, month):
     api_key = os.getenv('YOUTUBE_API_KEY')
     if not api_key:
         raise ValueError("YOUTUBE_API_KEY is missing from .env file")
-    channel_id = 'UCSdPpMokMoGCSSNShOecP9w'  # Corrected General Conference channel ID
+    channel_id = 'UCSdPpMokMoGCSSNShOecP9w'  # Official General Conference channel ID
     playlists = []
     page_token = None
     while True:
@@ -492,38 +492,51 @@ def fetch_byu_talks(driver, year, month):
         print(f"Error fetching BYU talks: {e}")
         return [], conf_hash
 
-def add_church_news_resource(talk, year, month, replace=False):
-    if not replace and any(r['name'] == 'Church News Article' for r in talk['resources']):
+def add_church_news_resource(talk, year, month, replace=False, driver=None):
+    if 'sustaining' in talk['title'].lower() or 'auditing' in talk['title'].lower():
         return
-    query = quote(f"{talk['title']} {talk['speaker']} general conference {month} {year}")
+    if not replace and any(r['name'] == 'Church News' for r in talk['resources']):
+        return
+    own_driver = False
+    if driver is None:
+        driver = get_driver()
+        own_driver = True
+    query = quote(f'{talk["title"]} {talk["speaker"]} general conference summary {month} {year}')
     search_url = f"https://www.thechurchnews.com/search?q={query}"
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
     try:
-        response = requests.get(search_url, headers=headers)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.text, 'html.parser')
-        item_rows = soup.find_all('div', class_='queryly_item_row')
-        norm_title = get_uniform_talk_key(talk['title'])
-        norm_speaker = normalize_speaker(talk['speaker']).lower()
-        for row in item_rows:
-            try:
-                a = row.find('a')
-                href = a['href'] if a else None
-                title_elem = row.find('div', class_='queryly_item_title')
-                title_text = title_elem.text.strip().lower() if title_elem else ''
-                norm_title_text = re.sub(r'[^a-z0-9\s]', '', title_text)
-                if 'episode' in title_text or 'podcast' in title_text:
-                    continue
-                if norm_title in norm_title_text and norm_speaker in norm_title_text:
-                    full_href = href if href.startswith('https') else f"https://www.thechurchnews.com{href}"
-                    talk['resources'] = [r for r in talk['resources'] if r['name'] != 'Church News Article']
-                    talk['resources'].append({'name': 'Church News Article', 'url': full_href})
-                    return
-            except:
-                continue
-        print(f"No matching Church News article found for \"{talk['title']}\"")
+        driver.get(search_url)
+        WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CLASS_NAME, 'queryly_item_row')))
+        time.sleep(2)
     except Exception as e:
-        print(f"Error finding Church News article for \"{talk['title']}\": {str(e)}")
+        print(f"Error loading search results for \"{talk['title']}\": {e}\nSearch URL: {search_url}")
+        if own_driver:
+            driver.quit()
+        return
+    soup = BeautifulSoup(driver.page_source, 'html.parser')
+    item_rows = soup.find_all('div', class_='queryly_item_row')
+    norm_title = get_uniform_talk_key(talk['title'])
+    norm_speaker = normalize_speaker(talk['speaker']).lower()
+    for row in item_rows:
+        try:
+            a = row.find('a')
+            href = a['href'] if a else None
+            title_elem = row.find('div', class_='queryly_item_title')
+            title_text = title_elem.text.strip().lower() if title_elem else ''
+            norm_title_text = re.sub(r'[^a-z0-9\s]', '', title_text)
+            if 'episode' in title_text or 'podcast' in title_text:
+                continue
+            if norm_title in norm_title_text and norm_speaker in norm_title_text:
+                full_href = href if href.startswith('https') else f"https://www.thechurchnews.com{href}"
+                talk['resources'] = [r for r in talk['resources'] if r['name'] != 'Church News']
+                talk['resources'].append({'name': 'Church News', 'url': full_href})
+                if own_driver:
+                    driver.quit()
+                return
+        except:
+            continue
+    print(f"No matching Church News found for \"{talk['title']}\"")
+    if own_driver:
+        driver.quit()
 
 def get_conference_filename(year, month):
     sanitized_conference = re.sub(r'[^a-z0-9\- ]', '', f"{year}-{month.lower()}", flags=re.IGNORECASE)
@@ -599,7 +612,7 @@ def scrape_conference(year, month, replace=False):
                 for talk in talks:
                     add_youtube_resource(talk, videos, replace)
                     add_byu_resource(talk, byu_talks, conf_hash, replace)
-                    add_church_news_resource(talk, year, month, replace)
+                    add_church_news_resource(talk, year, month, replace, driver)
                     pbar.update(1)
         # Save
         with open(filename, 'w') as f:
@@ -678,7 +691,7 @@ def scrape_single_talk(url, replace=False):
         # Add resources
         add_youtube_resource(talk_to_update, videos, replace)
         add_byu_resource(talk_to_update, byu_talks, conf_hash, replace)
-        add_church_news_resource(talk_to_update, year, month, replace)
+        add_church_news_resource(talk_to_update, year, month, replace, driver)
         with open(filename, 'w') as f:
             json.dump(conference_data, f, indent=2)
         print(f"Saved updated data to {filename}")
