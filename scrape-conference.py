@@ -501,7 +501,7 @@ def add_church_news_resource(talk, year, month, replace=False, driver=None):
     if driver is None:
         driver = get_driver()
         own_driver = True
-    query = quote(f'{talk["title"]} {talk["speaker"]} general conference {month} {year}')
+    query = quote(f"{month} {year} General Conference {talk['speaker']} {talk['title']}")
     search_url = f"https://www.thechurchnews.com/search?q={query}"
     found = False
     for attempt in range(2 if int(year) >= 2015 else 1):
@@ -519,6 +519,7 @@ def add_church_news_resource(talk, year, month, replace=False, driver=None):
             soup = BeautifulSoup(driver.page_source, 'html.parser')
             item_rows = soup.find_all('div', class_='queryly_item_row')
             norm_title = get_uniform_talk_key(talk['title'])
+            title_words = set(norm_title.split())
             norm_speaker = normalize_speaker(talk['speaker']).lower()
             for row in item_rows:
                 try:
@@ -532,9 +533,12 @@ def add_church_news_resource(talk, year, month, replace=False, driver=None):
                     norm_desc = re.sub(r'[^a-z0-9\s]', '', desc_text)
                     full_text = title_text + ' ' + desc_text
                     norm_full = norm_title_text + ' ' + norm_desc
+                    norm_full_text = re.sub(r'[^a-z0-9\s]', '', full_text)  # Normalize full_text for speaker match to handle periods
+                    full_words = set(norm_full.split())
+                    overlap_ratio = len(title_words & full_words) / len(title_words) if title_words else 0
                     if 'episode' in full_text or 'podcast' in full_text:
                         continue
-                    if norm_title in norm_full and norm_speaker in full_text:
+                    if overlap_ratio >= 0.7 and norm_speaker in norm_full_text:
                         full_href = href if href.startswith('https') else f"https://www.thechurchnews.com{href}"
                         talk['resources'] = [r for r in talk['resources'] if r['name'] != 'Church News']
                         talk['resources'].append({'name': 'Church News', 'url': full_href})
@@ -550,8 +554,6 @@ def add_church_news_resource(talk, year, month, replace=False, driver=None):
         if int(year) >= 2015:
             talk['resources'] = [r for r in talk['resources'] if r['name'] != 'Church News']
             talk['resources'].append({'name': 'Church News', 'url': search_url})
-        else:
-            pass  # No error logging for older
     if own_driver:
         driver.quit()
 
