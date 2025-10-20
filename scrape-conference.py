@@ -434,7 +434,7 @@ def add_youtube_resource(talk, videos, replace=False):
     for video in videos:
         video_title_lower = video['title'].lower()
         norm_video_title = re.sub(r'[^a-z0-9\s]', '', video_title_lower)
-        if norm_title in norm_video_title and norm_speaker in norm_video_title:
+        if norm_title in norm_video_title and norm_speaker in video_title_lower:
             url = f"https://www.youtube.com/watch?v={video['video_id']}"
             talk['resources'] = [r for r in talk['resources'] if r['name'] != 'YouTube Video']
             talk['resources'].append({'name': 'YouTube Video', 'url': url})
@@ -501,14 +501,21 @@ def add_church_news_resource(talk, year, month, replace=False, driver=None):
     if driver is None:
         driver = get_driver()
         own_driver = True
-    query = quote(f'{talk["title"]} {talk["speaker"]} general conference summary {month} {year}')
+    query = quote(f'General Conference {talk["speaker"]} {talk["title"]} {month} {year}')
     search_url = f"https://www.thechurchnews.com/search?q={query}"
     try:
         driver.get(search_url)
-        WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CLASS_NAME, 'queryly_item_row')))
+        WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, 'filter_item')))
+        filter_div = driver.find_element(By.CSS_SELECTOR, 'div.filter_item[data-filter-value="General Conference"]')
+        if 'selectedFilterItem' not in filter_div.get_attribute('class'):
+            driver.execute_script("searchPage.dofacetedsearch(0,'section','General Conference')")
+            time.sleep(2)
+            WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, 'queryly_item_row')))
+        else:
+            WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, 'queryly_item_row')))
         time.sleep(2)
     except Exception as e:
-        print(f"Error loading search results for \"{talk['title']}\": {e}\nSearch URL: {search_url}")
+        print(f"Error loading search results or applying filter for \"{talk['title']}\": {e}\nSearch URL: {search_url}")
         if own_driver:
             driver.quit()
         return
@@ -523,9 +530,14 @@ def add_church_news_resource(talk, year, month, replace=False, driver=None):
             title_elem = row.find('div', class_='queryly_item_title')
             title_text = title_elem.text.strip().lower() if title_elem else ''
             norm_title_text = re.sub(r'[^a-z0-9\s]', '', title_text)
-            if 'episode' in title_text or 'podcast' in title_text:
+            desc_elem = row.find('div', class_='queryly_item_description')
+            desc_text = desc_elem.text.strip().lower() if desc_elem else ''
+            norm_desc = re.sub(r'[^a-z0-9\s]', '', desc_text)
+            full_text = title_text + ' ' + desc_text
+            norm_full = norm_title_text + ' ' + norm_desc
+            if 'episode' in full_text or 'podcast' in full_text:
                 continue
-            if norm_title in norm_title_text and norm_speaker in norm_title_text:
+            if norm_title in norm_full and norm_speaker in full_text:
                 full_href = href if href.startswith('https') else f"https://www.thechurchnews.com{href}"
                 talk['resources'] = [r for r in talk['resources'] if r['name'] != 'Church News']
                 talk['resources'].append({'name': 'Church News', 'url': full_href})
@@ -534,7 +546,7 @@ def add_church_news_resource(talk, year, month, replace=False, driver=None):
                 return
         except:
             continue
-    print(f"No matching Church News found for \"{talk['title']}\"")
+    print(f"No matching Church News found for \"{talk['title']}\". Search URL: {search_url}")
     if own_driver:
         driver.quit()
 
