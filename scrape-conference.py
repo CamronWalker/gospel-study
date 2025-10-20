@@ -501,52 +501,57 @@ def add_church_news_resource(talk, year, month, replace=False, driver=None):
     if driver is None:
         driver = get_driver()
         own_driver = True
-    query = quote(f'General Conference {talk["speaker"]} {talk["title"]} {month} {year}')
+    query = quote(f'{talk["title"]} {talk["speaker"]} general conference {month} {year}')
     search_url = f"https://www.thechurchnews.com/search?q={query}"
-    try:
-        driver.get(search_url)
-        WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, 'filter_item')))
-        filter_div = driver.find_element(By.CSS_SELECTOR, 'div.filter_item[data-filter-value="General Conference"]')
-        if 'selectedFilterItem' not in filter_div.get_attribute('class'):
-            driver.execute_script("searchPage.dofacetedsearch(0,'section','General Conference')")
-            time.sleep(2)
-            WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, 'queryly_item_row')))
-        else:
-            WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, 'queryly_item_row')))
-        time.sleep(2)
-    except Exception as e:
-        print(f"Error loading search results or applying filter for \"{talk['title']}\": {e}\nSearch URL: {search_url}")
-        if own_driver:
-            driver.quit()
-        return
-    soup = BeautifulSoup(driver.page_source, 'html.parser')
-    item_rows = soup.find_all('div', class_='queryly_item_row')
-    norm_title = get_uniform_talk_key(talk['title'])
-    norm_speaker = normalize_speaker(talk['speaker']).lower()
-    for row in item_rows:
+    found = False
+    for attempt in range(2 if int(year) >= 2015 else 1):
         try:
-            a = row.find('a')
-            href = a['href'] if a else None
-            title_elem = row.find('div', class_='queryly_item_title')
-            title_text = title_elem.text.strip().lower() if title_elem else ''
-            norm_title_text = re.sub(r'[^a-z0-9\s]', '', title_text)
-            desc_elem = row.find('div', class_='queryly_item_description')
-            desc_text = desc_elem.text.strip().lower() if desc_elem else ''
-            norm_desc = re.sub(r'[^a-z0-9\s]', '', desc_text)
-            full_text = title_text + ' ' + desc_text
-            norm_full = norm_title_text + ' ' + norm_desc
-            if 'episode' in full_text or 'podcast' in full_text:
-                continue
-            if norm_title in norm_full and norm_speaker in full_text:
-                full_href = href if href.startswith('https') else f"https://www.thechurchnews.com{href}"
-                talk['resources'] = [r for r in talk['resources'] if r['name'] != 'Church News']
-                talk['resources'].append({'name': 'Church News', 'url': full_href})
-                if own_driver:
-                    driver.quit()
-                return
-        except:
-            continue
-    print(f"No matching Church News found for \"{talk['title']}\". Search URL: {search_url}")
+            driver.get(search_url)
+            WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, 'filter_item')))
+            filter_div = driver.find_element(By.CSS_SELECTOR, 'div.filter_item[data-filter-value="General Conference"]')
+            if 'selectedFilterItem' not in filter_div.get_attribute('class'):
+                driver.execute_script("searchPage.dofacetedsearch(0,'section','General Conference')")
+                time.sleep(2)
+                WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, 'queryly_item_row')))
+            else:
+                WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, 'queryly_item_row')))
+            time.sleep(2)
+            soup = BeautifulSoup(driver.page_source, 'html.parser')
+            item_rows = soup.find_all('div', class_='queryly_item_row')
+            norm_title = get_uniform_talk_key(talk['title'])
+            norm_speaker = normalize_speaker(talk['speaker']).lower()
+            for row in item_rows:
+                try:
+                    a = row.find('a')
+                    href = a['href'] if a else None
+                    title_elem = row.find('div', class_='queryly_item_title')
+                    title_text = title_elem.text.strip().lower() if title_elem else ''
+                    norm_title_text = re.sub(r'[^a-z0-9\s]', '', title_text)
+                    desc_elem = row.find('div', class_='queryly_item_description')
+                    desc_text = desc_elem.text.strip().lower() if desc_elem else ''
+                    norm_desc = re.sub(r'[^a-z0-9\s]', '', desc_text)
+                    full_text = title_text + ' ' + desc_text
+                    norm_full = norm_title_text + ' ' + norm_desc
+                    if 'episode' in full_text or 'podcast' in full_text:
+                        continue
+                    if norm_title in norm_full and norm_speaker in full_text:
+                        full_href = href if href.startswith('https') else f"https://www.thechurchnews.com{href}"
+                        talk['resources'] = [r for r in talk['resources'] if r['name'] != 'Church News']
+                        talk['resources'].append({'name': 'Church News', 'url': full_href})
+                        found = True
+                        break
+                except:
+                    continue
+            if found:
+                break
+        except Exception as e:
+            print(f"Error on attempt {attempt+1} for \"{talk['title']}\": {e}\nSearch URL: {search_url}")
+    if not found:
+        if int(year) >= 2015:
+            talk['resources'] = [r for r in talk['resources'] if r['name'] != 'Church News']
+            talk['resources'].append({'name': 'Church News', 'url': search_url})
+        else:
+            pass  # No error logging for older
     if own_driver:
         driver.quit()
 
