@@ -1,14 +1,24 @@
 {
   "conference": "2024-October",
-  "year": "2024",
+  "year": 2024,
   "month": "October",
   "sessions": {
     "Saturday Morning Session": [
       {
         "session": "Saturday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/11eyring?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/11eyring?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/11eyring/study-guide"
+          }
+        ],
         "title": "Sustaining of General Authorities, Area Seventies, and General Officers",
-        "speaker": "Presented President Henry B. Eyring",
+        "speaker": "Presented President Henry B Eyring",
         "speaker_role": "Second Counselor in the First Presidency",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F8026901a833511efae28022e7e432ed95151b97b%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -141,8 +151,30 @@
       {
         "session": "Saturday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/12andersen?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/12andersen?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/12andersen/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=vB_sbrFVHU8"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t221f:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2024/10/05/elder-neil-andersen-october-2024-general-conference-hope-triumph/"
+          }
+        ],
         "title": "The Triumph of Hope",
-        "speaker": "Neil L. Andersen",
+        "speaker": "Neil L Andersen",
         "speaker_role": "Quorum of the 12",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Feeb6678a833511ef9b3a0626c361eb55d5d19cbc%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -546,6 +578,28 @@
       {
         "session": "Saturday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/13freeman?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/13freeman?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/13freeman/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=-i9VXdqM9yU"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2220:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2024/10/05/president-freeman-october-2024-general-conference-ordinances-covenants/"
+          }
+        ],
         "title": "Live Up to Your Privileges",
         "speaker": "Emily Belle Freeman",
         "speaker_role": "Young Women General President",
@@ -896,8 +950,30 @@
       {
         "session": "Saturday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/14hirst?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/14hirst?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/14hirst/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=xtVqecb1Pbg"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2221:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/search?q=October%202024%20General%20Conference%20Karl%20D%20Hirst%20God%E2%80%99s%20Favourite"
+          }
+        ],
         "title": "God\u2019s Favourite",
-        "speaker": "Karl D. Hirst",
+        "speaker": "Karl D Hirst",
         "speaker_role": "Seventy",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fc7655f9d833811ef9b3a0626c361eb550c951c32%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -1136,8 +1212,30 @@
       {
         "session": "Saturday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/15renlund?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/15renlund?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/15renlund/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=RF9iHb4WTBY"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2222:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2024/10/05/elder-renlund-october-2024-general-conference-dynamite-gospel-church/"
+          }
+        ],
         "title": "\u201cThis Is My Gospel\u201d\u2014\u201cThis Is My Church\u201d",
-        "speaker": "Dale G. Renlund",
+        "speaker": "Dale G Renlund",
         "speaker_role": "Quorum of the 12",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F2c3c1f77833b11ef9b3a0626c361eb55b63860a2%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -1441,8 +1539,30 @@
       {
         "session": "Saturday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/16homer?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/16homer?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/16homer/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=cZJhSpn-Rn4"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2223:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2024/10/05/elder-david-homer-october-2024-general-conference-trusting-heavenly-father/"
+          }
+        ],
         "title": "Trusting Our Father",
-        "speaker": "David P. Homer",
+        "speaker": "David P Homer",
         "speaker_role": "Seventy",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F13cc3f00833d11efae28022e7e432ed90f07ccc8%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -1761,8 +1881,30 @@
       {
         "session": "Saturday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/17casillas?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/17casillas?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/17casillas/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=u0lBD8NbzqY"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2224:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/members/2024/11/07/gregorio-casillas-rs-eq-lessons-october-2024-general-conference/"
+          }
+        ],
         "title": "God Loves All His Children",
-        "speaker": "Gregorio E. Casillas",
+        "speaker": "Gregorio E Casillas",
         "speaker_role": "Seventy",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Ffb871a37833e11efae28022e7e432ed9240788b7%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -1881,8 +2023,30 @@
       {
         "session": "Saturday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/18oaks?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/18oaks?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/18oaks/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=TTK0x3WqQH4"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2225:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2024/10/05/president-dallin-oaks-october-2024-general-conference-follow-christ-peacemaker/"
+          }
+        ],
         "title": "Following Christ",
-        "speaker": "Dallin H. Oaks",
+        "speaker": "Dallin H Oaks",
         "speaker_role": "First Counselor in the First Presidency",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F3e87be14834111efae28022e7e432ed99fca88f6%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -2178,8 +2342,30 @@
       {
         "session": "Saturday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/21christofferson?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/21christofferson?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/21christofferson/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=sBMgUFueU8U"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2226:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2024/10/05/elder-d-todd-christofferson-october-2024-general-conference-weapons-of-rebellion/"
+          }
+        ],
         "title": "Burying Our Weapons of Rebellion",
-        "speaker": "D. Todd Christofferson",
+        "speaker": "D Todd Christofferson",
         "speaker_role": "Quorum of the 12",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F44eecaf2835611efae28022e7e432ed96a68d5f0%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -2438,8 +2624,30 @@
       {
         "session": "Saturday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/22teixeira?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/22teixeira?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/22teixeira/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=8F8yUk5c19I"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2227:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/search?q=October%202024%20General%20Conference%20Jos%20A%20Teixeira%20Bonded%20to%20Jesus%20Christ%3A%20Becoming%20the%20Salt%20of%20the%20Earth"
+          }
+        ],
         "title": "Bonded to Jesus Christ: Becoming the Salt of the Earth",
-        "speaker": "Jos\u00e9 A. Teixeira",
+        "speaker": "Jos A Teixeira",
         "speaker_role": "Presidency of the Seventy",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F6de4fcd6835711ef9b3a0626c361eb5516cdade7%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -2573,6 +2781,28 @@
       {
         "session": "Saturday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/23villar?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/23villar?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/23villar/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=7l-glbPHiZo"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2228:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2024/10/05/elder-juan-pablo-villar-october-2024-general-conference-jesus-rescue/"
+          }
+        ],
         "title": "His Hand Ready to Help Us",
         "speaker": "Juan Pablo Villar",
         "speaker_role": "Seventy",
@@ -2758,6 +2988,28 @@
       {
         "session": "Saturday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/24kearon?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/24kearon?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/24kearon/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=EtEUZShRans"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2229:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/members/2024/11/12/patrick-kearon-rs-eq-lessons-october-2024-general-conference/"
+          }
+        ],
         "title": "Welcome to the Church of Joy",
         "speaker": "Patrick Kearon",
         "speaker_role": "Quorum of the 12",
@@ -3033,8 +3285,30 @@
       {
         "session": "Saturday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/25buckner?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/25buckner?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/25buckner/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=x3XOwzwUQ9c"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t222a:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/members/2024/11/13/david-buckner-rs-eq-lessons-october-2024-general-conference/"
+          }
+        ],
         "title": "\u201cYe Are My Friends\u201d",
-        "speaker": "David L. Buckner",
+        "speaker": "David L Buckner",
         "speaker_role": "Seventy",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F4535960b835d11ef9b3a0626c361eb55eac3a91a%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -3308,8 +3582,30 @@
       {
         "session": "Saturday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/26goury?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/26goury?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/26goury/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=YNJfwqKybFY"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t222b:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2024/10/05/elder-d-martin-goury-october-2024-general-conference-repentance-holy-ghost/"
+          }
+        ],
         "title": "Be Thou Clean",
-        "speaker": "D. Martin Goury",
+        "speaker": "D Martin Goury",
         "speaker_role": "Seventy",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F258a5c45835f11efae28022e7e432ed94288f7f9%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -3438,8 +3734,30 @@
       {
         "session": "Saturday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/27cavalcante?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/27cavalcante?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/27cavalcante/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=3Iw5qoJqwaY"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t222c:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2024/10/05/elder-aroldo-cavalcante-october-2024-general-conference-furious-wind-promised-blessings/"
+          }
+        ],
         "title": "The Wind Did Never Cease to Blow",
-        "speaker": "Aroldo B. Cavalcante",
+        "speaker": "Aroldo B Cavalcante",
         "speaker_role": "Seventy",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F08d2449b836011ef9b3a0626c361eb5544a6d0eb%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -3743,6 +4061,28 @@
       {
         "session": "Saturday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/28soares?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/28soares?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/28soares/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=DTQdmOoXFek"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t222d:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/members/2024/11/16/ulisses-soares-rs-eq-lessons-october-2024-general-conference/"
+          }
+        ],
         "title": "Aligning Our Will with His",
         "speaker": "Ulisses Soares",
         "speaker_role": "Quorum of the 12",
@@ -3995,8 +4335,30 @@
       {
         "session": "Saturday Evening Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/31gong?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/31gong?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/31gong/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=ivG-RrRKfHs"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t222e:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2024/10/05/elder-gerrit-gong-october-2024-general-conference-everyday-holiness/"
+          }
+        ],
         "title": "Holiness to the Lord in Everyday Life",
-        "speaker": "Gerrit W. Gong",
+        "speaker": "Gerrit W Gong",
         "speaker_role": "Quorum of the 12",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F705a4a65837911ef9b3a0626c361eb553aed0052%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -4320,8 +4682,30 @@
       {
         "session": "Saturday Evening Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/32yee?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/32yee?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/32yee/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=hEDn7DCnaZQ"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t222f:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2024/10/05/sister-kristin-yee-october-2024-general-conference-repentance-atonement/"
+          }
+        ],
         "title": "The Joy of Our Redemption",
-        "speaker": "Kristin M. Yee",
+        "speaker": "Kristin M Yee",
         "speaker_role": "Second Counselor in the Relief Society General Presidency",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Ff7aa07d8837911ef9b3a0626c361eb551ae1ab1f%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -4745,8 +5129,30 @@
       {
         "session": "Saturday Evening Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/33mckay?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/33mckay?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/33mckay/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=wIstotg77D0"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2230:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2024/10/05/elder-kyle-s-mckay-october-2024-general-conference-joseph-smith/"
+          }
+        ],
         "title": "The Man Who Communed with Jehovah",
-        "speaker": "Kyle S. McKay",
+        "speaker": "Kyle S McKay",
         "speaker_role": "Seventy",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F7fda4f62837c11ef9b3a0626c361eb55435b5a69%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -5075,8 +5481,30 @@
       {
         "session": "Saturday Evening Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/34alvarado?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/34alvarado?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/34alvarado/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=3oMMXJJaYjg"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2231:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2024/10/05/elder-jorge-alvarado-october-2024-general-conference-gift-of-repentance/"
+          }
+        ],
         "title": "Embrace the Lord\u2019s Gift of Repentance",
-        "speaker": "Jorge M. Alvarado",
+        "speaker": "Jorge M Alvarado",
         "speaker_role": "Seventy",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F12186eff837f11efae28022e7e432ed9872f676b%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -5395,8 +5823,30 @@
       {
         "session": "Saturday Evening Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/35bednar?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/35bednar?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/35bednar/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=l6--22iyTHk"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2232:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/members/2024/11/21/david-bednar-rs-eq-lessons-october-2024-general-conference/"
+          }
+        ],
         "title": "In the Space of Not Many Years",
-        "speaker": "David A. Bednar",
+        "speaker": "David A Bednar",
         "speaker_role": "Quorum of the 12",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fb5ecc85a838011efae28022e7e432ed9876c1855%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -5847,8 +6297,30 @@
       {
         "session": "Sunday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/41holland?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/41holland?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/41holland/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=wO_zZtt0Nmc"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2233:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/members/2024/11/22/jeffrey-holland-rs-eq-lessons-october-2024-general-conference/"
+          }
+        ],
         "title": "\u201cI Am He\u201d",
-        "speaker": "Jeffrey R. Holland",
+        "speaker": "Jeffrey R Holland",
         "speaker_role": "Acting President of the Quorum of the 12",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F4b8cee8e83ff11efae28022e7e432ed9297fbbe5%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -6067,8 +6539,30 @@
       {
         "session": "Sunday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/42browning?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/42browning?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/42browning/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=tdWdAhzLCQY"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2234:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2024/10/06/sister-tracy-browning-october-2024-general-conference-seeking-answers-spiritual-questions/"
+          }
+        ],
         "title": "Seeking Answers to Spiritual Questions",
-        "speaker": "Tracy Y. Browning",
+        "speaker": "Tracy Y Browning",
         "speaker_role": "Second Counselor in the Primary General Presidency",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F449031a2840011ef9b3a0626c361eb55c4148f0b%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -6322,8 +6816,30 @@
       {
         "session": "Sunday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/43hales?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/43hales?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/43hales/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=xMX2hZ8nEZU"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2235:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/members/2024/11/24/brook-hales-rs-eq-lessons-october-2024-general-conference/"
+          }
+        ],
         "title": "Mortality Works!",
-        "speaker": "Brook P. Hales",
+        "speaker": "Brook P Hales",
         "speaker_role": "Seventy",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fffe56152840111efae28022e7e432ed91b4f8910%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -6567,8 +7083,30 @@
       {
         "session": "Sunday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/45budge?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/45budge?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/45budge/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=WkygZI6ufmc"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2236:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2024/10/06/bishop-todd-budge-october-2024-general-conference-be-still-seek-him/"
+          }
+        ],
         "title": "Seek Him with All Your Heart",
-        "speaker": "Bishop L. Todd Budge",
+        "speaker": "L Todd Budge",
         "speaker_role": "Second Counselor in the Presiding Bishopric",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fe5154beb840311efae28022e7e432ed99fed7862%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -6892,8 +7430,30 @@
       {
         "session": "Sunday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/44stevenson?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/44stevenson?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/44stevenson/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=D6yyIVz2-WA"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2237:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/members/2024/11/26/gary-stevenson-rs-eq-lessons-october-2024-general-conference/"
+          }
+        ],
         "title": "Days Never to Be Forgotten",
-        "speaker": "Gary E. Stevenson",
+        "speaker": "Gary E Stevenson",
         "speaker_role": "Quorum of the 12",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fd5d286fe840511ef9b3a0626c361eb55b18ddf2e%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -7187,8 +7747,30 @@
       {
         "session": "Sunday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/46wilcox?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/46wilcox?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/46wilcox/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=v36aEQk3SJQ"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2238:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2024/10/06/brother-bradley-wilcox-october-2024-general-conference-youth-of-noble-birthright/"
+          }
+        ],
         "title": "O Youth of the Noble Birthright",
-        "speaker": "Bradley R. Wilcox",
+        "speaker": "Bradley R Wilcox",
         "speaker_role": "First Counselor in the Young Men General Presidency",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F9c2484ca840711efae28022e7e432ed97b29ee2f%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -7472,8 +8054,30 @@
       {
         "session": "Sunday Morning Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/47eyring?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/47eyring?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/47eyring/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=MBM6-Yc3ttQ"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2239:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2024/10/06/president-henry-eyring-october-2024-general-conference-teach-simple-doctrine/"
+          }
+        ],
         "title": "Simple Is the Doctrine of Jesus Christ",
-        "speaker": "Henry B. Eyring",
+        "speaker": "Henry B Eyring",
         "speaker_role": "Second Counselor in the First Presidency",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F88e6bd39840c11ef9b3a0626c361eb551a0bbeef%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -7709,8 +8313,30 @@
       {
         "session": "Sunday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/51uchtdorf?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/51uchtdorf?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/51uchtdorf/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=EVOBVRdduuM"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t223a:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2024/10/06/elder-dieter-uchtdorf-october-2024-general-conference-nourish-roots-branches/"
+          }
+        ],
         "title": "Nourish the Roots, and the Branches Will Grow",
-        "speaker": "Dieter F. Uchtdorf",
+        "speaker": "Dieter F Uchtdorf",
         "speaker_role": "Quorum of the 12",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F648aa083842011efae28022e7e432ed903417ac0%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -8054,6 +8680,28 @@
       {
         "session": "Sunday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/52wada?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/52wada?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/52wada/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=UYZmHP1hKvs"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t223b:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2024/10/06/elder-takashi-wada-october-2024-general-conference-words-of-christ-holy-ghost/"
+          }
+        ],
         "title": "The Words of Christ and the Holy Ghost Will Lead Us to the Truth",
         "speaker": "Takashi Wada",
         "speaker_role": "Seventy",
@@ -8289,8 +8937,30 @@
       {
         "session": "Sunday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/53rasband?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/53rasband?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/53rasband/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=azS1jETbWWc"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t223c:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2024/10/06/elder-ronald-rasband-october-2023-general-conference-hold-up-light-sustain-prophet/"
+          }
+        ],
         "title": "\u201cBehold I Am the Light Which Ye Shall Hold Up\u201d",
-        "speaker": "Ronald A. Rasband",
+        "speaker": "Ronald A Rasband",
         "speaker_role": "Quorum of the 12",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F2f88d032842311ef9b3a0626c361eb5535f70948%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -8604,8 +9274,30 @@
       {
         "session": "Sunday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/54cook?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/54cook?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/54cook/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=xytIpnq74Jg"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t223d:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2024/10/06/elder-quentin-cook-october-2024-general-conference-sacred-scriptures/"
+          }
+        ],
         "title": "Sacred Scriptures\u2014the Foundations of Faith",
-        "speaker": "Quentin L. Cook",
+        "speaker": "Quentin L Cook",
         "speaker_role": "Quorum of the 12",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F5062355e842611ef9b3a0626c361eb5559545945%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -8894,8 +9586,30 @@
       {
         "session": "Sunday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/55alliaud?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/55alliaud?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/55alliaud/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=XY8HBWpANZ8"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t223e:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2024/10/06/elder-ruben-alliaud-october-2024-general-conference-divine-nature/"
+          }
+        ],
         "title": "Sons and Daughters of God",
-        "speaker": "Rub\u00e9n V. Alliaud",
+        "speaker": "Rubn V Alliaud",
         "speaker_role": "Seventy",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F1921a621842711efae28022e7e432ed9b1fc1b9f%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -9179,8 +9893,30 @@
       {
         "session": "Sunday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/56egbo?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/56egbo?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/56egbo/study-guide"
+          },
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=NyhvRPaBjUA"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t223f:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/members/2024/12/07/raymond-egbo-rs-eq-lessons-october-2024-general-conference/"
+          }
+        ],
         "title": "Focus on Jesus Christ and His Gospel",
-        "speaker": "I. Raymond Egbo",
+        "speaker": "I Raymond Egbo",
         "speaker_role": "Seventy",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2F4ea7f05b842811ef9b3a0626c361eb553e3c96eb%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
@@ -9424,8 +10160,26 @@
       {
         "session": "Sunday Afternoon Session",
         "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/57nelson?lang=eng",
+        "resources": [
+          {
+            "name": "Gospel Library",
+            "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/57nelson?lang=eng"
+          },
+          {
+            "name": "Saints AI Study Guide",
+            "url": "https://saintsai.org/study/general-conference/2024/10/57nelson/study-guide"
+          },
+          {
+            "name": "BYU Citation Index",
+            "url": "https://scriptures.byu.edu/#:t2240:g8c2"
+          },
+          {
+            "name": "Church News",
+            "url": "https://www.thechurchnews.com/general-conference/2024/10/06/president-russell-nelson-october-2024-general-conference-second-coming-jesus-christ/"
+          }
+        ],
         "title": "The Lord Jesus Christ Will Come Again",
-        "speaker": "Russell M. Nelson",
+        "speaker": "Russell M Nelson",
         "speaker_role": "President of the Church",
         "thumbnail": "https://www.churchofjesuschrist.org/imgs/https%3A%2F%2Fwww.churchofjesuschrist.org%2Fimgs%2Fd845175d828d11efae28022e7e432ed9301316a5%2Ffull%2F%2521768%252C%2F0%2Fdefault/full/!250,/0/default",
         "subtitle": null,
