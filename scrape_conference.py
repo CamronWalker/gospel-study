@@ -223,7 +223,7 @@ def html_to_markdown(html, is_source=False):
     html = re.sub(r'<strong>(.*?)</strong>', r'**\1**', html, flags=re.IGNORECASE | re.DOTALL)
     html = re.sub(r'<b>(.*?)</b>', r'**\1**', html, flags=re.IGNORECASE | re.DOTALL)
     html = re.sub(r'<span[^>]*>(.*?)</span>', r'\1', html, flags=re.IGNORECASE | re.DOTALL)
-    html = re.sub(r'<a[^>]*class="note-ref"[^>]*href="#([^"]+)"[^>]*><sup[^>]*>([^<]+)</sup></a>', r'[^\1]', html, flags=re.IGNORECASE | re.DOTALL)
+    html = re.sub(r'<a[^>]*class="note-ref"[^>]*data-scroll-id="([^"]+)"[^>]*><sup[^>]*>(.*?)</sup></a>', r'[^\1]', html, flags=re.IGNORECASE | re.DOTALL)
     if is_source:
         html = re.sub(r'<a[^>]+class="backref"[^>]*>.*?</a>', '', html, flags=re.IGNORECASE | re.DOTALL)
     def link_repl(match):
@@ -247,7 +247,7 @@ def get_driver():
     service = Service(ChromeDriverManager().install())
     return webdriver.Chrome(service=service, options=options)
 
-def fetch_conference_videos(year, month):  # FIX: New function to search videos on the channel instead of using playlist
+def fetch_conference_videos(year, month):  # FIX: quota usage https://console.cloud.google.com/apis/api/youtube.googleapis.com/quotas?project=lds-gospel-study
     api_key = os.getenv('YOUTUBE_API_KEY')
     if not api_key:
         raise ValueError("YOUTUBE_API_KEY is missing from .env file")

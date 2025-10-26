@@ -26,6 +26,19 @@ def format_wikilink(speaker):
         return f"[[{parts[0]} {parts[1]}. {' '.join(parts[2:])}]]"
     return f"[[{speaker}]]"
 
+def escape_brackets(md):
+    def repl(match):
+        content = match.group(1)
+        if content.startswith('^') or content.startswith('[') or '|' in content or '(' in content:
+            return match.group(0)
+        else:
+            return '\\[' + content + '\\]'
+
+    # Match [content] not followed by (
+    pattern = r'\[([^\]]+)\](?!\()'
+    md = re.sub(pattern, repl, md)
+    return md
+
 def build_frontmatter(talk):
     frontmatter = [
         '---',
@@ -86,13 +99,18 @@ def build_talk_body(talk):
         if 'markdown' not in item:
             body.append('')
             continue
+        md = escape_brackets(item['markdown'])
         if 'type' in item and item['type'] == 'heading':
-            level = item.get('level', 2)
-            body.append('#' * level + ' ' + item['markdown'])
+            level = item.get('level', 2) + 2  # Add two heading levels
+            body.append('#' * level + ' ' + md)
         elif 'type' in item and item['type'] == 'paragraph':
-            body.append(item['markdown'])
+            if 'verse' in item:
+                body.append(f"###### {item['verse']}")
+                body.append(f"{item['verse']} {md}")
+            else:
+                body.append(md)
         else:
-            body.append(item['markdown'])  # other types without heading
+            body.append(md)  # other types without heading
         body.append('')  # blank line after each
 
     # Footnotes
@@ -101,7 +119,7 @@ def build_talk_body(talk):
         for src in sources:
             num = src['number']
             id_ = src['id']
-            md = src['markdown']
+            md = escape_brackets(src['markdown'])
             body.append(f'[^{id_}]: {md}')
 
     return '\n'.join(body) + '\n'
@@ -115,27 +133,24 @@ def build_full_md(talk):
     md += build_talk_body(talk)
     return md
 
-def update_resources_in_md(existing_md, talk):
-    # Find the [!properties] section and update resources
-    lines = existing_md.split('\n')
-    in_properties = False
-    new_lines = []
-    for line in lines:
-        if line.startswith('> [!properties]'):
-            in_properties = True
-            new_lines.append(line)
-            new_lines.append(f'Session: {talk["session"]}')
-            new_lines.append(f'URL: {talk["url"]}')
-            new_lines.append('Resources:')
-            for res in talk.get('resources', []):
-                new_lines.append(f'- [{res["name"]}]({res["url"]})')
-            continue
-        if in_properties:
-            if not line.startswith('>') and line.strip():  # End of callout
-                in_properties = False
-        if not in_properties:
-            new_lines.append(line)
-    return '\n'.join(new_lines)
+def update_md_prefix(existing_md, talk):
+    # Find the position of '# Notes'
+    notes_pos = existing_md.find('# Notes')
+    if notes_pos == -1:
+        # If no # Notes, full replace
+        return build_full_md(talk)
+    
+    # Everything after # Notes inclusive
+    remaining_content = existing_md[notes_pos:]
+    
+    # Generate new prefix
+    new_prefix = build_frontmatter(talk) + '\n\n'
+    new_prefix += build_properties(talk) + '\n'
+    new_prefix += build_ai_summary(talk) + '\n'
+    new_prefix += build_invitation(talk) + '\n'
+    
+    # Combine
+    return new_prefix + remaining_content
 
 def process_conference(json_file, replace=False):
     with open(json_file, 'r', encoding='utf-8') as f:
@@ -166,7 +181,7 @@ def process_conference(json_file, replace=False):
             else:
                 with open(filepath, 'r', encoding='utf-8') as f:
                     existing = f.read()
-                updated = update_resources_in_md(existing, talk)
+                updated = update_md_prefix(existing, talk)
                 with open(filepath, 'w', encoding='utf-8') as f:
                     f.write(updated)
 
