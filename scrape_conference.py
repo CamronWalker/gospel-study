@@ -223,7 +223,7 @@ def html_to_markdown(html, is_source=False):
     html = re.sub(r'<strong>(.*?)</strong>', r'**\1**', html, flags=re.IGNORECASE | re.DOTALL)
     html = re.sub(r'<b>(.*?)</b>', r'**\1**', html, flags=re.IGNORECASE | re.DOTALL)
     html = re.sub(r'<span[^>]*>(.*?)</span>', r'\1', html, flags=re.IGNORECASE | re.DOTALL)
-    html = re.sub(r'<sup[^>]*><a[^>]+href="#([^"]+)"[^>]*>([^<]+)</a></sup>', r'[^ \1]', html, flags=re.IGNORECASE | re.DOTALL)
+    html = re.sub(r'<a[^>]*class="note-ref"[^>]*href="#([^"]+)"[^>]*><sup[^>]*>([^<]+)</sup></a>', r'[^\1]', html, flags=re.IGNORECASE | re.DOTALL)
     if is_source:
         html = re.sub(r'<a[^>]+class="backref"[^>]*>.*?</a>', '', html, flags=re.IGNORECASE | re.DOTALL)
     def link_repl(match):

@@ -1,7 +1,3 @@
-"""
-Will use to update conference talks in markdown files.
-
-"""
 import json
 import os
 import re
@@ -85,10 +81,15 @@ def build_talk_body(talk):
 
     # Build body from body list
     for item in talk.get('body', []):
-        if item['type'] == 'heading':
+        if not isinstance(item, dict):
+            continue
+        if 'markdown' not in item:
+            body.append('')
+            continue
+        if 'type' in item and item['type'] == 'heading':
             level = item.get('level', 2)
             body.append('#' * level + ' ' + item['markdown'])
-        elif item['type'] == 'paragraph':
+        elif 'type' in item and item['type'] == 'paragraph':
             body.append(item['markdown'])
         else:
             body.append(item['markdown'])  # other types without heading
