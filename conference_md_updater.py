@@ -59,12 +59,12 @@ def build_frontmatter(talk):
     return '\n'.join(frontmatter)
 
 def build_properties(talk):
-    properties = ['> [!properties]- Talk Details']
-    properties.append(f'Session: {talk["session"]}')
-    properties.append(f'URL: {talk["url"]}')
-    properties.append('Resources:')
-    for res in talk.get('resources', []):
-        properties.append(f'- [{res["name"]}]({res["url"]})')
+    properties = ['> [!Properties]- Resources']
+    properties.append(f'>Session: {talk["session"]}')
+    properties.append(f'>URL: {talk["url"]}')
+    properties.append('>Resources:')
+    links = "    |    ".join(f"[{res['name']}]({res['url']})" for res in talk.get('resources', []))
+    properties.append(f'>{links}')
     return '\n'.join(properties) + '\n'
 
 def build_ai_summary(talk):
@@ -97,25 +97,27 @@ def build_talk_body(talk):
         if not isinstance(item, dict):
             continue
         if 'markdown' not in item:
-            body.append('')
             continue
         md = escape_brackets(item['markdown'])
         if 'type' in item and item['type'] == 'heading':
             level = item.get('level', 2) + 2  # Add two heading levels
             body.append('#' * level + ' ' + md)
+            # NO blank after heading
         elif 'type' in item and item['type'] == 'paragraph':
             if 'verse' in item:
                 body.append(f"###### {item['verse']}")
                 body.append(f"{item['verse']} {md}")
             else:
                 body.append(md)
+            # NO blank after paragraph
         else:
             body.append(md)  # other types without heading
-        body.append('')  # blank line after each
+            body.append('')  # blank after other
 
     # Footnotes
     sources = talk.get('sources', [])
     if sources:
+        body.append('')
         for src in sources:
             num = src['number']
             id_ = src['id']

@@ -107,7 +107,7 @@ def generate_top_portion(resources_list, category, ai_resources, book_name, chap
     top_content += "---\n"
 
     # Write chapter details with hyperlinks
-    top_content += ">[!Properties]+ Resources\n"
+    top_content += ">[!Properties]- Resources\n"
     links = "    |    ".join(f"[{res['name']}]({res['url']})" for res in resources_list)
     top_content += f">{links}\n"
 

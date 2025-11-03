@@ -1,35 +1,32 @@
 # Gospel Study in Obsidian
-I intend to use this as a means to document how I set up and study the Gospel in [Obsidian](https://obsidian.md).
 
-My goal is to create JSON files by converting or scraping scriptures, conference talks, and other manuals. I will then generate a list of cross-references or other resources that can be added to the markdown files I study in Obsidian. 
+This project scrapes LDS General Conference talks and scriptures, processes them into JSON format, adds resources and AI-generated summaries, and generates/updates Markdown files for Obsidian. The goal is to create cross-referenced study materials.
 
-To these ends, the scripts will be named by what they produce. `json_conference.py` will scrape the conference input and output a corresponding JSON file. `add_conference_source.py` will then add a source to each talk in the specified general conference files in the output folder. 
+## Project Structure
 
-## Output Folders
-### json_scriptures
-Included with this template. I didn't use any copywritten versions of the LDS scriptures so I could include these json files. As a result there are no footnotes that are typically found in the scriptures. 
+### Folders
+- `conference_json/`: JSON files for conferences (e.g., `2024-october.json`)
+- `scriptures_json/`: JSON files for scripture volumes (e.g., `book_of_mormon.json`)
+- `Conference/`: Generated Markdown files for conference talks
+- `Scriptures/`: Generated Markdown files for scriptures (created by scripts)
 
-### json_conference
-Not included. You will need to scrape this from the internet on your own (tbh I feel like I could have it here within their )
+### Scripts
+- `conference_ai.py`: Generates AI summaries, tags, and related resources for conference talks using x.ai API.
+- `conference_md_updater.py`: Creates or updates Markdown files for conference talks in Obsidian, incorporating frontmatter, properties, AI summaries, and talk content.
+- `conference_scrape_to_json.py`: Scrapes LDS General Conference talks from the web, extracts content, footnotes, scriptures, and initial resources, and saves to JSON format.
+- `scripture_ai.py`: Generates AI summaries, tags, and related scriptures for scripture chapters using x.ai API.
+- `scripture_md_updater.py`: Creates or updates Markdown files for scriptures in Obsidian, adding frontmatter, resources, AI summaries, and preserving verse content.
 
-### Scriptures
+## Workflow
+1. Scrape conference data: `python conference_scrape_to_json.py <year> <month>`
+2. Add AI to conference: `python conference_ai.py <year> <month>`
+3. Update conference MD: `python conference_md_updater.py <year> <month>`
+4. Add AI to scriptures: `python scripture_ai.py`
+5. Update scripture MD: `python scripture_md_updater.py`
 
-### Conference
-
-## Generation Files
-### add_scripture_resource.py
-There can be various of these functions included. 
-
-### other future resource adder...
-
-### ai_scripture_resource.py
-
-
-### scrape_conference.py
-Scrapes the LDS conference and adds a few of the easier (have't or rarely error) resources. Uses the selenium project so you will need to be sure it's installed to run the python command.
-
-### md_conference_updater.py
-
-### md_scripture_updater.py
-This is a multi purpose script that either creates the scriptures_json folder with the markdown files in it or updates the headings of the markdown files so that any footnotes, highlights, etc. are preserved. Run it to create the markdown files or run it to update the resources on existing markdown files. 
+## Dependencies
+- Python libraries: selenium, webdriver-manager, requests, openai, dotenv, tqdm, concurrent.futures
+- ChromeDriver (auto-managed)
+- x.ai API key in .env for AI summaries
+- YouTube API key in .env for resource addition
 
