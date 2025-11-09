@@ -1,16 +1,20 @@
 """
 Sample Usage:
 - To scrape an entire General Conference:
-  python scrape-conference.py 2023 October
+  python3 conference_scrape_to_json.py 2023 October
   (This will scrape all talks from the specified conference and save to a JSON file like 'conference_json/2023-october.json'. Note: Month must be 'April' or 'October'.)
 
 - To scrape with replace:
-  python scrape-conference.py 2023 October --replace
+  python3 conference_scrape_to_json.py 2023 October --replace
   (This will replace existing resources.)
 
 - To scrape a single talk:
-  python scrape-conference.py https://www.churchofjesuschrist.org/study/general-conference/2023/10/12nelson?lang=eng
+  python3 conference_scrape_to_json.py https://www.churchofjesuschrist.org/study/general-conference/2023/10/12nelson?lang=eng
   (This will scrape the individual talk, determine the conference, and add/update it in the corresponding conference JSON file like 'conference_json/2023-october.json'. If the file doesn't exist, it will create it with just that talk.)
+
+- To scrape a range of years (both April and October):
+  python3 conference_scrape_to_json.py 2020-2023
+  (This will scrape all conferences from 2020 to 2023, both April and October.)
 """
 
 import os
@@ -247,16 +251,17 @@ def get_driver():
     service = Service(ChromeDriverManager().install())
     return webdriver.Chrome(service=service, options=options)
 
-def fetch_conference_videos(year, month):  # FIX: quota usage https://console.cloud.google.com/apis/api/youtube.googleapis.com/quotas?project=lds-gospel-study
+def fetch_conference_videos(year, month):
     api_key = os.getenv('YOUTUBE_API_KEY')
     if not api_key:
         raise ValueError("YOUTUBE_API_KEY is missing from .env file")
     channel_id = 'UCSdPpMokMoGCSSNShOecP9w'  # Official General Conference channel ID
-    query = f"{month} {year} General Conference"
-    videos = []
+    target_title = f"{month} {year} General Conference"
+    # First, find the playlist ID by listing all playlists (low quota cost: 1 unit per page)
+    playlist_id = None
     page_token = None
     while True:
-        api_url = f"https://www.googleapis.com/youtube/v3/search?part=snippet&channelId={channel_id}&q={quote(query)}&type=video&maxResults=50&order=relevance&key={api_key}"
+        api_url = f"https://www.googleapis.com/youtube/v3/playlists?part=snippet&channelId={channel_id}&maxResults=50&fields=nextPageToken%2Citems(id%2Csnippet%2Ftitle)&key={api_key}"
         if page_token:
             api_url += f"&pageToken={page_token}"
         try:
@@ -264,19 +269,90 @@ def fetch_conference_videos(year, month):  # FIX: quota usage https://console.cl
             response.raise_for_status()
             data = response.json()
             for item in data.get('items', []):
-                snippet = item['snippet']
-                video_id = item['id']['videoId']
-                title = snippet['title']
-                videos.append({'title': title, 'video_id': video_id})
+                title = item['snippet']['title']
+                if title.lower() == target_title.lower():
+                    playlist_id = item['id']
+                    break
+            if playlist_id:
+                break
             page_token = data.get('nextPageToken')
             if not page_token:
                 break
         except requests.exceptions.RequestException as e:
-            print(f"Error fetching videos: {e}")
+            print(f"Error fetching playlists: {e}")
             break
-    if not videos:
-        print(f"No videos found for {month} {year} General Conference")
-    return videos
+    if playlist_id:
+        # Fetch videos from the playlist (costs 1 unit per page)
+        videos = []
+        page_token = None
+        while True:
+            api_url = f"https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId={playlist_id}&maxResults=50&fields=nextPageToken%2Citems(snippet(title%2CresourceId))&key={api_key}"
+            if page_token:
+                api_url += f"&pageToken={page_token}"
+            try:
+                response = requests.get(api_url)
+                response.raise_for_status()
+                data = response.json()
+                for item in data.get('items', []):
+                    snippet = item['snippet']
+                    if 'resourceId' in snippet and 'videoId' in snippet['resourceId']:
+                        video_id = snippet['resourceId']['videoId']
+                        title = snippet['title']
+                        videos.append({'title': title, 'video_id': video_id})
+                page_token = data.get('nextPageToken')
+                if not page_token:
+                    break
+            except requests.exceptions.RequestException as e:
+                print(f"Error fetching playlist items: {e}")
+                break
+        if not videos:
+            print(f"No videos found in playlist for {target_title}")
+        return videos, True  # True indicates from playlist
+    else:
+        print(f"No playlist found for {target_title}. Falling back to video search.")
+        # Fallback to searching for videos (costs 100 units per page)
+        videos = []
+        page_token = None
+        query = quote(target_title)
+        while True:
+            api_url = f"https://www.googleapis.com/youtube/v3/search?part=snippet&channelId={channel_id}&q={query}&type=video&maxResults=50&order=relevance&fields=nextPageToken%2Citems(id%2FvideoId%2Csnippet%2Ftitle)&key={api_key}"
+            if page_token:
+                api_url += f"&pageToken={page_token}"
+            try:
+                response = requests.get(api_url)
+                response.raise_for_status()
+                data = response.json()
+                for item in data.get('items', []):
+                    snippet = item['snippet']
+                    video_id = item['id']['videoId']
+                    title = snippet['title']
+                    videos.append({'title': title, 'video_id': video_id})
+                page_token = data.get('nextPageToken')
+                if not page_token:
+                    break
+            except requests.exceptions.RequestException as e:
+                print(f"Error fetching videos: {e}")
+                break
+        return videos, False  # False indicates from search
+
+def fetch_individual_video(query, year, month):
+    api_key = os.getenv('YOUTUBE_API_KEY')
+    channel_id = 'UCSdPpMokMoGCSSNShOecP9w'
+    query = f'{query} {month} {year} General Conference'
+    api_url = f"https://www.googleapis.com/youtube/v3/search?part=snippet&channelId={channel_id}&q={quote(query)}&type=video&maxResults=1&order=relevance&key={api_key}"
+    try:
+        response = requests.get(api_url)
+        response.raise_for_status()
+        data = response.json()
+        items = data.get('items', [])
+        if items:
+            item = items[0]
+            video_id = item['id']['videoId']
+            title = item['snippet']['title']
+            return [{'title': title, 'video_id': video_id}]
+    except requests.exceptions.RequestException as e:
+        print(f"Error searching for {query}: {e}")
+    return []
 
 def scrape_talk_basics(url, session_name, year=None, month=None, driver=None):
     if driver is None:
@@ -405,7 +481,9 @@ def scrape_talk_basics(url, session_name, year=None, month=None, driver=None):
         if own_driver:
             driver.quit()
 
-def add_youtube_resource(talk, videos, replace=False):
+def add_youtube_resource(talk, videos, is_from_playlist, replace=False):
+    if 'sustaining' in talk['title'].lower() or 'auditing' in talk['title'].lower():
+        return
     if not replace and any(r['name'] == 'YouTube Video' for r in talk['resources']):
         return
     norm_title = get_uniform_talk_key(talk['title'])
@@ -413,12 +491,19 @@ def add_youtube_resource(talk, videos, replace=False):
     for video in videos:
         video_title_lower = video['title'].lower()
         norm_video_title = re.sub(r'[^a-z0-9\s]', '', video_title_lower)
-        norm_video_for_speaker = re.sub(r'[^a-z0-9\s]', '', video_title_lower)  # FIX: Normalize for speaker check to handle punctuation like "H."
-        if norm_title in norm_video_title and norm_speaker in norm_video_for_speaker:
-            url = f"https://www.youtube.com/watch?v={video['video_id']}"
-            talk['resources'] = [r for r in talk['resources'] if r['name'] != 'YouTube Video']
-            talk['resources'].append({'name': 'YouTube Video', 'url': url})
-            return
+        norm_video_for_speaker = re.sub(r'[^a-z0-9\s]', '', video_title_lower)
+        if is_from_playlist:
+            if norm_title in norm_video_title:
+                url = f"https://www.youtube.com/watch?v={video['video_id']}"
+                talk['resources'] = [r for r in talk['resources'] if r['name'] != 'YouTube Video']
+                talk['resources'].append({'name': 'YouTube Video', 'url': url})
+                return
+        else:
+            if norm_title in norm_video_title and norm_speaker in norm_video_for_speaker:
+                url = f"https://www.youtube.com/watch?v={video['video_id']}"
+                talk['resources'] = [r for r in talk['resources'] if r['name'] != 'YouTube Video']
+                talk['resources'].append({'name': 'YouTube Video', 'url': url})
+                return
     print(f"No matching YouTube video found for \"{talk['title']}\"")
 
 def add_byu_resource(talk, byu_talks, conf_hash, replace=False):
@@ -541,7 +626,7 @@ def get_conference_filename(year, month):
     sanitized_conference = re.sub(r'[^a-z0-9\- ]', '', f"{year}-{month.lower()}", flags=re.IGNORECASE)
     return os.path.join(JSON_DIR, f"{sanitized_conference}.json")
 
-def scrape_conference(year, month, replace=False):
+def scrape_conference(year, month, replace=False, youtube_debug=False):
     month_code = '04' if month.lower() in ['apr', 'april'] else '10' if month.lower() in ['oct', 'october'] else None
     if not month_code:
         raise ValueError('Invalid month: Must be April or October')
@@ -598,8 +683,8 @@ def scrape_conference(year, month, replace=False):
                 else:
                     print(f"Failed to scrape basics at {talk_item['url']}")
                 pbar.update(1)
-        # Fetch YouTube videos via search  # FIX: Changed from playlist to search
-        videos = fetch_conference_videos(year, month)
+        # Fetch YouTube videos via playlist (optimized for low quota)
+        videos, is_from_playlist = fetch_conference_videos(year, month)
         # Fetch batch resources
         byu_talks, conf_hash = fetch_byu_talks(driver, year, month)
         # Add missing resources to all talks
@@ -608,10 +693,25 @@ def scrape_conference(year, month, replace=False):
         with tqdm(total=total_talks, desc="Adding resources") as pbar:
             for session_name, talks in conference_data['sessions'].items():
                 for talk in talks:
-                    add_youtube_resource(talk, videos, replace)
+                    add_youtube_resource(talk, videos, is_from_playlist, replace)
                     add_byu_resource(talk, byu_talks, conf_hash, replace)
                     add_church_news_resource(talk, year, month, replace, driver)
                     pbar.update(1)
+        if youtube_debug:
+            missing_talks = []
+            for session_name, talks in conference_data['sessions'].items():
+                for talk in talks:
+                    if not any(r['name'] == 'YouTube Video' for r in talk['resources']):
+                        missing_talks.append(talk)
+            if missing_talks:
+                print(f"Found {len(missing_talks)} talks missing YouTube videos. Debugging...")
+                with tqdm(total=len(missing_talks), desc="Debugging YouTube") as pbar:
+                    for talk in missing_talks:
+                        query = f'"{talk["speaker"]} {talk["title"]}"'
+                        debug_videos = fetch_individual_video(query, year, month)
+                        if debug_videos:
+                            add_youtube_resource(talk, debug_videos, False, replace=True)  # False since from search
+                        pbar.update(1)
         # Save
         with open(filename, 'w') as f:
             json.dump(conference_data, f, indent=2)
@@ -619,7 +719,7 @@ def scrape_conference(year, month, replace=False):
     finally:
         driver.quit()
 
-def scrape_single_talk(url, replace=False):
+def scrape_single_talk(url, replace=False, youtube_debug=False):
     match = re.search(r'/general-conference/(\d{4})/(\d{2})/', url)
     year = match.group(1) if match else None
     month_code = match.group(2) if match else None
@@ -681,14 +781,19 @@ def scrape_single_talk(url, replace=False):
             conference_data['sessions'][session_name].append(talk_basics)
             print(f"Added talk basics '{talk_basics['title']}' to {filename}")
             talk_to_update = talk_basics
-        # Fetch YouTube videos via search for single talk (efficient, same as batch)  # FIX: Changed from playlist to search
-        videos = fetch_conference_videos(year, month)
+        # Fetch YouTube videos via playlist for single talk (optimized, same as batch)
+        videos, is_from_playlist = fetch_conference_videos(year, month)
         # Fetch batch resources
         byu_talks, conf_hash = fetch_byu_talks(driver, year, month)
         # Add resources
-        add_youtube_resource(talk_to_update, videos, replace)
+        add_youtube_resource(talk_to_update, videos, is_from_playlist, replace)
         add_byu_resource(talk_to_update, byu_talks, conf_hash, replace)
         add_church_news_resource(talk_to_update, year, month, replace, driver)
+        if youtube_debug and not any(r['name'] == 'YouTube Video' for r in talk_to_update['resources']):
+            query = f'"{talk_to_update["speaker"]} {talk_to_update["title"]}"'
+            debug_videos = fetch_individual_video(query, year, month)
+            if debug_videos:
+                add_youtube_resource(talk_to_update, debug_videos, False, replace=True)  # False since from search
         with open(filename, 'w') as f:
             json.dump(conference_data, f, indent=2)
         print(f"Saved updated data to {filename}")
@@ -700,15 +805,29 @@ if __name__ == '__main__':
     parser.add_argument('year_or_url', help="Year or URL")
     parser.add_argument('month', nargs='?', choices=['April', 'October'], help="Month (April or October)")
     parser.add_argument('--replace', action='store_true', help="Replace existing resources")
+    parser.add_argument('--youtube-debug', action='store_true', help="Debug missing YouTube links by searching individually")
     args = parser.parse_args()
     if args.month:
-        year = int(args.year_or_url)
+        try:
+            year = int(args.year_or_url)
+        except ValueError:
+            print('Invalid year')
+            sys.exit(1)
         month = args.month
-        scrape_conference(year, month, args.replace)
+        scrape_conference(year, month, args.replace, args.youtube_debug)
     else:
-        url = args.year_or_url
-        if url.startswith('https://'):
-            scrape_single_talk(url, args.replace)
+        input_str = args.year_or_url
+        if input_str.startswith('https://'):
+            scrape_single_talk(input_str, args.replace, args.youtube_debug)
+        elif '-' in input_str:
+            try:
+                start_year, end_year = map(int, input_str.split('-'))
+                for year in range(start_year, end_year + 1):
+                    for month in ['April', 'October']:
+                        scrape_conference(year, month, args.replace, args.youtube_debug)
+            except ValueError:
+                print('Invalid year range format. Use YYYY-YYYY.')
+                sys.exit(1)
         else:
-            print('Invalid URL or year')
+            print('Invalid input. Provide a year and month, a year range, or a URL.')
             sys.exit(1)
