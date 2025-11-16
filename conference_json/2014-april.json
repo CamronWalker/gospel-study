@@ -1,0 +1,237 @@
+{
+  "conference": "2014-April",
+  "year": 2014,
+  "month": "April",
+  "sessions": {
+    "Saturday Morning Session": {
+      "talks": {
+        "welcome-to-conference": {
+          "title": "Welcome to Conference",
+          "speaker": "Thomas S. Monson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/welcome-to-conference?lang=eng"
+        },
+        "the-cost-and-blessings-of-discipleship": {
+          "title": "The Cost\u2014and Blessings\u2014of Discipleship",
+          "speaker": "Jeffrey R. Holland",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/the-cost-and-blessings-of-discipleship?lang=eng"
+        },
+        "the-joyful-burden-of-discipleship": {
+          "title": "The Joyful Burden of Discipleship",
+          "speaker": "Ronald A. Rasband",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/the-joyful-burden-of-discipleship?lang=eng"
+        },
+        "christ-the-redeemer": {
+          "title": "Christ the Redeemer",
+          "speaker": "Carlos H. Amado",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/christ-the-redeemer?lang=eng"
+        },
+        "protection-from-pornography-a-christ-focused-home": {
+          "title": "Protection from Pornography\u2014a Christ-Focused Home",
+          "speaker": "Linda S. Reeves",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/protection-from-pornography-a-christ-focused-home?lang=eng"
+        },
+        "spiritual-whirlwinds": {
+          "title": "Spiritual Whirlwinds",
+          "speaker": "Neil L. Andersen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/spiritual-whirlwinds?lang=eng"
+        },
+        "a-priceless-heritage-of-hope": {
+          "title": "A Priceless Heritage of Hope",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/a-priceless-heritage-of-hope?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/saturday-morning-session?lang=eng"
+    },
+    "Saturday Afternoon Session": {
+      "talks": {
+        "the-sustaining-of-church-officers": {
+          "title": "The Sustaining of Church Officers",
+          "speaker": "Dieter F. Uchtdorf",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/the-sustaining-of-church-officers?lang=eng"
+        },
+        "church-auditing-department-report-2013": {
+          "title": "Church Auditing Department Report, 2013",
+          "speaker": "Kevin R. Jergensen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/church-auditing-department-report-2013?lang=eng"
+        },
+        "statistical-report-2013": {
+          "title": "Statistical Report, 2013",
+          "speaker": "Brook P. Hales",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/statistical-report-2013?lang=eng"
+        },
+        "let-your-faith-show": {
+          "title": "Let Your Faith Show",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/let-your-faith-show?lang=eng"
+        },
+        "i-have-given-you-an-example": {
+          "title": "\u201cI Have Given You an Example\u201d",
+          "speaker": "Richard G. Scott",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/i-have-given-you-an-example?lang=eng"
+        },
+        "if-ye-love-me-keep-my-commandments": {
+          "title": "\u201cIf Ye Love Me, Keep My Commandments\u201d",
+          "speaker": "Robert D. Hales",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/if-ye-love-me-keep-my-commandments?lang=eng"
+        },
+        "lets-not-take-the-wrong-way": {
+          "title": "Let\u2019s Not Take the Wrong Way",
+          "speaker": "Claudio D. Zivic",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/lets-not-take-the-wrong-way?lang=eng"
+        },
+        "what-are-you-thinking": {
+          "title": "What Are You Thinking?",
+          "speaker": "W. Craig Zwick",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/what-are-you-thinking?lang=eng"
+        },
+        "roots-and-branches": {
+          "title": "Roots and Branches",
+          "speaker": "Quentin L. Cook",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/roots-and-branches?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/saturday-afternoon-session?lang=eng"
+    },
+    "Priesthood Session": {
+      "talks": {
+        "the-keys-and-authority-of-the-priesthood": {
+          "title": "The Keys and Authority of the Priesthood",
+          "speaker": "Dallin H. Oaks",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/the-keys-and-authority-of-the-priesthood?lang=eng"
+        },
+        "what-manner-of-men": {
+          "title": "What Manner of Men?",
+          "speaker": "Donald L. Hallstrom",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/what-manner-of-men?lang=eng"
+        },
+        "the-choice-generation": {
+          "title": "The Choice Generation",
+          "speaker": "Randall L. Ridd",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/the-choice-generation?lang=eng"
+        },
+        "are-you-sleeping-through-the-restoration": {
+          "title": "Are You Sleeping through the Restoration?",
+          "speaker": "Dieter F. Uchtdorf",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/are-you-sleeping-through-the-restoration?lang=eng"
+        },
+        "the-priesthood-man": {
+          "title": "The Priesthood Man",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/the-priesthood-man?lang=eng"
+        },
+        "be-strong-and-of-a-good-courage": {
+          "title": "Be Strong and of a Good Courage",
+          "speaker": "Thomas S. Monson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/be-strong-and-of-a-good-courage?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/priesthood-session?lang=eng"
+    },
+    "Sunday Morning Session": {
+      "talks": {
+        "grateful-in-any-circumstances": {
+          "title": "Grateful in Any Circumstances",
+          "speaker": "Dieter F. Uchtdorf",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/grateful-in-any-circumstances?lang=eng"
+        },
+        "following-up": {
+          "title": "Following Up",
+          "speaker": "M. Russell Ballard",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/following-up?lang=eng"
+        },
+        "fear-not-i-am-with-thee": {
+          "title": "\u201cFear Not; I Am with Thee\u201d",
+          "speaker": "Jean A. Stevens",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/fear-not-i-am-with-thee?lang=eng"
+        },
+        "your-four-minutes": {
+          "title": "Your Four Minutes",
+          "speaker": "Gary E. Stevenson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/your-four-minutes?lang=eng"
+        },
+        "bear-up-their-burdens-with-ease": {
+          "title": "Bear Up Their Burdens with Ease",
+          "speaker": "David A. Bednar",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/bear-up-their-burdens-with-ease?lang=eng"
+        },
+        "love-the-essence-of-the-gospel": {
+          "title": "Love\u2014the Essence of the Gospel",
+          "speaker": "Thomas S. Monson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/love-the-essence-of-the-gospel?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/sunday-morning-session?lang=eng"
+    },
+    "Sunday Afternoon Session": {
+      "talks": {
+        "the-witness": {
+          "title": "The Witness",
+          "speaker": "Boyd K. Packer",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/the-witness?lang=eng"
+        },
+        "live-true-to-the-faith": {
+          "title": "Live True to the Faith",
+          "speaker": "William R. Walker",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/live-true-to-the-faith?lang=eng"
+        },
+        "obedience-through-our-faithfulness": {
+          "title": "Obedience through Our Faithfulness",
+          "speaker": "L. Tom Perry",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/obedience-through-our-faithfulness?lang=eng"
+        },
+        "the-prophet-joseph-smith": {
+          "title": "The Prophet Joseph Smith",
+          "speaker": "Lawrence E. Corbridge",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/the-prophet-joseph-smith?lang=eng"
+        },
+        "where-your-treasure-is": {
+          "title": "Where Your Treasure Is",
+          "speaker": "Michael John U. Teh",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/where-your-treasure-is?lang=eng"
+        },
+        "if-ye-lack-wisdom": {
+          "title": "If Ye Lack Wisdom",
+          "speaker": "Marcos A. Aidukaitis",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/if-ye-lack-wisdom?lang=eng"
+        },
+        "the-resurrection-of-jesus-christ": {
+          "title": "The Resurrection of Jesus Christ",
+          "speaker": "D. Todd Christofferson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/the-resurrection-of-jesus-christ?lang=eng"
+        },
+        "until-we-meet-again": {
+          "title": "Until We Meet Again",
+          "speaker": "Thomas S. Monson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/until-we-meet-again?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/sunday-afternoon-session?lang=eng"
+    },
+    "General Women\u2019s Meeting": {
+      "talks": {
+        "keeping-covenants-protects-us-prepares-us-and-empowers-us": {
+          "title": "Keeping Covenants Protects Us, Prepares Us, and Empowers Us",
+          "speaker": "Rosemary M. Wixom",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/keeping-covenants-protects-us-prepares-us-and-empowers-us?lang=eng"
+        },
+        "sisterhood-oh-how-we-need-each-other": {
+          "title": "Sisterhood: Oh, How We Need Each Other",
+          "speaker": "Bonnie L. Oscarson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/sisterhood-oh-how-we-need-each-other?lang=eng"
+        },
+        "wanted-hands-and-hearts-to-hasten-the-work": {
+          "title": "Wanted: Hands and Hearts to Hasten the Work",
+          "speaker": "Linda K. Burton",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/wanted-hands-and-hearts-to-hasten-the-work?lang=eng"
+        },
+        "daughters-in-the-covenant": {
+          "title": "Daughters in the Covenant",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/daughters-in-the-covenant?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/04/womens-session?lang=eng"
+    }
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "conference": "1989-October",
+  "year": 1989,
+  "month": "October",
+  "sessions": {
+    "Saturday Morning Session": {
+      "talks": {
+        "to-the-elderly-in-the-church": {
+          "title": "To the Elderly in the Church",
+          "speaker": "Ezra Taft Benson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/to-the-elderly-in-the-church?lang=eng"
+        },
+        "continuous-revelation": {
+          "title": "Continuous Revelation",
+          "speaker": "James E. Faust",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/continuous-revelation?lang=eng"
+        },
+        "remembrance-and-gratitude": {
+          "title": "Remembrance and Gratitude",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/remembrance-and-gratitude?lang=eng"
+        },
+        "revelation-in-a-changing-world": {
+          "title": "Revelation in a Changing World",
+          "speaker": "Boyd K. Packer",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/revelation-in-a-changing-world?lang=eng"
+        },
+        "the-golden-thread-of-choice": {
+          "title": "The Golden Thread of Choice",
+          "speaker": "Howard W. Hunter",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/the-golden-thread-of-choice?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/saturday-morning-session?lang=eng"
+    },
+    "Saturday Afternoon Session": {
+      "talks": {
+        "the-sustaining-of-church-officers": {
+          "title": "The Sustaining of Church Officers",
+          "speaker": "Gordon B. Hinckley",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/the-sustaining-of-church-officers?lang=eng"
+        },
+        "woman-of-infinite-worth": {
+          "title": "Woman\u2014Of Infinite Worth",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/woman-of-infinite-worth?lang=eng"
+        },
+        "love": {
+          "title": "Love",
+          "speaker": "W. Eugene Hansen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/love?lang=eng"
+        },
+        "he-loved-them-unto-the-end": {
+          "title": "\u201cHe Loved Them unto the End\u201d",
+          "speaker": "Jeffrey R. Holland",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/he-loved-them-unto-the-end?lang=eng"
+        },
+        "an-eye-single-to-the-glory-of-god": {
+          "title": "\u201cAn Eye Single to the Glory of God\u201d",
+          "speaker": "Marlin K. Jensen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/an-eye-single-to-the-glory-of-god?lang=eng"
+        },
+        "overcoming-adversity": {
+          "title": "Overcoming Adversity",
+          "speaker": "Carlos H. Amado",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/overcoming-adversity?lang=eng"
+        },
+        "learning-to-recognize-answers-to-prayer": {
+          "title": "Learning to Recognize Answers to Prayer",
+          "speaker": "Richard G. Scott",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/learning-to-recognize-answers-to-prayer?lang=eng"
+        },
+        "duties-rewards-and-risks": {
+          "title": "Duties, Rewards, and Risks",
+          "speaker": "M. Russell Ballard",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/duties-rewards-and-risks?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/saturday-afternoon-session?lang=eng"
+    },
+    "Priesthood Session": {
+      "talks": {
+        "stalwart-and-brave-we-stand": {
+          "title": "\u201cStalwart and Brave We Stand\u201d",
+          "speaker": "Marvin J. Ashton",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/stalwart-and-brave-we-stand?lang=eng"
+        },
+        "chastity-the-source-of-true-manhood": {
+          "title": "Chastity: The Source of True Manhood",
+          "speaker": "Robert L. Backman",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/chastity-the-source-of-true-manhood?lang=eng"
+        },
+        "the-value-of-preparation": {
+          "title": "The Value of Preparation",
+          "speaker": "Ben B. Banks",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/the-value-of-preparation?lang=eng"
+        },
+        "good-memories-are-real-blessings": {
+          "title": "Good Memories Are Real Blessings",
+          "speaker": "Joe J. Christensen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/good-memories-are-real-blessings?lang=eng"
+        },
+        "the-service-that-counts": {
+          "title": "The Service That Counts",
+          "speaker": "Thomas S. Monson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/the-service-that-counts?lang=eng"
+        },
+        "the-scourge-of-illicit-drugs": {
+          "title": "The Scourge of Illicit Drugs",
+          "speaker": "Gordon B. Hinckley",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/the-scourge-of-illicit-drugs?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/priesthood-session?lang=eng"
+    },
+    "Sunday Morning Session": {
+      "talks": {
+        "an-ensign-to-the-nations": {
+          "title": "An Ensign to the Nations",
+          "speaker": "Gordon B. Hinckley",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/an-ensign-to-the-nations?lang=eng"
+        },
+        "the-sacrament-and-the-sacrifice": {
+          "title": "The Sacrament\u2014and the Sacrifice",
+          "speaker": "David B. Haight",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/the-sacrament-and-the-sacrifice?lang=eng"
+        },
+        "winding-up-our-spiritual-clocks": {
+          "title": "Winding Up Our Spiritual Clocks",
+          "speaker": "Dean L. Larsen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/winding-up-our-spiritual-clocks?lang=eng"
+        },
+        "modern-pioneers": {
+          "title": "Modern Pioneers",
+          "speaker": "Dallin H. Oaks",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/modern-pioneers?lang=eng"
+        },
+        "windows": {
+          "title": "Windows",
+          "speaker": "Thomas S. Monson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/windows?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/sunday-morning-session?lang=eng"
+    },
+    "Sunday Afternoon Session": {
+      "talks": {
+        "the-peaceable-followers-of-christ": {
+          "title": "\u201cThe Peaceable Followers of Christ\u201d",
+          "speaker": "L. Tom Perry",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/the-peaceable-followers-of-christ?lang=eng"
+        },
+        "running-your-marathon": {
+          "title": "Running Your Marathon",
+          "speaker": "Joseph B. Wirthlin",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/running-your-marathon?lang=eng"
+        },
+        "a-lifetime-of-learning": {
+          "title": "A Lifetime of Learning",
+          "speaker": "Victor L. Brown",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/a-lifetime-of-learning?lang=eng"
+        },
+        "the-summer-of-the-lambs": {
+          "title": "The Summer of the Lambs",
+          "speaker": "Jayne B. Malan",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/the-summer-of-the-lambs?lang=eng"
+        },
+        "keep-the-faith": {
+          "title": "Keep the Faith",
+          "speaker": "F. Arthur Kay",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/keep-the-faith?lang=eng"
+        },
+        "look-to-the-savior": {
+          "title": "Look to the Savior",
+          "speaker": "John Sonnenberg",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/look-to-the-savior?lang=eng"
+        },
+        "murmur-not": {
+          "title": "\u201cMurmur Not\u201d",
+          "speaker": "Neal A. Maxwell",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/murmur-not?lang=eng"
+        },
+        "a-word-of-benediction": {
+          "title": "A Word of Benediction",
+          "speaker": "Gordon B. Hinckley",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/a-word-of-benediction?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/sunday-afternoon-session?lang=eng"
+    },
+    "General Women\u2019s Meeting": {
+      "talks": {
+        "identity-of-a-young-woman": {
+          "title": "Identity of a Young Woman",
+          "speaker": "Elaine L. Jack",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/identity-of-a-young-woman?lang=eng"
+        },
+        "remember-him": {
+          "title": "\u201cRemember Him\u201d",
+          "speaker": "Joanne B. Doxey",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/remember-him?lang=eng"
+        },
+        "follow-him": {
+          "title": "Follow Him",
+          "speaker": "Michaelene P. Grassli",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/follow-him?lang=eng"
+        },
+        "rise-to-the-stature-of-the-divine-within-you": {
+          "title": "Rise to the Stature of the Divine within You",
+          "speaker": "Gordon B. Hinckley",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/rise-to-the-stature-of-the-divine-within-you?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/10/womens-session?lang=eng"
+    }
+  }
+}

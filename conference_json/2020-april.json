@@ -1,0 +1,207 @@
+{
+  "conference": "2020-April",
+  "year": 2020,
+  "month": "April",
+  "sessions": {
+    "Saturday Morning Session": {
+      "talks": {
+        "11nelson": {
+          "title": "Opening Message",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/11nelson?lang=eng"
+        },
+        "12ballard": {
+          "title": "Shall We Not Go On in So Great a Cause?",
+          "speaker": "M. Russell Ballard",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/12ballard?lang=eng"
+        },
+        "13rasband": {
+          "title": "Ensuring a Righteous Judgment",
+          "speaker": "James R. Rasband",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/13rasband?lang=eng"
+        },
+        "14jones": {
+          "title": "An Especially Noble Calling",
+          "speaker": "Joy D. Jones",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/14jones?lang=eng"
+        },
+        "15andersen": {
+          "title": "Spiritually Defining Memories",
+          "speaker": "Neil L. Andersen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/15andersen?lang=eng"
+        },
+        "16holmes": {
+          "title": "Deep in Our Heart",
+          "speaker": "Douglas D. Holmes",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/16holmes?lang=eng"
+        },
+        "17eyring": {
+          "title": "Prayers of Faith",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/17eyring?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/saturday-morning-session?lang=eng"
+    },
+    "Saturday Afternoon Session": {
+      "talks": {
+        "21oaks": {
+          "title": "Sustaining of General Authorities, Area Seventies, and General Officers",
+          "speaker": "Dallin H. Oaks",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/21oaks?lang=eng"
+        },
+        "22jergensen": {
+          "title": "Church Auditing Department Report, 2019",
+          "speaker": "Kevin R. Jergensen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/22jergensen?lang=eng"
+        },
+        "23soares": {
+          "title": "The Coming Forth of the Book of Mormon",
+          "speaker": "Ulisses Soares",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/23soares?lang=eng"
+        },
+        "24mccune": {
+          "title": "Come unto Christ\u2014Living as Latter-day Saints",
+          "speaker": "John A. McCune",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/24mccune?lang=eng"
+        },
+        "25causse": {
+          "title": "A Living Witness of the Living Christ",
+          "speaker": "G\u00e9rald Causs\u00e9",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/25causse?lang=eng"
+        },
+        "26renlund": {
+          "title": "Consider the Goodness and Greatness of God",
+          "speaker": "Dale G. Renlund",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/26renlund?lang=eng"
+        },
+        "27tai": {
+          "title": "The Power of the Book of Mormon in Conversion",
+          "speaker": "Benjamin M. Z. Tai",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/27tai?lang=eng"
+        },
+        "28stevenson": {
+          "title": "A Good Foundation against the Time to Come",
+          "speaker": "Gary E. Stevenson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/28stevenson?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/saturday-afternoon-session?lang=eng"
+    },
+    "Saturday Evening Session": {
+      "talks": {
+        "31gong": {
+          "title": "Hosanna and Hallelujah\u2014The Living Jesus Christ: The Heart of Restoration and Easter",
+          "speaker": "Gerrit W. Gong",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/31gong?lang=eng"
+        },
+        "32alvarez": {
+          "title": "How the Priesthood Blesses Youth",
+          "speaker": "Laudy Ruth Kaouk Alvarez",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/32alvarez?lang=eng"
+        },
+        "33petelo": {
+          "title": "How the Priesthood Blesses Youth",
+          "speaker": "Enzo Serge Petelo",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/33petelo?lang=eng"
+        },
+        "34bingham": {
+          "title": "United in Accomplishing God\u2019s Work",
+          "speaker": "Jean B. Bingham",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/34bingham?lang=eng"
+        },
+        "35eyring": {
+          "title": "He Goes before Us",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/35eyring?lang=eng"
+        },
+        "36oaks": {
+          "title": "The Melchizedek Priesthood and the Keys",
+          "speaker": "Dallin H. Oaks",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/36oaks?lang=eng"
+        },
+        "37nelson": {
+          "title": "Opening the Heavens for Help",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/37nelson?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/saturday-evening-session?lang=eng"
+    },
+    "Sunday Morning Session": {
+      "talks": {
+        "41rasband": {
+          "title": "Fulfillment of Prophecy",
+          "speaker": "Ronald A. Rasband",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/41rasband?lang=eng"
+        },
+        "42cordon": {
+          "title": "That They May See",
+          "speaker": "Bonnie H. Cordon",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/42cordon?lang=eng"
+        },
+        "43holland": {
+          "title": "A Perfect Brightness of Hope",
+          "speaker": "Jeffrey R. Holland",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/43holland?lang=eng"
+        },
+        "44bednar": {
+          "title": "\u201cLet This House Be Built unto My Name\u201d",
+          "speaker": "David A. Bednar",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/44bednar?lang=eng"
+        },
+        "45nelson": {
+          "title": "Hear Him",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/45nelson?lang=eng"
+        },
+        "46nelson": {
+          "title": "Hosanna Shout",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/46nelson?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/sunday-morning-session?lang=eng"
+    },
+    "Sunday Afternoon Session": {
+      "talks": {
+        "51oaks": {
+          "title": "The Great Plan",
+          "speaker": "Dallin H. Oaks",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/51oaks?lang=eng"
+        },
+        "52cook": {
+          "title": "The Blessing of Continuing Revelation to Prophets and Personal Revelation to Guide Our Lives",
+          "speaker": "Quentin L. Cook",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/52cook?lang=eng"
+        },
+        "53gimenez": {
+          "title": "Finding Refuge from the Storms of Life",
+          "speaker": "Ricardo P. Gim\u00e9nez",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/53gimenez?lang=eng"
+        },
+        "54uchtdorf": {
+          "title": "Come and Belong",
+          "speaker": "Dieter F. Uchtdorf",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/54uchtdorf?lang=eng"
+        },
+        "55clayton": {
+          "title": "The Finest Homes",
+          "speaker": "L. Whitney Clayton",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/55clayton?lang=eng"
+        },
+        "56christofferson": {
+          "title": "Sharing the Message of the Restoration and the Resurrection",
+          "speaker": "D. Todd Christofferson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/56christofferson?lang=eng"
+        },
+        "57nelson": {
+          "title": "Go Forward in Faith",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/57nelson?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/04/sunday-afternoon-session?lang=eng"
+    }
+  }
+}

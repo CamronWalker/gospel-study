@@ -1,0 +1,227 @@
+{
+  "conference": "1996-April",
+  "year": 1996,
+  "month": "April",
+  "sessions": {
+    "Saturday Morning": {
+      "talks": {
+        "the-prophetic-voice": {
+          "title": "The Prophetic Voice",
+          "speaker": "James E. Faust",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/the-prophetic-voice?lang=eng"
+        },
+        "ye-may-know": {
+          "title": "\u201cYe May Know\u201d",
+          "speaker": "Keith B. McMullin",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/ye-may-know?lang=eng"
+        },
+        "the-sabbath-day-and-sunday-shopping": {
+          "title": "The Sabbath Day and Sunday Shopping",
+          "speaker": "Earl C. Tingey",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/the-sabbath-day-and-sunday-shopping?lang=eng"
+        },
+        "baskets-and-bottles": {
+          "title": "Baskets and Bottles",
+          "speaker": "Chieko N. Okazaki",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/baskets-and-bottles?lang=eng"
+        },
+        "thou-shalt-have-no-other-gods": {
+          "title": "\u201cThou Shalt Have No Other Gods\u201d",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/thou-shalt-have-no-other-gods?lang=eng"
+        },
+        "the-word-of-wisdom-the-principle-and-the-promises": {
+          "title": "The Word of Wisdom: The Principle and the Promises",
+          "speaker": "Boyd K. Packer",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/the-word-of-wisdom-the-principle-and-the-promises?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/saturday-morning-session?lang=eng"
+    },
+    "Saturday Afternoon Session": {
+      "talks": {
+        "the-sustaining-of-church-officers": {
+          "title": "The Sustaining of Church Officers",
+          "speaker": "James E. Faust",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/the-sustaining-of-church-officers?lang=eng"
+        },
+        "the-church-audit-committee-report": {
+          "title": "The Church Audit Committee Report",
+          "speaker": "Ted E. Davis",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/the-church-audit-committee-report?lang=eng"
+        },
+        "statistical-report-1995": {
+          "title": "Statistical Report 1995",
+          "speaker": "F. Michael Watson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/statistical-report-1995?lang=eng"
+        },
+        "this-work-is-true": {
+          "title": "This Work Is True",
+          "speaker": "David B. Haight",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/this-work-is-true?lang=eng"
+        },
+        "finding-joy-in-life": {
+          "title": "Finding Joy in Life",
+          "speaker": "Richard G. Scott",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/finding-joy-in-life?lang=eng"
+        },
+        "commitment": {
+          "title": "Commitment",
+          "speaker": "F. Burton Howard",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/commitment?lang=eng"
+        },
+        "a-handful-of-meal-and-a-little-oil": {
+          "title": "A Handful of Meal and a Little Oil",
+          "speaker": "Jeffrey R. Holland",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/a-handful-of-meal-and-a-little-oil?lang=eng"
+        },
+        "faith-of-our-fathers": {
+          "title": "Faith of Our Fathers",
+          "speaker": "Joseph B. Wirthlin",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/faith-of-our-fathers?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/saturday-afternoon-session?lang=eng"
+    },
+    "Priesthood Session": {
+      "talks": {
+        "if-thou-wilt-enter-into-life-keep-the-commandments": {
+          "title": "\u201cIf Thou Wilt Enter into Life, Keep the Commandments\u201d",
+          "speaker": "Robert D. Hales",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/if-thou-wilt-enter-into-life-keep-the-commandments?lang=eng"
+        },
+        "spiritual-shepherds": {
+          "title": "Spiritual Shepherds",
+          "speaker": "W. Eugene Hansen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/spiritual-shepherds?lang=eng"
+        },
+        "what-i-want-my-son-to-know-before-he-leaves-on-his-mission": {
+          "title": "What I Want My Son to Know before He Leaves on His Mission",
+          "speaker": "James E. Faust",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/what-i-want-my-son-to-know-before-he-leaves-on-his-mission?lang=eng"
+        },
+        "duty-calls": {
+          "title": "Duty Calls",
+          "speaker": "Thomas S. Monson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/duty-calls?lang=eng"
+        },
+        "be-ye-clean": {
+          "title": "\u201cBe Ye Clean\u201d",
+          "speaker": "Gordon B. Hinckley",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/be-ye-clean?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/priesthood-session?lang=eng"
+    },
+    "Sunday Morning Session": {
+      "talks": {
+        "the-way-of-the-master": {
+          "title": "The Way of the Master",
+          "speaker": "Thomas S. Monson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/the-way-of-the-master?lang=eng"
+        },
+        "sacrament-of-the-lords-supper": {
+          "title": "Sacrament of the Lord\u2019s Supper",
+          "speaker": "L. Tom Perry",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/sacrament-of-the-lords-supper?lang=eng"
+        },
+        "stay-on-the-true-course": {
+          "title": "Stay on the True Course",
+          "speaker": "Carlos E. Asay",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/stay-on-the-true-course?lang=eng"
+        },
+        "a-legacy-of-testimony": {
+          "title": "A Legacy of Testimony",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/a-legacy-of-testimony?lang=eng"
+        },
+        "this-glorious-easter-morn": {
+          "title": "This Glorious Easter Morn",
+          "speaker": "Gordon B. Hinckley",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/this-glorious-easter-morn?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/sunday-morning-session?lang=eng"
+    },
+    "Sunday Afternoon Session": {
+      "talks": {
+        "becometh-as-a-child": {
+          "title": "\u201cBecometh As a Child\u201d",
+          "speaker": "Neal A. Maxwell",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/becometh-as-a-child?lang=eng"
+        },
+        "joseph-the-man-and-the-prophet": {
+          "title": "Joseph, the Man and the Prophet",
+          "speaker": "Dallin H. Oaks",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/joseph-the-man-and-the-prophet?lang=eng"
+        },
+        "conversion-and-commitment": {
+          "title": "Conversion and Commitment",
+          "speaker": "W. Mack Lawrence",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/conversion-and-commitment?lang=eng"
+        },
+        "temptation": {
+          "title": "Temptation",
+          "speaker": "Rulon G. Craven",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/temptation?lang=eng"
+        },
+        "remember-how-thou-hast-received-and-heard": {
+          "title": "Remember How Thou Hast Received and Heard",
+          "speaker": "Susan L. Warner",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/remember-how-thou-hast-received-and-heard?lang=eng"
+        },
+        "feasting-at-the-lords-table": {
+          "title": "Feasting at the Lord\u2019s Table",
+          "speaker": "M. Russell Ballard",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/feasting-at-the-lords-table?lang=eng"
+        },
+        "remember-thy-church-o-lord": {
+          "title": "\u201cRemember \u2026 Thy Church, O Lord\u201d",
+          "speaker": "Gordon B. Hinckley",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/remember-thy-church-o-lord?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/sunday-afternoon-session?lang=eng"
+    },
+    "General Young Women Meeting": {
+      "talks": {
+        "sustaining-the-living-prophets": {
+          "title": "Sustaining the Living Prophets",
+          "speaker": "Janette Hales Beckham",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/sustaining-the-living-prophets?lang=eng"
+        },
+        "listening-with-new-ears": {
+          "title": "Listening with New Ears",
+          "speaker": "Virginia H. Pearce",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/listening-with-new-ears?lang=eng"
+        },
+        "facing-trials-with-optimism": {
+          "title": "Facing Trials with Optimism",
+          "speaker": "Anne Marie Rose",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/facing-trials-with-optimism?lang=eng"
+        },
+        "my-prayers-were-answered": {
+          "title": "My Prayers Were Answered",
+          "speaker": "Kirstin Boyer",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/my-prayers-were-answered?lang=eng"
+        },
+        "he-has-given-me-a-prophet": {
+          "title": "He Has Given Me a Prophet",
+          "speaker": "Anne Prescott",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/he-has-given-me-a-prophet?lang=eng"
+        },
+        "an-anchor-for-eternity-and-today": {
+          "title": "An Anchor for Eternity\u2014and Today",
+          "speaker": "Bonnie D. Parkin",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/an-anchor-for-eternity-and-today?lang=eng"
+        },
+        "stand-true-and-faithful": {
+          "title": "Stand True and Faithful",
+          "speaker": "Gordon B. Hinckley",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/stand-true-and-faithful?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1996/04/young-women-session?lang=eng"
+    }
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "conference": "2018-April",
+  "year": 2018,
+  "month": "April",
+  "sessions": {
+    "Saturday Morning Session": {
+      "talks": {
+        "solemn-assembly": {
+          "title": "Solemn Assembly",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/solemn-assembly?lang=eng"
+        },
+        "precious-gifts-from-god": {
+          "title": "Precious Gifts from God",
+          "speaker": "M. Russell Ballard",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/precious-gifts-from-god?lang=eng"
+        },
+        "am-i-a-child-of-god": {
+          "title": "Am I a Child of God?",
+          "speaker": "Brian K. Taylor",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/am-i-a-child-of-god?lang=eng"
+        },
+        "even-as-christ-forgives-you-so-also-do-ye": {
+          "title": "Even as Christ Forgives You, So Also Do Ye",
+          "speaker": "Larry J. Echo Hawk",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/even-as-christ-forgives-you-so-also-do-ye?lang=eng"
+        },
+        "the-heart-of-a-prophet": {
+          "title": "The Heart of a Prophet",
+          "speaker": "Gary E. Stevenson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/the-heart-of-a-prophet?lang=eng"
+        },
+        "until-seventy-times-seven": {
+          "title": "Until Seventy Times Seven",
+          "speaker": "Lynn G. Robbins",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/until-seventy-times-seven?lang=eng"
+        },
+        "the-prophet-of-god": {
+          "title": "The Prophet of God",
+          "speaker": "Neil L. Andersen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/the-prophet-of-god?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/saturday-morning-session?lang=eng"
+    },
+    "Saturday Afternoon Session": {
+      "talks": {
+        "the-sustaining-of-church-officers": {
+          "title": "The Sustaining of Church Officers",
+          "speaker": "Dallin H. Oaks",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/the-sustaining-of-church-officers?lang=eng"
+        },
+        "church-auditing-department-report-2017": {
+          "title": "Church Auditing Department Report, 2017",
+          "speaker": "Kevin R. Jergensen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/church-auditing-department-report-2017?lang=eng"
+        },
+        "meek-and-lowly-of-heart": {
+          "title": "Meek and Lowly of Heart",
+          "speaker": "David A. Bednar",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/meek-and-lowly-of-heart?lang=eng"
+        },
+        "one-more-day": {
+          "title": "One More Day",
+          "speaker": "Taylor G. Godoy",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/one-more-day?lang=eng"
+        },
+        "young-women-in-the-work": {
+          "title": "Young Women in the Work",
+          "speaker": "Bonnie L. Oscarson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/young-women-in-the-work?lang=eng"
+        },
+        "saving-ordinances-will-bring-us-marvelous-light": {
+          "title": "Saving Ordinances Will Bring Us Marvelous Light",
+          "speaker": "Taniela B. Wakolo",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/saving-ordinances-will-bring-us-marvelous-light?lang=eng"
+        },
+        "teaching-in-the-home-a-joyful-and-sacred-responsibility": {
+          "title": "Teaching in the Home\u2014a Joyful and Sacred Responsibility",
+          "speaker": "Devin G. Durrant",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/teaching-in-the-home-a-joyful-and-sacred-responsibility?lang=eng"
+        },
+        "family-history-and-temple-work-sealing-and-healing": {
+          "title": "Family History and Temple Work: Sealing and Healing",
+          "speaker": "Dale G. Renlund",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/family-history-and-temple-work-sealing-and-healing?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/saturday-afternoon-session?lang=eng"
+    },
+    "General Priesthood Session": {
+      "talks": {
+        "what-every-aaronic-priesthood-holder-needs-to-understand": {
+          "title": "What Every Aaronic Priesthood Holder Needs to Understand",
+          "speaker": "Douglas D. Holmes",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/what-every-aaronic-priesthood-holder-needs-to-understand?lang=eng"
+        },
+        "introductory-remarks": {
+          "title": "Introductory Remarks",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/introductory-remarks?lang=eng"
+        },
+        "the-elders-quorum": {
+          "title": "The Elders Quorum",
+          "speaker": "D. Todd Christofferson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/the-elders-quorum?lang=eng"
+        },
+        "behold-a-royal-army": {
+          "title": "Behold! A Royal Army",
+          "speaker": "Ronald A. Rasband",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/behold-a-royal-army?lang=eng"
+        },
+        "inspired-ministering": {
+          "title": "Inspired Ministering",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/inspired-ministering?lang=eng"
+        },
+        "the-powers-of-the-priesthood": {
+          "title": "The Powers of the Priesthood",
+          "speaker": "Dallin H. Oaks",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/the-powers-of-the-priesthood?lang=eng"
+        },
+        "ministering-with-the-power-and-authority-of-god": {
+          "title": "Ministering with the Power and Authority of God",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/ministering-with-the-power-and-authority-of-god?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/priesthood-session?lang=eng"
+    },
+    "Sunday Morning Session": {
+      "talks": {
+        "take-the-holy-spirit-as-your-guide": {
+          "title": "Take the Holy Spirit as Your Guide",
+          "speaker": "Larry Y. Wilson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/take-the-holy-spirit-as-your-guide?lang=eng"
+        },
+        "with-one-accord": {
+          "title": "With One Accord",
+          "speaker": "Reyna I. Aburto",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/with-one-accord?lang=eng"
+        },
+        "pure-love-the-true-sign-of-every-true-disciple-of-jesus-christ": {
+          "title": "Pure Love: The True Sign of Every True Disciple of Jesus Christ",
+          "speaker": "Massimo De Feo",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/pure-love-the-true-sign-of-every-true-disciple-of-jesus-christ?lang=eng"
+        },
+        "he-that-shall-endure-unto-the-end-the-same-shall-be-saved": {
+          "title": "He That Shall Endure unto the End, the Same Shall Be Saved",
+          "speaker": "Claudio D. Zivic",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/he-that-shall-endure-unto-the-end-the-same-shall-be-saved?lang=eng"
+        },
+        "his-spirit-to-be-with-you": {
+          "title": "His Spirit to Be with You",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/his-spirit-to-be-with-you?lang=eng"
+        },
+        "small-and-simple-things": {
+          "title": "Small and Simple Things",
+          "speaker": "Dallin H. Oaks",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/small-and-simple-things?lang=eng"
+        },
+        "revelation-for-the-church-revelation-for-our-lives": {
+          "title": "Revelation for the Church, Revelation for Our Lives",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/revelation-for-the-church-revelation-for-our-lives?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/sunday-morning-session?lang=eng"
+    },
+    "Sunday Afternoon Session": {
+      "talks": {
+        "christ-the-lord-is-risen-today": {
+          "title": "Christ the Lord Is Risen Today",
+          "speaker": "Gerrit W. Gong",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/christ-the-lord-is-risen-today?lang=eng"
+        },
+        "prophets-speak-by-the-power-of-the-holy-spirit": {
+          "title": "Prophets Speak by the Power of the Holy Spirit",
+          "speaker": "Ulisses Soares",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/prophets-speak-by-the-power-of-the-holy-spirit?lang=eng"
+        },
+        "ministering": {
+          "title": "Ministering",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/ministering?lang=eng"
+        },
+        "be-with-and-strengthen-them": {
+          "title": "\u201cBe With and Strengthen Them\u201d",
+          "speaker": "Jeffrey R. Holland",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/be-with-and-strengthen-them?lang=eng"
+        },
+        "ministering-as-the-savior-does": {
+          "title": "Ministering as the Savior Does",
+          "speaker": "Jean B. Bingham",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/ministering-as-the-savior-does?lang=eng"
+        },
+        "behold-the-man": {
+          "title": "Behold the Man!",
+          "speaker": "Dieter F. Uchtdorf",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/behold-the-man?lang=eng"
+        },
+        "it-is-all-about-people": {
+          "title": "It Is All about People",
+          "speaker": "G\u00e9rald Causs\u00e9",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/it-is-all-about-people?lang=eng"
+        },
+        "prepare-to-meet-god": {
+          "title": "Prepare to Meet God",
+          "speaker": "Quentin L. Cook",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/prepare-to-meet-god?lang=eng"
+        },
+        "let-us-all-press-on": {
+          "title": "Let Us All Press On",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/let-us-all-press-on?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2018/04/sunday-afternoon-session?lang=eng"
+    }
+  }
+}

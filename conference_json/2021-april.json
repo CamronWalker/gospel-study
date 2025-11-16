@@ -1,0 +1,217 @@
+{
+  "conference": "2021-April",
+  "year": 2021,
+  "month": "April",
+  "sessions": {
+    "Saturday Morning Session": {
+      "talks": {
+        "11nelson": {
+          "title": "Welcome Message",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/11nelson?lang=eng"
+        },
+        "12uchtdorf": {
+          "title": "God among Us",
+          "speaker": "Dieter F. Uchtdorf",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/12uchtdorf?lang=eng"
+        },
+        "13jones": {
+          "title": "Essential Conversations",
+          "speaker": "Joy D. Jones",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/13jones?lang=eng"
+        },
+        "14newman": {
+          "title": "Teaching in the Savior\u2019s Way",
+          "speaker": "Jan E. Newman",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/14newman?lang=eng"
+        },
+        "15stevenson": {
+          "title": "Hearts Knit Together",
+          "speaker": "Gary E. Stevenson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/15stevenson?lang=eng"
+        },
+        "16gong": {
+          "title": "Room in the Inn",
+          "speaker": "Gerrit W. Gong",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/16gong?lang=eng"
+        },
+        "17eyring": {
+          "title": "I Love to See the Temple",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/17eyring?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/saturday-morning-session?lang=eng"
+    },
+    "Saturday Afternoon Session": {
+      "talks": {
+        "21oaks": {
+          "title": "Sustaining of General Authorities, Area Seventies, and General Officers",
+          "speaker": "Dallin H. Oaks",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/21oaks?lang=eng"
+        },
+        "22larson": {
+          "title": "Church Auditing Department Report, 2020",
+          "speaker": "Jared B. Larson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/22larson?lang=eng"
+        },
+        "23holland": {
+          "title": "Not as the World Giveth",
+          "speaker": "Jeffrey R. Holland",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/23holland?lang=eng"
+        },
+        "24becerra": {
+          "title": "Poor Little Ones",
+          "speaker": "Jorge T. Becerra",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/24becerra?lang=eng"
+        },
+        "25renlund": {
+          "title": "Infuriating Unfairness",
+          "speaker": "Dale G. Renlund",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/25renlund?lang=eng"
+        },
+        "26andersen": {
+          "title": "The Personal Journey of a Child of God",
+          "speaker": "Neil L. Andersen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/26andersen?lang=eng"
+        },
+        "27mutombo": {
+          "title": "Ye Shall Be Free",
+          "speaker": "Thierry K. Mutombo",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/27mutombo?lang=eng"
+        },
+        "28ballard": {
+          "title": "Hope in Christ",
+          "speaker": "M. Russell Ballard",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/28ballard?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/saturday-afternoon-session?lang=eng"
+    },
+    "Priesthood Session": {
+      "talks": {
+        "31cook": {
+          "title": "Bishops\u2014Shepherds over the Lord\u2019s Flock",
+          "speaker": "Quentin L. Cook",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/31cook?lang=eng"
+        },
+        "32corbitt": {
+          "title": "You Can Gather Israel!",
+          "speaker": "Ahmad S. Corbitt",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/32corbitt?lang=eng"
+        },
+        "33nielsen": {
+          "title": "This Is Our Time!",
+          "speaker": "S. Gifford Nielsen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/33nielsen?lang=eng"
+        },
+        "34eyring": {
+          "title": "Bless in His Name",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/34eyring?lang=eng"
+        },
+        "35oaks": {
+          "title": "What Has Our Savior Done for Us?",
+          "speaker": "Dallin H. Oaks",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/35oaks?lang=eng"
+        },
+        "36nelson": {
+          "title": "What We Are Learning and Will Never Forget",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/36nelson?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/priesthood-session?lang=eng"
+    },
+    "Sunday Morning Session": {
+      "talks": {
+        "41soares": {
+          "title": "Jesus Christ: The Caregiver of Our Soul",
+          "speaker": "Ulisses Soares",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/41soares?lang=eng"
+        },
+        "42aburto": {
+          "title": "The Grave Has No Victory",
+          "speaker": "Reyna I. Aburto",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/42aburto?lang=eng"
+        },
+        "43palmer": {
+          "title": "Our Sorrow Shall Be Turned into Joy",
+          "speaker": "S. Mark Palmer",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/43palmer?lang=eng"
+        },
+        "44dube": {
+          "title": "Pressing toward the Mark",
+          "speaker": "Edward Dube",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/44dube?lang=eng"
+        },
+        "45teixeira": {
+          "title": "Remember Your Way Back Home",
+          "speaker": "Jos\u00e9 A. Teixeira",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/45teixeira?lang=eng"
+        },
+        "46wakolo": {
+          "title": "God Loves His Children",
+          "speaker": "Taniela B. Wakolo",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/46wakolo?lang=eng"
+        },
+        "47wong": {
+          "title": "They Cannot Prevail; We Cannot Fall",
+          "speaker": "Chi Hong (Sam) Wong",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/47wong?lang=eng"
+        },
+        "48teh": {
+          "title": "Our Personal Savior",
+          "speaker": "Michael John U. Teh",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/48teh?lang=eng"
+        },
+        "49nelson": {
+          "title": "Christ Is Risen; Faith in Him Will Move Mountains",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/49nelson?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/sunday-morning-session?lang=eng"
+    },
+    "Sunday Afternoon Session": {
+      "talks": {
+        "51oaks": {
+          "title": "Defending Our Divinely Inspired Constitution",
+          "speaker": "Dallin H. Oaks",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/51oaks?lang=eng"
+        },
+        "52rasband": {
+          "title": "\u201cBehold! I Am a God of Miracles\u201d",
+          "speaker": "Ronald A. Rasband",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/52rasband?lang=eng"
+        },
+        "53dyches": {
+          "title": "Light Cleaveth unto Light",
+          "speaker": "Timothy J. Dyches",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/53dyches?lang=eng"
+        },
+        "54christofferson": {
+          "title": "Why the Covenant Path",
+          "speaker": "D. Todd Christofferson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/54christofferson?lang=eng"
+        },
+        "55walker": {
+          "title": "The Gospel Light of Truth and Love",
+          "speaker": "Alan R. Walker",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/55walker?lang=eng"
+        },
+        "56bednar": {
+          "title": "\u201cThe Principles of My Gospel\u201d",
+          "speaker": "David A. Bednar",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/56bednar?lang=eng"
+        },
+        "57nelson": {
+          "title": "COVID-19 and Temples",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/57nelson?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/sunday-afternoon-session?lang=eng"
+    }
+  }
+}

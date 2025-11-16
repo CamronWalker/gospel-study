@@ -1,0 +1,207 @@
+{
+  "conference": "2019-October",
+  "year": 2019,
+  "month": "October",
+  "sessions": {
+    "Saturday Morning Session": {
+      "talks": {
+        "11holland": {
+          "title": "The Message, the Meaning, and the Multitude",
+          "speaker": "Jeffrey R. Holland",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/11holland?lang=eng"
+        },
+        "12vinson": {
+          "title": "True Disciples of the Savior",
+          "speaker": "Terence M. Vinson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/12vinson?lang=eng"
+        },
+        "13owen": {
+          "title": "Be Faithful, Not Faithless",
+          "speaker": "Stephen W. Owen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/13owen?lang=eng"
+        },
+        "14christofferson": {
+          "title": "The Joy of the Saints",
+          "speaker": "D. Todd Christofferson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/14christofferson?lang=eng"
+        },
+        "15craig": {
+          "title": "Spiritual Capacity",
+          "speaker": "Michelle D. Craig",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/15craig?lang=eng"
+        },
+        "16renlund": {
+          "title": "Unwavering Commitment to Jesus Christ",
+          "speaker": "Dale G. Renlund",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/16renlund?lang=eng"
+        },
+        "17oaks": {
+          "title": "Trust in the Lord",
+          "speaker": "Dallin H. Oaks",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/17oaks?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/saturday-morning-session?lang=eng"
+    },
+    "Saturday Afternoon Session": {
+      "talks": {
+        "21eyring": {
+          "title": "Sustaining of General Authorities, Area Seventies, and General Officers of the Church",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/21eyring?lang=eng"
+        },
+        "22bednar": {
+          "title": "Watchful unto Prayer Continually",
+          "speaker": "David A. Bednar",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/22bednar?lang=eng"
+        },
+        "23alliaud": {
+          "title": "Found through the Power of the Book of Mormon",
+          "speaker": "Rub\u00e9n V. Alliaud",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/23alliaud?lang=eng"
+        },
+        "24nelson": {
+          "title": "Witnesses, Aaronic Priesthood Quorums, and Young Women Classes",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/24nelson?lang=eng"
+        },
+        "25cook": {
+          "title": "Adjustments to Strengthen Youth",
+          "speaker": "Quentin L. Cook",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/25cook?lang=eng"
+        },
+        "26pace": {
+          "title": "Come, Follow Me\u2014the Lord\u2019s Counterstrategy and Proactive Plan",
+          "speaker": "Mark L. Pace",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/26pace?lang=eng"
+        },
+        "27budge": {
+          "title": "Consistent and Resilient Trust",
+          "speaker": "L. Todd Budge",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/27budge?lang=eng"
+        },
+        "28alvarado": {
+          "title": "After the Trial of Our Faith",
+          "speaker": "Jorge M. Alvarado",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/28alvarado?lang=eng"
+        },
+        "29rasband": {
+          "title": "Standing by Our Promises and Covenants",
+          "speaker": "Ronald A. Rasband",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/29rasband?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/saturday-afternoon-session?lang=eng"
+    },
+    "Women\u2019s Session": {
+      "talks": {
+        "31aburto": {
+          "title": "Thru Cloud and Sunshine, Lord, Abide with Me!",
+          "speaker": "Reyna I. Aburto",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/31aburto?lang=eng"
+        },
+        "32harkness": {
+          "title": "Honoring His Name",
+          "speaker": "Lisa L. Harkness",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/32harkness?lang=eng"
+        },
+        "33cordon": {
+          "title": "Beloved Daughters",
+          "speaker": "Bonnie H. Cordon",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/33cordon?lang=eng"
+        },
+        "34eyring": {
+          "title": "Covenant Women in Partnership with God",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/34eyring?lang=eng"
+        },
+        "35oaks": {
+          "title": "Two Great Commandments",
+          "speaker": "Dallin H. Oaks",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/35oaks?lang=eng"
+        },
+        "36nelson": {
+          "title": "Spiritual Treasures",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/36nelson?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/womens-session?lang=eng"
+    },
+    "Sunday Morning Session": {
+      "talks": {
+        "41gong": {
+          "title": "Covenant Belonging",
+          "speaker": "Gerrit W. Gong",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/41gong?lang=eng"
+        },
+        "42franco": {
+          "title": "Finding Joy in Sharing the Gospel",
+          "speaker": "Cristina B. Franco",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/42franco?lang=eng"
+        },
+        "43uchtdorf": {
+          "title": "Your Great Adventure",
+          "speaker": "Dieter F. Uchtdorf",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/43uchtdorf?lang=eng"
+        },
+        "44gonzalez": {
+          "title": "The Savior\u2019s Touch",
+          "speaker": "Walter F. Gonz\u00e1lez",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/44gonzalez?lang=eng"
+        },
+        "45stevenson": {
+          "title": "Deceive Me Not",
+          "speaker": "Gary E. Stevenson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/45stevenson?lang=eng"
+        },
+        "46nelson": {
+          "title": "The Second Great Commandment",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/46nelson?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/sunday-morning-session?lang=eng"
+    },
+    "Sunday Afternoon Session": {
+      "talks": {
+        "51eyring": {
+          "title": "Holiness and the Plan of Happiness",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/51eyring?lang=eng"
+        },
+        "52boom": {
+          "title": "Knowing, Loving, and Growing",
+          "speaker": "Hans T. Boom",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/52boom?lang=eng"
+        },
+        "53ballard": {
+          "title": "Giving Our Spirits Control over Our Bodies",
+          "speaker": "M. Russell Ballard",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/53ballard?lang=eng"
+        },
+        "54johnson": {
+          "title": "Power to Overcome the Adversary",
+          "speaker": "Peter M. Johnson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/54johnson?lang=eng"
+        },
+        "55soares": {
+          "title": "Take Up Our Cross",
+          "speaker": "Ulisses Soares",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/55soares?lang=eng"
+        },
+        "56andersen": {
+          "title": "Fruit",
+          "speaker": "Neil L. Andersen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/56andersen?lang=eng"
+        },
+        "57nelson": {
+          "title": "Closing Remarks",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/57nelson?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2019/10/sunday-afternoon-session?lang=eng"
+    }
+  }
+}

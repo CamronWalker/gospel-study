@@ -1,0 +1,212 @@
+{
+  "conference": "1993-April",
+  "year": 1993,
+  "month": "April",
+  "sessions": {
+    "Saturday Morning Session": {
+      "talks": {
+        "the-temple-of-the-lord": {
+          "title": "The Temple of the Lord",
+          "speaker": "Thomas S. Monson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/the-temple-of-the-lord?lang=eng"
+        },
+        "keeping-covenants": {
+          "title": "Keeping Covenants",
+          "speaker": "M. Russell Ballard",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/keeping-covenants?lang=eng"
+        },
+        "the-lord-of-life": {
+          "title": "The Lord of Life",
+          "speaker": "J. Richard Clarke",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/the-lord-of-life?lang=eng"
+        },
+        "keep-the-faith": {
+          "title": "Keep the Faith",
+          "speaker": "Richard C. Edgley",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/keep-the-faith?lang=eng"
+        },
+        "search-the-scriptures": {
+          "title": "Search the Scriptures",
+          "speaker": "L. Lionel Kendrick",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/search-the-scriptures?lang=eng"
+        },
+        "the-language-of-prayer": {
+          "title": "The Language of Prayer",
+          "speaker": "Dallin H. Oaks",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/the-language-of-prayer?lang=eng"
+        },
+        "the-temple-the-priesthood": {
+          "title": "The Temple, the Priesthood",
+          "speaker": "Boyd K. Packer",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/the-temple-the-priesthood?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/saturday-morning-session?lang=eng"
+    },
+    "Saturday Afternoon Session": {
+      "talks": {
+        "the-sustaining-of-church-officers": {
+          "title": "The Sustaining of Church Officers",
+          "speaker": "Thomas S. Monson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/the-sustaining-of-church-officers?lang=eng"
+        },
+        "the-church-audit-committee-report": {
+          "title": "The Church Audit Committee Report",
+          "speaker": "Ted E. Davis",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/the-church-audit-committee-report?lang=eng"
+        },
+        "statistical-report-1992": {
+          "title": "Statistical Report 1992",
+          "speaker": "F. Michael Watson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/statistical-report-1992?lang=eng"
+        },
+        "personal-temple-worship": {
+          "title": "Personal Temple Worship",
+          "speaker": "David B. Haight",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/personal-temple-worship?lang=eng"
+        },
+        "jesus-christ-the-son-of-the-living-god": {
+          "title": "Jesus Christ, the Son of the Living God",
+          "speaker": "John M. Madsen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/jesus-christ-the-son-of-the-living-god?lang=eng"
+        },
+        "power-of-the-church-rooted-in-christ": {
+          "title": "Power of the Church Rooted in Christ",
+          "speaker": "V. Dallas Merrell",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/power-of-the-church-rooted-in-christ?lang=eng"
+        },
+        "prayer": {
+          "title": "Prayer",
+          "speaker": "David E. Sorensen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/prayer?lang=eng"
+        },
+        "the-power-of-correct-principles": {
+          "title": "The Power of Correct Principles",
+          "speaker": "Richard G. Scott",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/the-power-of-correct-principles?lang=eng"
+        },
+        "father-come-home": {
+          "title": "Father, Come Home",
+          "speaker": "James E. Faust",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/father-come-home?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/saturday-afternoon-session?lang=eng"
+    },
+    "Priesthood Session": {
+      "talks": {
+        "honoring-the-priesthood": {
+          "title": "Honoring the Priesthood",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/honoring-the-priesthood?lang=eng"
+        },
+        "faith-yields-priesthood-power": {
+          "title": "Faith Yields Priesthood Power",
+          "speaker": "John K. Carmack",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/faith-yields-priesthood-power?lang=eng"
+        },
+        "the-principle-of-work": {
+          "title": "The Principle of Work",
+          "speaker": "F. David Stanley",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/the-principle-of-work?lang=eng"
+        },
+        "heroes": {
+          "title": "Heroes",
+          "speaker": "H. David Burton",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/heroes?lang=eng"
+        },
+        "search-and-rescue": {
+          "title": "Search and Rescue",
+          "speaker": "Thomas S. Monson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/search-and-rescue?lang=eng"
+        },
+        "some-lessons-i-learned-as-a-boy": {
+          "title": "Some Lessons I Learned as a Boy",
+          "speaker": "Gordon B. Hinckley",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/some-lessons-i-learned-as-a-boy?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/priesthood-session?lang=eng"
+    },
+    "Sunday Morning Session": {
+      "talks": {
+        "gifts": {
+          "title": "Gifts",
+          "speaker": "Thomas S. Monson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/gifts?lang=eng"
+        },
+        "jesus-the-very-thought-of-thee": {
+          "title": "\u201cJesus, the Very Thought of Thee\u201d",
+          "speaker": "Howard W. Hunter",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/jesus-the-very-thought-of-thee?lang=eng"
+        },
+        "peace-through-prayer": {
+          "title": "Peace through Prayer",
+          "speaker": "Rex D. Pinegar",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/peace-through-prayer?lang=eng"
+        },
+        "spiritually-strong-homes-and-families": {
+          "title": "Spiritually Strong Homes and Families",
+          "speaker": "Joseph B. Wirthlin",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/spiritually-strong-homes-and-families?lang=eng"
+        },
+        "this-peaceful-house-of-god": {
+          "title": "This Peaceful House of God",
+          "speaker": "Gordon B. Hinckley",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/this-peaceful-house-of-god?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/sunday-morning-session?lang=eng"
+    },
+    "Sunday Afternoon Session": {
+      "talks": {
+        "behold-the-enemy-is-combined-d-c-38-12": {
+          "title": "\u201cBehold, the Enemy Is Combined\u201d (D&C 38:12)",
+          "speaker": "Neal A. Maxwell",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/behold-the-enemy-is-combined-d-c-38-12?lang=eng"
+        },
+        "receiving-divine-assistance-through-the-grace-of-the-lord": {
+          "title": "Receiving Divine Assistance through the Grace of the Lord",
+          "speaker": "Gene R. Cook",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/receiving-divine-assistance-through-the-grace-of-the-lord?lang=eng"
+        },
+        "whom-the-lord-calls-the-lord-qualifies": {
+          "title": "\u201cWhom the Lord Calls, the Lord Qualifies\u201d",
+          "speaker": "Neil L. Andersen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/whom-the-lord-calls-the-lord-qualifies?lang=eng"
+        },
+        "i-know-in-whom-i-have-trusted": {
+          "title": "I Know in Whom I Have Trusted",
+          "speaker": "D. Todd Christofferson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/i-know-in-whom-i-have-trusted?lang=eng"
+        },
+        "cats-cradle-of-kindness": {
+          "title": "Cat\u2019s Cradle of Kindness",
+          "speaker": "Chieko N. Okazaki",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/cats-cradle-of-kindness?lang=eng"
+        },
+        "he-maketh-me-to-lie-down-in-green-pastures": {
+          "title": "\u201cHe Maketh Me to Lie Down in Green Pastures\u201d",
+          "speaker": "Kwok Yuen Tai",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/he-maketh-me-to-lie-down-in-green-pastures?lang=eng"
+        },
+        "come-unto-christ": {
+          "title": "Come unto Christ",
+          "speaker": "Lowell D. Wood",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/come-unto-christ?lang=eng"
+        },
+        "back-to-gospel-basics": {
+          "title": "Back to Gospel Basics",
+          "speaker": "L. Tom Perry",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/back-to-gospel-basics?lang=eng"
+        },
+        "a-prophets-testimony": {
+          "title": "\u201cA Prophet\u2019s Testimony\u201d",
+          "speaker": "Gordon B. Hinckley",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/a-prophets-testimony?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/sunday-afternoon-session?lang=eng"
+    }
+  }
+}

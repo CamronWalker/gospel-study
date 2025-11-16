@@ -1,0 +1,237 @@
+{
+  "conference": "2011-April",
+  "year": 2011,
+  "month": "April",
+  "sessions": {
+    "Saturday Morning Session": {
+      "talks": {
+        "its-conference-once-again": {
+          "title": "It\u2019s Conference Once Again",
+          "speaker": "Thomas S. Monson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/its-conference-once-again?lang=eng"
+        },
+        "the-sabbath-and-the-sacrament": {
+          "title": "The Sabbath and the Sacrament",
+          "speaker": "L. Tom Perry",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/the-sabbath-and-the-sacrament?lang=eng"
+        },
+        "become-as-a-little-child": {
+          "title": "Become as a Little Child",
+          "speaker": "Jean A. Stevens",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/become-as-a-little-child?lang=eng"
+        },
+        "followers-of-christ": {
+          "title": "Followers of Christ",
+          "speaker": "Walter F. Gonz\u00e1lez",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/followers-of-christ?lang=eng"
+        },
+        "the-atonement-covers-all-pain": {
+          "title": "The Atonement Covers All Pain",
+          "speaker": "Kent F. Richards",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/the-atonement-covers-all-pain?lang=eng"
+        },
+        "lds-women-are-incredible": {
+          "title": "LDS Women Are Incredible!",
+          "speaker": "Quentin L. Cook",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/lds-women-are-incredible?lang=eng"
+        },
+        "opportunities-to-do-good": {
+          "title": "Opportunities to Do Good",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/opportunities-to-do-good?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/saturday-morning-session?lang=eng"
+    },
+    "Saturday Afternoon Session": {
+      "talks": {
+        "the-sustaining-of-church-officers": {
+          "title": "The Sustaining of Church Officers",
+          "speaker": "Dieter F. Uchtdorf",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/the-sustaining-of-church-officers?lang=eng"
+        },
+        "church-auditing-department-report-2010": {
+          "title": "Church Auditing Department Report, 2010",
+          "speaker": "Robert W. Cantwell",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/church-auditing-department-report-2010?lang=eng"
+        },
+        "statistical-report-2010": {
+          "title": "Statistical Report, 2010",
+          "speaker": "Brook P. Hales",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/statistical-report-2010?lang=eng"
+        },
+        "guided-by-the-holy-spirit": {
+          "title": "Guided by the Holy Spirit",
+          "speaker": "Boyd K. Packer",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/guided-by-the-holy-spirit?lang=eng"
+        },
+        "face-the-future-with-faith": {
+          "title": "Face the Future with Faith",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/face-the-future-with-faith?lang=eng"
+        },
+        "establishing-a-christ-centered-home": {
+          "title": "Establishing a Christ-Centered Home",
+          "speaker": "Richard J. Maynes",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/establishing-a-christ-centered-home?lang=eng"
+        },
+        "testimony": {
+          "title": "Testimony",
+          "speaker": "Cecil O. Samuelson Jr.",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/testimony?lang=eng"
+        },
+        "desire": {
+          "title": "Desire",
+          "speaker": "Dallin H. Oaks",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/desire?lang=eng"
+        },
+        "finding-joy-through-loving-service": {
+          "title": "Finding Joy through Loving Service",
+          "speaker": "M. Russell Ballard",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/finding-joy-through-loving-service?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/saturday-afternoon-session?lang=eng"
+    },
+    "Priesthood Session": {
+      "talks": {
+        "preparing-the-world-for-the-second-coming": {
+          "title": "Preparing the World for the Second Coming",
+          "speaker": "Neil L. Andersen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/preparing-the-world-for-the-second-coming?lang=eng"
+        },
+        "hope": {
+          "title": "Hope",
+          "speaker": "Steven E. Snow",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/hope?lang=eng"
+        },
+        "sacred-keys-of-the-aaronic-priesthood": {
+          "title": "Sacred Keys of the Aaronic Priesthood",
+          "speaker": "Larry M. Gibson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/sacred-keys-of-the-aaronic-priesthood?lang=eng"
+        },
+        "your-potential-your-privilege": {
+          "title": "Your Potential, Your Privilege",
+          "speaker": "Dieter F. Uchtdorf",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/your-potential-your-privilege?lang=eng"
+        },
+        "learning-in-the-priesthood": {
+          "title": "Learning in the Priesthood",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/learning-in-the-priesthood?lang=eng"
+        },
+        "priesthood-power": {
+          "title": "Priesthood Power",
+          "speaker": "Thomas S. Monson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/priesthood-power?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/priesthood-session?lang=eng"
+    },
+    "Sunday Morning Session": {
+      "talks": {
+        "waiting-on-the-road-to-damascus": {
+          "title": "Waiting on the Road to Damascus",
+          "speaker": "Dieter F. Uchtdorf",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/waiting-on-the-road-to-damascus?lang=eng"
+        },
+        "more-than-conquerors-through-him-that-loved-us": {
+          "title": "More Than Conquerors through Him That Loved Us",
+          "speaker": "Paul V. Johnson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/more-than-conquerors-through-him-that-loved-us?lang=eng"
+        },
+        "the-sanctifying-work-of-welfare": {
+          "title": "The Sanctifying Work of Welfare",
+          "speaker": "H. David Burton",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/the-sanctifying-work-of-welfare?lang=eng"
+        },
+        "the-essence-of-discipleship": {
+          "title": "The Essence of Discipleship",
+          "speaker": "Silvia H. Allred",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/the-essence-of-discipleship?lang=eng"
+        },
+        "the-spirit-of-revelation": {
+          "title": "The Spirit of Revelation",
+          "speaker": "David A. Bednar",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/the-spirit-of-revelation?lang=eng"
+        },
+        "the-holy-temple-a-beacon-to-the-world": {
+          "title": "The Holy Temple\u2014a Beacon to the World",
+          "speaker": "Thomas S. Monson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/the-holy-temple-a-beacon-to-the-world?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/sunday-morning-session?lang=eng"
+    },
+    "Sunday Afternoon Session": {
+      "talks": {
+        "the-eternal-blessings-of-marriage": {
+          "title": "The Eternal Blessings of Marriage",
+          "speaker": "Richard G. Scott",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/the-eternal-blessings-of-marriage?lang=eng"
+        },
+        "as-many-as-i-love-i-rebuke-and-chasten": {
+          "title": "\u201cAs Many as I Love, I Rebuke and Chasten\u201d",
+          "speaker": "D. Todd Christofferson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/as-many-as-i-love-i-rebuke-and-chasten?lang=eng"
+        },
+        "the-lords-richest-blessings": {
+          "title": "The Lord\u2019s Richest Blessings",
+          "speaker": "Carl B. Pratt",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/the-lords-richest-blessings?lang=eng"
+        },
+        "what-manner-of-men-and-women-ought-ye-to-be": {
+          "title": "What Manner of Men and Women Ought Ye to Be?",
+          "speaker": "Lynn G. Robbins",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/what-manner-of-men-and-women-ought-ye-to-be?lang=eng"
+        },
+        "called-to-be-saints": {
+          "title": "Called to Be Saints",
+          "speaker": "Benjam\u00edn De Hoyos",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/called-to-be-saints?lang=eng"
+        },
+        "the-miracle-of-the-atonement": {
+          "title": "The Miracle of the Atonement",
+          "speaker": "C. Scott Grow",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/the-miracle-of-the-atonement?lang=eng"
+        },
+        "an-ensign-to-the-nations": {
+          "title": "An Ensign to the Nations",
+          "speaker": "Jeffrey R. Holland",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/an-ensign-to-the-nations?lang=eng"
+        },
+        "at-parting": {
+          "title": "At Parting",
+          "speaker": "Thomas S. Monson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/at-parting?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/sunday-afternoon-session?lang=eng"
+    },
+    "General Young Women Meeting": {
+      "talks": {
+        "i-believe-in-being-honest-and-true": {
+          "title": "I Believe in Being Honest and True",
+          "speaker": "Ann M. Dibb",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/i-believe-in-being-honest-and-true?lang=eng"
+        },
+        "remember-this-kindness-begins-with-me": {
+          "title": "\u201cRemember This: Kindness Begins with Me\u201d",
+          "speaker": "Mary N. Cook",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/remember-this-kindness-begins-with-me?lang=eng"
+        },
+        "guardians-of-virtue": {
+          "title": "Guardians of Virtue",
+          "speaker": "Elaine S. Dalton",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/guardians-of-virtue?lang=eng"
+        },
+        "a-living-testimony": {
+          "title": "A Living Testimony",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/a-living-testimony?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2011/04/young-women-session?lang=eng"
+    }
+  }
+}

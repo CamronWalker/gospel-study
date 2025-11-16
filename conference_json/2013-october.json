@@ -1,0 +1,232 @@
+{
+  "conference": "2013-October",
+  "year": 2013,
+  "month": "October",
+  "sessions": {
+    "Saturday Morning Session": {
+      "talks": {
+        "welcome-to-conference": {
+          "title": "Welcome to Conference",
+          "speaker": "Thomas S. Monson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/welcome-to-conference?lang=eng"
+        },
+        "general-conference-strengthening-faith-and-testimony": {
+          "title": "General Conference: Strengthening Faith and Testimony",
+          "speaker": "Robert D. Hales",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/general-conference-strengthening-faith-and-testimony?lang=eng"
+        },
+        "be-meek-and-lowly-of-heart": {
+          "title": "Be Meek and Lowly of Heart",
+          "speaker": "Ulisses Soares",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/be-meek-and-lowly-of-heart?lang=eng"
+        },
+        "do-we-know-what-we-have": {
+          "title": "Do We Know What We Have?",
+          "speaker": "Carole M. Stephens",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/do-we-know-what-we-have?lang=eng"
+        },
+        "look-ahead-and-believe": {
+          "title": "Look Ahead and Believe",
+          "speaker": "Edward Dube",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/look-ahead-and-believe?lang=eng"
+        },
+        "the-windows-of-heaven": {
+          "title": "The Windows of Heaven",
+          "speaker": "David A. Bednar",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/the-windows-of-heaven?lang=eng"
+        },
+        "come-join-with-us": {
+          "title": "Come, Join with Us",
+          "speaker": "Dieter F. Uchtdorf",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/come-join-with-us?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/saturday-morning-session?lang=eng"
+    },
+    "Saturday Afternoon Session": {
+      "talks": {
+        "the-sustaining-of-church-officers": {
+          "title": "The Sustaining of Church Officers",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/the-sustaining-of-church-officers?lang=eng"
+        },
+        "the-key-to-spiritual-protection": {
+          "title": "The Key to Spiritual Protection",
+          "speaker": "Boyd K. Packer",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/the-key-to-spiritual-protection?lang=eng"
+        },
+        "the-moral-force-of-women": {
+          "title": "The Moral Force of Women",
+          "speaker": "D. Todd Christofferson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/the-moral-force-of-women?lang=eng"
+        },
+        "hastening-the-lords-game-plan": {
+          "title": "Hastening the Lord\u2019s Game Plan!",
+          "speaker": "S. Gifford Nielsen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/hastening-the-lords-game-plan?lang=eng"
+        },
+        "small-and-simple-things": {
+          "title": "Small and Simple Things",
+          "speaker": "Arnulfo Valenzuela",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/small-and-simple-things?lang=eng"
+        },
+        "wilt-thou-be-made-whole": {
+          "title": "Wilt Thou Be Made Whole?",
+          "speaker": "Timothy J. Dyches",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/wilt-thou-be-made-whole?lang=eng"
+        },
+        "like-a-broken-vessel": {
+          "title": "Like a Broken Vessel",
+          "speaker": "Jeffrey R. Holland",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/like-a-broken-vessel?lang=eng"
+        },
+        "put-your-trust-in-the-lord": {
+          "title": "Put Your Trust in the Lord",
+          "speaker": "M. Russell Ballard",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/put-your-trust-in-the-lord?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/saturday-afternoon-session?lang=eng"
+    },
+    "Priesthood Session": {
+      "talks": {
+        "the-doctrines-and-principles-contained-in-the-articles-of-faith": {
+          "title": "The Doctrines and Principles Contained in the Articles of Faith",
+          "speaker": "L. Tom Perry",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/the-doctrines-and-principles-contained-in-the-articles-of-faith?lang=eng"
+        },
+        "ye-are-no-more-strangers": {
+          "title": "Ye Are No More Strangers",
+          "speaker": "G\u00e9rald Causs\u00e9",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/ye-are-no-more-strangers?lang=eng"
+        },
+        "called-of-him-to-declare-his-word": {
+          "title": "Called of Him to Declare His Word",
+          "speaker": "Randy D. Funk",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/called-of-him-to-declare-his-word?lang=eng"
+        },
+        "you-can-do-it-now": {
+          "title": "You Can Do It Now!",
+          "speaker": "Dieter F. Uchtdorf",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/you-can-do-it-now?lang=eng"
+        },
+        "bind-up-their-wounds": {
+          "title": "Bind Up Their Wounds",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/bind-up-their-wounds?lang=eng"
+        },
+        "true-shepherds": {
+          "title": "True Shepherds",
+          "speaker": "Thomas S. Monson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/true-shepherds?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/priesthood-session?lang=eng"
+    },
+    "Sunday Morning Session": {
+      "talks": {
+        "to-my-grandchildren": {
+          "title": "To My Grandchildren",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/to-my-grandchildren?lang=eng"
+        },
+        "no-other-gods": {
+          "title": "No Other Gods",
+          "speaker": "Dallin H. Oaks",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/no-other-gods?lang=eng"
+        },
+        "be-ye-converted": {
+          "title": "Be Ye Converted",
+          "speaker": "Bonnie L. Oscarson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/be-ye-converted?lang=eng"
+        },
+        "the-strength-to-endure": {
+          "title": "The Strength to Endure",
+          "speaker": "Richard J. Maynes",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/the-strength-to-endure?lang=eng"
+        },
+        "personal-strength-through-the-atonement-of-jesus-christ": {
+          "title": "Personal Strength through the Atonement of Jesus Christ",
+          "speaker": "Richard G. Scott",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/personal-strength-through-the-atonement-of-jesus-christ?lang=eng"
+        },
+        "i-will-not-fail-thee-nor-forsake-thee": {
+          "title": "\u201cI Will Not Fail Thee, nor Forsake Thee\u201d",
+          "speaker": "Thomas S. Monson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/i-will-not-fail-thee-nor-forsake-thee?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/sunday-morning-session?lang=eng"
+    },
+    "Sunday Afternoon Session": {
+      "talks": {
+        "lamentations-of-jeremiah-beware-of-bondage": {
+          "title": "Lamentations of Jeremiah: Beware of Bondage",
+          "speaker": "Quentin L. Cook",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/lamentations-of-jeremiah-beware-of-bondage?lang=eng"
+        },
+        "power-in-the-priesthood": {
+          "title": "Power in the Priesthood",
+          "speaker": "Neil L. Andersen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/power-in-the-priesthood?lang=eng"
+        },
+        "teaching-with-the-power-and-authority-of-god": {
+          "title": "Teaching with the Power and Authority of God",
+          "speaker": "David M. McConkie",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/teaching-with-the-power-and-authority-of-god?lang=eng"
+        },
+        "continually-holding-fast": {
+          "title": "Continually Holding Fast",
+          "speaker": "Kevin S. Hamilton",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/continually-holding-fast?lang=eng"
+        },
+        "look-up": {
+          "title": "Look Up",
+          "speaker": "Adri\u00e1n Ochoa",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/look-up?lang=eng"
+        },
+        "drawing-closer-to-god": {
+          "title": "Drawing Closer to God",
+          "speaker": "Terence M. Vinson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/drawing-closer-to-god?lang=eng"
+        },
+        "decisions-for-eternity": {
+          "title": "Decisions for Eternity",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/decisions-for-eternity?lang=eng"
+        },
+        "till-we-meet-again": {
+          "title": "Till We Meet Again",
+          "speaker": "Thomas S. Monson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/till-we-meet-again?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/sunday-afternoon-session?lang=eng"
+    },
+    "General Relief Society Meeting": {
+      "talks": {
+        "the-power-joy-and-love-of-covenant-keeping": {
+          "title": "The Power, Joy, and Love of Covenant Keeping",
+          "speaker": "Linda K. Burton",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/the-power-joy-and-love-of-covenant-keeping?lang=eng"
+        },
+        "we-have-great-reason-to-rejoice": {
+          "title": "We Have Great Reason to Rejoice",
+          "speaker": "Carole M. Stephens",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/we-have-great-reason-to-rejoice?lang=eng"
+        },
+        "claim-the-blessings-of-your-covenants": {
+          "title": "Claim the Blessings of Your Covenants",
+          "speaker": "Linda S. Reeves",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/claim-the-blessings-of-your-covenants?lang=eng"
+        },
+        "we-never-walk-alone": {
+          "title": "We Never Walk Alone",
+          "speaker": "Thomas S. Monson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/we-never-walk-alone?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/10/relief-society-session?lang=eng"
+    }
+  }
+}

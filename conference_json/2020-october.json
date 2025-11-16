@@ -1,0 +1,212 @@
+{
+  "conference": "2020-October",
+  "year": 2020,
+  "month": "October",
+  "sessions": {
+    "Saturday Morning Session": {
+      "talks": {
+        "11nelson": {
+          "title": "Moving Forward",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/11nelson?lang=eng"
+        },
+        "12bednar": {
+          "title": "We Will Prove Them Herewith",
+          "speaker": "David A. Bednar",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/12bednar?lang=eng"
+        },
+        "13whiting": {
+          "title": "Becoming like Him",
+          "speaker": "Scott D. Whiting",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/13whiting?lang=eng"
+        },
+        "14craig": {
+          "title": "Eyes to See",
+          "speaker": "Michelle D. Craig",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/14craig?lang=eng"
+        },
+        "15cook": {
+          "title": "Hearts Knit in Righteousness and Unity",
+          "speaker": "Quentin L. Cook",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/15cook?lang=eng"
+        },
+        "16rasband": {
+          "title": "Recommended to the Lord",
+          "speaker": "Ronald A. Rasband",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/16rasband?lang=eng"
+        },
+        "17oaks": {
+          "title": "Love Your Enemies",
+          "speaker": "Dallin H. Oaks",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/17oaks?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/saturday-morning-session?lang=eng"
+    },
+    "Saturday Afternoon Session": {
+      "talks": {
+        "21eyring": {
+          "title": "Sustaining of General Authorities, Area Seventies, and General Officers",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/21eyring?lang=eng"
+        },
+        "22christofferson": {
+          "title": "Sustainable Societies",
+          "speaker": "D. Todd Christofferson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/22christofferson?lang=eng"
+        },
+        "23lund": {
+          "title": "Finding Joy in Christ",
+          "speaker": "Steven J. Lund",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/23lund?lang=eng"
+        },
+        "24gong": {
+          "title": "All Nations, Kindreds, and Tongues",
+          "speaker": "Gerrit W. Gong",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/24gong?lang=eng"
+        },
+        "25waddell": {
+          "title": "There Was Bread",
+          "speaker": "W. Christopher Waddell",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/25waddell?lang=eng"
+        },
+        "26holland": {
+          "title": "The Exquisite Gift of the Son",
+          "speaker": "Matthew S. Holland",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/26holland?lang=eng"
+        },
+        "27jackson": {
+          "title": "The Culture of Christ",
+          "speaker": "William K. Jackson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/27jackson?lang=eng"
+        },
+        "28uchtdorf": {
+          "title": "God Will Do Something Unimaginable",
+          "speaker": "Dieter F. Uchtdorf",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/28uchtdorf?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/saturday-afternoon-session?lang=eng"
+    },
+    "Women\u2019s Session": {
+      "talks": {
+        "31eubank": {
+          "title": "By Union of Feeling We Obtain Power with God",
+          "speaker": "Sharon Eubank",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/31eubank?lang=eng"
+        },
+        "32craven": {
+          "title": "Keep the Change",
+          "speaker": "Rebecca L. Craven",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/32craven?lang=eng"
+        },
+        "34franco": {
+          "title": "The Healing Power of Jesus Christ",
+          "speaker": "Cristina B. Franco",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/34franco?lang=eng"
+        },
+        "33video": {
+          "title": "A gentle video montage of women around the world engaging in varied circumstances of service, challenge, and connection.",
+          "speaker": "Video: The Light That Shineth in Darkness",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/33video?lang=eng"
+        },
+        "35eyring": {
+          "title": "Sisters in Zion",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/35eyring?lang=eng"
+        },
+        "36oaks": {
+          "title": "Be of Good Cheer",
+          "speaker": "Dallin H. Oaks",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/36oaks?lang=eng"
+        },
+        "37nelson": {
+          "title": "Embrace the Future with Faith",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/37nelson?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/womens-session?lang=eng"
+    },
+    "Sunday Morning Session": {
+      "talks": {
+        "41ballard": {
+          "title": "Watch Ye Therefore, and Pray Always",
+          "speaker": "M. Russell Ballard",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/41ballard?lang=eng"
+        },
+        "42harkness": {
+          "title": "Peace, Be Still",
+          "speaker": "Lisa L. Harkness",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/42harkness?lang=eng"
+        },
+        "43soares": {
+          "title": "Seek Christ in Every Thought",
+          "speaker": "Ulisses Soares",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/43soares?lang=eng"
+        },
+        "44godoy": {
+          "title": "I Believe in Angels",
+          "speaker": "Carlos A. Godoy",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/44godoy?lang=eng"
+        },
+        "45andersen": {
+          "title": "We Talk of Christ",
+          "speaker": "Neil L. Andersen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/45andersen?lang=eng"
+        },
+        "46nelson": {
+          "title": "Let God Prevail",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/46nelson?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/sunday-morning-session?lang=eng"
+    },
+    "Sunday Afternoon Session": {
+      "talks": {
+        "51eyring": {
+          "title": "Tested, Proved, and Polished",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/51eyring?lang=eng"
+        },
+        "52jaggi": {
+          "title": "Let Patience Have Her Perfect Work, and Count It All Joy!",
+          "speaker": "Jeremy R. Jaggi",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/52jaggi?lang=eng"
+        },
+        "53stevenson": {
+          "title": "Highly Favored of the Lord",
+          "speaker": "Gary E. Stevenson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/53stevenson?lang=eng"
+        },
+        "54camargo": {
+          "title": "Ask, Seek, and Knock",
+          "speaker": "Milton Camargo",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/54camargo?lang=eng"
+        },
+        "55renlund": {
+          "title": "Do Justly, Love Mercy, and Walk Humbly with God",
+          "speaker": "Dale G. Renlund",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/55renlund?lang=eng"
+        },
+        "56johnson": {
+          "title": "Enduring Power",
+          "speaker": "Kelly R. Johnson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/56johnson?lang=eng"
+        },
+        "57holland": {
+          "title": "Waiting on the Lord",
+          "speaker": "Jeffrey R. Holland",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/57holland?lang=eng"
+        },
+        "58nelson": {
+          "title": "A New Normal",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/58nelson?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2020/10/sunday-afternoon-session?lang=eng"
+    }
+  }
+}

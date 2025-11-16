@@ -1,0 +1,232 @@
+{
+  "conference": "2021-October",
+  "year": 2021,
+  "month": "October",
+  "sessions": {
+    "Saturday Morning Session": {
+      "talks": {
+        "11nelson": {
+          "title": "Pure Truth, Pure Doctrine, and Pure Revelation",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/11nelson?lang=eng"
+        },
+        "12holland": {
+          "title": "The Greatest Possession",
+          "speaker": "Jeffrey R. Holland",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/12holland?lang=eng"
+        },
+        "13cordon": {
+          "title": "Come unto Christ and Don\u2019t Come Alone",
+          "speaker": "Bonnie H. Cordon",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/13cordon?lang=eng"
+        },
+        "14soares": {
+          "title": "The Savior\u2019s Abiding Compassion",
+          "speaker": "Ulisses Soares",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/14soares?lang=eng"
+        },
+        "15christofferson": {
+          "title": "The Love of God",
+          "speaker": "D. Todd Christofferson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/15christofferson?lang=eng"
+        },
+        "16gilbert": {
+          "title": "Becoming More in Christ: The Parable of the Slope",
+          "speaker": "Clark G. Gilbert",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/16gilbert?lang=eng"
+        },
+        "17giuffra": {
+          "title": "A Faithful Search Rewarded",
+          "speaker": "Patricio M. Giuffra",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/17giuffra?lang=eng"
+        },
+        "18oaks": {
+          "title": "The Need for a Church",
+          "speaker": "Dallin H. Oaks",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/18oaks?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/saturday-morning-session?lang=eng"
+    },
+    "Saturday Afternoon Session": {
+      "talks": {
+        "21eyring": {
+          "title": "Sustaining of General Authorities, Area Seventies, and General Officers",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/21eyring?lang=eng"
+        },
+        "22bednar": {
+          "title": "With the Power of God in Great Glory",
+          "speaker": "David A. Bednar",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/22bednar?lang=eng"
+        },
+        "23schmeil": {
+          "title": "Faith to Act and Become",
+          "speaker": "Ciro Schmeil",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/23schmeil?lang=eng"
+        },
+        "24porter": {
+          "title": "God\u2019s Love: The Most Joyous to the Soul",
+          "speaker": "Susan H. Porter",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/24porter?lang=eng"
+        },
+        "25kopischke": {
+          "title": "Addressing Mental Health",
+          "speaker": "Erich W. Kopischke",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/25kopischke?lang=eng"
+        },
+        "26rasband": {
+          "title": "The Things of My Soul",
+          "speaker": "Ronald A. Rasband",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/26rasband?lang=eng"
+        },
+        "27golden": {
+          "title": "Preparing for the Second Coming of Christ",
+          "speaker": "Christoffel Golden",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/27golden?lang=eng"
+        },
+        "28villanueva": {
+          "title": "Favored of the Lord in All My Days",
+          "speaker": "Mois\u00e9s Villanueva",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/28villanueva?lang=eng"
+        },
+        "29stevenson": {
+          "title": "Simply Beautiful\u2014Beautifully Simple",
+          "speaker": "Gary E. Stevenson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/29stevenson?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/saturday-afternoon-session?lang=eng"
+    },
+    "Saturday Evening Session": {
+      "talks": {
+        "31ballard": {
+          "title": "\u201cLovest Thou Me More Than These?\u201d",
+          "speaker": "M. Russell Ballard",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/31ballard?lang=eng"
+        },
+        "32eubank": {
+          "title": "I Pray He\u2019ll Use Us",
+          "speaker": "Sharon Eubank",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/32eubank?lang=eng"
+        },
+        "33nielson": {
+          "title": "Is There No Balm in Gilead?",
+          "speaker": "Brent H. Nielson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/33nielson?lang=eng"
+        },
+        "34valenzuela": {
+          "title": "Deepening Our Conversion to Jesus Christ",
+          "speaker": "Arnulfo Valenzuela",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/34valenzuela?lang=eng"
+        },
+        "35wilcox": {
+          "title": "Worthiness Is Not Flawlessness",
+          "speaker": "Bradley R. Wilcox",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/35wilcox?lang=eng"
+        },
+        "36kyungu": {
+          "title": "To Be a Follower of Christ",
+          "speaker": "Alfred Kyungu",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/36kyungu?lang=eng"
+        },
+        "37nash": {
+          "title": "Hold Up Your Light",
+          "speaker": "Marcus B. Nash",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/37nash?lang=eng"
+        },
+        "38eyring": {
+          "title": "The Faith to Ask and Then to Act",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/38eyring?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/saturday-evening-session?lang=eng"
+    },
+    "Sunday Morning Session": {
+      "talks": {
+        "41uchtdorf": {
+          "title": "Daily Restoration",
+          "speaker": "Dieter F. Uchtdorf",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/41uchtdorf?lang=eng"
+        },
+        "42johnson": {
+          "title": "Invite Christ to Author Your Story",
+          "speaker": "Camille N. Johnson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/42johnson?lang=eng"
+        },
+        "43renlund": {
+          "title": "The Peace of Christ Abolishes Enmity",
+          "speaker": "Dale G. Renlund",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/43renlund?lang=eng"
+        },
+        "44sikahema": {
+          "title": "A House of Sequential Order",
+          "speaker": "Vaiangina Sikahema",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/44sikahema?lang=eng"
+        },
+        "46cook": {
+          "title": "Personal Peace in Challenging Times",
+          "speaker": "Quentin L. Cook",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/46cook?lang=eng"
+        },
+        "47nelson": {
+          "title": "The Temple and Your Spiritual Foundation",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/47nelson?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/sunday-morning-session?lang=eng"
+    },
+    "Sunday Afternoon Session": {
+      "talks": {
+        "51gong": {
+          "title": "Trust Again",
+          "speaker": "Gerrit W. Gong",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/51gong?lang=eng"
+        },
+        "52budge": {
+          "title": "Giving Holiness to the Lord",
+          "speaker": "L. Todd Budge",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/52budge?lang=eng"
+        },
+        "53perkins": {
+          "title": "Remember Thy Suffering Saints, O Our God",
+          "speaker": "Anthony D. Perkins",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/53perkins?lang=eng"
+        },
+        "54dunn": {
+          "title": "One Percent Better",
+          "speaker": "Michael A. Dunn",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/54dunn?lang=eng"
+        },
+        "55douglas": {
+          "title": "Facing Our Spiritual Hurricanes by Believing in Christ",
+          "speaker": "Sean Douglas",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/55douglas?lang=eng"
+        },
+        "56revillo": {
+          "title": "Miracles of the Gospel of Jesus Christ",
+          "speaker": "Carlos G. Revillo Jr.",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/56revillo?lang=eng"
+        },
+        "57meredith": {
+          "title": "Look down the Road",
+          "speaker": "Alvin F. Meredith III",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/57meredith?lang=eng"
+        },
+        "58andersen": {
+          "title": "The Name of the Church Is Not Negotiable",
+          "speaker": "Neil L. Andersen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/58andersen?lang=eng"
+        },
+        "59nelson": {
+          "title": "Make Time for the Lord",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/59nelson?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/sunday-afternoon-session?lang=eng"
+    }
+  }
+}

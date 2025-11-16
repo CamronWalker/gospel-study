@@ -1,0 +1,227 @@
+{
+  "conference": "2016-April",
+  "year": 2016,
+  "month": "April",
+  "sessions": {
+    "General Women\u2019s Session": {
+      "talks": {
+        "he-asks-us-to-be-his-hands": {
+          "title": "He Asks Us to Be His Hands",
+          "speaker": "Cheryl A. Esplin",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/he-asks-us-to-be-his-hands?lang=eng"
+        },
+        "what-shall-we-do": {
+          "title": "What Shall We Do?",
+          "speaker": "Neill F. Marriott",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/what-shall-we-do?lang=eng"
+        },
+        "i-was-a-stranger": {
+          "title": "\u201cI Was a Stranger\u201d",
+          "speaker": "Linda K. Burton",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/i-was-a-stranger?lang=eng"
+        },
+        "trust-in-that-spirit-which-leadeth-to-do-good": {
+          "title": "Trust in That Spirit Which Leadeth to Do Good",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/trust-in-that-spirit-which-leadeth-to-do-good?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/womens-session?lang=eng"
+    },
+    "Saturday Morning Session": {
+      "talks": {
+        "where-two-or-three-are-gathered": {
+          "title": "Where Two or Three Are Gathered",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/where-two-or-three-are-gathered?lang=eng"
+        },
+        "a-childs-guiding-gift": {
+          "title": "A Child\u2019s Guiding Gift",
+          "speaker": "Mary R. Durham",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/a-childs-guiding-gift?lang=eng"
+        },
+        "i-am-a-child-of-god": {
+          "title": "I Am a Child of God",
+          "speaker": "Donald L. Hallstrom",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/i-am-a-child-of-god?lang=eng"
+        },
+        "where-are-the-keys-and-authority-of-the-priesthood": {
+          "title": "Where Are the Keys and Authority of the Priesthood?",
+          "speaker": "Gary E. Stevenson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/where-are-the-keys-and-authority-of-the-priesthood?lang=eng"
+        },
+        "the-healing-ointment-of-forgiveness": {
+          "title": "The Healing Ointment of Forgiveness",
+          "speaker": "Kevin R. Duncan",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/the-healing-ointment-of-forgiveness?lang=eng"
+        },
+        "be-thou-humble": {
+          "title": "Be Thou Humble",
+          "speaker": "Steven E. Snow",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/be-thou-humble?lang=eng"
+        },
+        "that-i-might-draw-all-men-unto-me": {
+          "title": "\u201cThat I Might Draw All Men unto Me\u201d",
+          "speaker": "Dale G. Renlund",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/that-i-might-draw-all-men-unto-me?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/saturday-morning-session?lang=eng"
+    },
+    "Saturday Afternoon Session": {
+      "talks": {
+        "the-sustaining-of-church-officers": {
+          "title": "The Sustaining of Church Officers",
+          "speaker": "Dieter F. Uchtdorf",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/the-sustaining-of-church-officers?lang=eng"
+        },
+        "church-auditing-department-report-2015": {
+          "title": "Church Auditing Department Report, 2015",
+          "speaker": "Kevin R. Jergensen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/church-auditing-department-report-2015?lang=eng"
+        },
+        "statistical-report-2015": {
+          "title": "Statistical Report, 2015",
+          "speaker": "Brook P. Hales",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/statistical-report-2015?lang=eng"
+        },
+        "standing-with-the-leaders-of-the-church": {
+          "title": "Standing with the Leaders of the Church",
+          "speaker": "Ronald A. Rasband",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/standing-with-the-leaders-of-the-church?lang=eng"
+        },
+        "whoso-receiveth-them-receiveth-me": {
+          "title": "\u201cWhoso Receiveth Them, Receiveth Me\u201d",
+          "speaker": "Neil L. Andersen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/whoso-receiveth-them-receiveth-me?lang=eng"
+        },
+        "to-the-rescue-we-can-do-it": {
+          "title": "To the Rescue: We Can Do It",
+          "speaker": "Mervyn B. Arnold",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/to-the-rescue-we-can-do-it?lang=eng"
+        },
+        "the-sacred-place-of-restoration": {
+          "title": "The Sacred Place of Restoration",
+          "speaker": "Jairo Mazzagardi",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/the-sacred-place-of-restoration?lang=eng"
+        },
+        "always-retain-a-remission-of-your-sins": {
+          "title": "Always Retain a Remission of Your Sins",
+          "speaker": "David A. Bednar",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/always-retain-a-remission-of-your-sins?lang=eng"
+        },
+        "family-councils": {
+          "title": "Family Councils",
+          "speaker": "M. Russell Ballard",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/family-councils?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/saturday-afternoon-session?lang=eng"
+    },
+    "General Priesthood Session": {
+      "talks": {
+        "the-price-of-priesthood-power": {
+          "title": "The Price of Priesthood Power",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/the-price-of-priesthood-power?lang=eng"
+        },
+        "the-greatest-leaders-are-the-greatest-followers": {
+          "title": "The Greatest Leaders Are the Greatest Followers",
+          "speaker": "Stephen W. Owen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/the-greatest-leaders-are-the-greatest-followers?lang=eng"
+        },
+        "in-praise-of-those-who-save": {
+          "title": "In Praise of Those Who Save",
+          "speaker": "Dieter F. Uchtdorf",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/in-praise-of-those-who-save?lang=eng"
+        },
+        "eternal-families": {
+          "title": "Eternal Families",
+          "speaker": "Henry B. Eyring",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/eternal-families?lang=eng"
+        },
+        "a-sacred-trust": {
+          "title": "A Sacred Trust",
+          "speaker": "Thomas S. Monson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/a-sacred-trust?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/priesthood-session?lang=eng"
+    },
+    "Sunday Morning Session": {
+      "talks": {
+        "choices": {
+          "title": "Choices",
+          "speaker": "Thomas S. Monson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/choices?lang=eng"
+        },
+        "do-i-believe": {
+          "title": "Do I Believe?",
+          "speaker": "Bonnie L. Oscarson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/do-i-believe?lang=eng"
+        },
+        "a-pattern-for-peace": {
+          "title": "A Pattern for Peace",
+          "speaker": "W. Christopher Waddell",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/a-pattern-for-peace?lang=eng"
+        },
+        "fathers": {
+          "title": "Fathers",
+          "speaker": "D. Todd Christofferson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/fathers?lang=eng"
+        },
+        "see-yourself-in-the-temple": {
+          "title": "See Yourself in the Temple",
+          "speaker": "Quentin L. Cook",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/see-yourself-in-the-temple?lang=eng"
+        },
+        "he-will-place-you-on-his-shoulders-and-carry-you-home": {
+          "title": "He Will Place You on His Shoulders and Carry You Home",
+          "speaker": "Dieter F. Uchtdorf",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/he-will-place-you-on-his-shoulders-and-carry-you-home?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/sunday-morning-session?lang=eng"
+    },
+    "Sunday Afternoon Session": {
+      "talks": {
+        "the-holy-ghost": {
+          "title": "The Holy Ghost",
+          "speaker": "Robert D. Hales",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/the-holy-ghost?lang=eng"
+        },
+        "always-remember-him": {
+          "title": "Always Remember Him",
+          "speaker": "Gerrit W. Gong",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/always-remember-him?lang=eng"
+        },
+        "refuge-from-the-storm": {
+          "title": "Refuge from the Storm",
+          "speaker": "Patrick Kearon",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/refuge-from-the-storm?lang=eng"
+        },
+        "opposition-in-all-things": {
+          "title": "Opposition in All Things",
+          "speaker": "Dallin H. Oaks",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/opposition-in-all-things?lang=eng"
+        },
+        "the-power-of-godliness": {
+          "title": "The Power of Godliness",
+          "speaker": "Kent F. Richards",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/the-power-of-godliness?lang=eng"
+        },
+        "and-there-shall-be-no-more-death": {
+          "title": "And There Shall Be No More Death",
+          "speaker": "Paul V. Johnson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/and-there-shall-be-no-more-death?lang=eng"
+        },
+        "tomorrow-the-lord-will-do-wonders-among-you": {
+          "title": "Tomorrow the Lord Will Do Wonders among You",
+          "speaker": "Jeffrey R. Holland",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/tomorrow-the-lord-will-do-wonders-among-you?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/2016/04/sunday-afternoon-session?lang=eng"
+    }
+  }
+}

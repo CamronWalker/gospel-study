@@ -1,0 +1,262 @@
+{
+  "conference": "1971-October",
+  "year": 1971,
+  "month": "October",
+  "sessions": {
+    "Friday Morning Session": {
+      "talks": {
+        "i-know-that-my-redeemer-liveth": {
+          "title": "\u201cI Know That My Redeemer Liveth\u201d",
+          "speaker": "Joseph Fielding Smith",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/i-know-that-my-redeemer-liveth?lang=eng"
+        },
+        "the-only-true-and-living-church": {
+          "title": "The Only True and Living Church",
+          "speaker": "Boyd K. Packer",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/the-only-true-and-living-church?lang=eng"
+        },
+        "a-time-of-testing": {
+          "title": "A Time of Testing",
+          "speaker": "Henry D. Taylor",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/a-time-of-testing?lang=eng"
+        },
+        "decisions": {
+          "title": "Decisions",
+          "speaker": "Eldred G. Smith",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/decisions?lang=eng"
+        },
+        "this-is-my-beloved-son": {
+          "title": "\u201cThis Is My Beloved Son\u201d",
+          "speaker": "Loren C. Dunn",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/this-is-my-beloved-son?lang=eng"
+        },
+        "the-purpose-of-life-to-be-proved": {
+          "title": "The Purpose of Life: To Be Proved",
+          "speaker": "Franklin D. Richards",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/the-purpose-of-life-to-be-proved?lang=eng"
+        },
+        "satans-thrust-youth": {
+          "title": "Satan\u2019s Thrust\u2014Youth",
+          "speaker": "Ezra Taft Benson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/satans-thrust-youth?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/friday-morning-session?lang=eng"
+    },
+    "Friday Afternoon Session": {
+      "talks": {
+        "should-the-commandments-be-rewritten": {
+          "title": "Should the Commandments Be Rewritten?",
+          "speaker": "Richard L. Evans",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/should-the-commandments-be-rewritten?lang=eng"
+        },
+        "the-sifting": {
+          "title": "The Sifting",
+          "speaker": "ElRay L. Christiansen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/the-sifting?lang=eng"
+        },
+        "the-ten-commandments": {
+          "title": "The Ten Commandments",
+          "speaker": "Bernard P. Brockbank",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/the-ten-commandments?lang=eng"
+        },
+        "sacrifice-still-brings-forth-blessings": {
+          "title": "Sacrifice Still Brings Forth Blessings",
+          "speaker": "Hartman Rector Jr.",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/sacrifice-still-brings-forth-blessings?lang=eng"
+        },
+        "by-love-serve-one-another": {
+          "title": "\u201cBy Love, Serve One Another\u201d",
+          "speaker": "S. Dilworth Young",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/by-love-serve-one-another?lang=eng"
+        },
+        "the-vitality-of-love": {
+          "title": "The Vitality of Love",
+          "speaker": "Milton R. Hunter",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/the-vitality-of-love?lang=eng"
+        },
+        "elijah-the-prophet": {
+          "title": "Elijah the Prophet",
+          "speaker": "Howard W. Hunter",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/elijah-the-prophet?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/friday-afternoon-session?lang=eng"
+    },
+    "Saturday Morning Session": {
+      "talks": {
+        "watch-that-ye-may-be-ready": {
+          "title": "\u201cWatch, That Ye May Be Ready\u201d",
+          "speaker": "Harold B. Lee",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/watch-that-ye-may-be-ready?lang=eng"
+        },
+        "honesty-a-principle-of-salvation": {
+          "title": "Honesty, a Principle of Salvation",
+          "speaker": "Mark E. Petersen",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/honesty-a-principle-of-salvation?lang=eng"
+        },
+        "the-light-shineth": {
+          "title": "\u201cThe Light Shineth\u201d",
+          "speaker": "Marion G. Romney",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/the-light-shineth?lang=eng"
+        },
+        "thus-saith-the-lord": {
+          "title": "\u201cThus Saith the Lord\u201d",
+          "speaker": "Theodore M. Burton",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/thus-saith-the-lord?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/saturday-morning-session?lang=eng"
+    },
+    "Saturday Afternoon Session": {
+      "talks": {
+        "sustaining-of-general-authorities-and-officers": {
+          "title": "You will notice that two chairs are vacant\u2014Elder Hugh B. Brown of the Quorum of the Twelve Apostles, and Elder Alma Sonne, an Assistant to the Twelve. Upon the advice of their doctors, they have remained at home. We have been hopeful that they might be able to attend at least one of the sessions before the conference ends. Other than that, all of the General Authorities are in attendance.",
+          "speaker": "Sustaining of General Authorities and Officers",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/sustaining-of-general-authorities-and-officers?lang=eng"
+        },
+        "laying-a-foundation-for-the-millennium": {
+          "title": "Laying a Foundation for the Millennium",
+          "speaker": "LeGrand Richards",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/laying-a-foundation-for-the-millennium?lang=eng"
+        },
+        "confession-and-forsaking-elements-of-genuine-repentance": {
+          "title": "Confession and Forsaking: Elements of Genuine Repentance",
+          "speaker": "James A. Cullimore",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/confession-and-forsaking-elements-of-genuine-repentance?lang=eng"
+        },
+        "i-was-in-prison-and-ye-came-unto-me": {
+          "title": "\u201cI Was in Prison, and Ye Came unto Me\u201d",
+          "speaker": "Victor L. Brown",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/i-was-in-prison-and-ye-came-unto-me?lang=eng"
+        },
+        "the-things-that-matter-most": {
+          "title": "The Things That Matter Most",
+          "speaker": "A. Theodore Tuttle",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/the-things-that-matter-most?lang=eng"
+        },
+        "thou-shalt-not": {
+          "title": "Thou Shalt Not",
+          "speaker": "Sterling W. Sill",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/thou-shalt-not?lang=eng"
+        },
+        "our-responsibility-to-save-the-world": {
+          "title": "Our Responsibility: To Save the World",
+          "speaker": "Delbert L. Stapley",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/our-responsibility-to-save-the-world?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/saturday-afternoon-session?lang=eng"
+    },
+    "Priesthood Session": {
+      "talks": {
+        "blessings-of-the-priesthood": {
+          "title": "Blessings of the Priesthood",
+          "speaker": "Joseph Fielding Smith",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/blessings-of-the-priesthood?lang=eng"
+        },
+        "you-can-get-there-from-here": {
+          "title": "You Can Get There from Here",
+          "speaker": "Marvin J. Ashton",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/you-can-get-there-from-here?lang=eng"
+        },
+        "strengthen-thy-brethren": {
+          "title": "\u201cStrengthen Thy Brethren\u201d",
+          "speaker": "Robert L. Simpson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/strengthen-thy-brethren?lang=eng"
+        },
+        "love-unconditional": {
+          "title": "Love Unconditional",
+          "speaker": "Marion D. Hanks",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/love-unconditional?lang=eng"
+        },
+        "a-new-health-missionary-program": {
+          "title": "A New Health Missionary Program",
+          "speaker": "James O. Mason",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/a-new-health-missionary-program?lang=eng"
+        },
+        "strive-for-excellence": {
+          "title": "Strive for Excellence",
+          "speaker": "Dallin H. Oaks",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/strive-for-excellence?lang=eng"
+        },
+        "continuity-of-service": {
+          "title": "Continuity of Service",
+          "speaker": "N. Eldon Tanner",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/continuity-of-service?lang=eng"
+        },
+        "responsibilities-of-the-priesthood": {
+          "title": "Responsibilities of the Priesthood",
+          "speaker": "Harold B. Lee",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/responsibilities-of-the-priesthood?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/priesthood-session?lang=eng"
+    },
+    "Sunday Morning Session": {
+      "talks": {
+        "where-art-thou": {
+          "title": "\u201cWhere Art Thou?\u201d",
+          "speaker": "N. Eldon Tanner",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/where-art-thou?lang=eng"
+        },
+        "turn-heavenward-our-eyes": {
+          "title": "\u201cTurn Heavenward Our Eyes\u201d",
+          "speaker": "John H. Vandenberg",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/turn-heavenward-our-eyes?lang=eng"
+        },
+        "what-is-a-teacher": {
+          "title": "What Is a Teacher?",
+          "speaker": "Paul H. Dunn",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/what-is-a-teacher?lang=eng"
+        },
+        "the-nobility-of-man-in-choosing-good-over-evil": {
+          "title": "The Nobility of Man in Choosing Good over Evil",
+          "speaker": "Alvin R. Dyer",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/the-nobility-of-man-in-choosing-good-over-evil?lang=eng"
+        },
+        "glimpses-of-heaven": {
+          "title": "Glimpses of Heaven",
+          "speaker": "Spencer W. Kimball",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/glimpses-of-heaven?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/sunday-morning-session?lang=eng"
+    },
+    "Sunday Afternoon Session": {
+      "talks": {
+        "if-ye-be-willing-and-obedient": {
+          "title": "\u201cIf Ye Be Willing and Obedient\u201d",
+          "speaker": "Gordon B. Hinckley",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/if-ye-be-willing-and-obedient?lang=eng"
+        },
+        "the-living-christ": {
+          "title": "The Living Christ",
+          "speaker": "Joseph Anderson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/the-living-christ?lang=eng"
+        },
+        "how-to-worship": {
+          "title": "How to Worship",
+          "speaker": "Bruce R. McConkie",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/how-to-worship?lang=eng"
+        },
+        "with-hand-and-heart": {
+          "title": "With Hand and Heart",
+          "speaker": "Thomas S. Monson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/with-hand-and-heart?lang=eng"
+        },
+        "this-same-jesus": {
+          "title": "This Same Jesus",
+          "speaker": "Hugh B. Brown",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/this-same-jesus?lang=eng"
+        },
+        "let-the-spirit-of-oneness-prevail": {
+          "title": "Let the Spirit of Oneness Prevail",
+          "speaker": "Joseph Fielding Smith",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/let-the-spirit-of-oneness-prevail?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1971/10/sunday-afternoon-session?lang=eng"
+    }
+  }
+}

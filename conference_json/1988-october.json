@@ -1,0 +1,212 @@
+{
+  "conference": "1988-October",
+  "year": 1988,
+  "month": "October",
+  "sessions": {
+    "Saturday Morning Session": {
+      "talks": {
+        "flooding-the-earth-with-the-book-of-mormon": {
+          "title": "Flooding the Earth with the Book of Mormon",
+          "speaker": "Ezra Taft Benson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/flooding-the-earth-with-the-book-of-mormon?lang=eng"
+        },
+        "addiction-or-freedom": {
+          "title": "Addiction or Freedom",
+          "speaker": "Russell M. Nelson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/addiction-or-freedom?lang=eng"
+        },
+        "making-righteous-choices-at-the-crossroads-of-life": {
+          "title": "Making Righteous Choices at the Crossroads of Life",
+          "speaker": "Robert D. Hales",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/making-righteous-choices-at-the-crossroads-of-life?lang=eng"
+        },
+        "the-supernal-gift-of-the-atonement": {
+          "title": "The Supernal Gift of the Atonement",
+          "speaker": "James E. Faust",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/the-supernal-gift-of-the-atonement?lang=eng"
+        },
+        "the-measure-of-our-hearts": {
+          "title": "The Measure of Our Hearts",
+          "speaker": "Marvin J. Ashton",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/the-measure-of-our-hearts?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/saturday-morning-session?lang=eng"
+    },
+    "Saturday Afternoon Session": {
+      "talks": {
+        "the-sustaining-of-church-officers": {
+          "title": "The Sustaining of Church Officers",
+          "speaker": "Gordon B. Hinckley",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/the-sustaining-of-church-officers?lang=eng"
+        },
+        "funerals-a-time-for-reverence": {
+          "title": "Funerals\u2014A Time for Reverence",
+          "speaker": "Boyd K. Packer",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/funerals-a-time-for-reverence?lang=eng"
+        },
+        "a-more-excellent-way": {
+          "title": "A More Excellent Way",
+          "speaker": "Robert E. Sackley",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/a-more-excellent-way?lang=eng"
+        },
+        "christlike-communications": {
+          "title": "Christlike Communications",
+          "speaker": "L. Lionel Kendrick",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/christlike-communications?lang=eng"
+        },
+        "the-soil-and-roots-of-testimony": {
+          "title": "The Soil and Roots of Testimony",
+          "speaker": "John K. Carmack",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/the-soil-and-roots-of-testimony?lang=eng"
+        },
+        "the-hand-of-fellowship": {
+          "title": "The Hand of Fellowship",
+          "speaker": "M. Russell Ballard",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/the-hand-of-fellowship?lang=eng"
+        },
+        "answer-me": {
+          "title": "\u201cAnswer Me\u201d",
+          "speaker": "Neal A. Maxwell",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/answer-me?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/saturday-afternoon-session?lang=eng"
+    },
+    "Priesthood Session": {
+      "talks": {
+        "the-priesthood-of-god": {
+          "title": "The Priesthood of God",
+          "speaker": "Joseph B. Wirthlin",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/the-priesthood-of-god?lang=eng"
+        },
+        "inviting-others-to-come-unto-christ": {
+          "title": "Inviting Others to \u201cCome unto Christ\u201d",
+          "speaker": "Gene R. Cook",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/inviting-others-to-come-unto-christ?lang=eng"
+        },
+        "a-willing-heart": {
+          "title": "A Willing Heart",
+          "speaker": "Monte J. Brough",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/a-willing-heart?lang=eng"
+        },
+        "choose-the-church": {
+          "title": "Choose the Church",
+          "speaker": "Albert Choules Jr.",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/choose-the-church?lang=eng"
+        },
+        "we-have-a-work-to-do": {
+          "title": "We Have a Work to Do",
+          "speaker": "Lloyd P. George",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/we-have-a-work-to-do?lang=eng"
+        },
+        "what-went-ye-out-to-see": {
+          "title": "\u201cWhat Went Ye Out \u2026 to See?\u201d",
+          "speaker": "Gerald E. Melchin",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/what-went-ye-out-to-see?lang=eng"
+        },
+        "goal-beyond-victory": {
+          "title": "Goal beyond Victory",
+          "speaker": "Thomas S. Monson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/goal-beyond-victory?lang=eng"
+        },
+        "to-the-bishops-of-the-church": {
+          "title": "To the Bishops of the Church",
+          "speaker": "Gordon B. Hinckley",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/to-the-bishops-of-the-church?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/priesthood-session?lang=eng"
+    },
+    "Sunday Morning Session": {
+      "talks": {
+        "the-healing-power-of-christ": {
+          "title": "The Healing Power of Christ",
+          "speaker": "Gordon B. Hinckley",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/the-healing-power-of-christ?lang=eng"
+        },
+        "blessed-from-on-high": {
+          "title": "Blessed from on High",
+          "speaker": "Howard W. Hunter",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/blessed-from-on-high?lang=eng"
+        },
+        "the-royal-law-of-love": {
+          "title": "The Royal Law of Love",
+          "speaker": "Marion D. Hanks",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/the-royal-law-of-love?lang=eng"
+        },
+        "what-think-ye-of-christ": {
+          "title": "\u201cWhat Think Ye of Christ?\u201d",
+          "speaker": "Dallin H. Oaks",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/what-think-ye-of-christ?lang=eng"
+        },
+        "hallmarks-of-a-happy-home": {
+          "title": "Hallmarks of a Happy Home",
+          "speaker": "Thomas S. Monson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/hallmarks-of-a-happy-home?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/sunday-morning-session?lang=eng"
+    },
+    "Sunday Afternoon Session": {
+      "talks": {
+        "train-up-a-child": {
+          "title": "\u201cTrain Up a Child\u201d",
+          "speaker": "L. Tom Perry",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/train-up-a-child?lang=eng"
+        },
+        "true-friends-that-lift": {
+          "title": "True Friends That Lift",
+          "speaker": "Richard G. Scott",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/true-friends-that-lift?lang=eng"
+        },
+        "children-at-peace": {
+          "title": "Children at Peace",
+          "speaker": "Michaelene P. Grassli",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/children-at-peace?lang=eng"
+        },
+        "the-quality-of-eternal-life": {
+          "title": "The Quality of Eternal Life",
+          "speaker": "William Grant Bangerter",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/the-quality-of-eternal-life?lang=eng"
+        },
+        "a-call-to-serve": {
+          "title": "A Call to Serve",
+          "speaker": "David B. Haight",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/a-call-to-serve?lang=eng"
+        },
+        "i-testify": {
+          "title": "I Testify",
+          "speaker": "Ezra Taft Benson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/i-testify?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/sunday-afternoon-session?lang=eng"
+    },
+    "General Women\u2019s Meeting": {
+      "talks": {
+        "becoming-a-prepared-people": {
+          "title": "Becoming a Prepared People",
+          "speaker": "Barbara W. Winder",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/becoming-a-prepared-people?lang=eng"
+        },
+        "i-will-follow-gods-plan-for-me": {
+          "title": "I Will Follow God\u2019s Plan for Me",
+          "speaker": "Michaelene P. Grassli",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/i-will-follow-gods-plan-for-me?lang=eng"
+        },
+        "stand-for-truth-and-righteousness": {
+          "title": "Stand for Truth and Righteousness",
+          "speaker": "Ardeth G. Kapp",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/stand-for-truth-and-righteousness?lang=eng"
+        },
+        "to-the-single-adult-sisters-of-the-church": {
+          "title": "To the Single Adult Sisters of the Church",
+          "speaker": "Ezra Taft Benson",
+          "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/to-the-single-adult-sisters-of-the-church?lang=eng"
+        }
+      },
+      "url": "https://www.churchofjesuschrist.org/study/general-conference/1988/10/general-womens-session?lang=eng"
+    }
+  }
+}
