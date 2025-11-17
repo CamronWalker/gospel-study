@@ -1,8 +1,8 @@
 """
 Sample Usage:
 - To scrape a range of General Conferences:
-  python3 conference_scrape_to_json.py 2020-2023
-  (This will scrape the list of talks from all April and October conferences in the range and save to JSON files like 'conference_json/2020-april.json', 'conference_json/2020-october.json', etc.)
+  python3 conference_scrape_to_json.py 1971-2025
+  This will scrape the list of talks from all April and October conferences in the range and save to JSON files like 'conference_json/2020-april.json', 'conference_json/2020-october.json', etc.)
 """
 import os
 import json
