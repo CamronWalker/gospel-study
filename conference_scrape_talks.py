@@ -10,7 +10,7 @@ Sample Usage:
 
   TODO fix the fact the paragraph verse numbers are not actually correct
   TODO fix the wikilinks not having verses and the verse ranges
-  TODO 
+  TODO add conference talk parser to .md file generator so need md filename in json to wikilink to
   
   """
 
