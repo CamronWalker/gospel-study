@@ -8,9 +8,8 @@ Sample Usage:
   python3 conference_scrape_talk_content.py 2020-2023 --replace
   (This will replace existing body, full_markdown, sources, and reset resources to just the Gospel Library link.)
 
-  TODO fix the fact the paragraph verse numbers are not actually correct
   TODO fix the wikilinks not having verses and the verse ranges
-  TODO add conference talk parser to .md file generator so need md filename in json to wikilink to
+  TODO add conference talk parser to .md links file generator so need md filename in json to wikilink to
   
   """
 
@@ -204,26 +203,22 @@ def scrape_talk_content(url, driver):
         full_markdown = html_to_markdown(full_html)
         body = []
         all_elements = body_element.find_elements(By.CSS_SELECTOR, 'h1, h2, h3, h4, h5, h6, p, figure')
-        verse = 0
+        paragraph_counter = 0
         for elem in all_elements:
-            tag = elem.tag_name
+            tag = elem.tag_name.lower()
             inner_html = elem.get_attribute('innerHTML')
             markdown = html_to_markdown(inner_html)
             if tag in ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']:
                 level = int(tag[1])
                 body.append({'type': 'heading', 'level': level, 'markdown': markdown})
             elif tag == 'p':
-                this_verse = verse + 1
-                verse += 1
-                id_attr = elem.get_attribute('id')
-                if id_attr and id_attr.startswith('p'):
-                    rest = id_attr[1:]
-                    if rest.isdigit():
-                        id_num = int(rest)
-                        if id_num:
-                            this_verse = id_num
-                            verse = max(verse, this_verse)
-                body.append({'verse': this_verse, 'type': 'paragraph', 'markdown': markdown})
+                if not markdown.strip():
+                    continue
+                classes = elem.get_attribute('class') or ''
+                if 'article-footer' in classes or 'share-' in classes:
+                    continue
+                paragraph_counter += 1
+                body.append({'paragraph': paragraph_counter, 'type': 'paragraph', 'markdown': markdown})
             elif tag == 'figure':
                 try:
                     img = elem.find_element(By.TAG_NAME, 'img')
