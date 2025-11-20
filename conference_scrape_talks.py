@@ -125,22 +125,51 @@ book_map = {
     'pgp/a-of-f': 'Articles of Faith',
 }
 def get_wikilink(href, text):
-    """
-    Convert a Church scripture URL into proper Obsidian wikilinks with verse support.
-    """
     try:
+        if not href.startswith('http'):
+            href = 'https://www.churchofjesuschrist.org' + href
         # Extract path from absolute or relative URL
         parsed_url = re.match(r'https?://[^/]+(/study/scriptures/[^?#]+)(\?[^#]*)?(#.*)?', href)
         if not parsed_url:
             return None
         path = parsed_url.group(1)
-        fragment = parsed_url.group(3) or '' # e.g. "#5" or "#5-8"
-        parts = path.split('/')[3:] # ['bofm', 'alma', '5']
+        query = parsed_url.group(2) or ''
+        fragment = parsed_url.group(3) or ''
+        parts = path.split('/')[3:] # ['bofm', 'alma', '5'] or ['bofm', 'alma', '5.6-8']
         if len(parts) < 2:
             return None
         corpus = parts[0]
         book_abbr = parts[1]
-        chapter = parts[2] if len(parts) > 2 else None
+        chapter = None
+        start_verse = None
+        end_verse = None
+        if len(parts) > 2:
+            chapter_str = parts[2]
+            if '.' in chapter_str:
+                chap_match = re.match(r'(\d+)\.(\d+)(?:-(\d+))?', chapter_str)
+                if chap_match:
+                    chapter = chap_match.group(1)
+                    start_verse = int(chap_match.group(2))
+                    end_verse = int(chap_match.group(3)) if chap_match.group(3) else start_verse
+            if chapter is None:
+                chap_match = re.match(r'\d+', chapter_str)
+                if chap_match:
+                    chapter = chapter_str
+        # Override with ?id= if present
+        if query:
+            query_params = dict(q.split('=') for q in query.lstrip('?').split('&') if '=' in q)
+            id_param = query_params.get('id')
+            if id_param:
+                id_match = re.match(r'(?:p|verse)?(\d+)(?:-(?:p|verse)?(\d+))?', id_param)
+                if id_match:
+                    start_verse = int(id_match.group(1))
+                    end_verse = int(id_match.group(2)) if id_match.group(2) else start_verse
+        # If still no verses, check fragment
+        if start_verse is None and fragment:
+            frag_match = re.match(r'#(?:p|verse)?(\d+)(?:-(?:p|verse)?(\d+))?', fragment)
+            if frag_match:
+                start_verse = int(frag_match.group(1))
+                end_verse = int(frag_match.group(2)) if frag_match.group(2) else start_verse
         key = f"{corpus}/{book_abbr}"
         book_name = book_map.get(key)
         if not book_name:
@@ -150,27 +179,18 @@ def get_wikilink(href, text):
             base_name = f"D&C {chapter}" if chapter else "D&C"
         else:
             base_name = f"{book_name} {chapter}" if chapter else book_name
-        # No fragment → whole chapter link
-        if not fragment:
-            return f"[[{base_name}|{text}]]"
-        # Parse fragment: #5 or #5-8
-        verse_match = re.match(r'#(\d+)(-(\d+))?', fragment)
-        if not verse_match:
-            return f"[[{base_name}|{text}]]" # fallback
-        start_verse = int(verse_match.group(1))
-        end_verse = int(verse_match.group(3)) if verse_match.group(3) else start_verse
-        # Single verse
-        if start_verse == end_verse:
-            link_text = f"{book_name} {chapter}:{start_verse}" if book_name != 'D&C' else f"D&C {chapter}:{start_verse}"
-            return f"[[{base_name}#{start_verse}|{link_text}]]"
-        # Verse range
-        links = []
-        display_text = f"{book_name} {chapter}:{start_verse}-{end_verse}" if book_name != 'D&C' else f"D&C {chapter}:{start_verse}-{end_verse}"
-        # First link shows the full range
-        links.append(f"[[{base_name}#{start_verse}|{display_text}]]")
-        # Subsequent verses: hidden links (empty display text)
-        for v in range(start_verse + 1, end_verse + 1):
-            links.append(f"[[{base_name}#{v}|]]")
+        # No verses → whole chapter link
+        if start_verse is None:
+            return f"[[{base_name}]]"
+        # Verses present
+        if book_name == 'D&C':
+            display_text = f"D&C {chapter}:{start_verse}-{end_verse}" if start_verse != end_verse else f"D&C {chapter}:{start_verse}"
+        else:
+            display_text = f"{book_name} {chapter}:{start_verse}-{end_verse}" if start_verse != end_verse else f"{book_name} {chapter}:{start_verse}"
+        links = [f"[[{base_name}#{start_verse}|{display_text}]]"]
+        if start_verse != end_verse:
+            for v in range(start_verse + 1, end_verse + 1):
+                links.append(f"[[{base_name}#{v}|]]")
         return "".join(links)
     except Exception as e:
         print(f"Warning: Failed to parse scripture link {href}: {e}")
