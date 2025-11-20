@@ -25,6 +25,26 @@ def normalize_author(author):
     author = re.sub(r'By\s+', '', author, flags=re.IGNORECASE)
     author = re.sub(r'^(Elder|President|Sister|Brother|Bishop)\s+', '', author, flags=re.IGNORECASE)
     return author.strip()
+
+def generate_filename(title, speaker, year, month):
+    lastname = speaker.split()[-1]
+    month_short = month[:3]
+    filename = f"{title} — {lastname} {year} {month_short}"
+    # Sanitize for filesystem compatibility
+    filename = filename.replace('"', '')  # Remove quotes
+    filename = filename.replace('?', '')  # Remove question marks
+    filename = filename.replace(':', '-')  # Replace colons with dashes
+    filename = filename.replace(',', '')  # Remove commas
+    filename = filename.replace('/', '-')  # Replace slashes with dashes
+    filename = filename.replace('\\', '-')  # Replace backslashes with dashes
+    filename = filename.replace('|', '-')  # Replace pipes with dashes
+    filename = filename.replace('<', '-')  # Replace less than
+    filename = filename.replace('>', '-')  # Replace greater than
+    filename = filename.replace('*', '-')  # Replace asterisks
+    # Remove any multiple spaces and trim
+    filename = re.sub(r'\s+', ' ', filename).strip()
+    return filename
+
 def get_driver():
     options = Options()
     options.add_argument('--headless')
@@ -88,7 +108,8 @@ def scrape_conference(driver, year, month, pbar):
                     conference_data['sessions'][current_session_name]["talks"][slug] = {
                         "title": author,
                         "speaker": normalize_author(title),
-                        "url": full_url
+                        "url": full_url,
+                        "filename": generate_filename(author, normalize_author(title), year, month)
                     }
             else:
                 # session related
@@ -100,7 +121,7 @@ def scrape_conference(driver, year, month, pbar):
                     conference_data['sessions'][current_session_name]["url"] = full_url
         # Save
         with open(filename, 'w') as f:
-            json.dump(conference_data, f, indent=2)
+            json.dump(conference_data, f, indent=2, ensure_ascii=False)
     except Exception as e:
         pbar.write(f"Error scraping {conference}: {e}")
 if __name__ == '__main__':

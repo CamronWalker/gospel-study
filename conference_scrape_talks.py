@@ -332,7 +332,7 @@ def process_conference(year, month, replace=False):
     if num_to_scrape == 0:
         if updated:
             with open(filename, 'w') as f:
-                json.dump(conference_data, f, indent=2)
+                json.dump(conference_data, f, indent=2, ensure_ascii=False)
             print(f"Updated conference data in {filename} (resources only)")
         else:
             print(f"Skipping {year}-{month}: All talks already have content and resources.")
@@ -367,7 +367,7 @@ def process_conference(year, month, replace=False):
    
     if updated:
         with open(filename, 'w') as f:
-            json.dump(conference_data, f, indent=2)
+            json.dump(conference_data, f, indent=2, ensure_ascii=False)
         print(f"Updated conference data in {filename}")
     else:
         print(f"No updates made to {filename}")
