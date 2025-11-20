@@ -13,7 +13,8 @@ This project scrapes LDS General Conference talks and scriptures, processes them
 ### Scripts
 - `conference_ai.py`: Generates AI summaries, tags, and related resources for conference talks using x.ai API.
 - `conference_md_updater.py`: Creates or updates Markdown files for conference talks in Obsidian, incorporating frontmatter, properties, AI summaries, and talk content.
-- `conference_scrape_to_json.py`: Scrapes LDS General Conference talks from the web, extracts content, footnotes, scriptures, and initial resources, and saves to JSON format.
+- `conference_create_json.py`: Scrapes LDS General Conference years to create json files for each year listing talks.
+- `conference_scrape_talks.py`: Scrapes the LDS General Conference talks listed in the conferences in folder `conference_json`. 
 - `scripture_ai.py`: Generates AI summaries, tags, and related scriptures for scripture chapters using x.ai API.
 - `scripture_md_updater.py`: Creates or updates Markdown files for scriptures in Obsidian, adding frontmatter, resources, AI summaries, and preserving verse content.
 
