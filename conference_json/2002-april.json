@@ -5,37 +5,37 @@
   "sessions": {
     "Saturday Morning Session": {
       "talks": {
-        "the-church-goes-forward": {
+        "/2002/04/the-church-goes-forward": {
           "title": "The Church Goes Forward",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/the-church-goes-forward?lang=eng",
           "filename": "The Church Goes Forward — Hinckley 2002 Apr"
         },
-        "children": {
+        "/2002/04/children": {
           "title": "Children",
           "speaker": "Boyd K. Packer",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/children?lang=eng",
           "filename": "Children — Packer 2002 Apr"
         },
-        "the-law-of-tithing": {
+        "/2002/04/the-law-of-tithing": {
           "title": "The Law of Tithing",
           "speaker": "Earl C. Tingey",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/the-law-of-tithing?lang=eng",
           "filename": "The Law of Tithing — Tingey 2002 Apr"
         },
-        "developing-inner-strength": {
+        "/2002/04/developing-inner-strength": {
           "title": "Developing Inner Strength",
           "speaker": "Mary Ellen W. Smoot",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/developing-inner-strength?lang=eng",
           "filename": "Developing Inner Strength — Smoot 2002 Apr"
         },
-        "follow-me": {
+        "/2002/04/follow-me": {
           "title": "“Follow Me”",
           "speaker": "Joseph B. Wirthlin",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/follow-me?lang=eng",
           "filename": "“Follow Me” — Wirthlin 2002 Apr"
         },
-        "hidden-wedges": {
+        "/2002/04/hidden-wedges": {
           "title": "Hidden Wedges",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/hidden-wedges?lang=eng",
@@ -46,55 +46,55 @@
     },
     "Saturday Afternoon Session": {
       "talks": {
-        "the-sustaining-of-church-officers": {
+        "/2002/04/the-sustaining-of-church-officers": {
           "title": "The Sustaining of Church Officers",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/the-sustaining-of-church-officers?lang=eng",
           "filename": "The Sustaining of Church Officers — Monson 2002 Apr"
         },
-        "church-auditing-department-report": {
+        "/2002/04/church-auditing-department-report": {
           "title": "Church Auditing Department Report",
           "speaker": "Wesley L. Jones",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/church-auditing-department-report?lang=eng",
           "filename": "Church Auditing Department Report — Jones 2002 Apr"
         },
-        "statistical-report-2001": {
+        "/2002/04/statistical-report-2001": {
           "title": "Statistical Report, 2001",
           "speaker": "F. Michael Watson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/statistical-report-2001?lang=eng",
           "filename": "Statistical Report 2001 — Watson 2002 Apr"
         },
-        "full-conversion-brings-happiness": {
+        "/2002/04/full-conversion-brings-happiness": {
           "title": "Full Conversion Brings Happiness",
           "speaker": "Richard G. Scott",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/full-conversion-brings-happiness?lang=eng",
           "filename": "Full Conversion Brings Happiness — Scott 2002 Apr"
         },
-        "true-friends": {
+        "/2002/04/true-friends": {
           "title": "True Friends",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/true-friends?lang=eng",
           "filename": "True Friends — Eyring 2002 Apr"
         },
-        "faith-obedience": {
+        "/2002/04/faith-obedience": {
           "title": "Faith Obedience",
           "speaker": "R. Conrad Schultz",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/faith-obedience?lang=eng",
           "filename": "Faith Obedience — Schultz 2002 Apr"
         },
-        "being-teachable": {
+        "/2002/04/being-teachable": {
           "title": "Being Teachable",
           "speaker": "Robert R. Steuer",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/being-teachable?lang=eng",
           "filename": "Being Teachable — Steuer 2002 Apr"
         },
-        "the-gospel-in-our-lives": {
+        "/2002/04/the-gospel-in-our-lives": {
           "title": "The Gospel in Our Lives",
           "speaker": "Dallin H. Oaks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/the-gospel-in-our-lives?lang=eng",
           "filename": "The Gospel in Our Lives — Oaks 2002 Apr"
         },
-        "consecrate-thy-performance": {
+        "/2002/04/consecrate-thy-performance": {
           "title": "Consecrate Thy Performance",
           "speaker": "Neal A. Maxwell",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/consecrate-thy-performance?lang=eng",
@@ -105,37 +105,37 @@
     },
     "Priesthood Session": {
       "talks": {
-        "becoming-men-in-whom-the-spirit-of-god-is": {
+        "/2002/04/becoming-men-in-whom-the-spirit-of-god-is": {
           "title": "Becoming Men in Whom the Spirit of God Is",
           "speaker": "L. Tom Perry",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/becoming-men-in-whom-the-spirit-of-god-is?lang=eng",
           "filename": "Becoming Men in Whom the Spirit of God Is — Perry 2002 Apr"
         },
-        "this-road-we-call-life": {
+        "/2002/04/this-road-we-call-life": {
           "title": "This Road We Call Life",
           "speaker": "Ben B. Banks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/this-road-we-call-life?lang=eng",
           "filename": "This Road We Call Life — Banks 2002 Apr"
         },
-        "becoming-a-great-benefit-to-our-fellow-beings": {
+        "/2002/04/becoming-a-great-benefit-to-our-fellow-beings": {
           "title": "Becoming a Great Benefit to Our Fellow Beings",
           "speaker": "Spencer J. Condie",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/becoming-a-great-benefit-to-our-fellow-beings?lang=eng",
           "filename": "Becoming a Great Benefit to Our Fellow Beings — Condie 2002 Apr"
         },
-        "it-can-t-happen-to-me": {
+        "/2002/04/it-can-t-happen-to-me": {
           "title": "It Can’t Happen to Me",
           "speaker": "James E. Faust",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/it-can-t-happen-to-me?lang=eng",
           "filename": "It Can’t Happen to Me — Faust 2002 Apr"
         },
-        "they-pray-and-they-go": {
+        "/2002/04/they-pray-and-they-go": {
           "title": "They Pray and They Go",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/they-pray-and-they-go?lang=eng",
           "filename": "They Pray and They Go — Monson 2002 Apr"
         },
-        "personal-worthiness-to-exercise-the-priesthood": {
+        "/2002/04/personal-worthiness-to-exercise-the-priesthood": {
           "title": "Personal Worthiness to Exercise the Priesthood",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/personal-worthiness-to-exercise-the-priesthood?lang=eng",
@@ -146,37 +146,37 @@
     },
     "Sunday Morning Session": {
       "talks": {
-        "the-lifeline-of-prayer": {
+        "/2002/04/the-lifeline-of-prayer": {
           "title": "The Lifeline of Prayer",
           "speaker": "James E. Faust",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/the-lifeline-of-prayer?lang=eng",
           "filename": "The Lifeline of Prayer — Faust 2002 Apr"
         },
-        "the-other-prodigal": {
+        "/2002/04/the-other-prodigal": {
           "title": "The Other Prodigal",
           "speaker": "Jeffrey R. Holland",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/the-other-prodigal?lang=eng",
           "filename": "The Other Prodigal — Holland 2002 Apr"
         },
-        "for-thy-good": {
+        "/2002/04/for-thy-good": {
           "title": "For Thy Good",
           "speaker": "Richard C. Edgley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/for-thy-good?lang=eng",
           "filename": "For Thy Good — Edgley 2002 Apr"
         },
-        "the-language-of-love": {
+        "/2002/04/the-language-of-love": {
           "title": "The Language of Love",
           "speaker": "Gayle M. Clegg",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/the-language-of-love?lang=eng",
           "filename": "The Language of Love — Clegg 2002 Apr"
         },
-        "out-of-darkness-into-his-marvelous-light": {
+        "/2002/04/out-of-darkness-into-his-marvelous-light": {
           "title": "Out of Darkness into His Marvelous Light",
           "speaker": "Robert D. Hales",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/out-of-darkness-into-his-marvelous-light?lang=eng",
           "filename": "Out of Darkness into His Marvelous Light — Hales 2002 Apr"
         },
-        "we-walk-by-faith": {
+        "/2002/04/we-walk-by-faith": {
           "title": "We Walk by Faith",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/we-walk-by-faith?lang=eng",
@@ -187,55 +187,55 @@
     },
     "Sunday Afternoon Session": {
       "talks": {
-        "how-firm-our-foundation": {
+        "/2002/04/how-firm-our-foundation": {
           "title": "How Firm Our Foundation",
           "speaker": "Russell M. Nelson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/how-firm-our-foundation?lang=eng",
           "filename": "How Firm Our Foundation — Nelson 2002 Apr"
         },
-        "eternal-life-through-jesus-christ": {
+        "/2002/04/eternal-life-through-jesus-christ": {
           "title": "Eternal Life through Jesus Christ",
           "speaker": "John M. Madsen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/eternal-life-through-jesus-christ?lang=eng",
           "filename": "Eternal Life through Jesus Christ — Madsen 2002 Apr"
         },
-        "some-basic-teachings-from-the-history-of-joseph-smith": {
+        "/2002/04/some-basic-teachings-from-the-history-of-joseph-smith": {
           "title": "Some Basic Teachings from the History of Joseph Smith",
           "speaker": "Carlos H. Amado",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/some-basic-teachings-from-the-history-of-joseph-smith?lang=eng",
           "filename": "Some Basic Teachings from the History of Joseph Smith — Amado 2002 Apr"
         },
-        "charity-perfect-and-everlasting-love": {
+        "/2002/04/charity-perfect-and-everlasting-love": {
           "title": "Charity: Perfect and Everlasting Love",
           "speaker": "Gene R. Cook",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/charity-perfect-and-everlasting-love?lang=eng",
           "filename": "Charity- Perfect and Everlasting Love — Cook 2002 Apr"
         },
-        "feel-the-love-of-the-lord": {
+        "/2002/04/feel-the-love-of-the-lord": {
           "title": "Feel the Love of the Lord",
           "speaker": "Bonnie D. Parkin",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/feel-the-love-of-the-lord?lang=eng",
           "filename": "Feel the Love of the Lord — Parkin 2002 Apr"
         },
-        "the-opportunity-to-serve": {
+        "/2002/04/the-opportunity-to-serve": {
           "title": "The Opportunity to Serve",
           "speaker": "Gerald N. Lund",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/the-opportunity-to-serve?lang=eng",
           "filename": "The Opportunity to Serve — Lund 2002 Apr"
         },
-        "i-ll-go-where-you-want-me-to-go": {
+        "/2002/04/i-ll-go-where-you-want-me-to-go": {
           "title": "I’ll Go Where You Want Me to Go",
           "speaker": "William R. Walker",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/i-ll-go-where-you-want-me-to-go?lang=eng",
           "filename": "I’ll Go Where You Want Me to Go — Walker 2002 Apr"
         },
-        "the-peaceable-things-of-the-kingdom": {
+        "/2002/04/the-peaceable-things-of-the-kingdom": {
           "title": "The Peaceable Things of the Kingdom",
           "speaker": "M. Russell Ballard",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/the-peaceable-things-of-the-kingdom?lang=eng",
           "filename": "The Peaceable Things of the Kingdom — Ballard 2002 Apr"
         },
-        "we-look-to-christ": {
+        "/2002/04/we-look-to-christ": {
           "title": "We Look to Christ",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/we-look-to-christ?lang=eng",
@@ -246,25 +246,25 @@
     },
     "General Young Women Meeting": {
       "talks": {
-        "standing-in-holy-places": {
+        "/2002/04/standing-in-holy-places": {
           "title": "Standing in Holy Places",
           "speaker": "Sharon G. Larsen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/standing-in-holy-places?lang=eng",
           "filename": "Standing in Holy Places — Larsen 2002 Apr"
         },
-        "strengthen-home-and-family": {
+        "/2002/04/strengthen-home-and-family": {
           "title": "Strengthen Home and Family",
           "speaker": "Carol B. Thomas",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/strengthen-home-and-family?lang=eng",
           "filename": "Strengthen Home and Family — Thomas 2002 Apr"
         },
-        "hold-high-the-torch": {
+        "/2002/04/hold-high-the-torch": {
           "title": "Hold High the Torch",
           "speaker": "Margaret D. Nadauld",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/hold-high-the-torch?lang=eng",
           "filename": "Hold High the Torch — Nadauld 2002 Apr"
         },
-        "pathways-to-perfection": {
+        "/2002/04/pathways-to-perfection": {
           "title": "Pathways to Perfection",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2002/04/pathways-to-perfection?lang=eng",

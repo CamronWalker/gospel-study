@@ -5,49 +5,49 @@
   "sessions": {
     "Saturday Morning Session": {
       "talks": {
-        "the-power-of-prayer": {
+        "/1991/04/the-power-of-prayer": {
           "title": "The Power of Prayer",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/the-power-of-prayer?lang=eng",
           "filename": "The Power of Prayer — Monson 1991 Apr"
         },
-        "the-sustaining-of-church-officers": {
+        "/1991/04/the-sustaining-of-church-officers": {
           "title": "The Sustaining of Church Officers",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/the-sustaining-of-church-officers?lang=eng",
           "filename": "The Sustaining of Church Officers — Hinckley 1991 Apr"
         },
-        "statistical-report-1990": {
+        "/1991/04/statistical-report-1990": {
           "title": "Statistical Report 1990",
           "speaker": "F. Michael Watson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/statistical-report-1990?lang=eng",
           "filename": "Statistical Report 1990 — Watson 1991 Apr"
         },
-        "the-moving-of-the-water": {
+        "/1991/04/the-moving-of-the-water": {
           "title": "The Moving of the Water",
           "speaker": "Boyd K. Packer",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/the-moving-of-the-water?lang=eng",
           "filename": "The Moving of the Water — Packer 1991 Apr"
         },
-        "beware-lest-thou-forget-the-lord": {
+        "/1991/04/beware-lest-thou-forget-the-lord": {
           "title": "“Beware Lest Thou Forget the Lord”",
           "speaker": "Dean L. Larsen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/beware-lest-thou-forget-the-lord?lang=eng",
           "filename": "“Beware Lest Thou Forget the Lord” — Larsen 1991 Apr"
         },
-        "repentance": {
+        "/1991/04/repentance": {
           "title": "Repentance",
           "speaker": "F. Burton Howard",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/repentance?lang=eng",
           "filename": "Repentance — Howard 1991 Apr"
         },
-        "honour-thy-father-and-thy-mother": {
+        "/1991/04/honour-thy-father-and-thy-mother": {
           "title": "“Honour Thy Father and Thy Mother”",
           "speaker": "Dallin H. Oaks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/honour-thy-father-and-thy-mother?lang=eng",
           "filename": "“Honour Thy Father and Thy Mother” — Oaks 1991 Apr"
         },
-        "a-voice-of-gladness": {
+        "/1991/04/a-voice-of-gladness": {
           "title": "“A Voice of Gladness”",
           "speaker": "Marvin J. Ashton",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/a-voice-of-gladness?lang=eng",
@@ -58,49 +58,49 @@
     },
     "Saturday Afternoon Session": {
       "talks": {
-        "the-church-audit-committee-report": {
+        "/1991/04/the-church-audit-committee-report": {
           "title": "The Church Audit Committee Report",
           "speaker": "Wilford G. Edling",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/the-church-audit-committee-report?lang=eng",
           "filename": "The Church Audit Committee Report — Edling 1991 Apr"
         },
-        "listen-to-learn": {
+        "/1991/04/listen-to-learn": {
           "title": "Listen to Learn",
           "speaker": "Russell M. Nelson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/listen-to-learn?lang=eng",
           "filename": "Listen to Learn — Nelson 1991 Apr"
         },
-        "redemption-of-the-dead": {
+        "/1991/04/redemption-of-the-dead": {
           "title": "Redemption of the Dead",
           "speaker": "Earl C. Tingey",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/redemption-of-the-dead?lang=eng",
           "filename": "Redemption of the Dead — Tingey 1991 Apr"
         },
-        "prophets": {
+        "/1991/04/prophets": {
           "title": "Prophets",
           "speaker": "Rulon G. Craven",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/prophets?lang=eng",
           "filename": "Prophets — Craven 1991 Apr"
         },
-        "sunday-worship-service": {
+        "/1991/04/sunday-worship-service": {
           "title": "Sunday Worship Service",
           "speaker": "W. Mack Lawrence",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/sunday-worship-service?lang=eng",
           "filename": "Sunday Worship Service — Lawrence 1991 Apr"
         },
-        "the-savior-and-joseph-smith-alike-yet-unlike": {
+        "/1991/04/the-savior-and-joseph-smith-alike-yet-unlike": {
           "title": "The Savior and Joseph Smith—Alike Yet Unlike",
           "speaker": "Francis M. Gibbons",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/the-savior-and-joseph-smith-alike-yet-unlike?lang=eng",
           "filename": "The Savior and Joseph Smith—Alike Yet Unlike — Gibbons 1991 Apr"
         },
-        "making-the-right-decisions": {
+        "/1991/04/making-the-right-decisions": {
           "title": "Making the Right Decisions",
           "speaker": "Richard G. Scott",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/making-the-right-decisions?lang=eng",
           "filename": "Making the Right Decisions — Scott 1991 Apr"
         },
-        "peace-within": {
+        "/1991/04/peace-within": {
           "title": "Peace Within",
           "speaker": "Joseph B. Wirthlin",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/peace-within?lang=eng",
@@ -111,37 +111,37 @@
     },
     "Priesthood Session": {
       "talks": {
-        "called-to-serve": {
+        "/1991/04/called-to-serve": {
           "title": "Called to Serve",
           "speaker": "L. Tom Perry",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/called-to-serve?lang=eng",
           "filename": "Called to Serve — Perry 1991 Apr"
         },
-        "to-honor-the-priesthood": {
+        "/1991/04/to-honor-the-priesthood": {
           "title": "“To Honor the Priesthood”",
           "speaker": "J. Richard Clarke",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/to-honor-the-priesthood?lang=eng",
           "filename": "“To Honor the Priesthood” — Clarke 1991 Apr"
         },
-        "change": {
+        "/1991/04/change": {
           "title": "Change",
           "speaker": "Jacob de Jager",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/change?lang=eng",
           "filename": "Change — Jager 1991 Apr"
         },
-        "yagottawanna": {
+        "/1991/04/yagottawanna": {
           "title": "“Yagottawanna”",
           "speaker": "Jack H Goaslind Jr.",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/yagottawanna?lang=eng",
           "filename": "“Yagottawanna” — Jr. 1991 Apr"
         },
-        "a-royal-priesthood": {
+        "/1991/04/a-royal-priesthood": {
           "title": "A Royal Priesthood",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/a-royal-priesthood?lang=eng",
           "filename": "A Royal Priesthood — Monson 1991 Apr"
         },
-        "the-state-of-the-church": {
+        "/1991/04/the-state-of-the-church": {
           "title": "The State of the Church",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/the-state-of-the-church?lang=eng",
@@ -152,31 +152,31 @@
     },
     "Sunday Morning Session": {
       "talks": {
-        "never-alone": {
+        "/1991/04/never-alone": {
           "title": "Never Alone",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/never-alone?lang=eng",
           "filename": "Never Alone — Monson 1991 Apr"
         },
-        "the-sixth-day-of-april-1830": {
+        "/1991/04/the-sixth-day-of-april-1830": {
           "title": "The Sixth Day of April, 1830",
           "speaker": "Howard W. Hunter",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/the-sixth-day-of-april-1830?lang=eng",
           "filename": "The Sixth Day of April 1830 — Hunter 1991 Apr"
         },
-        "to-draw-closer-to-god": {
+        "/1991/04/to-draw-closer-to-god": {
           "title": "To Draw Closer to God",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/to-draw-closer-to-god?lang=eng",
           "filename": "To Draw Closer to God — Eyring 1991 Apr"
         },
-        "a-crown-of-thorns-a-crown-of-glory": {
+        "/1991/04/a-crown-of-thorns-a-crown-of-glory": {
           "title": "A Crown of Thorns, a Crown of Glory",
           "speaker": "James E. Faust",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/a-crown-of-thorns-a-crown-of-glory?lang=eng",
           "filename": "A Crown of Thorns a Crown of Glory — Faust 1991 Apr"
         },
-        "what-god-hath-joined-together": {
+        "/1991/04/what-god-hath-joined-together": {
           "title": "What God Hath Joined Together",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/what-god-hath-joined-together?lang=eng",
@@ -187,43 +187,43 @@
     },
     "Sunday Afternoon Session": {
       "talks": {
-        "linking-the-family-of-man": {
+        "/1991/04/linking-the-family-of-man": {
           "title": "Linking the Family of Man",
           "speaker": "David B. Haight",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/linking-the-family-of-man?lang=eng",
           "filename": "Linking the Family of Man — Haight 1991 Apr"
         },
-        "teach-the-children": {
+        "/1991/04/teach-the-children": {
           "title": "Teach the Children",
           "speaker": "M. Russell Ballard",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/teach-the-children?lang=eng",
           "filename": "Teach the Children — Ballard 1991 Apr"
         },
-        "before-i-build-a-wall": {
+        "/1991/04/before-i-build-a-wall": {
           "title": "Before I Build a Wall",
           "speaker": "Loren C. Dunn",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/before-i-build-a-wall?lang=eng",
           "filename": "Before I Build a Wall — Dunn 1991 Apr"
         },
-        "a-pattern-of-righteousness": {
+        "/1991/04/a-pattern-of-righteousness": {
           "title": "A Pattern of Righteousness",
           "speaker": "Janette Hales Beckham",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/a-pattern-of-righteousness?lang=eng",
           "filename": "A Pattern of Righteousness — Beckham 1991 Apr"
         },
-        "peace": {
+        "/1991/04/peace": {
           "title": "Peace",
           "speaker": "Robert E. Wells",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/peace?lang=eng",
           "filename": "Peace — Wells 1991 Apr"
         },
-        "lest-ye-be-wearied-and-faint-in-your-minds": {
+        "/1991/04/lest-ye-be-wearied-and-faint-in-your-minds": {
           "title": "“Lest Ye Be Wearied and Faint in Your Minds”",
           "speaker": "Neal A. Maxwell",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/lest-ye-be-wearied-and-faint-in-your-minds?lang=eng",
           "filename": "“Lest Ye Be Wearied and Faint in Your Minds” — Maxwell 1991 Apr"
         },
-        "his-latter-day-kingdom-has-been-established": {
+        "/1991/04/his-latter-day-kingdom-has-been-established": {
           "title": "His Latter-day Kingdom Has Been Established",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1991/04/his-latter-day-kingdom-has-been-established?lang=eng",

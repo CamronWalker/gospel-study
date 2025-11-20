@@ -5,43 +5,43 @@
   "sessions": {
     "Saturday Morning Session": {
       "talks": {
-        "the-temple-of-the-lord": {
+        "/1993/04/the-temple-of-the-lord": {
           "title": "The Temple of the Lord",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/the-temple-of-the-lord?lang=eng",
           "filename": "The Temple of the Lord — Monson 1993 Apr"
         },
-        "keeping-covenants": {
+        "/1993/04/keeping-covenants": {
           "title": "Keeping Covenants",
           "speaker": "M. Russell Ballard",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/keeping-covenants?lang=eng",
           "filename": "Keeping Covenants — Ballard 1993 Apr"
         },
-        "the-lord-of-life": {
+        "/1993/04/the-lord-of-life": {
           "title": "The Lord of Life",
           "speaker": "J. Richard Clarke",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/the-lord-of-life?lang=eng",
           "filename": "The Lord of Life — Clarke 1993 Apr"
         },
-        "keep-the-faith": {
+        "/1993/04/keep-the-faith": {
           "title": "Keep the Faith",
           "speaker": "Richard C. Edgley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/keep-the-faith?lang=eng",
           "filename": "Keep the Faith — Edgley 1993 Apr"
         },
-        "search-the-scriptures": {
+        "/1993/04/search-the-scriptures": {
           "title": "Search the Scriptures",
           "speaker": "L. Lionel Kendrick",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/search-the-scriptures?lang=eng",
           "filename": "Search the Scriptures — Kendrick 1993 Apr"
         },
-        "the-language-of-prayer": {
+        "/1993/04/the-language-of-prayer": {
           "title": "The Language of Prayer",
           "speaker": "Dallin H. Oaks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/the-language-of-prayer?lang=eng",
           "filename": "The Language of Prayer — Oaks 1993 Apr"
         },
-        "the-temple-the-priesthood": {
+        "/1993/04/the-temple-the-priesthood": {
           "title": "The Temple, the Priesthood",
           "speaker": "Boyd K. Packer",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/the-temple-the-priesthood?lang=eng",
@@ -52,55 +52,55 @@
     },
     "Saturday Afternoon Session": {
       "talks": {
-        "the-sustaining-of-church-officers": {
+        "/1993/04/the-sustaining-of-church-officers": {
           "title": "The Sustaining of Church Officers",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/the-sustaining-of-church-officers?lang=eng",
           "filename": "The Sustaining of Church Officers — Monson 1993 Apr"
         },
-        "the-church-audit-committee-report": {
+        "/1993/04/the-church-audit-committee-report": {
           "title": "The Church Audit Committee Report",
           "speaker": "Ted E. Davis",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/the-church-audit-committee-report?lang=eng",
           "filename": "The Church Audit Committee Report — Davis 1993 Apr"
         },
-        "statistical-report-1992": {
+        "/1993/04/statistical-report-1992": {
           "title": "Statistical Report 1992",
           "speaker": "F. Michael Watson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/statistical-report-1992?lang=eng",
           "filename": "Statistical Report 1992 — Watson 1993 Apr"
         },
-        "personal-temple-worship": {
+        "/1993/04/personal-temple-worship": {
           "title": "Personal Temple Worship",
           "speaker": "David B. Haight",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/personal-temple-worship?lang=eng",
           "filename": "Personal Temple Worship — Haight 1993 Apr"
         },
-        "jesus-christ-the-son-of-the-living-god": {
+        "/1993/04/jesus-christ-the-son-of-the-living-god": {
           "title": "Jesus Christ, the Son of the Living God",
           "speaker": "John M. Madsen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/jesus-christ-the-son-of-the-living-god?lang=eng",
           "filename": "Jesus Christ the Son of the Living God — Madsen 1993 Apr"
         },
-        "power-of-the-church-rooted-in-christ": {
+        "/1993/04/power-of-the-church-rooted-in-christ": {
           "title": "Power of the Church Rooted in Christ",
           "speaker": "V. Dallas Merrell",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/power-of-the-church-rooted-in-christ?lang=eng",
           "filename": "Power of the Church Rooted in Christ — Merrell 1993 Apr"
         },
-        "prayer": {
+        "/1993/04/prayer": {
           "title": "Prayer",
           "speaker": "David E. Sorensen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/prayer?lang=eng",
           "filename": "Prayer — Sorensen 1993 Apr"
         },
-        "the-power-of-correct-principles": {
+        "/1993/04/the-power-of-correct-principles": {
           "title": "The Power of Correct Principles",
           "speaker": "Richard G. Scott",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/the-power-of-correct-principles?lang=eng",
           "filename": "The Power of Correct Principles — Scott 1993 Apr"
         },
-        "father-come-home": {
+        "/1993/04/father-come-home": {
           "title": "Father, Come Home",
           "speaker": "James E. Faust",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/father-come-home?lang=eng",
@@ -111,37 +111,37 @@
     },
     "Priesthood Session": {
       "talks": {
-        "honoring-the-priesthood": {
+        "/1993/04/honoring-the-priesthood": {
           "title": "Honoring the Priesthood",
           "speaker": "Russell M. Nelson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/honoring-the-priesthood?lang=eng",
           "filename": "Honoring the Priesthood — Nelson 1993 Apr"
         },
-        "faith-yields-priesthood-power": {
+        "/1993/04/faith-yields-priesthood-power": {
           "title": "Faith Yields Priesthood Power",
           "speaker": "John K. Carmack",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/faith-yields-priesthood-power?lang=eng",
           "filename": "Faith Yields Priesthood Power — Carmack 1993 Apr"
         },
-        "the-principle-of-work": {
+        "/1993/04/the-principle-of-work": {
           "title": "The Principle of Work",
           "speaker": "F. David Stanley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/the-principle-of-work?lang=eng",
           "filename": "The Principle of Work — Stanley 1993 Apr"
         },
-        "heroes": {
+        "/1993/04/heroes": {
           "title": "Heroes",
           "speaker": "H. David Burton",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/heroes?lang=eng",
           "filename": "Heroes — Burton 1993 Apr"
         },
-        "search-and-rescue": {
+        "/1993/04/search-and-rescue": {
           "title": "Search and Rescue",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/search-and-rescue?lang=eng",
           "filename": "Search and Rescue — Monson 1993 Apr"
         },
-        "some-lessons-i-learned-as-a-boy": {
+        "/1993/04/some-lessons-i-learned-as-a-boy": {
           "title": "Some Lessons I Learned as a Boy",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/some-lessons-i-learned-as-a-boy?lang=eng",
@@ -152,31 +152,31 @@
     },
     "Sunday Morning Session": {
       "talks": {
-        "gifts": {
+        "/1993/04/gifts": {
           "title": "Gifts",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/gifts?lang=eng",
           "filename": "Gifts — Monson 1993 Apr"
         },
-        "jesus-the-very-thought-of-thee": {
+        "/1993/04/jesus-the-very-thought-of-thee": {
           "title": "“Jesus, the Very Thought of Thee”",
           "speaker": "Howard W. Hunter",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/jesus-the-very-thought-of-thee?lang=eng",
           "filename": "“Jesus the Very Thought of Thee” — Hunter 1993 Apr"
         },
-        "peace-through-prayer": {
+        "/1993/04/peace-through-prayer": {
           "title": "Peace through Prayer",
           "speaker": "Rex D. Pinegar",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/peace-through-prayer?lang=eng",
           "filename": "Peace through Prayer — Pinegar 1993 Apr"
         },
-        "spiritually-strong-homes-and-families": {
+        "/1993/04/spiritually-strong-homes-and-families": {
           "title": "Spiritually Strong Homes and Families",
           "speaker": "Joseph B. Wirthlin",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/spiritually-strong-homes-and-families?lang=eng",
           "filename": "Spiritually Strong Homes and Families — Wirthlin 1993 Apr"
         },
-        "this-peaceful-house-of-god": {
+        "/1993/04/this-peaceful-house-of-god": {
           "title": "This Peaceful House of God",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/this-peaceful-house-of-god?lang=eng",
@@ -187,55 +187,55 @@
     },
     "Sunday Afternoon Session": {
       "talks": {
-        "behold-the-enemy-is-combined-d-c-38-12": {
+        "/1993/04/behold-the-enemy-is-combined-d-c-38-12": {
           "title": "“Behold, the Enemy Is Combined” (D&C 38:12)",
           "speaker": "Neal A. Maxwell",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/behold-the-enemy-is-combined-d-c-38-12?lang=eng",
           "filename": "“Behold the Enemy Is Combined” (D&C 38-12) — Maxwell 1993 Apr"
         },
-        "receiving-divine-assistance-through-the-grace-of-the-lord": {
+        "/1993/04/receiving-divine-assistance-through-the-grace-of-the-lord": {
           "title": "Receiving Divine Assistance through the Grace of the Lord",
           "speaker": "Gene R. Cook",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/receiving-divine-assistance-through-the-grace-of-the-lord?lang=eng",
           "filename": "Receiving Divine Assistance through the Grace of the Lord — Cook 1993 Apr"
         },
-        "whom-the-lord-calls-the-lord-qualifies": {
+        "/1993/04/whom-the-lord-calls-the-lord-qualifies": {
           "title": "“Whom the Lord Calls, the Lord Qualifies”",
           "speaker": "Neil L. Andersen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/whom-the-lord-calls-the-lord-qualifies?lang=eng",
           "filename": "“Whom the Lord Calls the Lord Qualifies” — Andersen 1993 Apr"
         },
-        "i-know-in-whom-i-have-trusted": {
+        "/1993/04/i-know-in-whom-i-have-trusted": {
           "title": "I Know in Whom I Have Trusted",
           "speaker": "D. Todd Christofferson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/i-know-in-whom-i-have-trusted?lang=eng",
           "filename": "I Know in Whom I Have Trusted — Christofferson 1993 Apr"
         },
-        "cats-cradle-of-kindness": {
+        "/1993/04/cats-cradle-of-kindness": {
           "title": "Cat’s Cradle of Kindness",
           "speaker": "Chieko N. Okazaki",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/cats-cradle-of-kindness?lang=eng",
           "filename": "Cat’s Cradle of Kindness — Okazaki 1993 Apr"
         },
-        "he-maketh-me-to-lie-down-in-green-pastures": {
+        "/1993/04/he-maketh-me-to-lie-down-in-green-pastures": {
           "title": "“He Maketh Me to Lie Down in Green Pastures”",
           "speaker": "Kwok Yuen Tai",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/he-maketh-me-to-lie-down-in-green-pastures?lang=eng",
           "filename": "“He Maketh Me to Lie Down in Green Pastures” — Tai 1993 Apr"
         },
-        "come-unto-christ": {
+        "/1993/04/come-unto-christ": {
           "title": "Come unto Christ",
           "speaker": "Lowell D. Wood",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/come-unto-christ?lang=eng",
           "filename": "Come unto Christ — Wood 1993 Apr"
         },
-        "back-to-gospel-basics": {
+        "/1993/04/back-to-gospel-basics": {
           "title": "Back to Gospel Basics",
           "speaker": "L. Tom Perry",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/back-to-gospel-basics?lang=eng",
           "filename": "Back to Gospel Basics — Perry 1993 Apr"
         },
-        "a-prophets-testimony": {
+        "/1993/04/a-prophets-testimony": {
           "title": "“A Prophet’s Testimony”",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1993/04/a-prophets-testimony?lang=eng",

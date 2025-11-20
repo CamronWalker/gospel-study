@@ -5,43 +5,43 @@
   "sessions": {
     "Saturday Morning Session": {
       "talks": {
-        "conference-is-here": {
+        "/1990/04/conference-is-here": {
           "title": "Conference Is Here",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/conference-is-here?lang=eng",
           "filename": "Conference Is Here — Monson 1990 Apr"
         },
-        "small-and-simple-things": {
+        "/1990/04/small-and-simple-things": {
           "title": "Small and Simple Things",
           "speaker": "M. Russell Ballard",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/small-and-simple-things?lang=eng",
           "filename": "Small and Simple Things — Ballard 1990 Apr"
         },
-        "home-first": {
+        "/1990/04/home-first": {
           "title": "“Home First”",
           "speaker": "Rex D. Pinegar",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/home-first?lang=eng",
           "filename": "“Home First” — Pinegar 1990 Apr"
         },
-        "the-spirituality-of-service": {
+        "/1990/04/the-spirituality-of-service": {
           "title": "The Spirituality of Service",
           "speaker": "Derek A. Cuthbert",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/the-spirituality-of-service?lang=eng",
           "filename": "The Spirituality of Service — Cuthbert 1990 Apr"
         },
-        "ye-have-done-it-unto-me": {
+        "/1990/04/ye-have-done-it-unto-me": {
           "title": "“Ye Have Done It unto Me”",
           "speaker": "Richard P. Lindsay",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/ye-have-done-it-unto-me?lang=eng",
           "filename": "“Ye Have Done It unto Me” — Lindsay 1990 Apr"
         },
-        "thus-shall-my-church-be-called": {
+        "/1990/04/thus-shall-my-church-be-called": {
           "title": "“Thus Shall My Church Be Called”",
           "speaker": "Russell M. Nelson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/thus-shall-my-church-be-called?lang=eng",
           "filename": "“Thus Shall My Church Be Called” — Nelson 1990 Apr"
         },
-        "family-traditions": {
+        "/1990/04/family-traditions": {
           "title": "Family Traditions",
           "speaker": "L. Tom Perry",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/family-traditions?lang=eng",
@@ -52,55 +52,55 @@
     },
     "Saturday Afternoon Session": {
       "talks": {
-        "the-sustaining-of-church-officers": {
+        "/1990/04/the-sustaining-of-church-officers": {
           "title": "The Sustaining of Church Officers",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/the-sustaining-of-church-officers?lang=eng",
           "filename": "The Sustaining of Church Officers — Monson 1990 Apr"
         },
-        "the-church-audit-committee-report": {
+        "/1990/04/the-church-audit-committee-report": {
           "title": "The Church Audit Committee Report",
           "speaker": "Wilford G. Edling",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/the-church-audit-committee-report?lang=eng",
           "filename": "The Church Audit Committee Report — Edling 1990 Apr"
         },
-        "statistical-report-1989": {
+        "/1990/04/statistical-report-1989": {
           "title": "Statistical Report 1989",
           "speaker": "F. Michael Watson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/statistical-report-1989?lang=eng",
           "filename": "Statistical Report 1989 — Watson 1990 Apr"
         },
-        "filling-the-whole-earth": {
+        "/1990/04/filling-the-whole-earth": {
           "title": "Filling the Whole Earth",
           "speaker": "David B. Haight",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/filling-the-whole-earth?lang=eng",
           "filename": "Filling the Whole Earth — Haight 1990 Apr"
         },
-        "choose-you-this-day": {
+        "/1990/04/choose-you-this-day": {
           "title": "“Choose You This Day”",
           "speaker": "Hans B. Ringger",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/choose-you-this-day?lang=eng",
           "filename": "“Choose You This Day” — Ringger 1990 Apr"
         },
-        "some-scriptural-lessons-on-leadership": {
+        "/1990/04/some-scriptural-lessons-on-leadership": {
           "title": "Some Scriptural Lessons on Leadership",
           "speaker": "Spencer J. Condie",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/some-scriptural-lessons-on-leadership?lang=eng",
           "filename": "Some Scriptural Lessons on Leadership — Condie 1990 Apr"
         },
-        "the-resurrection": {
+        "/1990/04/the-resurrection": {
           "title": "The Resurrection",
           "speaker": "F. Melvin Hammond",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/the-resurrection?lang=eng",
           "filename": "The Resurrection — Hammond 1990 Apr"
         },
-        "personal-integrity": {
+        "/1990/04/personal-integrity": {
           "title": "Personal Integrity",
           "speaker": "Joseph B. Wirthlin",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/personal-integrity?lang=eng",
           "filename": "Personal Integrity — Wirthlin 1990 Apr"
         },
-        "endure-it-well": {
+        "/1990/04/endure-it-well": {
           "title": "“Endure It Well”",
           "speaker": "Neal A. Maxwell",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/endure-it-well?lang=eng",
@@ -111,43 +111,43 @@
     },
     "General Priesthood Meeting": {
       "talks": {
-        "the-library-of-the-lord": {
+        "/1990/04/the-library-of-the-lord": {
           "title": "The Library of the Lord",
           "speaker": "Boyd K. Packer",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/the-library-of-the-lord?lang=eng",
           "filename": "The Library of the Lord — Packer 1990 Apr"
         },
-        "the-aaronic-priesthood-return-with-honor": {
+        "/1990/04/the-aaronic-priesthood-return-with-honor": {
           "title": "The Aaronic Priesthood: Return with Honor",
           "speaker": "Robert D. Hales",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/the-aaronic-priesthood-return-with-honor?lang=eng",
           "filename": "The Aaronic Priesthood- Return with Honor — Hales 1990 Apr"
         },
-        "the-motorcycle-ride": {
+        "/1990/04/the-motorcycle-ride": {
           "title": "The Motorcycle Ride",
           "speaker": "Kenneth Johnson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/the-motorcycle-ride?lang=eng",
           "filename": "The Motorcycle Ride — Johnson 1990 Apr"
         },
-        "the-greatest-joy": {
+        "/1990/04/the-greatest-joy": {
           "title": "The Greatest Joy",
           "speaker": "Clinton L. Cutler",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/the-greatest-joy?lang=eng",
           "filename": "The Greatest Joy — Cutler 1990 Apr"
         },
-        "who-is-a-true-friend": {
+        "/1990/04/who-is-a-true-friend": {
           "title": "Who Is a True Friend?",
           "speaker": "Malcolm S. Jeppsen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/who-is-a-true-friend?lang=eng",
           "filename": "Who Is a True Friend — Jeppsen 1990 Apr"
         },
-        "my-brothers-keeper": {
+        "/1990/04/my-brothers-keeper": {
           "title": "My Brother’s Keeper",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/my-brothers-keeper?lang=eng",
           "filename": "My Brother’s Keeper — Monson 1990 Apr"
         },
-        "keeping-the-temple-holy": {
+        "/1990/04/keeping-the-temple-holy": {
           "title": "Keeping the Temple Holy",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/keeping-the-temple-holy?lang=eng",
@@ -158,31 +158,31 @@
     },
     "Sunday Morning Session": {
       "talks": {
-        "a-little-child-shall-lead-them": {
+        "/1990/04/a-little-child-shall-lead-them": {
           "title": "“A Little Child Shall Lead Them”",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/a-little-child-shall-lead-them?lang=eng",
           "filename": "“A Little Child Shall Lead Them” — Monson 1990 Apr"
         },
-        "standing-as-witnesses-of-god": {
+        "/1990/04/standing-as-witnesses-of-god": {
           "title": "Standing As Witnesses of God",
           "speaker": "Howard W. Hunter",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/standing-as-witnesses-of-god?lang=eng",
           "filename": "Standing As Witnesses of God — Hunter 1990 Apr"
         },
-        "one-small-step-for-a-man-one-giant-leap-for-mankind": {
+        "/1990/04/one-small-step-for-a-man-one-giant-leap-for-mankind": {
           "title": "“One Small Step for a Man; One Giant Leap for Mankind”",
           "speaker": "Carlos E. Asay",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/one-small-step-for-a-man-one-giant-leap-for-mankind?lang=eng",
           "filename": "“One Small Step for a Man; One Giant Leap for Mankind” — Asay 1990 Apr"
         },
-        "neither-boast-of-faith-nor-of-mighty-works": {
+        "/1990/04/neither-boast-of-faith-nor-of-mighty-works": {
           "title": "“Neither Boast of Faith Nor of Mighty Works”",
           "speaker": "Marvin J. Ashton",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/neither-boast-of-faith-nor-of-mighty-works?lang=eng",
           "filename": "“Neither Boast of Faith Nor of Mighty Works” — Ashton 1990 Apr"
         },
-        "blessed-are-the-merciful": {
+        "/1990/04/blessed-are-the-merciful": {
           "title": "Blessed Are the Merciful",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/blessed-are-the-merciful?lang=eng",
@@ -193,55 +193,55 @@
     },
     "Sunday Afternoon Session": {
       "talks": {
-        "world-peace": {
+        "/1990/04/world-peace": {
           "title": "World Peace",
           "speaker": "Dallin H. Oaks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/world-peace?lang=eng",
           "filename": "World Peace — Oaks 1990 Apr"
         },
-        "finding-the-way-back": {
+        "/1990/04/finding-the-way-back": {
           "title": "Finding the Way Back",
           "speaker": "Richard G. Scott",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/finding-the-way-back?lang=eng",
           "filename": "Finding the Way Back — Scott 1990 Apr"
         },
-        "instruments-to-accomplish-his-purposes": {
+        "/1990/04/instruments-to-accomplish-his-purposes": {
           "title": "Instruments to Accomplish His Purposes",
           "speaker": "Barbara W. Winder",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/instruments-to-accomplish-his-purposes?lang=eng",
           "filename": "Instruments to Accomplish His Purposes — Winder 1990 Apr"
         },
-        "i-will-go-and-do": {
+        "/1990/04/i-will-go-and-do": {
           "title": "“I Will Go and Do”",
           "speaker": "Elaine L. Jack",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/i-will-go-and-do?lang=eng",
           "filename": "“I Will Go and Do” — Jack 1990 Apr"
         },
-        "teachings-of-a-loving-father": {
+        "/1990/04/teachings-of-a-loving-father": {
           "title": "Teachings of a Loving Father",
           "speaker": "Horacio A. Tenorio",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/teachings-of-a-loving-father?lang=eng",
           "filename": "Teachings of a Loving Father — Tenorio 1990 Apr"
         },
-        "a-latter-day-samaritan": {
+        "/1990/04/a-latter-day-samaritan": {
           "title": "A Latter-day Samaritan",
           "speaker": "Merlin R. Lybbert",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/a-latter-day-samaritan?lang=eng",
           "filename": "A Latter-day Samaritan — Lybbert 1990 Apr"
         },
-        "preparing-the-heart": {
+        "/1990/04/preparing-the-heart": {
           "title": "Preparing the Heart",
           "speaker": "H. Burke Peterson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/preparing-the-heart?lang=eng",
           "filename": "Preparing the Heart — Peterson 1990 Apr"
         },
-        "gratitude-as-a-saving-principle": {
+        "/1990/04/gratitude-as-a-saving-principle": {
           "title": "Gratitude As a Saving Principle",
           "speaker": "James E. Faust",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/gratitude-as-a-saving-principle?lang=eng",
           "filename": "Gratitude As a Saving Principle — Faust 1990 Apr"
         },
-        "sacred-resolves": {
+        "/1990/04/sacred-resolves": {
           "title": "“Sacred Resolves”",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/sacred-resolves?lang=eng",
@@ -252,19 +252,19 @@
     },
     "Member Finances Fireside": {
       "talks": {
-        "teach-them-correct-principles": {
+        "/1990/04/teach-them-correct-principles": {
           "title": "Teach Them Correct Principles",
           "speaker": "Boyd K. Packer",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/teach-them-correct-principles?lang=eng",
           "filename": "Teach Them Correct Principles — Packer 1990 Apr"
         },
-        "the-lords-way": {
+        "/1990/04/the-lords-way": {
           "title": "The Lord’s Way",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/the-lords-way?lang=eng",
           "filename": "The Lord’s Way — Monson 1990 Apr"
         },
-        "rise-to-a-larger-vision-of-the-work": {
+        "/1990/04/rise-to-a-larger-vision-of-the-work": {
           "title": "Rise to a Larger Vision of the Work",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1990/04/rise-to-a-larger-vision-of-the-work?lang=eng",

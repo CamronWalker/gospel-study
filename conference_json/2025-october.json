@@ -5,49 +5,49 @@
   "sessions": {
     "Saturday Morning Session": {
       "talks": {
-        "19oaks": {
+        "/2025/10/19oaks": {
           "title": "Introduction",
           "speaker": "Dallin H. Oaks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/19oaks?lang=eng",
           "filename": "Introduction — Oaks 2025 Oct"
         },
-        "11eyring": {
+        "/2025/10/11eyring": {
           "title": "Sustaining of General Authorities, Area Seventies, and General Officers",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/11eyring?lang=eng",
           "filename": "Sustaining of General Authorities Area Seventies and General Officers — Eyring 2025 Oct"
         },
-        "12stevenson": {
+        "/2025/10/12stevenson": {
           "title": "Blessed Are the Peacemakers",
           "speaker": "Gary E. Stevenson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/12stevenson?lang=eng",
           "filename": "Blessed Are the Peacemakers — Stevenson 2025 Oct"
         },
-        "13browning": {
+        "/2025/10/13browning": {
           "title": "Tune Your Heart to Jesus Christ: The Sacred Gift of Primary Music",
           "speaker": "Tracy Y. Browning",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/13browning?lang=eng",
           "filename": "Tune Your Heart to Jesus Christ- The Sacred Gift of Primary Music — Browning 2025 Oct"
         },
-        "14barcellos": {
+        "/2025/10/14barcellos": {
           "title": "The Lord Looketh on the Heart",
           "speaker": "Ronald M. Barcellos",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/14barcellos?lang=eng",
           "filename": "The Lord Looketh on the Heart — Barcellos 2025 Oct"
         },
-        "15eyre": {
+        "/2025/10/15eyre": {
           "title": "Know Who You Really Are",
           "speaker": "Brik V. Eyre",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/15eyre?lang=eng",
           "filename": "Know Who You Really Are — Eyre 2025 Oct"
         },
-        "17johnson": {
+        "/2025/10/17johnson": {
           "title": "Be Reconciled to God",
           "speaker": "Kelly R. Johnson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/17johnson?lang=eng",
           "filename": "Be Reconciled to God — Johnson 2025 Oct"
         },
-        "16uchtdorf": {
+        "/2025/10/16uchtdorf": {
           "title": "Do Your Part with All Your Heart",
           "speaker": "Dieter F. Uchtdorf",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/16uchtdorf?lang=eng",
@@ -58,43 +58,43 @@
     },
     "Saturday Afternoon Session": {
       "talks": {
-        "21rasband": {
+        "/2025/10/21rasband": {
           "title": "The Family Proclamation—Words from God",
           "speaker": "Ronald A. Rasband",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/21rasband?lang=eng",
           "filename": "The Family Proclamation—Words from God — Rasband 2025 Oct"
         },
-        "22webb": {
+        "/2025/10/22webb": {
           "title": "That All May Be Edified",
           "speaker": "Chad H Webb",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/22webb?lang=eng",
           "filename": "That All May Be Edified — Webb 2025 Oct"
         },
-        "23jaggi": {
+        "/2025/10/23jaggi": {
           "title": "Humble Souls at Altars Kneel",
           "speaker": "Jeremy R. Jaggi",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/23jaggi?lang=eng",
           "filename": "Humble Souls at Altars Kneel — Jaggi 2025 Oct"
         },
-        "24brown": {
+        "/2025/10/24brown": {
           "title": "The Eternal Gift of Testimony",
           "speaker": "Kevin G. Brown",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/24brown?lang=eng",
           "filename": "The Eternal Gift of Testimony — Brown 2025 Oct"
         },
-        "25gong": {
+        "/2025/10/25gong": {
           "title": "No One Sits Alone",
           "speaker": "Gerrit W. Gong",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/25gong?lang=eng",
           "filename": "No One Sits Alone — Gong 2025 Oct"
         },
-        "26cziesla": {
+        "/2025/10/26cziesla": {
           "title": "Simplicity in Christ",
           "speaker": "Michael Cziesla",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/26cziesla?lang=eng",
           "filename": "Simplicity in Christ — Cziesla 2025 Oct"
         },
-        "27cook": {
+        "/2025/10/27cook": {
           "title": "The Lord Is Hastening His Work",
           "speaker": "Quentin L. Cook",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/27cook?lang=eng",
@@ -105,31 +105,31 @@
     },
     "Saturday Evening Session": {
       "talks": {
-        "31kearon": {
+        "/2025/10/31kearon": {
           "title": "Jesus Christ and Your New Beginning",
           "speaker": "Patrick Kearon",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/31kearon?lang=eng",
           "filename": "Jesus Christ and Your New Beginning — Kearon 2025 Oct"
         },
-        "32dennis": {
+        "/2025/10/32dennis": {
           "title": "Cheering Each Other On",
           "speaker": "J. Anette Dennis",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/32dennis?lang=eng",
           "filename": "Cheering Each Other On — Dennis 2025 Oct"
         },
-        "33barlow": {
+        "/2025/10/33barlow": {
           "title": "“Lovest Thou Me?”",
           "speaker": "Steven C. Barlow",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/33barlow?lang=eng",
           "filename": "“Lovest Thou Me” — Barlow 2025 Oct"
         },
-        "34jackson": {
+        "/2025/10/34jackson": {
           "title": "Remembering the Sheep",
           "speaker": "William K. Jackson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/34jackson?lang=eng",
           "filename": "Remembering the Sheep — Jackson 2025 Oct"
         },
-        "35andersen": {
+        "/2025/10/35andersen": {
           "title": "The Atoning Love of Jesus Christ",
           "speaker": "Neil L. Andersen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/35andersen?lang=eng",
@@ -140,43 +140,43 @@
     },
     "Sunday Morning Session": {
       "talks": {
-        "41holland": {
+        "/2025/10/41holland": {
           "title": "And Now I See",
           "speaker": "Jeffrey R. Holland",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/41holland?lang=eng",
           "filename": "And Now I See — Holland 2025 Oct"
         },
-        "42evanson": {
+        "/2025/10/42evanson": {
           "title": "Go and Do Likewise",
           "speaker": "James E. Evanson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/42evanson?lang=eng",
           "filename": "Go and Do Likewise — Evanson 2025 Oct"
         },
-        "43soares": {
+        "/2025/10/43soares": {
           "title": "Adorned with the Virtue of Temperance",
           "speaker": "Ulisses Soares",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/43soares?lang=eng",
           "filename": "Adorned with the Virtue of Temperance — Soares 2025 Oct"
         },
-        "44johnson": {
+        "/2025/10/44johnson": {
           "title": "The Power of Ministering to the One",
           "speaker": "Peter M. Johnson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/44johnson?lang=eng",
           "filename": "The Power of Ministering to the One — Johnson 2025 Oct"
         },
-        "45christofferson": {
+        "/2025/10/45christofferson": {
           "title": "Look to God and Live",
           "speaker": "D. Todd Christofferson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/45christofferson?lang=eng",
           "filename": "Look to God and Live — Christofferson 2025 Oct"
         },
-        "46spannaus": {
+        "/2025/10/46spannaus": {
           "title": "Prophets of God",
           "speaker": "Andrea Muñoz Spannaus",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/46spannaus?lang=eng",
           "filename": "Prophets of God — Spannaus 2025 Oct"
         },
-        "47eyring": {
+        "/2025/10/47eyring": {
           "title": "Proved and Strengthened in Christ",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/47eyring?lang=eng",
@@ -187,49 +187,49 @@
     },
     "Sunday Afternoon Session": {
       "talks": {
-        "51bednar": {
+        "/2025/10/51bednar": {
           "title": "They Are Their Own Judges",
           "speaker": "David A. Bednar",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/51bednar?lang=eng",
           "filename": "They Are Their Own Judges — Bednar 2025 Oct"
         },
-        "52cuvelier": {
+        "/2025/10/52cuvelier": {
           "title": "The Name by Which Ye Are Called",
           "speaker": "B. Corey Cuvelier",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/52cuvelier?lang=eng",
           "filename": "The Name by Which Ye Are Called — Cuvelier 2025 Oct"
         },
-        "53holland": {
+        "/2025/10/53holland": {
           "title": "Forsake Not Your Own Mercy",
           "speaker": "Matthew S. Holland",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/53holland?lang=eng",
           "filename": "Forsake Not Your Own Mercy — Holland 2025 Oct"
         },
-        "54godoy": {
+        "/2025/10/54godoy": {
           "title": "Smiling Faces and Grateful Hearts",
           "speaker": "Carlos A. Godoy",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/54godoy?lang=eng",
           "filename": "Smiling Faces and Grateful Hearts — Godoy 2025 Oct"
         },
-        "55renlund": {
+        "/2025/10/55renlund": {
           "title": "Taking on the Name of Jesus Christ",
           "speaker": "Dale G. Renlund",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/55renlund?lang=eng",
           "filename": "Taking on the Name of Jesus Christ — Renlund 2025 Oct"
         },
-        "56amos": {
+        "/2025/10/56amos": {
           "title": "The Good News Recipe",
           "speaker": "John D. Amos",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/56amos?lang=eng",
           "filename": "The Good News Recipe — Amos 2025 Oct"
         },
-        "57farias": {
+        "/2025/10/57farias": {
           "title": "The Book of Mormon—an Immeasurable Treasure on Our Journey",
           "speaker": "Ozani Farias",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/57farias?lang=eng",
           "filename": "The Book of Mormon—an Immeasurable Treasure on Our Journey — Farias 2025 Oct"
         },
-        "58oaks": {
+        "/2025/10/58oaks": {
           "title": "The Family-Centered Gospel of Jesus Christ",
           "speaker": "Dallin H. Oaks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/10/58oaks?lang=eng",

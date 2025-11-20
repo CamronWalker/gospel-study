@@ -113,7 +113,8 @@ def scrape_conference(driver, year, month, pbar):
                             current_session_name = 'Unknown Session'
                         if current_session_name not in conference_data['sessions']:
                             conference_data['sessions'][current_session_name] = {"talks": {}, "url": None}
-                        conference_data['sessions'][current_session_name]["talks"][slug] = {
+                        talk_key = f"/{year}/{month_code}/{slug}"
+                        conference_data['sessions'][current_session_name]["talks"][talk_key] = {
                             "title": author,
                             "speaker": normalize_author(title),
                             "url": full_url,

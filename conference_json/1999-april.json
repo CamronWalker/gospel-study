@@ -5,37 +5,37 @@
   "sessions": {
     "Saturday Morning Session": {
       "talks": {
-        "the-work-moves-forward": {
+        "/1999/04/the-work-moves-forward": {
           "title": "The Work Moves Forward",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/the-work-moves-forward?lang=eng",
           "filename": "The Work Moves Forward — Hinckley 1999 Apr"
         },
-        "teach-them-the-word-of-god-with-all-diligence": {
+        "/1999/04/teach-them-the-word-of-god-with-all-diligence": {
           "title": "Teach Them the Word of God with All Diligence",
           "speaker": "L. Tom Perry",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/teach-them-the-word-of-god-with-all-diligence?lang=eng",
           "filename": "Teach Them the Word of God with All Diligence — Perry 1999 Apr"
         },
-        "greed-selfishness-and-overindulgence": {
+        "/1999/04/greed-selfishness-and-overindulgence": {
           "title": "Greed, Selfishness, and Overindulgence",
           "speaker": "Joe J. Christensen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/greed-selfishness-and-overindulgence?lang=eng",
           "filename": "Greed Selfishness and Overindulgence — Christensen 1999 Apr"
         },
-        "preparing-our-families-for-the-temple": {
+        "/1999/04/preparing-our-families-for-the-temple": {
           "title": "Preparing Our Families for the Temple",
           "speaker": "Carol B. Thomas",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/preparing-our-families-for-the-temple?lang=eng",
           "filename": "Preparing Our Families for the Temple — Thomas 1999 Apr"
         },
-        "the-hands-of-the-fathers": {
+        "/1999/04/the-hands-of-the-fathers": {
           "title": "The Hands of the Fathers",
           "speaker": "Jeffrey R. Holland",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/the-hands-of-the-fathers?lang=eng",
           "filename": "The Hands of the Fathers — Holland 1999 Apr"
         },
-        "this-is-our-day": {
+        "/1999/04/this-is-our-day": {
           "title": "This Is Our Day",
           "speaker": "James E. Faust",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/this-is-our-day?lang=eng",
@@ -46,55 +46,55 @@
     },
     "Saturday Afternoon Session": {
       "talks": {
-        "the-sustaining-of-church-officers": {
+        "/1999/04/the-sustaining-of-church-officers": {
           "title": "The Sustaining of Church Officers",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/the-sustaining-of-church-officers?lang=eng",
           "filename": "The Sustaining of Church Officers — Monson 1999 Apr"
         },
-        "the-church-audit-committee-report": {
+        "/1999/04/the-church-audit-committee-report": {
           "title": "The Church Audit Committee Report",
           "speaker": "Ted E. Davis",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/the-church-audit-committee-report?lang=eng",
           "filename": "The Church Audit Committee Report — Davis 1999 Apr"
         },
-        "statistical-report-1998": {
+        "/1999/04/statistical-report-1998": {
           "title": "Statistical Report, 1998",
           "speaker": "F. Michael Watson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/statistical-report-1998?lang=eng",
           "filename": "Statistical Report 1998 — Watson 1999 Apr"
         },
-        "repent-of-our-selfishness-d-c-56-8": {
+        "/1999/04/repent-of-our-selfishness-d-c-56-8": {
           "title": "“Repent of [Our] Selfishness” (D&C 56:8)",
           "speaker": "Neal A. Maxwell",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/repent-of-our-selfishness-d-c-56-8?lang=eng",
           "filename": "“Repent of [Our] Selfishness” (D&C 56-8) — Maxwell 1999 Apr"
         },
-        "receive-the-temple-blessings": {
+        "/1999/04/receive-the-temple-blessings": {
           "title": "Receive the Temple Blessings",
           "speaker": "Richard G. Scott",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/receive-the-temple-blessings?lang=eng",
           "filename": "Receive the Temple Blessings — Scott 1999 Apr"
         },
-        "out-of-small-things": {
+        "/1999/04/out-of-small-things": {
           "title": "“Out of Small Things”",
           "speaker": "Stephen A. West",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/out-of-small-things?lang=eng",
           "filename": "“Out of Small Things” — West 1999 Apr"
         },
-        "true-followers": {
+        "/1999/04/true-followers": {
           "title": "True Followers",
           "speaker": "Robert J. Whetten",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/true-followers?lang=eng",
           "filename": "True Followers — Whetten 1999 Apr"
         },
-        "strengthening-families-our-sacred-duty": {
+        "/1999/04/strengthening-families-our-sacred-duty": {
           "title": "Strengthening Families: Our Sacred Duty",
           "speaker": "Robert D. Hales",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/strengthening-families-our-sacred-duty?lang=eng",
           "filename": "Strengthening Families- Our Sacred Duty — Hales 1999 Apr"
         },
-        "the-witness-martin-harris": {
+        "/1999/04/the-witness-martin-harris": {
           "title": "The Witness: Martin Harris",
           "speaker": "Dallin H. Oaks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/the-witness-martin-harris?lang=eng",
@@ -105,43 +105,43 @@
     },
     "Priesthood Session": {
       "talks": {
-        "our-sacred-duty-to-honor-women": {
+        "/1999/04/our-sacred-duty-to-honor-women": {
           "title": "Our Sacred Duty to Honor Women",
           "speaker": "Russell M. Nelson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/our-sacred-duty-to-honor-women?lang=eng",
           "filename": "Our Sacred Duty to Honor Women — Nelson 1999 Apr"
         },
-        "made-like-unto-the-son-of-god": {
+        "/1999/04/made-like-unto-the-son-of-god": {
           "title": "“Made Like unto the Son of God”",
           "speaker": "Ray H. Wood",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/made-like-unto-the-son-of-god?lang=eng",
           "filename": "“Made Like unto the Son of God” — Wood 1999 Apr"
         },
-        "fellowshipping": {
+        "/1999/04/fellowshipping": {
           "title": "Fellowshipping",
           "speaker": "Ned B. Roueché",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/fellowshipping?lang=eng",
           "filename": "Fellowshipping — Roueché 1999 Apr"
         },
-        "priesthood-and-the-home": {
+        "/1999/04/priesthood-and-the-home": {
           "title": "Priesthood and the Home",
           "speaker": "D. Lee Tobler",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/priesthood-and-the-home?lang=eng",
           "filename": "Priesthood and the Home — Tobler 1999 Apr"
         },
-        "obedience-the-path-to-freedom": {
+        "/1999/04/obedience-the-path-to-freedom": {
           "title": "Obedience: The Path to Freedom",
           "speaker": "James E. Faust",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/obedience-the-path-to-freedom?lang=eng",
           "filename": "Obedience- The Path to Freedom — Faust 1999 Apr"
         },
-        "the-priesthood-mighty-army-of-the-lord": {
+        "/1999/04/the-priesthood-mighty-army-of-the-lord": {
           "title": "The Priesthood—Mighty Army of the Lord",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/the-priesthood-mighty-army-of-the-lord?lang=eng",
           "filename": "The Priesthood—Mighty Army of the Lord — Monson 1999 Apr"
         },
-        "the-shepherds-of-the-flock": {
+        "/1999/04/the-shepherds-of-the-flock": {
           "title": "The Shepherds of the Flock",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/the-shepherds-of-the-flock?lang=eng",
@@ -152,37 +152,37 @@
     },
     "Sunday Morning Session": {
       "talks": {
-        "for-i-was-blind-but-now-i-see": {
+        "/1999/04/for-i-was-blind-but-now-i-see": {
           "title": "For I Was Blind, but Now I See",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/for-i-was-blind-but-now-i-see?lang=eng",
           "filename": "For I Was Blind but Now I See — Monson 1999 Apr"
         },
-        "the-bishop-and-his-counselors": {
+        "/1999/04/the-bishop-and-his-counselors": {
           "title": "The Bishop and His Counselors",
           "speaker": "Boyd K. Packer",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/the-bishop-and-his-counselors?lang=eng",
           "filename": "The Bishop and His Counselors — Packer 1999 Apr"
         },
-        "friendship-a-gospel-principle": {
+        "/1999/04/friendship-a-gospel-principle": {
           "title": "Friendship: A Gospel Principle",
           "speaker": "Marlin K. Jensen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/friendship-a-gospel-principle?lang=eng",
           "filename": "Friendship- A Gospel Principle — Jensen 1999 Apr"
         },
-        "our-only-chance": {
+        "/1999/04/our-only-chance": {
           "title": "Our Only Chance",
           "speaker": "Sheri L. Dew",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/our-only-chance?lang=eng",
           "filename": "Our Only Chance — Dew 1999 Apr"
         },
-        "love-and-service": {
+        "/1999/04/love-and-service": {
           "title": "Love and Service",
           "speaker": "David B. Haight",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/love-and-service?lang=eng",
           "filename": "Love and Service — Haight 1999 Apr"
         },
-        "he-is-not-here-but-is-risen": {
+        "/1999/04/he-is-not-here-but-is-risen": {
           "title": "“He Is Not Here, but Is Risen”",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/he-is-not-here-but-is-risen?lang=eng",
@@ -193,43 +193,43 @@
     },
     "Sunday Afternoon Session": {
       "talks": {
-        "the-power-of-teaching-doctrine": {
+        "/1999/04/the-power-of-teaching-doctrine": {
           "title": "The Power of Teaching Doctrine",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/the-power-of-teaching-doctrine?lang=eng",
           "filename": "The Power of Teaching Doctrine — Eyring 1999 Apr"
         },
-        "inspired-church-welfare": {
+        "/1999/04/inspired-church-welfare": {
           "title": "Inspired Church Welfare",
           "speaker": "Joseph B. Wirthlin",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/inspired-church-welfare?lang=eng",
           "filename": "Inspired Church Welfare — Wirthlin 1999 Apr"
         },
-        "welcome-home": {
+        "/1999/04/welcome-home": {
           "title": "Welcome Home",
           "speaker": "Keith B. McMullin",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/welcome-home?lang=eng",
           "filename": "Welcome Home — McMullin 1999 Apr"
         },
-        "your-name-is-safe-in-our-home": {
+        "/1999/04/your-name-is-safe-in-our-home": {
           "title": "Your Name Is Safe in Our Home",
           "speaker": "Cree-L Kofford",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/your-name-is-safe-in-our-home?lang=eng",
           "filename": "Your Name Is Safe in Our Home — Kofford 1999 Apr"
         },
-        "bridges-and-eternal-keepsakes": {
+        "/1999/04/bridges-and-eternal-keepsakes": {
           "title": "Bridges and Eternal Keepsakes",
           "speaker": "Dennis B. Neuenschwander",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/bridges-and-eternal-keepsakes?lang=eng",
           "filename": "Bridges and Eternal Keepsakes — Neuenschwander 1999 Apr"
         },
-        "like-a-flame-unquenchable": {
+        "/1999/04/like-a-flame-unquenchable": {
           "title": "Like a Flame Unquenchable",
           "speaker": "M. Russell Ballard",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/like-a-flame-unquenchable?lang=eng",
           "filename": "Like a Flame Unquenchable — Ballard 1999 Apr"
         },
-        "thanks-to-the-lord-for-his-blessings": {
+        "/1999/04/thanks-to-the-lord-for-his-blessings": {
           "title": "Thanks to the Lord for His Blessings",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/thanks-to-the-lord-for-his-blessings?lang=eng",
@@ -240,25 +240,25 @@
     },
     "General Young Women Meeting": {
       "talks": {
-        "your-light-in-the-wilderness": {
+        "/1999/04/your-light-in-the-wilderness": {
           "title": "Your Light in the Wilderness",
           "speaker": "Sharon G. Larsen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/your-light-in-the-wilderness?lang=eng",
           "filename": "Your Light in the Wilderness — Larsen 1999 Apr"
         },
-        "spiritual-power-of-our-baptism": {
+        "/1999/04/spiritual-power-of-our-baptism": {
           "title": "Spiritual Power of Our Baptism",
           "speaker": "Carol B. Thomas",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/spiritual-power-of-our-baptism?lang=eng",
           "filename": "Spiritual Power of Our Baptism — Thomas 1999 Apr"
         },
-        "follow-the-light": {
+        "/1999/04/follow-the-light": {
           "title": "Follow the Light",
           "speaker": "Margaret D. Nadauld",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/follow-the-light?lang=eng",
           "filename": "Follow the Light — Nadauld 1999 Apr"
         },
-        "your-celestial-journey": {
+        "/1999/04/your-celestial-journey": {
           "title": "Your Celestial Journey",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/your-celestial-journey?lang=eng",
@@ -269,7 +269,7 @@
     },
     "February 1999 Conversion and Retention Broadcast": {
       "talks": {
-        "find-the-lambs-feed-the-sheep": {
+        "/1999/04/find-the-lambs-feed-the-sheep": {
           "title": "Find the Lambs, Feed the Sheep",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/04/find-the-lambs-feed-the-sheep?lang=eng",

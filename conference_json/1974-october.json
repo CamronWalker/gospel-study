@@ -5,31 +5,31 @@
   "sessions": {
     "Friday Morning Session": {
       "talks": {
-        "god-will-not-be-mocked": {
+        "/1974/10/god-will-not-be-mocked": {
           "title": "God Will Not Be Mocked",
           "speaker": "Spencer W. Kimball",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/god-will-not-be-mocked?lang=eng",
           "filename": "God Will Not Be Mocked — Kimball 1974 Oct"
         },
-        "our-precious-families": {
+        "/1974/10/our-precious-families": {
           "title": "Our Precious Families",
           "speaker": "Loren C. Dunn",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/our-precious-families?lang=eng",
           "filename": "Our Precious Families — Dunn 1974 Oct"
         },
-        "why-not-now": {
+        "/1974/10/why-not-now": {
           "title": "Why Not Now?",
           "speaker": "Neal A. Maxwell",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/why-not-now?lang=eng",
           "filename": "Why Not Now — Maxwell 1974 Oct"
         },
-        "the-law-of-the-fast": {
+        "/1974/10/the-law-of-the-fast": {
           "title": "The Law of the Fast",
           "speaker": "Henry D. Taylor",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/the-law-of-the-fast?lang=eng",
           "filename": "The Law of the Fast — Taylor 1974 Oct"
         },
-        "when-thou-art-converted-strengthen-thy-brethren": {
+        "/1974/10/when-thou-art-converted-strengthen-thy-brethren": {
           "title": "“When Thou Art Converted, Strengthen Thy Brethren”",
           "speaker": "L. Tom Perry",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/when-thou-art-converted-strengthen-thy-brethren?lang=eng",
@@ -40,43 +40,43 @@
     },
     "Friday Afternoon Session": {
       "talks": {
-        "good-habits-develop-good-character": {
+        "/1974/10/good-habits-develop-good-character": {
           "title": "Good Habits Develop Good Character",
           "speaker": "Delbert L. Stapley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/good-habits-develop-good-character?lang=eng",
           "filename": "Good Habits Develop Good Character — Stapley 1974 Oct"
         },
-        "power-over-satan": {
+        "/1974/10/power-over-satan": {
           "title": "Power over Satan",
           "speaker": "ElRay L. Christiansen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/power-over-satan?lang=eng",
           "filename": "Power over Satan — Christiansen 1974 Oct"
         },
-        "do-not-procrastinate": {
+        "/1974/10/do-not-procrastinate": {
           "title": "Do Not Procrastinate!",
           "speaker": "Eldred G. Smith",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/do-not-procrastinate?lang=eng",
           "filename": "Do Not Procrastinate! — Smith 1974 Oct"
         },
-        "gifts-of-the-spirit": {
+        "/1974/10/gifts-of-the-spirit": {
           "title": "Gifts of the Spirit",
           "speaker": "James A. Cullimore",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/gifts-of-the-spirit?lang=eng",
           "filename": "Gifts of the Spirit — Cullimore 1974 Oct"
         },
-        "the-saviors-program-for-the-care-of-the-aged": {
+        "/1974/10/the-saviors-program-for-the-care-of-the-aged": {
           "title": "The Savior’s Program for the Care of the Aged",
           "speaker": "Vaughn J. Featherstone",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/the-saviors-program-for-the-care-of-the-aged?lang=eng",
           "filename": "The Savior’s Program for the Care of the Aged — Featherstone 1974 Oct"
         },
-        "the-beatitudes": {
+        "/1974/10/the-beatitudes": {
           "title": "The Beatitudes",
           "speaker": "O. Leslie Stone",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/the-beatitudes?lang=eng",
           "filename": "The Beatitudes — Stone 1974 Oct"
         },
-        "be-valiant-in-the-fight-of-faith": {
+        "/1974/10/be-valiant-in-the-fight-of-faith": {
           "title": "Be Valiant in the Fight of Faith",
           "speaker": "Bruce R. McConkie",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/be-valiant-in-the-fight-of-faith?lang=eng",
@@ -87,37 +87,37 @@
     },
     "Saturday Morning Session": {
       "talks": {
-        "sustaining-of-church-officers": {
+        "/1974/10/sustaining-of-church-officers": {
           "title": "Before we present the General Authorities and General Officers for the sustaining vote of this conference, we have a matter of business we should like to take up with you.",
           "speaker": "Sustaining of Church Officers",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/sustaining-of-church-officers?lang=eng",
           "filename": "Before we present the General Authorities and General Officers for the sustaining vote of this conference we have a matter of business we should like to take up with you. — Officers 1974 Oct"
         },
-        "how-men-are-saved": {
+        "/1974/10/how-men-are-saved": {
           "title": "How Men Are Saved",
           "speaker": "Marion G. Romney",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/how-men-are-saved?lang=eng",
           "filename": "How Men Are Saved — Romney 1974 Oct"
         },
-        "whos-losing": {
+        "/1974/10/whos-losing": {
           "title": "Who’s Losing?",
           "speaker": "Marvin J. Ashton",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/whos-losing?lang=eng",
           "filename": "Who’s Losing — Ashton 1974 Oct"
         },
-        "we-need-to-continue-in-righteousness": {
+        "/1974/10/we-need-to-continue-in-righteousness": {
           "title": "We Need to Continue in Righteousness",
           "speaker": "Rex D. Pinegar",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/we-need-to-continue-in-righteousness?lang=eng",
           "filename": "We Need to Continue in Righteousness — Pinegar 1974 Oct"
         },
-        "the-most-vital-information": {
+        "/1974/10/the-most-vital-information": {
           "title": "The Most Vital Information",
           "speaker": "Robert L. Simpson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/the-most-vital-information?lang=eng",
           "filename": "The Most Vital Information — Simpson 1974 Oct"
         },
-        "eternal-togetherness": {
+        "/1974/10/eternal-togetherness": {
           "title": "Eternal Togetherness",
           "speaker": "Mark E. Petersen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/eternal-togetherness?lang=eng",
@@ -128,43 +128,43 @@
     },
     "Saturday Afternoon Session": {
       "talks": {
-        "what-after-death": {
+        "/1974/10/what-after-death": {
           "title": "What after Death?",
           "speaker": "LeGrand Richards",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/what-after-death?lang=eng",
           "filename": "What after Death — Richards 1974 Oct"
         },
-        "blessed-are-the-peacemakers": {
+        "/1974/10/blessed-are-the-peacemakers": {
           "title": "“Blessed Are the Peacemakers”",
           "speaker": "Theodore M. Burton",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/blessed-are-the-peacemakers?lang=eng",
           "filename": "“Blessed Are the Peacemakers” — Burton 1974 Oct"
         },
-        "the-divine-power-of-repentance": {
+        "/1974/10/the-divine-power-of-repentance": {
           "title": "The Divine Power of Repentance",
           "speaker": "Bernard P. Brockbank",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/the-divine-power-of-repentance?lang=eng",
           "filename": "The Divine Power of Repentance — Brockbank 1974 Oct"
         },
-        "a-new-aristocracy": {
+        "/1974/10/a-new-aristocracy": {
           "title": "A New Aristocracy",
           "speaker": "James E. Faust",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/a-new-aristocracy?lang=eng",
           "filename": "A New Aristocracy — Faust 1974 Oct"
         },
-        "transfusion": {
+        "/1974/10/transfusion": {
           "title": "Transfusion",
           "speaker": "Sterling W. Sill",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/transfusion?lang=eng",
           "filename": "Transfusion — Sill 1974 Oct"
         },
-        "making-conferences-turning-points-in-our-lives": {
+        "/1974/10/making-conferences-turning-points-in-our-lives": {
           "title": "Making Conferences Turning Points in Our Lives",
           "speaker": "J. Thomas Fyans",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/making-conferences-turning-points-in-our-lives?lang=eng",
           "filename": "Making Conferences Turning Points in Our Lives — Fyans 1974 Oct"
         },
-        "do-not-despair": {
+        "/1974/10/do-not-despair": {
           "title": "Do Not Despair",
           "speaker": "Ezra Taft Benson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/do-not-despair?lang=eng",
@@ -175,31 +175,31 @@
     },
     "Priesthood Session": {
       "talks": {
-        "as-a-beacon-on-a-hill": {
+        "/1974/10/as-a-beacon-on-a-hill": {
           "title": "As a Beacon on a Hill",
           "speaker": "H. Burke Peterson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/as-a-beacon-on-a-hill?lang=eng",
           "filename": "As a Beacon on a Hill — Peterson 1974 Oct"
         },
-        "your-mission-preparation": {
+        "/1974/10/your-mission-preparation": {
           "title": "Your Mission Preparation",
           "speaker": "A. Theodore Tuttle",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/your-mission-preparation?lang=eng",
           "filename": "Your Mission Preparation — Tuttle 1974 Oct"
         },
-        "integrity": {
+        "/1974/10/integrity": {
           "title": "Integrity",
           "speaker": "Marion G. Romney",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/integrity?lang=eng",
           "filename": "Integrity — Romney 1974 Oct"
         },
-        "our-responsibility-to-the-transgressor": {
+        "/1974/10/our-responsibility-to-the-transgressor": {
           "title": "Our Responsibility to the Transgressor",
           "speaker": "N. Eldon Tanner",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/our-responsibility-to-the-transgressor?lang=eng",
           "filename": "Our Responsibility to the Transgressor — Tanner 1974 Oct"
         },
-        "the-davids-and-the-goliaths": {
+        "/1974/10/the-davids-and-the-goliaths": {
           "title": "The Davids and the Goliaths",
           "speaker": "Spencer W. Kimball",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/the-davids-and-the-goliaths?lang=eng",
@@ -210,31 +210,31 @@
     },
     "Sunday Morning Session": {
       "talks": {
-        "why-is-my-boy-wandering-tonight": {
+        "/1974/10/why-is-my-boy-wandering-tonight": {
           "title": "Why Is My Boy Wandering Tonight?",
           "speaker": "N. Eldon Tanner",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/why-is-my-boy-wandering-tonight?lang=eng",
           "filename": "Why Is My Boy Wandering Tonight — Tanner 1974 Oct"
         },
-        "where-much-is-given-much-is-required": {
+        "/1974/10/where-much-is-given-much-is-required": {
           "title": "Where Much Is Given, Much Is Required",
           "speaker": "Boyd K. Packer",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/where-much-is-given-much-is-required?lang=eng",
           "filename": "Where Much Is Given Much Is Required — Packer 1974 Oct"
         },
-        "for-thy-servant-heareth": {
+        "/1974/10/for-thy-servant-heareth": {
           "title": "“For Thy Servant Heareth”",
           "speaker": "S. Dilworth Young",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/for-thy-servant-heareth?lang=eng",
           "filename": "“For Thy Servant Heareth” — Young 1974 Oct"
         },
-        "truth-will-emerge-victorious": {
+        "/1974/10/truth-will-emerge-victorious": {
           "title": "Truth Will Emerge Victorious",
           "speaker": "John H. Vandenberg",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/truth-will-emerge-victorious?lang=eng",
           "filename": "Truth Will Emerge Victorious — Vandenberg 1974 Oct"
         },
-        "to-know-god": {
+        "/1974/10/to-know-god": {
           "title": "To Know God",
           "speaker": "Howard W. Hunter",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/to-know-god?lang=eng",
@@ -245,37 +245,37 @@
     },
     "Sunday Afternoon Session": {
       "talks": {
-        "a-city-set-upon-a-hill": {
+        "/1974/10/a-city-set-upon-a-hill": {
           "title": "A City Set upon a Hill",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/a-city-set-upon-a-hill?lang=eng",
           "filename": "A City Set upon a Hill — Hinckley 1974 Oct"
         },
-        "a-testimony-of-christ": {
+        "/1974/10/a-testimony-of-christ": {
           "title": "A Testimony of Christ",
           "speaker": "Joseph Anderson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/a-testimony-of-christ?lang=eng",
           "filename": "A Testimony of Christ — Anderson 1974 Oct"
         },
-        "is-there-not-a-cause": {
+        "/1974/10/is-there-not-a-cause": {
           "title": "Is There Not a Cause?",
           "speaker": "Victor L. Brown",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/is-there-not-a-cause?lang=eng",
           "filename": "Is There Not a Cause — Brown 1974 Oct"
         },
-        "the-blessings-of-peace": {
+        "/1974/10/the-blessings-of-peace": {
           "title": "The Blessings of Peace",
           "speaker": "Franklin D. Richards",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/the-blessings-of-peace?lang=eng",
           "filename": "The Blessings of Peace — Richards 1974 Oct"
         },
-        "my-personal-hall-of-fame": {
+        "/1974/10/my-personal-hall-of-fame": {
           "title": "My Personal Hall of Fame",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/my-personal-hall-of-fame?lang=eng",
           "filename": "My Personal Hall of Fame — Monson 1974 Oct"
         },
-        "ocean-currents-and-family-influences": {
+        "/1974/10/ocean-currents-and-family-influences": {
           "title": "Ocean Currents and Family Influences",
           "speaker": "Spencer W. Kimball",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/ocean-currents-and-family-influences?lang=eng",
@@ -286,13 +286,13 @@
     },
     "Welfare Session": {
       "talks": {
-        "welfare-services-romney": {
+        "/1974/10/welfare-services-romney": {
           "title": "Address Given by President Marion G. Romney at Welfare Services Meeting Saturday, October 5, 1974",
           "speaker": "Marion G. Romney",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/welfare-services-romney?lang=eng",
           "filename": "Address Given by President Marion G. Romney at Welfare Services Meeting Saturday October 5 1974 — Romney 1974 Oct"
         },
-        "welfare-services-kimball": {
+        "/1974/10/welfare-services-kimball": {
           "title": "Address Given by President Spencer W. Kimball at Welfare Services Meeting Saturday, October 5, 1974",
           "speaker": "Spencer W. Kimball",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1974/10/welfare-services-kimball?lang=eng",

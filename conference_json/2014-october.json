@@ -5,43 +5,43 @@
   "sessions": {
     "Saturday Morning Session": {
       "talks": {
-        "welcome-to-conference": {
+        "/2014/10/welcome-to-conference": {
           "title": "Welcome to Conference",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/welcome-to-conference?lang=eng",
           "filename": "Welcome to Conference — Monson 2014 Oct"
         },
-        "the-reason-for-our-hope": {
+        "/2014/10/the-reason-for-our-hope": {
           "title": "The Reason for Our Hope",
           "speaker": "Boyd K. Packer",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/the-reason-for-our-hope?lang=eng",
           "filename": "The Reason for Our Hope — Packer 2014 Oct"
         },
-        "which-way-do-you-face": {
+        "/2014/10/which-way-do-you-face": {
           "title": "Which Way Do You Face?",
           "speaker": "Lynn G. Robbins",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/which-way-do-you-face?lang=eng",
           "filename": "Which Way Do You Face — Robbins 2014 Oct"
         },
-        "the-sacrament-a-renewal-for-the-soul": {
+        "/2014/10/the-sacrament-a-renewal-for-the-soul": {
           "title": "The Sacrament—a Renewal for the Soul",
           "speaker": "Cheryl A. Esplin",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/the-sacrament-a-renewal-for-the-soul?lang=eng",
           "filename": "The Sacrament—a Renewal for the Soul — Esplin 2014 Oct"
         },
-        "rescue-in-unity": {
+        "/2014/10/rescue-in-unity": {
           "title": "Rescue in Unity",
           "speaker": "Chi Hong (Sam) Wong",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/rescue-in-unity?lang=eng",
           "filename": "Rescue in Unity — Wong 2014 Oct"
         },
-        "free-forever-to-act-for-themselves": {
+        "/2014/10/free-forever-to-act-for-themselves": {
           "title": "Free Forever, to Act for Themselves",
           "speaker": "D. Todd Christofferson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/free-forever-to-act-for-themselves?lang=eng",
           "filename": "Free Forever to Act for Themselves — Christofferson 2014 Oct"
         },
-        "receiving-a-testimony-of-light-and-truth": {
+        "/2014/10/receiving-a-testimony-of-light-and-truth": {
           "title": "Receiving a Testimony of Light and Truth",
           "speaker": "Dieter F. Uchtdorf",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/receiving-a-testimony-of-light-and-truth?lang=eng",
@@ -52,49 +52,49 @@
     },
     "Saturday Afternoon Session": {
       "talks": {
-        "the-sustaining-of-church-officers": {
+        "/2014/10/the-sustaining-of-church-officers": {
           "title": "The Sustaining of Church Officers",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/the-sustaining-of-church-officers?lang=eng",
           "filename": "The Sustaining of Church Officers — Eyring 2014 Oct"
         },
-        "loving-others-and-living-with-differences": {
+        "/2014/10/loving-others-and-living-with-differences": {
           "title": "Loving Others and Living with Differences",
           "speaker": "Dallin H. Oaks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/loving-others-and-living-with-differences?lang=eng",
           "filename": "Loving Others and Living with Differences — Oaks 2014 Oct"
         },
-        "joseph-smith": {
+        "/2014/10/joseph-smith": {
           "title": "Joseph Smith",
           "speaker": "Neil L. Andersen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/joseph-smith?lang=eng",
           "filename": "Joseph Smith — Andersen 2014 Oct"
         },
-        "parents-the-prime-gospel-teachers-of-their-children": {
+        "/2014/10/parents-the-prime-gospel-teachers-of-their-children": {
           "title": "Parents: The Prime Gospel Teachers of Their Children",
           "speaker": "Tad R. Callister",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/parents-the-prime-gospel-teachers-of-their-children?lang=eng",
           "filename": "Parents- The Prime Gospel Teachers of Their Children — Callister 2014 Oct"
         },
-        "approaching-the-throne-of-god-with-confidence": {
+        "/2014/10/approaching-the-throne-of-god-with-confidence": {
           "title": "Approaching the Throne of God with Confidence",
           "speaker": "Jörg Klebingat",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/approaching-the-throne-of-god-with-confidence?lang=eng",
           "filename": "Approaching the Throne of God with Confidence — Klebingat 2014 Oct"
         },
-        "yes-lord-i-will-follow-thee": {
+        "/2014/10/yes-lord-i-will-follow-thee": {
           "title": "Yes, Lord, I Will Follow Thee",
           "speaker": "Eduardo Gavarret",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/yes-lord-i-will-follow-thee?lang=eng",
           "filename": "Yes Lord I Will Follow Thee — Gavarret 2014 Oct"
         },
-        "are-we-not-all-beggars": {
+        "/2014/10/are-we-not-all-beggars": {
           "title": "Are We Not All Beggars?",
           "speaker": "Jeffrey R. Holland",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/are-we-not-all-beggars?lang=eng",
           "filename": "Are We Not All Beggars — Holland 2014 Oct"
         },
-        "finding-lasting-peace-and-building-eternal-families": {
+        "/2014/10/finding-lasting-peace-and-building-eternal-families": {
           "title": "Finding Lasting Peace and Building Eternal Families",
           "speaker": "L. Tom Perry",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/finding-lasting-peace-and-building-eternal-families?lang=eng",
@@ -105,37 +105,37 @@
     },
     "Priesthood Session": {
       "talks": {
-        "choose-wisely": {
+        "/2014/10/choose-wisely": {
           "title": "Choose Wisely",
           "speaker": "Quentin L. Cook",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/choose-wisely?lang=eng",
           "filename": "Choose Wisely — Cook 2014 Oct"
         },
-        "i-know-these-things-of-myself": {
+        "/2014/10/i-know-these-things-of-myself": {
           "title": "I Know These Things of Myself",
           "speaker": "Craig C. Christensen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/i-know-these-things-of-myself?lang=eng",
           "filename": "I Know These Things of Myself — Christensen 2014 Oct"
         },
-        "the-law-of-the-fast-a-personal-responsibility-to-care-for-the-poor-and-needy": {
+        "/2014/10/the-law-of-the-fast-a-personal-responsibility-to-care-for-the-poor-and-needy": {
           "title": "The Law of the Fast: A Personal Responsibility to Care for the Poor and Needy",
           "speaker": "Dean M. Davies",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/the-law-of-the-fast-a-personal-responsibility-to-care-for-the-poor-and-needy?lang=eng",
           "filename": "The Law of the Fast- A Personal Responsibility to Care for the Poor and Needy — Davies 2014 Oct"
         },
-        "lord-is-it-i": {
+        "/2014/10/lord-is-it-i": {
           "title": "“Lord, Is It I?”",
           "speaker": "Dieter F. Uchtdorf",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/lord-is-it-i?lang=eng",
           "filename": "“Lord Is It I” — Uchtdorf 2014 Oct"
         },
-        "the-preparatory-priesthood": {
+        "/2014/10/the-preparatory-priesthood": {
           "title": "The Preparatory Priesthood",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/the-preparatory-priesthood?lang=eng",
           "filename": "The Preparatory Priesthood — Eyring 2014 Oct"
         },
-        "guided-safely-home": {
+        "/2014/10/guided-safely-home": {
           "title": "Guided Safely Home",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/guided-safely-home?lang=eng",
@@ -146,37 +146,37 @@
     },
     "Sunday Morning Session": {
       "talks": {
-        "continuing-revelation": {
+        "/2014/10/continuing-revelation": {
           "title": "Continuing Revelation",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/continuing-revelation?lang=eng",
           "filename": "Continuing Revelation — Eyring 2014 Oct"
         },
-        "sustaining-the-prophets": {
+        "/2014/10/sustaining-the-prophets": {
           "title": "Sustaining the Prophets",
           "speaker": "Russell M. Nelson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/sustaining-the-prophets?lang=eng",
           "filename": "Sustaining the Prophets — Nelson 2014 Oct"
         },
-        "live-according-to-the-words-of-the-prophets": {
+        "/2014/10/live-according-to-the-words-of-the-prophets": {
           "title": "Live according to the Words of the Prophets",
           "speaker": "Carol F. McConkie",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/live-according-to-the-words-of-the-prophets?lang=eng",
           "filename": "Live according to the Words of the Prophets — McConkie 2014 Oct"
         },
-        "eternal-life-to-know-our-heavenly-father-and-his-son-jesus-christ": {
+        "/2014/10/eternal-life-to-know-our-heavenly-father-and-his-son-jesus-christ": {
           "title": "Eternal Life—to Know Our Heavenly Father and His Son, Jesus Christ",
           "speaker": "Robert D. Hales",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/eternal-life-to-know-our-heavenly-father-and-his-son-jesus-christ?lang=eng",
           "filename": "Eternal Life—to Know Our Heavenly Father and His Son Jesus Christ — Hales 2014 Oct"
         },
-        "the-sacrament-and-the-atonement": {
+        "/2014/10/the-sacrament-and-the-atonement": {
           "title": "The Sacrament and the Atonement",
           "speaker": "James J. Hamula",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/the-sacrament-and-the-atonement?lang=eng",
           "filename": "The Sacrament and the Atonement — Hamula 2014 Oct"
         },
-        "ponder-the-path-of-thy-feet": {
+        "/2014/10/ponder-the-path-of-thy-feet": {
           "title": "Ponder the Path of Thy Feet",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/ponder-the-path-of-thy-feet?lang=eng",
@@ -187,49 +187,49 @@
     },
     "Sunday Afternoon Session": {
       "talks": {
-        "stay-in-the-boat-and-hold-on": {
+        "/2014/10/stay-in-the-boat-and-hold-on": {
           "title": "Stay in the Boat and Hold On!",
           "speaker": "M. Russell Ballard",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/stay-in-the-boat-and-hold-on?lang=eng",
           "filename": "Stay in the Boat and Hold On! — Ballard 2014 Oct"
         },
-        "make-the-exercise-of-faith-your-first-priority": {
+        "/2014/10/make-the-exercise-of-faith-your-first-priority": {
           "title": "Make the Exercise of Faith Your First Priority",
           "speaker": "Richard G. Scott",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/make-the-exercise-of-faith-your-first-priority?lang=eng",
           "filename": "Make the Exercise of Faith Your First Priority — Scott 2014 Oct"
         },
-        "the-lord-has-a-plan-for-us": {
+        "/2014/10/the-lord-has-a-plan-for-us": {
           "title": "The Lord Has a Plan for Us!",
           "speaker": "Carlos A. Godoy",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/the-lord-has-a-plan-for-us?lang=eng",
           "filename": "The Lord Has a Plan for Us! — Godoy 2014 Oct"
         },
-        "the-book": {
+        "/2014/10/the-book": {
           "title": "The Book",
           "speaker": "Allan F. Packer",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/the-book?lang=eng",
           "filename": "The Book — Packer 2014 Oct"
         },
-        "our-personal-ministries": {
+        "/2014/10/our-personal-ministries": {
           "title": "Our Personal Ministries",
           "speaker": "Hugo E. Martinez",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/our-personal-ministries?lang=eng",
           "filename": "Our Personal Ministries — Martinez 2014 Oct"
         },
-        "trifle-not-with-sacred-things": {
+        "/2014/10/trifle-not-with-sacred-things": {
           "title": "Trifle Not with Sacred Things",
           "speaker": "Larry S. Kacher",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/trifle-not-with-sacred-things?lang=eng",
           "filename": "Trifle Not with Sacred Things — Kacher 2014 Oct"
         },
-        "come-and-see": {
+        "/2014/10/come-and-see": {
           "title": "Come and See",
           "speaker": "David A. Bednar",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/come-and-see?lang=eng",
           "filename": "Come and See — Bednar 2014 Oct"
         },
-        "until-we-meet-again": {
+        "/2014/10/until-we-meet-again": {
           "title": "Until We Meet Again",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/until-we-meet-again?lang=eng",
@@ -240,25 +240,25 @@
     },
     "General Women’s Session": {
       "talks": {
-        "prepared-in-a-manner-that-never-had-been-known": {
+        "/2014/10/prepared-in-a-manner-that-never-had-been-known": {
           "title": "Prepared in a Manner That Never Had Been Known",
           "speaker": "Linda K. Burton",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/prepared-in-a-manner-that-never-had-been-known?lang=eng",
           "filename": "Prepared in a Manner That Never Had Been Known — Burton 2014 Oct"
         },
-        "covenant-daughters-of-god": {
+        "/2014/10/covenant-daughters-of-god": {
           "title": "Covenant Daughters of God",
           "speaker": "Jean A. Stevens",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/covenant-daughters-of-god?lang=eng",
           "filename": "Covenant Daughters of God — Stevens 2014 Oct"
         },
-        "sharing-your-light": {
+        "/2014/10/sharing-your-light": {
           "title": "Sharing Your Light",
           "speaker": "Neill F. Marriott",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/sharing-your-light?lang=eng",
           "filename": "Sharing Your Light — Marriott 2014 Oct"
         },
-        "living-the-gospel-joyful": {
+        "/2014/10/living-the-gospel-joyful": {
           "title": "Living the Gospel Joyful",
           "speaker": "Dieter F. Uchtdorf",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2014/10/living-the-gospel-joyful?lang=eng",

@@ -5,43 +5,43 @@
   "sessions": {
     "Saturday Morning Session": {
       "talks": {
-        "welcome-to-conference": {
+        "/2010/04/welcome-to-conference": {
           "title": "Welcome to Conference",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/welcome-to-conference?lang=eng",
           "filename": "Welcome to Conference — Monson 2010 Apr"
         },
-        "the-power-of-the-priesthood": {
+        "/2010/04/the-power-of-the-priesthood": {
           "title": "The Power of the Priesthood",
           "speaker": "Boyd K. Packer",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/the-power-of-the-priesthood?lang=eng",
           "filename": "The Power of the Priesthood — Packer 2010 Apr"
         },
-        "and-upon-the-handmaids-in-those-days-will-i-pour-out-my-spirit": {
+        "/2010/04/and-upon-the-handmaids-in-those-days-will-i-pour-out-my-spirit": {
           "title": "“And upon the Handmaids in Those Days Will I Pour Out My Spirit”",
           "speaker": "Julie B. Beck",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/and-upon-the-handmaids-in-those-days-will-i-pour-out-my-spirit?lang=eng",
           "filename": "“And upon the Handmaids in Those Days Will I Pour Out My Spirit” — Beck 2010 Apr"
         },
-        "our-path-of-duty": {
+        "/2010/04/our-path-of-duty": {
           "title": "Our Path of Duty",
           "speaker": "Keith B. McMullin",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/our-path-of-duty?lang=eng",
           "filename": "Our Path of Duty — McMullin 2010 Apr"
         },
-        "the-rock-of-our-redeemer": {
+        "/2010/04/the-rock-of-our-redeemer": {
           "title": "The Rock of Our Redeemer",
           "speaker": "Wilford W. Andersen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/the-rock-of-our-redeemer?lang=eng",
           "filename": "The Rock of Our Redeemer — Andersen 2010 Apr"
         },
-        "mothers-and-daughters": {
+        "/2010/04/mothers-and-daughters": {
           "title": "Mothers and Daughters",
           "speaker": "M. Russell Ballard",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/mothers-and-daughters?lang=eng",
           "filename": "Mothers and Daughters — Ballard 2010 Apr"
         },
-        "help-them-on-their-way-home": {
+        "/2010/04/help-them-on-their-way-home": {
           "title": "Help Them on Their Way Home",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/help-them-on-their-way-home?lang=eng",
@@ -52,55 +52,55 @@
     },
     "Saturday Afternoon Session": {
       "talks": {
-        "the-sustaining-of-church-officers": {
+        "/2010/04/the-sustaining-of-church-officers": {
           "title": "The Sustaining of Church Officers",
           "speaker": "Dieter F. Uchtdorf",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/the-sustaining-of-church-officers?lang=eng",
           "filename": "The Sustaining of Church Officers — Uchtdorf 2010 Apr"
         },
-        "church-auditing-department-report-2009": {
+        "/2010/04/church-auditing-department-report-2009": {
           "title": "Church Auditing Department Report, 2009",
           "speaker": "Robert W. Cantwell",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/church-auditing-department-report-2009?lang=eng",
           "filename": "Church Auditing Department Report 2009 — Cantwell 2010 Apr"
         },
-        "statistical-report-2009": {
+        "/2010/04/statistical-report-2009": {
           "title": "Statistical Report, 2009",
           "speaker": "Brook P. Hales",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/statistical-report-2009?lang=eng",
           "filename": "Statistical Report 2009 — Hales 2010 Apr"
         },
-        "mothers-teaching-children-in-the-home": {
+        "/2010/04/mothers-teaching-children-in-the-home": {
           "title": "Mothers Teaching Children in the Home",
           "speaker": "L. Tom Perry",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/mothers-teaching-children-in-the-home?lang=eng",
           "filename": "Mothers Teaching Children in the Home — Perry 2010 Apr"
         },
-        "the-blessing-of-scripture": {
+        "/2010/04/the-blessing-of-scripture": {
           "title": "The Blessing of Scripture",
           "speaker": "D. Todd Christofferson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/the-blessing-of-scripture?lang=eng",
           "filename": "The Blessing of Scripture — Christofferson 2010 Apr"
         },
-        "helping-hands-saving-hands": {
+        "/2010/04/helping-hands-saving-hands": {
           "title": "Helping Hands, Saving Hands",
           "speaker": "Koichi Aoyagi",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/helping-hands-saving-hands?lang=eng",
           "filename": "Helping Hands Saving Hands — Aoyagi 2010 Apr"
         },
-        "when-the-lord-commands": {
+        "/2010/04/when-the-lord-commands": {
           "title": "When the Lord Commands",
           "speaker": "Bruce A. Carlson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/when-the-lord-commands?lang=eng",
           "filename": "When the Lord Commands — Carlson 2010 Apr"
         },
-        "watching-with-all-perseverance": {
+        "/2010/04/watching-with-all-perseverance": {
           "title": "Watching with All Perseverance",
           "speaker": "David A. Bednar",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/watching-with-all-perseverance?lang=eng",
           "filename": "Watching with All Perseverance — Bednar 2010 Apr"
         },
-        "place-no-more-for-the-enemy-of-my-soul": {
+        "/2010/04/place-no-more-for-the-enemy-of-my-soul": {
           "title": "Place No More for the Enemy of My Soul",
           "speaker": "Jeffrey R. Holland",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/place-no-more-for-the-enemy-of-my-soul?lang=eng",
@@ -111,37 +111,37 @@
     },
     "Priesthood Session": {
       "talks": {
-        "healing-the-sick": {
+        "/2010/04/healing-the-sick": {
           "title": "Healing the Sick",
           "speaker": "Dallin H. Oaks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/healing-the-sick?lang=eng",
           "filename": "Healing the Sick — Oaks 2010 Apr"
         },
-        "the-divine-call-of-a-missionary": {
+        "/2010/04/the-divine-call-of-a-missionary": {
           "title": "The Divine Call of a Missionary",
           "speaker": "Ronald A. Rasband",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/the-divine-call-of-a-missionary?lang=eng",
           "filename": "The Divine Call of a Missionary — Rasband 2010 Apr"
         },
-        "the-magnificent-aaronic-priesthood": {
+        "/2010/04/the-magnificent-aaronic-priesthood": {
           "title": "The Magnificent Aaronic Priesthood",
           "speaker": "David L. Beck",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/the-magnificent-aaronic-priesthood?lang=eng",
           "filename": "The Magnificent Aaronic Priesthood — Beck 2010 Apr"
         },
-        "continue-in-patience": {
+        "/2010/04/continue-in-patience": {
           "title": "Continue in Patience",
           "speaker": "Dieter F. Uchtdorf",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/continue-in-patience?lang=eng",
           "filename": "Continue in Patience — Uchtdorf 2010 Apr"
         },
-        "act-in-all-diligence": {
+        "/2010/04/act-in-all-diligence": {
           "title": "Act in All Diligence",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/act-in-all-diligence?lang=eng",
           "filename": "Act in All Diligence — Eyring 2010 Apr"
         },
-        "preparation-brings-blessings": {
+        "/2010/04/preparation-brings-blessings": {
           "title": "Preparation Brings Blessings",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/preparation-brings-blessings?lang=eng",
@@ -152,37 +152,37 @@
     },
     "Sunday Morning Session": {
       "talks": {
-        "you-are-my-hands": {
+        "/2010/04/you-are-my-hands": {
           "title": "“You Are My Hands”",
           "speaker": "Dieter F. Uchtdorf",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/you-are-my-hands?lang=eng",
           "filename": "“You Are My Hands” — Uchtdorf 2010 Apr"
         },
-        "he-lives-all-glory-to-his-name": {
+        "/2010/04/he-lives-all-glory-to-his-name": {
           "title": "He Lives! All Glory to His Name!",
           "speaker": "Richard G. Scott",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/he-lives-all-glory-to-his-name?lang=eng",
           "filename": "He Lives! All Glory to His Name! — Scott 2010 Apr"
         },
-        "turn-to-the-lord": {
+        "/2010/04/turn-to-the-lord": {
           "title": "Turn to the Lord",
           "speaker": "Donald L. Hallstrom",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/turn-to-the-lord?lang=eng",
           "filename": "Turn to the Lord — Hallstrom 2010 Apr"
         },
-        "that-our-children-might-see-the-face-of-the-savior": {
+        "/2010/04/that-our-children-might-see-the-face-of-the-savior": {
           "title": "That Our Children Might See the Face of the Savior",
           "speaker": "Cheryl C. Lant",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/that-our-children-might-see-the-face-of-the-savior?lang=eng",
           "filename": "That Our Children Might See the Face of the Savior — Lant 2010 Apr"
         },
-        "we-follow-jesus-christ": {
+        "/2010/04/we-follow-jesus-christ": {
           "title": "We Follow Jesus Christ",
           "speaker": "Quentin L. Cook",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/we-follow-jesus-christ?lang=eng",
           "filename": "We Follow Jesus Christ — Cook 2010 Apr"
         },
-        "he-is-risen": {
+        "/2010/04/he-is-risen": {
           "title": "He Is Risen!",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/he-is-risen?lang=eng",
@@ -193,49 +193,49 @@
     },
     "Sunday Afternoon Session": {
       "talks": {
-        "generations-linked-in-love": {
+        "/2010/04/generations-linked-in-love": {
           "title": "Generations Linked in Love",
           "speaker": "Russell M. Nelson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/generations-linked-in-love?lang=eng",
           "filename": "Generations Linked in Love — Nelson 2010 Apr"
         },
-        "our-duty-to-god-the-mission-of-parents-and-leaders-to-the-rising-generation": {
+        "/2010/04/our-duty-to-god-the-mission-of-parents-and-leaders-to-the-rising-generation": {
           "title": "Our Duty to God: The Mission of Parents and Leaders to the Rising Generation",
           "speaker": "Robert D. Hales",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/our-duty-to-god-the-mission-of-parents-and-leaders-to-the-rising-generation?lang=eng",
           "filename": "Our Duty to God- The Mission of Parents and Leaders to the Rising Generation — Hales 2010 Apr"
         },
-        "mother-told-me": {
+        "/2010/04/mother-told-me": {
           "title": "Mother Told Me",
           "speaker": "Bradley D. Foster",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/mother-told-me?lang=eng",
           "filename": "Mother Told Me — Foster 2010 Apr"
         },
-        "all-things-work-together-for-good": {
+        "/2010/04/all-things-work-together-for-good": {
           "title": "All Things Work Together for Good",
           "speaker": "James B. Martino",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/all-things-work-together-for-good?lang=eng",
           "filename": "All Things Work Together for Good — Martino 2010 Apr"
         },
-        "developing-good-judgment-and-not-judging-others": {
+        "/2010/04/developing-good-judgment-and-not-judging-others": {
           "title": "Developing Good Judgment and Not Judging Others",
           "speaker": "Gregory A. Schwitzer",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/developing-good-judgment-and-not-judging-others?lang=eng",
           "filename": "Developing Good Judgment and Not Judging Others — Schwitzer 2010 Apr"
         },
-        "things-pertaining-to-righteousness": {
+        "/2010/04/things-pertaining-to-righteousness": {
           "title": "Things Pertaining to Righteousness",
           "speaker": "Francisco J. Viñas",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/things-pertaining-to-righteousness?lang=eng",
           "filename": "Things Pertaining to Righteousness — Viñas 2010 Apr"
         },
-        "tell-me-the-stories-of-jesus": {
+        "/2010/04/tell-me-the-stories-of-jesus": {
           "title": "Tell Me the Stories of Jesus",
           "speaker": "Neil L. Andersen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/tell-me-the-stories-of-jesus?lang=eng",
           "filename": "Tell Me the Stories of Jesus — Andersen 2010 Apr"
         },
-        "a-word-at-closing": {
+        "/2010/04/a-word-at-closing": {
           "title": "A Word at Closing",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/a-word-at-closing?lang=eng",
@@ -246,25 +246,25 @@
     },
     "General Young Women Meeting": {
       "talks": {
-        "be-of-a-good-courage": {
+        "/2010/04/be-of-a-good-courage": {
           "title": "Be of a Good Courage",
           "speaker": "Ann M. Dibb",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/be-of-a-good-courage?lang=eng",
           "filename": "Be of a Good Courage — Dibb 2010 Apr"
         },
-        "never-never-never-give-up": {
+        "/2010/04/never-never-never-give-up": {
           "title": "Never, Never, Never Give Up!",
           "speaker": "Mary N. Cook",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/never-never-never-give-up?lang=eng",
           "filename": "Never Never Never Give Up! — Cook 2010 Apr"
         },
-        "remember-who-you-are": {
+        "/2010/04/remember-who-you-are": {
           "title": "Remember Who You Are!",
           "speaker": "Elaine S. Dalton",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/remember-who-you-are?lang=eng",
           "filename": "Remember Who You Are! — Dalton 2010 Apr"
         },
-        "your-happily-ever-after": {
+        "/2010/04/your-happily-ever-after": {
           "title": "Your Happily Ever After",
           "speaker": "Dieter F. Uchtdorf",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/your-happily-ever-after?lang=eng",

@@ -5,31 +5,31 @@
   "sessions": {
     "Saturday Morning Session": {
       "talks": {
-        "the-book-of-mormon-keystone-of-our-religion": {
+        "/1986/10/the-book-of-mormon-keystone-of-our-religion": {
           "title": "The Book of Mormon—Keystone of Our Religion",
           "speaker": "Ezra Taft Benson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/the-book-of-mormon-keystone-of-our-religion?lang=eng",
           "filename": "The Book of Mormon—Keystone of Our Religion — Benson 1986 Oct"
         },
-        "unwanted-messages": {
+        "/1986/10/unwanted-messages": {
           "title": "Unwanted Messages",
           "speaker": "James E. Faust",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/unwanted-messages?lang=eng",
           "filename": "Unwanted Messages — Faust 1986 Oct"
         },
-        "i-will-look-unto-the-lord": {
+        "/1986/10/i-will-look-unto-the-lord": {
           "title": "“I Will Look unto the Lord”",
           "speaker": "Marion D. Hanks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/i-will-look-unto-the-lord?lang=eng",
           "filename": "“I Will Look unto the Lord” — Hanks 1986 Oct"
         },
-        "shake-off-the-chains-with-which-ye-are-bound": {
+        "/1986/10/shake-off-the-chains-with-which-ye-are-bound": {
           "title": "“Shake Off the Chains with Which Ye Are Bound”",
           "speaker": "Marvin J. Ashton",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/shake-off-the-chains-with-which-ye-are-bound?lang=eng",
           "filename": "“Shake Off the Chains with Which Ye Are Bound” — Ashton 1986 Oct"
         },
-        "little-children": {
+        "/1986/10/little-children": {
           "title": "Little Children",
           "speaker": "Boyd K. Packer",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/little-children?lang=eng",
@@ -40,49 +40,49 @@
     },
     "Saturday Afternoon Session": {
       "talks": {
-        "the-sustaining-of-church-officers": {
+        "/1986/10/the-sustaining-of-church-officers": {
           "title": "The Sustaining of Church Officers",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/the-sustaining-of-church-officers?lang=eng",
           "filename": "The Sustaining of Church Officers — Hinckley 1986 Oct"
         },
-        "brothers-keeper": {
+        "/1986/10/brothers-keeper": {
           "title": "“Brother’s Keeper”",
           "speaker": "Dallin H. Oaks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/brothers-keeper?lang=eng",
           "filename": "“Brother’s Keeper” — Oaks 1986 Oct"
         },
-        "missionary-work-is-the-lifeblood-of-the-church": {
+        "/1986/10/missionary-work-is-the-lifeblood-of-the-church": {
           "title": "Missionary Work Is the Lifeblood of the Church",
           "speaker": "H. Verlan Andersen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/missionary-work-is-the-lifeblood-of-the-church?lang=eng",
           "filename": "Missionary Work Is the Lifeblood of the Church — Andersen 1986 Oct"
         },
-        "a-father-speaks": {
+        "/1986/10/a-father-speaks": {
           "title": "A Father Speaks",
           "speaker": "George I. Cannon",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/a-father-speaks?lang=eng",
           "filename": "A Father Speaks — Cannon 1986 Oct"
         },
-        "touching-the-hearts-of-less-active-members": {
+        "/1986/10/touching-the-hearts-of-less-active-members": {
           "title": "Touching the Hearts of Less-Active Members",
           "speaker": "Gardner H. Russell",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/touching-the-hearts-of-less-active-members?lang=eng",
           "filename": "Touching the Hearts of Less-Active Members — Russell 1986 Oct"
         },
-        "my-son-and-yours-each-a-remarkable-one": {
+        "/1986/10/my-son-and-yours-each-a-remarkable-one": {
           "title": "My Son and Yours—Each a Remarkable One",
           "speaker": "Ted E. Brewerton",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/my-son-and-yours-each-a-remarkable-one?lang=eng",
           "filename": "My Son and Yours—Each a Remarkable One — Brewerton 1986 Oct"
         },
-        "we-proclaim-the-gospel": {
+        "/1986/10/we-proclaim-the-gospel": {
           "title": "We Proclaim the Gospel",
           "speaker": "M. Russell Ballard",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/we-proclaim-the-gospel?lang=eng",
           "filename": "We Proclaim the Gospel — Ballard 1986 Oct"
         },
-        "the-lords-touchstone": {
+        "/1986/10/the-lords-touchstone": {
           "title": "The Lord’s Touchstone",
           "speaker": "Howard W. Hunter",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/the-lords-touchstone?lang=eng",
@@ -93,31 +93,31 @@
     },
     "Priesthood Session": {
       "talks": {
-        "spiritual-crevasses": {
+        "/1986/10/spiritual-crevasses": {
           "title": "Spiritual Crevasses",
           "speaker": "David B. Haight",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/spiritual-crevasses?lang=eng",
           "filename": "Spiritual Crevasses — Haight 1986 Oct"
         },
-        "presidents-of-the-church": {
+        "/1986/10/presidents-of-the-church": {
           "title": "Presidents of the Church",
           "speaker": "Joseph Anderson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/presidents-of-the-church?lang=eng",
           "filename": "Presidents of the Church — Anderson 1986 Oct"
         },
-        "courage-counts": {
+        "/1986/10/courage-counts": {
           "title": "Courage Counts",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/courage-counts?lang=eng",
           "filename": "Courage Counts — Monson 1986 Oct"
         },
-        "the-war-we-are-winning": {
+        "/1986/10/the-war-we-are-winning": {
           "title": "The War We Are Winning",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/the-war-we-are-winning?lang=eng",
           "filename": "The War We Are Winning — Hinckley 1986 Oct"
         },
-        "godly-characteristics-of-the-master": {
+        "/1986/10/godly-characteristics-of-the-master": {
           "title": "Godly Characteristics of the Master",
           "speaker": "Ezra Taft Benson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/godly-characteristics-of-the-master?lang=eng",
@@ -128,31 +128,31 @@
     },
     "Sunday Morning Session": {
       "talks": {
-        "the-father-son-and-holy-ghost": {
+        "/1986/10/the-father-son-and-holy-ghost": {
           "title": "The Father, Son, and Holy Ghost",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/the-father-son-and-holy-ghost?lang=eng",
           "filename": "The Father Son and Holy Ghost — Hinckley 1986 Oct"
         },
-        "god-will-yet-reveal": {
+        "/1986/10/god-will-yet-reveal": {
           "title": "“God Will Yet Reveal”",
           "speaker": "Neal A. Maxwell",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/god-will-yet-reveal?lang=eng",
           "filename": "“God Will Yet Reveal” — Maxwell 1986 Oct"
         },
-        "pulling-in-the-gospel-net": {
+        "/1986/10/pulling-in-the-gospel-net": {
           "title": "Pulling in the Gospel Net",
           "speaker": "Joseph B. Wirthlin",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/pulling-in-the-gospel-net?lang=eng",
           "filename": "Pulling in the Gospel Net — Wirthlin 1986 Oct"
         },
-        "the-joy-of-honest-labor": {
+        "/1986/10/the-joy-of-honest-labor": {
           "title": "The Joy of Honest Labor",
           "speaker": "L. Tom Perry",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/the-joy-of-honest-labor?lang=eng",
           "filename": "The Joy of Honest Labor — Perry 1986 Oct"
         },
-        "your-patriarchal-blessing-a-liahona-of-light": {
+        "/1986/10/your-patriarchal-blessing-a-liahona-of-light": {
           "title": "Your Patriarchal Blessing: A Liahona of Light",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/your-patriarchal-blessing-a-liahona-of-light?lang=eng",
@@ -163,37 +163,37 @@
     },
     "Sunday Afternoon Session": {
       "talks": {
-        "joy-cometh-in-the-morning": {
+        "/1986/10/joy-cometh-in-the-morning": {
           "title": "“Joy Cometh in the Morning”",
           "speaker": "Russell M. Nelson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/joy-cometh-in-the-morning?lang=eng",
           "filename": "“Joy Cometh in the Morning” — Nelson 1986 Oct"
         },
-        "happiness-and-joy-in-temple-work": {
+        "/1986/10/happiness-and-joy-in-temple-work": {
           "title": "Happiness and Joy in Temple Work",
           "speaker": "Franklin D. Richards",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/happiness-and-joy-in-temple-work?lang=eng",
           "filename": "Happiness and Joy in Temple Work — Richards 1986 Oct"
         },
-        "developing-faith": {
+        "/1986/10/developing-faith": {
           "title": "Developing Faith",
           "speaker": "A. Theodore Tuttle",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/developing-faith?lang=eng",
           "filename": "Developing Faith — Tuttle 1986 Oct"
         },
-        "the-spark-of-faith": {
+        "/1986/10/the-spark-of-faith": {
           "title": "The Spark of Faith",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/the-spark-of-faith?lang=eng",
           "filename": "The Spark of Faith — Eyring 1986 Oct"
         },
-        "come-back-to-the-lord": {
+        "/1986/10/come-back-to-the-lord": {
           "title": "Come Back to the Lord",
           "speaker": "F. Burton Howard",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/come-back-to-the-lord?lang=eng",
           "filename": "Come Back to the Lord — Howard 1986 Oct"
         },
-        "the-gift-of-modern-revelation": {
+        "/1986/10/the-gift-of-modern-revelation": {
           "title": "The Gift of Modern Revelation",
           "speaker": "Ezra Taft Benson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/the-gift-of-modern-revelation?lang=eng",
@@ -204,25 +204,25 @@
     },
     "General Women’s Meeting": {
       "talks": {
-        "to-the-young-women-of-the-church": {
+        "/1986/10/to-the-young-women-of-the-church": {
           "title": "To the Young Women of the Church",
           "speaker": "Ezra Taft Benson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/to-the-young-women-of-the-church?lang=eng",
           "filename": "To the Young Women of the Church — Benson 1986 Oct"
         },
-        "the-light-of-hope": {
+        "/1986/10/the-light-of-hope": {
           "title": "The Light of Hope",
           "speaker": "Dwan J. Young",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/the-light-of-hope?lang=eng",
           "filename": "The Light of Hope — Young 1986 Oct"
         },
-        "a-time-for-hope": {
+        "/1986/10/a-time-for-hope": {
           "title": "A Time for Hope",
           "speaker": "Ardeth G. Kapp",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/a-time-for-hope?lang=eng",
           "filename": "A Time for Hope — Kapp 1986 Oct"
         },
-        "hope-in-christ": {
+        "/1986/10/hope-in-christ": {
           "title": "Hope in Christ",
           "speaker": "Barbara W. Winder",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1986/10/hope-in-christ?lang=eng",

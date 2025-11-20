@@ -5,43 +5,43 @@
   "sessions": {
     "Saturday Morning Session": {
       "talks": {
-        "welcome-to-conference": {
+        "/2013/04/welcome-to-conference": {
           "title": "Welcome to Conference",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/welcome-to-conference?lang=eng",
           "filename": "Welcome to Conference — Monson 2013 Apr"
         },
-        "these-things-i-know": {
+        "/2013/04/these-things-i-know": {
           "title": "These Things I Know",
           "speaker": "Boyd K. Packer",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/these-things-i-know?lang=eng",
           "filename": "These Things I Know — Packer 2013 Apr"
         },
-        "a-sure-foundation": {
+        "/2013/04/a-sure-foundation": {
           "title": "A Sure Foundation",
           "speaker": "Dean M. Davies",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/a-sure-foundation?lang=eng",
           "filename": "A Sure Foundation — Davies 2013 Apr"
         },
-        "we-are-daughters-of-our-heavenly-father": {
+        "/2013/04/we-are-daughters-of-our-heavenly-father": {
           "title": "We Are Daughters of Our Heavenly Father",
           "speaker": "Elaine S. Dalton",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/we-are-daughters-of-our-heavenly-father?lang=eng",
           "filename": "We Are Daughters of Our Heavenly Father — Dalton 2013 Apr"
         },
-        "the-savior-wants-to-forgive": {
+        "/2013/04/the-savior-wants-to-forgive": {
           "title": "The Savior Wants to Forgive",
           "speaker": "Craig A. Cardon",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/the-savior-wants-to-forgive?lang=eng",
           "filename": "The Savior Wants to Forgive — Cardon 2013 Apr"
         },
-        "this-is-my-work-and-glory": {
+        "/2013/04/this-is-my-work-and-glory": {
           "title": "“This Is My Work and Glory”",
           "speaker": "M. Russell Ballard",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/this-is-my-work-and-glory?lang=eng",
           "filename": "“This Is My Work and Glory” — Ballard 2013 Apr"
         },
-        "come-unto-me": {
+        "/2013/04/come-unto-me": {
           "title": "“Come unto Me”",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/come-unto-me?lang=eng",
@@ -52,55 +52,55 @@
     },
     "Saturday Afternoon Session": {
       "talks": {
-        "the-sustaining-of-church-officers": {
+        "/2013/04/the-sustaining-of-church-officers": {
           "title": "The Sustaining of Church Officers",
           "speaker": "Dieter F. Uchtdorf",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/the-sustaining-of-church-officers?lang=eng",
           "filename": "The Sustaining of Church Officers — Uchtdorf 2013 Apr"
         },
-        "church-auditing-department-report-2012": {
+        "/2013/04/church-auditing-department-report-2012": {
           "title": "Church Auditing Department Report, 2012",
           "speaker": "Robert W. Cantwell",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/church-auditing-department-report-2012?lang=eng",
           "filename": "Church Auditing Department Report 2012 — Cantwell 2013 Apr"
         },
-        "statistical-report-2012": {
+        "/2013/04/statistical-report-2012": {
           "title": "Statistical Report, 2012",
           "speaker": "Brook P. Hales",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/statistical-report-2012?lang=eng",
           "filename": "Statistical Report 2012 — Hales 2013 Apr"
         },
-        "for-peace-at-home": {
+        "/2013/04/for-peace-at-home": {
           "title": "For Peace at Home",
           "speaker": "Richard G. Scott",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/for-peace-at-home?lang=eng",
           "filename": "For Peace at Home — Scott 2013 Apr"
         },
-        "personal-peace-the-reward-of-righteousness": {
+        "/2013/04/personal-peace-the-reward-of-righteousness": {
           "title": "Personal Peace: The Reward of Righteousness",
           "speaker": "Quentin L. Cook",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/personal-peace-the-reward-of-righteousness?lang=eng",
           "filename": "Personal Peace- The Reward of Righteousness — Cook 2013 Apr"
         },
-        "the-lords-way": {
+        "/2013/04/the-lords-way": {
           "title": "The Lord’s Way",
           "speaker": "Stanley G. Ellis",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/the-lords-way?lang=eng",
           "filename": "The Lord’s Way — Ellis 2013 Apr"
         },
-        "the-gospel-to-all-the-world": {
+        "/2013/04/the-gospel-to-all-the-world": {
           "title": "The Gospel to All the World",
           "speaker": "John B. Dickson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/the-gospel-to-all-the-world?lang=eng",
           "filename": "The Gospel to All the World — Dickson 2013 Apr"
         },
-        "we-believe-in-being-chaste": {
+        "/2013/04/we-believe-in-being-chaste": {
           "title": "We Believe in Being Chaste",
           "speaker": "David A. Bednar",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/we-believe-in-being-chaste?lang=eng",
           "filename": "We Believe in Being Chaste — Bednar 2013 Apr"
         },
-        "catch-the-wave": {
+        "/2013/04/catch-the-wave": {
           "title": "Catch the Wave",
           "speaker": "Russell M. Nelson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/catch-the-wave?lang=eng",
@@ -111,37 +111,37 @@
     },
     "Priesthood Session": {
       "talks": {
-        "stand-strong-in-holy-places": {
+        "/2013/04/stand-strong-in-holy-places": {
           "title": "Stand Strong in Holy Places",
           "speaker": "Robert D. Hales",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/stand-strong-in-holy-places?lang=eng",
           "filename": "Stand Strong in Holy Places — Hales 2013 Apr"
         },
-        "the-power-of-the-priesthood-in-the-boy": {
+        "/2013/04/the-power-of-the-priesthood-in-the-boy": {
           "title": "The Power of the Priesthood in the Boy",
           "speaker": "Tad R. Callister",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/the-power-of-the-priesthood-in-the-boy?lang=eng",
           "filename": "The Power of the Priesthood in the Boy — Callister 2013 Apr"
         },
-        "your-sacred-duty-to-minister": {
+        "/2013/04/your-sacred-duty-to-minister": {
           "title": "Your Sacred Duty to Minister",
           "speaker": "David L. Beck",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/your-sacred-duty-to-minister?lang=eng",
           "filename": "Your Sacred Duty to Minister — Beck 2013 Apr"
         },
-        "four-titles": {
+        "/2013/04/four-titles": {
           "title": "Four Titles",
           "speaker": "Dieter F. Uchtdorf",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/four-titles?lang=eng",
           "filename": "Four Titles — Uchtdorf 2013 Apr"
         },
-        "we-are-one": {
+        "/2013/04/we-are-one": {
           "title": "We Are One",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/we-are-one?lang=eng",
           "filename": "We Are One — Eyring 2013 Apr"
         },
-        "come-all-ye-sons-of-god": {
+        "/2013/04/come-all-ye-sons-of-god": {
           "title": "Come, All Ye Sons of God",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/come-all-ye-sons-of-god?lang=eng",
@@ -152,37 +152,37 @@
     },
     "Sunday Morning Session": {
       "talks": {
-        "the-hope-of-gods-light": {
+        "/2013/04/the-hope-of-gods-light": {
           "title": "The Hope of God’s Light",
           "speaker": "Dieter F. Uchtdorf",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/the-hope-of-gods-light?lang=eng",
           "filename": "The Hope of God’s Light — Uchtdorf 2013 Apr"
         },
-        "its-a-miracle": {
+        "/2013/04/its-a-miracle": {
           "title": "It’s a Miracle",
           "speaker": "Neil L. Andersen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/its-a-miracle?lang=eng",
           "filename": "It’s a Miracle — Andersen 2013 Apr"
         },
-        "the-words-we-speak": {
+        "/2013/04/the-words-we-speak": {
           "title": "The Words We Speak",
           "speaker": "Rosemary M. Wixom",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/the-words-we-speak?lang=eng",
           "filename": "The Words We Speak — Wixom 2013 Apr"
         },
-        "marriage-watch-and-learn": {
+        "/2013/04/marriage-watch-and-learn": {
           "title": "Marriage: Watch and Learn",
           "speaker": "L. Whitney Clayton",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/marriage-watch-and-learn?lang=eng",
           "filename": "Marriage- Watch and Learn — Clayton 2013 Apr"
         },
-        "obedience-to-law-is-liberty": {
+        "/2013/04/obedience-to-law-is-liberty": {
           "title": "Obedience to Law Is Liberty",
           "speaker": "L. Tom Perry",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/obedience-to-law-is-liberty?lang=eng",
           "filename": "Obedience to Law Is Liberty — Perry 2013 Apr"
         },
-        "obedience-brings-blessings": {
+        "/2013/04/obedience-brings-blessings": {
           "title": "Obedience Brings Blessings",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/obedience-brings-blessings?lang=eng",
@@ -193,49 +193,49 @@
     },
     "Sunday Afternoon Session": {
       "talks": {
-        "lord-i-believe": {
+        "/2013/04/lord-i-believe": {
           "title": "“Lord, I Believe”",
           "speaker": "Jeffrey R. Holland",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/lord-i-believe?lang=eng",
           "filename": "“Lord I Believe” — Holland 2013 Apr"
         },
-        "followers-of-christ": {
+        "/2013/04/followers-of-christ": {
           "title": "Followers of Christ",
           "speaker": "Dallin H. Oaks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/followers-of-christ?lang=eng",
           "filename": "Followers of Christ — Oaks 2013 Apr"
         },
-        "the-father-and-the-son": {
+        "/2013/04/the-father-and-the-son": {
           "title": "The Father and the Son",
           "speaker": "Christoffel Golden",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/the-father-and-the-son?lang=eng",
           "filename": "The Father and the Son — Golden 2013 Apr"
         },
-        "the-home-the-school-of-life": {
+        "/2013/04/the-home-the-school-of-life": {
           "title": "The Home: The School of Life",
           "speaker": "Enrique R. Falabella",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/the-home-the-school-of-life?lang=eng",
           "filename": "The Home- The School of Life — Falabella 2013 Apr"
         },
-        "being-accepted-of-the-lord": {
+        "/2013/04/being-accepted-of-the-lord": {
           "title": "Being Accepted of the Lord",
           "speaker": "Erich W. Kopischke",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/being-accepted-of-the-lord?lang=eng",
           "filename": "Being Accepted of the Lord — Kopischke 2013 Apr"
         },
-        "beautiful-mornings": {
+        "/2013/04/beautiful-mornings": {
           "title": "Beautiful Mornings",
           "speaker": "Bruce D. Porter",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/beautiful-mornings?lang=eng",
           "filename": "Beautiful Mornings — Porter 2013 Apr"
         },
-        "redemption": {
+        "/2013/04/redemption": {
           "title": "Redemption",
           "speaker": "D. Todd Christofferson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/redemption?lang=eng",
           "filename": "Redemption — Christofferson 2013 Apr"
         },
-        "until-we-meet-again": {
+        "/2013/04/until-we-meet-again": {
           "title": "Until We Meet Again",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/until-we-meet-again?lang=eng",
@@ -246,25 +246,25 @@
     },
     "General Young Women Meeting": {
       "talks": {
-        "your-holy-places": {
+        "/2013/04/your-holy-places": {
           "title": "Your Holy Places",
           "speaker": "Ann M. Dibb",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/your-holy-places?lang=eng",
           "filename": "Your Holy Places — Dibb 2013 Apr"
         },
-        "when-you-save-a-girl-you-save-generations": {
+        "/2013/04/when-you-save-a-girl-you-save-generations": {
           "title": "When You Save a Girl, You Save Generations",
           "speaker": "Mary N. Cook",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/when-you-save-a-girl-you-save-generations?lang=eng",
           "filename": "When You Save a Girl You Save Generations — Cook 2013 Apr"
         },
-        "be-not-moved": {
+        "/2013/04/be-not-moved": {
           "title": "Be Not Moved!",
           "speaker": "Elaine S. Dalton",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/be-not-moved?lang=eng",
           "filename": "Be Not Moved! — Dalton 2013 Apr"
         },
-        "your-wonderful-journey-home": {
+        "/2013/04/your-wonderful-journey-home": {
           "title": "Your Wonderful Journey Home",
           "speaker": "Dieter F. Uchtdorf",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2013/04/your-wonderful-journey-home?lang=eng",

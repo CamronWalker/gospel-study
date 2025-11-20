@@ -5,43 +5,43 @@
   "sessions": {
     "Saturday Morning Session": {
       "talks": {
-        "welcome-to-conference": {
+        "/1999/10/welcome-to-conference": {
           "title": "Welcome to Conference",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/welcome-to-conference?lang=eng",
           "filename": "Welcome to Conference — Hinckley 1999 Oct"
         },
-        "lessons-from-laman-and-lemuel": {
+        "/1999/10/lessons-from-laman-and-lemuel": {
           "title": "Lessons from Laman and Lemuel",
           "speaker": "Neal A. Maxwell",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/lessons-from-laman-and-lemuel?lang=eng",
           "filename": "Lessons from Laman and Lemuel — Maxwell 1999 Oct"
         },
-        "feed-my-sheep": {
+        "/1999/10/feed-my-sheep": {
           "title": "“Feed My Sheep”",
           "speaker": "Ben B. Banks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/feed-my-sheep?lang=eng",
           "filename": "“Feed My Sheep” — Banks 1999 Oct"
         },
-        "agency-a-blessing-and-a-burden": {
+        "/1999/10/agency-a-blessing-and-a-burden": {
           "title": "Agency—A Blessing and a Burden",
           "speaker": "Sharon G. Larsen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/agency-a-blessing-and-a-burden?lang=eng",
           "filename": "Agency—A Blessing and a Burden — Larsen 1999 Oct"
         },
-        "one-link-still-holds": {
+        "/1999/10/one-link-still-holds": {
           "title": "One Link Still Holds",
           "speaker": "Vaughn J. Featherstone",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/one-link-still-holds?lang=eng",
           "filename": "One Link Still Holds — Featherstone 1999 Oct"
         },
-        "prophets-and-spiritual-mole-crickets": {
+        "/1999/10/prophets-and-spiritual-mole-crickets": {
           "title": "Prophets and Spiritual Mole Crickets",
           "speaker": "Neil L. Andersen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/prophets-and-spiritual-mole-crickets?lang=eng",
           "filename": "Prophets and Spiritual Mole Crickets — Andersen 1999 Oct"
         },
-        "becoming-our-best-selves": {
+        "/1999/10/becoming-our-best-selves": {
           "title": "Becoming Our Best Selves",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/becoming-our-best-selves?lang=eng",
@@ -52,49 +52,49 @@
     },
     "Saturday Afternoon Session": {
       "talks": {
-        "the-sustaining-of-church-officers": {
+        "/1999/10/the-sustaining-of-church-officers": {
           "title": "The Sustaining of Church Officers",
           "speaker": "James E. Faust",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/the-sustaining-of-church-officers?lang=eng",
           "filename": "The Sustaining of Church Officers — Faust 1999 Oct"
         },
-        "the-spirit-of-revelation": {
+        "/1999/10/the-spirit-of-revelation": {
           "title": "The Spirit of Revelation",
           "speaker": "Boyd K. Packer",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/the-spirit-of-revelation?lang=eng",
           "filename": "The Spirit of Revelation — Packer 1999 Oct"
         },
-        "for-this-cause-came-i-into-the-world": {
+        "/1999/10/for-this-cause-came-i-into-the-world": {
           "title": "“For This Cause Came I into the World”",
           "speaker": "Alexander B. Morrison",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/for-this-cause-came-i-into-the-world?lang=eng",
           "filename": "“For This Cause Came I into the World” — Morrison 1999 Oct"
         },
-        "serving-the-lord": {
+        "/1999/10/serving-the-lord": {
           "title": "Serving the Lord",
           "speaker": "Adhemar Damiani",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/serving-the-lord?lang=eng",
           "filename": "Serving the Lord — Damiani 1999 Oct"
         },
-        "our-legacy": {
+        "/1999/10/our-legacy": {
           "title": "Our Legacy",
           "speaker": "Stephen B. Oveson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/our-legacy?lang=eng",
           "filename": "Our Legacy — Oveson 1999 Oct"
         },
-        "spiritual-hurricanes": {
+        "/1999/10/spiritual-hurricanes": {
           "title": "Spiritual Hurricanes",
           "speaker": "David R. Stone",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/spiritual-hurricanes?lang=eng",
           "filename": "Spiritual Hurricanes — Stone 1999 Oct"
         },
-        "do-not-delay": {
+        "/1999/10/do-not-delay": {
           "title": "Do Not Delay",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/do-not-delay?lang=eng",
           "filename": "Do Not Delay — Eyring 1999 Oct"
         },
-        "an-high-priest-of-good-things-to-come": {
+        "/1999/10/an-high-priest-of-good-things-to-come": {
           "title": "“An High Priest of Good Things to Come”",
           "speaker": "Jeffrey R. Holland",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/an-high-priest-of-good-things-to-come?lang=eng",
@@ -105,37 +105,37 @@
     },
     "Priesthood Session": {
       "talks": {
-        "growing-into-the-priesthood": {
+        "/1999/10/growing-into-the-priesthood": {
           "title": "Growing into the Priesthood",
           "speaker": "Joseph B. Wirthlin",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/growing-into-the-priesthood?lang=eng",
           "filename": "Growing into the Priesthood — Wirthlin 1999 Oct"
         },
-        "behold-the-man": {
+        "/1999/10/behold-the-man": {
           "title": "“Behold the Man”",
           "speaker": "Richard C. Edgley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/behold-the-man?lang=eng",
           "filename": "“Behold the Man” — Edgley 1999 Oct"
         },
-        "the-faith-of-a-sparrow-faith-and-trust-in-the-lord-jesus-christ": {
+        "/1999/10/the-faith-of-a-sparrow-faith-and-trust-in-the-lord-jesus-christ": {
           "title": "The Faith of a Sparrow: Faith and Trust in the Lord Jesus Christ",
           "speaker": "H. Bruce Stucki",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/the-faith-of-a-sparrow-faith-and-trust-in-the-lord-jesus-christ?lang=eng",
           "filename": "The Faith of a Sparrow- Faith and Trust in the Lord Jesus Christ — Stucki 1999 Oct"
         },
-        "of-seeds-and-soils": {
+        "/1999/10/of-seeds-and-soils": {
           "title": "Of Seeds and Soils",
           "speaker": "James E. Faust",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/of-seeds-and-soils?lang=eng",
           "filename": "Of Seeds and Soils — Faust 1999 Oct"
         },
-        "priesthood-power": {
+        "/1999/10/priesthood-power": {
           "title": "Priesthood Power",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/priesthood-power?lang=eng",
           "filename": "Priesthood Power — Monson 1999 Oct"
         },
-        "why-we-do-some-of-the-things-we-do": {
+        "/1999/10/why-we-do-some-of-the-things-we-do": {
           "title": "Why We Do Some of the Things We Do",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/why-we-do-some-of-the-things-we-do?lang=eng",
@@ -146,37 +146,37 @@
     },
     "Sunday Morning Session": {
       "talks": {
-        "hope-an-anchor-of-the-soul": {
+        "/1999/10/hope-an-anchor-of-the-soul": {
           "title": "Hope, an Anchor of the Soul",
           "speaker": "James E. Faust",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/hope-an-anchor-of-the-soul?lang=eng",
           "filename": "Hope an Anchor of the Soul — Faust 1999 Oct"
         },
-        "beware-of-false-prophets-and-false-teachers": {
+        "/1999/10/beware-of-false-prophets-and-false-teachers": {
           "title": "Beware of False Prophets and False Teachers",
           "speaker": "M. Russell Ballard",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/beware-of-false-prophets-and-false-teachers?lang=eng",
           "filename": "Beware of False Prophets and False Teachers — Ballard 1999 Oct"
         },
-        "our-destiny": {
+        "/1999/10/our-destiny": {
           "title": "Our Destiny",
           "speaker": "L. Aldin Porter",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/our-destiny?lang=eng",
           "filename": "Our Destiny — Porter 1999 Oct"
         },
-        "peace-hope-and-direction": {
+        "/1999/10/peace-hope-and-direction": {
           "title": "Peace, Hope, and Direction",
           "speaker": "Patricia P. Pinegar",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/peace-hope-and-direction?lang=eng",
           "filename": "Peace Hope and Direction — Pinegar 1999 Oct"
         },
-        "a-testimony-of-the-book-of-mormon": {
+        "/1999/10/a-testimony-of-the-book-of-mormon": {
           "title": "A Testimony of the Book of Mormon",
           "speaker": "Russell M. Nelson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/a-testimony-of-the-book-of-mormon?lang=eng",
           "filename": "A Testimony of the Book of Mormon — Nelson 1999 Oct"
         },
-        "at-the-summit-of-the-ages": {
+        "/1999/10/at-the-summit-of-the-ages": {
           "title": "At the Summit of the Ages",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/at-the-summit-of-the-ages?lang=eng",
@@ -187,43 +187,43 @@
     },
     "Sunday Afternoon Session": {
       "talks": {
-        "a-year-of-jubilee": {
+        "/1999/10/a-year-of-jubilee": {
           "title": "A Year of Jubilee",
           "speaker": "L. Tom Perry",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/a-year-of-jubilee?lang=eng",
           "filename": "A Year of Jubilee — Perry 1999 Oct"
         },
-        "gospel-teaching": {
+        "/1999/10/gospel-teaching": {
           "title": "Gospel Teaching",
           "speaker": "Dallin H. Oaks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/gospel-teaching?lang=eng",
           "filename": "Gospel Teaching — Oaks 1999 Oct"
         },
-        "no-man-is-an-island": {
+        "/1999/10/no-man-is-an-island": {
           "title": "“No Man Is an Island”",
           "speaker": "Richard H. Winkel",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/no-man-is-an-island?lang=eng",
           "filename": "“No Man Is an Island” — Winkel 1999 Oct"
         },
-        "the-tongue-of-angels": {
+        "/1999/10/the-tongue-of-angels": {
           "title": "“The Tongue of Angels”",
           "speaker": "Robert S. Wood",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/the-tongue-of-angels?lang=eng",
           "filename": "“The Tongue of Angels” — Wood 1999 Oct"
         },
-        "righteousness": {
+        "/1999/10/righteousness": {
           "title": "Righteousness",
           "speaker": "William R. Bradford",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/righteousness?lang=eng",
           "filename": "Righteousness — Bradford 1999 Oct"
         },
-        "he-lives": {
+        "/1999/10/he-lives": {
           "title": "He Lives",
           "speaker": "Richard G. Scott",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/he-lives?lang=eng",
           "filename": "He Lives — Scott 1999 Oct"
         },
-        "good-bye-to-this-wonderful-old-tabernacle": {
+        "/1999/10/good-bye-to-this-wonderful-old-tabernacle": {
           "title": "Good-bye to This Wonderful Old Tabernacle",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/good-bye-to-this-wonderful-old-tabernacle?lang=eng",
@@ -234,25 +234,25 @@
     },
     "General Relief Society Meeting": {
       "talks": {
-        "rejoice-daughters-of-zion": {
+        "/1999/10/rejoice-daughters-of-zion": {
           "title": "Rejoice, Daughters of Zion",
           "speaker": "Mary Ellen W. Smoot",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/rejoice-daughters-of-zion?lang=eng",
           "filename": "Rejoice Daughters of Zion — Smoot 1999 Oct"
         },
-        "home-family-and-personal-enrichment": {
+        "/1999/10/home-family-and-personal-enrichment": {
           "title": "Home, Family, and Personal Enrichment",
           "speaker": "Virginia U. Jensen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/home-family-and-personal-enrichment?lang=eng",
           "filename": "Home Family and Personal Enrichment — Jensen 1999 Oct"
         },
-        "we-are-women-of-god": {
+        "/1999/10/we-are-women-of-god": {
           "title": "We Are Women of God",
           "speaker": "Sheri L. Dew",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/we-are-women-of-god?lang=eng",
           "filename": "We Are Women of God — Dew 1999 Oct"
         },
-        "what-it-means-to-be-a-daughter-of-god": {
+        "/1999/10/what-it-means-to-be-a-daughter-of-god": {
           "title": "What It Means to Be a Daughter of God",
           "speaker": "James E. Faust",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1999/10/what-it-means-to-be-a-daughter-of-god?lang=eng",

@@ -5,43 +5,43 @@
   "sessions": {
     "Saturday Morning Session": {
       "talks": {
-        "welcome-to-conference": {
+        "/2009/10/welcome-to-conference": {
           "title": "Welcome to Conference",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/welcome-to-conference?lang=eng",
           "filename": "Welcome to Conference — Monson 2009 Oct"
         },
-        "to-acquire-spiritual-guidance": {
+        "/2009/10/to-acquire-spiritual-guidance": {
           "title": "To Acquire Spiritual Guidance",
           "speaker": "Richard G. Scott",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/to-acquire-spiritual-guidance?lang=eng",
           "filename": "To Acquire Spiritual Guidance — Scott 2009 Oct"
         },
-        "helping-others-recognize-the-whisperings-of-the-spirit": {
+        "/2009/10/helping-others-recognize-the-whisperings-of-the-spirit": {
           "title": "Helping Others Recognize the Whisperings of the Spirit",
           "speaker": "Vicki F. Matsumori",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/helping-others-recognize-the-whisperings-of-the-spirit?lang=eng",
           "filename": "Helping Others Recognize the Whisperings of the Spirit — Matsumori 2009 Oct"
         },
-        "that-your-burdens-may-be-light": {
+        "/2009/10/that-your-burdens-may-be-light": {
           "title": "That Your Burdens May Be Light",
           "speaker": "L. Whitney Clayton",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/that-your-burdens-may-be-light?lang=eng",
           "filename": "That Your Burdens May Be Light — Clayton 2009 Oct"
         },
-        "teaching-helps-save-lives": {
+        "/2009/10/teaching-helps-save-lives": {
           "title": "Teaching Helps Save Lives",
           "speaker": "Russell T. Osguthorpe",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/teaching-helps-save-lives?lang=eng",
           "filename": "Teaching Helps Save Lives — Osguthorpe 2009 Oct"
         },
-        "more-diligent-and-concerned-at-home": {
+        "/2009/10/more-diligent-and-concerned-at-home": {
           "title": "More Diligent and Concerned at Home",
           "speaker": "David A. Bednar",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/more-diligent-and-concerned-at-home?lang=eng",
           "filename": "More Diligent and Concerned at Home — Bednar 2009 Oct"
         },
-        "the-love-of-god": {
+        "/2009/10/the-love-of-god": {
           "title": "The Love of God",
           "speaker": "Dieter F. Uchtdorf",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/the-love-of-god?lang=eng",
@@ -52,49 +52,49 @@
     },
     "Saturday Afternoon Session": {
       "talks": {
-        "the-sustaining-of-church-officers": {
+        "/2009/10/the-sustaining-of-church-officers": {
           "title": "The Sustaining of Church Officers",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/the-sustaining-of-church-officers?lang=eng",
           "filename": "The Sustaining of Church Officers — Eyring 2009 Oct"
         },
-        "love-and-law": {
+        "/2009/10/love-and-law": {
           "title": "Love and Law",
           "speaker": "Dallin H. Oaks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/love-and-law?lang=eng",
           "filename": "Love and Law — Oaks 2009 Oct"
         },
-        "seeking-to-know-god-our-heavenly-father-and-his-son-jesus-christ": {
+        "/2009/10/seeking-to-know-god-our-heavenly-father-and-his-son-jesus-christ": {
           "title": "Seeking to Know God, Our Heavenly Father, and His Son, Jesus Christ",
           "speaker": "Robert D. Hales",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/seeking-to-know-god-our-heavenly-father-and-his-son-jesus-christ?lang=eng",
           "filename": "Seeking to Know God Our Heavenly Father and His Son Jesus Christ — Hales 2009 Oct"
         },
-        "attempting-the-impossible": {
+        "/2009/10/attempting-the-impossible": {
           "title": "Attempting the Impossible",
           "speaker": "Jorge F. Zeballos",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/attempting-the-impossible?lang=eng",
           "filename": "Attempting the Impossible — Zeballos 2009 Oct"
         },
-        "joseph-smith-prophet-of-the-restoration": {
+        "/2009/10/joseph-smith-prophet-of-the-restoration": {
           "title": "Joseph Smith—Prophet of the Restoration",
           "speaker": "Tad R. Callister",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/joseph-smith-prophet-of-the-restoration?lang=eng",
           "filename": "Joseph Smith—Prophet of the Restoration — Callister 2009 Oct"
         },
-        "being-temperate-in-all-things": {
+        "/2009/10/being-temperate-in-all-things": {
           "title": "Being Temperate in All Things",
           "speaker": "Kent D. Watson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/being-temperate-in-all-things?lang=eng",
           "filename": "Being Temperate in All Things — Watson 2009 Oct"
         },
-        "repent-that-i-may-heal-you": {
+        "/2009/10/repent-that-i-may-heal-you": {
           "title": "“Repent … That I May Heal You”",
           "speaker": "Neil L. Andersen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/repent-that-i-may-heal-you?lang=eng",
           "filename": "“Repent … That I May Heal You” — Andersen 2009 Oct"
         },
-        "prayer-and-promptings": {
+        "/2009/10/prayer-and-promptings": {
           "title": "Prayer and Promptings",
           "speaker": "Boyd K. Packer",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/prayer-and-promptings?lang=eng",
@@ -105,37 +105,37 @@
     },
     "Priesthood Session": {
       "talks": {
-        "fathers-and-sons-a-remarkable-relationship": {
+        "/2009/10/fathers-and-sons-a-remarkable-relationship": {
           "title": "Fathers and Sons: A Remarkable Relationship",
           "speaker": "M. Russell Ballard",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/fathers-and-sons-a-remarkable-relationship?lang=eng",
           "filename": "Fathers and Sons- A Remarkable Relationship — Ballard 2009 Oct"
         },
-        "becoming-more-powerful-priesthood-holders": {
+        "/2009/10/becoming-more-powerful-priesthood-holders": {
           "title": "Becoming More Powerful Priesthood Holders",
           "speaker": "Walter F. González",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/becoming-more-powerful-priesthood-holders?lang=eng",
           "filename": "Becoming More Powerful Priesthood Holders — González 2009 Oct"
         },
-        "i-love-loud-boys": {
+        "/2009/10/i-love-loud-boys": {
           "title": "I Love Loud Boys",
           "speaker": "Yoon Hwan Choi",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/i-love-loud-boys?lang=eng",
           "filename": "I Love Loud Boys — Choi 2009 Oct"
         },
-        "two-principles-for-any-economy": {
+        "/2009/10/two-principles-for-any-economy": {
           "title": "Two Principles for Any Economy",
           "speaker": "Dieter F. Uchtdorf",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/two-principles-for-any-economy?lang=eng",
           "filename": "Two Principles for Any Economy — Uchtdorf 2009 Oct"
         },
-        "be-ready": {
+        "/2009/10/be-ready": {
           "title": "Be Ready",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/be-ready?lang=eng",
           "filename": "Be Ready — Eyring 2009 Oct"
         },
-        "school-thy-feelings-o-my-brother": {
+        "/2009/10/school-thy-feelings-o-my-brother": {
           "title": "School Thy Feelings, O My Brother",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/school-thy-feelings-o-my-brother?lang=eng",
@@ -146,37 +146,37 @@
     },
     "Sunday Morning Session": {
       "talks": {
-        "our-perfect-example": {
+        "/2009/10/our-perfect-example": {
           "title": "Our Perfect Example",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/our-perfect-example?lang=eng",
           "filename": "Our Perfect Example — Eyring 2009 Oct"
         },
-        "the-past-way-of-facing-the-future": {
+        "/2009/10/the-past-way-of-facing-the-future": {
           "title": "The Past Way of Facing the Future",
           "speaker": "L. Tom Perry",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/the-past-way-of-facing-the-future?lang=eng",
           "filename": "The Past Way of Facing the Future — Perry 2009 Oct"
         },
-        "let-virtue-garnish-your-thoughts": {
+        "/2009/10/let-virtue-garnish-your-thoughts": {
           "title": "Let Virtue Garnish Your Thoughts",
           "speaker": "H. David Burton",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/let-virtue-garnish-your-thoughts?lang=eng",
           "filename": "Let Virtue Garnish Your Thoughts — Burton 2009 Oct"
         },
-        "hold-on": {
+        "/2009/10/hold-on": {
           "title": "Hold On",
           "speaker": "Ann M. Dibb",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/hold-on?lang=eng",
           "filename": "Hold On — Dibb 2009 Oct"
         },
-        "ask-seek-knock": {
+        "/2009/10/ask-seek-knock": {
           "title": "Ask, Seek, Knock",
           "speaker": "Russell M. Nelson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/ask-seek-knock?lang=eng",
           "filename": "Ask Seek Knock — Nelson 2009 Oct"
         },
-        "what-have-i-done-for-someone-today": {
+        "/2009/10/what-have-i-done-for-someone-today": {
           "title": "What Have I Done for Someone Today?",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/what-have-i-done-for-someone-today?lang=eng",
@@ -187,49 +187,49 @@
     },
     "Sunday Afternoon Session": {
       "talks": {
-        "safety-for-the-soul": {
+        "/2009/10/safety-for-the-soul": {
           "title": "Safety for the Soul",
           "speaker": "Jeffrey R. Holland",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/safety-for-the-soul?lang=eng",
           "filename": "Safety for the Soul — Holland 2009 Oct"
         },
-        "stewardship-a-sacred-trust": {
+        "/2009/10/stewardship-a-sacred-trust": {
           "title": "Stewardship—a Sacred Trust",
           "speaker": "Quentin L. Cook",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/stewardship-a-sacred-trust?lang=eng",
           "filename": "Stewardship—a Sacred Trust — Cook 2009 Oct"
         },
-        "a-call-to-the-rising-generation": {
+        "/2009/10/a-call-to-the-rising-generation": {
           "title": "A Call to the Rising Generation",
           "speaker": "Brent H. Nielson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/a-call-to-the-rising-generation?lang=eng",
           "filename": "A Call to the Rising Generation — Nielson 2009 Oct"
         },
-        "preserving-the-hearts-mighty-change": {
+        "/2009/10/preserving-the-hearts-mighty-change": {
           "title": "Preserving the Heart’s Mighty Change",
           "speaker": "Dale G. Renlund",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/preserving-the-hearts-mighty-change?lang=eng",
           "filename": "Preserving the Heart’s Mighty Change — Renlund 2009 Oct"
         },
-        "an-easiness-and-willingness-to-believe": {
+        "/2009/10/an-easiness-and-willingness-to-believe": {
           "title": "An Easiness and Willingness to Believe",
           "speaker": "Michael T. Ringwood",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/an-easiness-and-willingness-to-believe?lang=eng",
           "filename": "An Easiness and Willingness to Believe — Ringwood 2009 Oct"
         },
-        "blessings-of-the-gospel-available-to-all": {
+        "/2009/10/blessings-of-the-gospel-available-to-all": {
           "title": "Blessings of the Gospel Available to All",
           "speaker": "Joseph W. Sitati",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/blessings-of-the-gospel-available-to-all?lang=eng",
           "filename": "Blessings of the Gospel Available to All — Sitati 2009 Oct"
         },
-        "moral-discipline": {
+        "/2009/10/moral-discipline": {
           "title": "Moral Discipline",
           "speaker": "D. Todd Christofferson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/moral-discipline?lang=eng",
           "filename": "Moral Discipline — Christofferson 2009 Oct"
         },
-        "closing-remarks": {
+        "/2009/10/closing-remarks": {
           "title": "Closing Remarks",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/closing-remarks?lang=eng",
@@ -240,25 +240,25 @@
     },
     "General Relief Society Meeting": {
       "talks": {
-        "relief-society-a-sacred-work": {
+        "/2009/10/relief-society-a-sacred-work": {
           "title": "Relief Society: A Sacred Work",
           "speaker": "Julie B. Beck",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/relief-society-a-sacred-work?lang=eng",
           "filename": "Relief Society- A Sacred Work — Beck 2009 Oct"
         },
-        "every-woman-needs-relief-society": {
+        "/2009/10/every-woman-needs-relief-society": {
           "title": "Every Woman Needs Relief Society",
           "speaker": "Silvia H. Allred",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/every-woman-needs-relief-society?lang=eng",
           "filename": "Every Woman Needs Relief Society — Allred 2009 Oct"
         },
-        "mind-the-gap": {
+        "/2009/10/mind-the-gap": {
           "title": "Mind the Gap",
           "speaker": "Barbara Thompson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/mind-the-gap?lang=eng",
           "filename": "Mind the Gap — Thompson 2009 Oct"
         },
-        "the-enduring-legacy-of-relief-society": {
+        "/2009/10/the-enduring-legacy-of-relief-society": {
           "title": "The Enduring Legacy of Relief Society",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2009/10/the-enduring-legacy-of-relief-society?lang=eng",

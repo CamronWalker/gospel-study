@@ -5,43 +5,43 @@
   "sessions": {
     "Saturday Morning Session": {
       "talks": {
-        "11stevenson": {
+        "/2023/04/11stevenson": {
           "title": "The Greatest Easter Story Ever Told",
           "speaker": "Gary E. Stevenson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/11stevenson?lang=eng",
           "filename": "The Greatest Easter Story Ever Told — Stevenson 2023 Apr"
         },
-        "12cordon": {
+        "/2023/04/12cordon": {
           "title": "Never Give Up an Opportunity to Testify of Christ",
           "speaker": "Bonnie H. Cordon",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/12cordon?lang=eng",
           "filename": "Never Give Up an Opportunity to Testify of Christ — Cordon 2023 Apr"
         },
-        "13cook": {
+        "/2023/04/13cook": {
           "title": "Just Keep Going—with Faith",
           "speaker": "Carl B. Cook",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/13cook?lang=eng",
           "filename": "Just Keep Going—with Faith — Cook 2023 Apr"
         },
-        "14gong": {
+        "/2023/04/14gong": {
           "title": "Ministering",
           "speaker": "Gerrit W. Gong",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/14gong?lang=eng",
           "filename": "Ministering — Gong 2023 Apr"
         },
-        "15cook": {
+        "/2023/04/15cook": {
           "title": "Safely Gathered Home",
           "speaker": "Quentin L. Cook",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/15cook?lang=eng",
           "filename": "Safely Gathered Home — Cook 2023 Apr"
         },
-        "16haynie": {
+        "/2023/04/16haynie": {
           "title": "A Living Prophet for the Latter Days",
           "speaker": "Allen D. Haynie",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/16haynie?lang=eng",
           "filename": "A Living Prophet for the Latter Days — Haynie 2023 Apr"
         },
-        "17eyring": {
+        "/2023/04/17eyring": {
           "title": "Finding Personal Peace",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/17eyring?lang=eng",
@@ -52,55 +52,55 @@
     },
     "Saturday Afternoon Session": {
       "talks": {
-        "21oaks": {
+        "/2023/04/21oaks": {
           "title": "Sustaining of General Authorities, Area Seventies, and General Officers",
           "speaker": "Dallin H. Oaks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/21oaks?lang=eng",
           "filename": "Sustaining of General Authorities Area Seventies and General Officers — Oaks 2023 Apr"
         },
-        "22larson": {
+        "/2023/04/22larson": {
           "title": "Church Auditing Department Report, 2022",
           "speaker": "Jared B. Larson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/22larson?lang=eng",
           "filename": "Church Auditing Department Report 2022 — Larson 2023 Apr"
         },
-        "23renlund": {
+        "/2023/04/23renlund": {
           "title": "Accessing God’s Power through Covenants",
           "speaker": "Dale G. Renlund",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/23renlund?lang=eng",
           "filename": "Accessing God’s Power through Covenants — Renlund 2023 Apr"
         },
-        "24meurs": {
+        "/2023/04/24meurs": {
           "title": "He Could Heal Me!",
           "speaker": "Peter F. Meurs",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/24meurs?lang=eng",
           "filename": "He Could Heal Me! — Meurs 2023 Apr"
         },
-        "25bennett": {
+        "/2023/04/25bennett": {
           "title": "Your Patriarchal Blessing—Inspired Direction from Heavenly Father",
           "speaker": "Randall K. Bennett",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/25bennett?lang=eng",
           "filename": "Your Patriarchal Blessing—Inspired Direction from Heavenly Father — Bennett 2023 Apr"
         },
-        "26christensen": {
+        "/2023/04/26christensen": {
           "title": "“There Can Be Nothing So Exquisite and Sweet as Was My Joy”",
           "speaker": "Craig C. Christensen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/26christensen?lang=eng",
           "filename": "“There Can Be Nothing So Exquisite and Sweet as Was My Joy” — Christensen 2023 Apr"
         },
-        "27schmutz": {
+        "/2023/04/27schmutz": {
           "title": "Trusting the Doctrine of Christ",
           "speaker": "Evan A. Schmutz",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/27schmutz?lang=eng",
           "filename": "Trusting the Doctrine of Christ — Schmutz 2023 Apr"
         },
-        "28de-hoyos": {
+        "/2023/04/28de-hoyos": {
           "title": "The Work of the Temple and Family History—One and the Same Work",
           "speaker": "Benjamín De Hoyos",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/28de-hoyos?lang=eng",
           "filename": "The Work of the Temple and Family History—One and the Same Work — Hoyos 2023 Apr"
         },
-        "29uchtdorf": {
+        "/2023/04/29uchtdorf": {
           "title": "Jesus Christ Is the Strength of Parents",
           "speaker": "Dieter F. Uchtdorf",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/29uchtdorf?lang=eng",
@@ -111,25 +111,25 @@
     },
     "Saturday Evening Session": {
       "talks": {
-        "31bragg": {
+        "/2023/04/31bragg": {
           "title": "Christlike Poise",
           "speaker": "Mark A. Bragg",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/31bragg?lang=eng",
           "filename": "Christlike Poise — Bragg 2023 Apr"
         },
-        "32camargo": {
+        "/2023/04/32camargo": {
           "title": "Focus on Jesus Christ",
           "speaker": "Milton Camargo",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/32camargo?lang=eng",
           "filename": "Focus on Jesus Christ — Camargo 2023 Apr"
         },
-        "33nattress": {
+        "/2023/04/33nattress": {
           "title": "Have I Truly Been Forgiven?",
           "speaker": "K. Brett Nattress",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/33nattress?lang=eng",
           "filename": "Have I Truly Been Forgiven — Nattress 2023 Apr"
         },
-        "34uceda": {
+        "/2023/04/34uceda": {
           "title": "The Lord Jesus Christ Teaches Us to Minister",
           "speaker": "Juan A. Uceda",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/34uceda?lang=eng",
@@ -140,43 +140,43 @@
     },
     "Sunday Morning Session": {
       "talks": {
-        "41christofferson": {
+        "/2023/04/41christofferson": {
           "title": "One in Christ",
           "speaker": "D. Todd Christofferson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/41christofferson?lang=eng",
           "filename": "One in Christ — Christofferson 2023 Apr"
         },
-        "42johnson": {
+        "/2023/04/42johnson": {
           "title": "Jesus Christ Is Relief",
           "speaker": "Camille N. Johnson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/42johnson?lang=eng",
           "filename": "Jesus Christ Is Relief — Johnson 2023 Apr"
         },
-        "43soares": {
+        "/2023/04/43soares": {
           "title": "Followers of the Prince of Peace",
           "speaker": "Ulisses Soares",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/43soares?lang=eng",
           "filename": "Followers of the Prince of Peace — Soares 2023 Apr"
         },
-        "44yamashita": {
+        "/2023/04/44yamashita": {
           "title": "When to Receive Your Patriarchal Blessing",
           "speaker": "Kazuhiko Yamashita",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/44yamashita?lang=eng",
           "filename": "When to Receive Your Patriarchal Blessing — Yamashita 2023 Apr"
         },
-        "45andersen": {
+        "/2023/04/45andersen": {
           "title": "My Mind Caught Hold upon This Thought of Jesus Christ",
           "speaker": "Neil L. Andersen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/45andersen?lang=eng",
           "filename": "My Mind Caught Hold upon This Thought of Jesus Christ — Andersen 2023 Apr"
         },
-        "46duncan": {
+        "/2023/04/46duncan": {
           "title": "A Voice of Gladness!",
           "speaker": "Kevin R. Duncan",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/46duncan?lang=eng",
           "filename": "A Voice of Gladness! — Duncan 2023 Apr"
         },
-        "47nelson": {
+        "/2023/04/47nelson": {
           "title": "Peacemakers Needed",
           "speaker": "Russell M. Nelson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/47nelson?lang=eng",
@@ -187,49 +187,49 @@
     },
     "Sunday Afternoon Session": {
       "talks": {
-        "51oaks": {
+        "/2023/04/51oaks": {
           "title": "The Teachings of Jesus Christ",
           "speaker": "Dallin H. Oaks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/51oaks?lang=eng",
           "filename": "The Teachings of Jesus Christ — Oaks 2023 Apr"
         },
-        "52ballard": {
+        "/2023/04/52ballard": {
           "title": "Remember What Matters Most",
           "speaker": "M. Russell Ballard",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/52ballard?lang=eng",
           "filename": "Remember What Matters Most — Ballard 2023 Apr"
         },
-        "53rasband": {
+        "/2023/04/53rasband": {
           "title": "Hosanna to the Most High God",
           "speaker": "Ronald A. Rasband",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/53rasband?lang=eng",
           "filename": "Hosanna to the Most High God — Rasband 2023 Apr"
         },
-        "54stanfill": {
+        "/2023/04/54stanfill": {
           "title": "The Imperfect Harvest",
           "speaker": "Vern P. Stanfill",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/54stanfill?lang=eng",
           "filename": "The Imperfect Harvest — Stanfill 2023 Apr"
         },
-        "55bassett": {
+        "/2023/04/55bassett": {
           "title": "After the Fourth Day",
           "speaker": "W. Mark Bassett",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/55bassett?lang=eng",
           "filename": "After the Fourth Day — Bassett 2023 Apr"
         },
-        "56corbitt": {
+        "/2023/04/56corbitt": {
           "title": "Do You Know Why I as a Christian Believe in Christ?",
           "speaker": "Ahmad S. Corbitt",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/56corbitt?lang=eng",
           "filename": "Do You Know Why I as a Christian Believe in Christ — Corbitt 2023 Apr"
         },
-        "57bednar": {
+        "/2023/04/57bednar": {
           "title": "“Abide in Me, and I in You; Therefore Walk with Me”",
           "speaker": "David A. Bednar",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/57bednar?lang=eng",
           "filename": "“Abide in Me and I in You; Therefore Walk with Me” — Bednar 2023 Apr"
         },
-        "58nelson": {
+        "/2023/04/58nelson": {
           "title": "The Answer Is Always Jesus Christ",
           "speaker": "Russell M. Nelson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2023/04/58nelson?lang=eng",

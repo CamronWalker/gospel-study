@@ -5,37 +5,37 @@
   "sessions": {
     "Saturday Morning Session": {
       "talks": {
-        "opening-remarks": {
+        "/2005/04/opening-remarks": {
           "title": "Opening Remarks",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/opening-remarks?lang=eng",
           "filename": "Opening Remarks — Hinckley 2005 Apr"
         },
-        "the-book-of-mormon-another-testament-of-jesus-christ-plain-and-precious-things": {
+        "/2005/04/the-book-of-mormon-another-testament-of-jesus-christ-plain-and-precious-things": {
           "title": "The Book of Mormon: Another Testament of Jesus Christ—Plain and Precious Things",
           "speaker": "Boyd K. Packer",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/the-book-of-mormon-another-testament-of-jesus-christ-plain-and-precious-things?lang=eng",
           "filename": "The Book of Mormon- Another Testament of Jesus Christ—Plain and Precious Things — Packer 2005 Apr"
         },
-        "a-still-small-voice-and-a-throbbing-heart": {
+        "/2005/04/a-still-small-voice-and-a-throbbing-heart": {
           "title": "A Still, Small Voice and a Throbbing Heart",
           "speaker": "Richard C. Edgley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/a-still-small-voice-and-a-throbbing-heart?lang=eng",
           "filename": "A Still Small Voice and a Throbbing Heart — Edgley 2005 Apr"
         },
-        "all-thy-children-shall-be-taught": {
+        "/2005/04/all-thy-children-shall-be-taught": {
           "title": "All Thy Children Shall Be Taught",
           "speaker": "Coleen K. Menlove",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/all-thy-children-shall-be-taught?lang=eng",
           "filename": "All Thy Children Shall Be Taught — Menlove 2005 Apr"
         },
-        "now-is-the-time-to-prepare": {
+        "/2005/04/now-is-the-time-to-prepare": {
           "title": "Now Is the Time to Prepare",
           "speaker": "Russell M. Nelson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/now-is-the-time-to-prepare?lang=eng",
           "filename": "Now Is the Time to Prepare — Nelson 2005 Apr"
         },
-        "constant-truths-for-changing-times": {
+        "/2005/04/constant-truths-for-changing-times": {
           "title": "Constant Truths for Changing Times",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/constant-truths-for-changing-times?lang=eng",
@@ -46,55 +46,55 @@
     },
     "Saturday Afternoon Session": {
       "talks": {
-        "the-sustaining-of-church-officers": {
+        "/2005/04/the-sustaining-of-church-officers": {
           "title": "The Sustaining of Church Officers",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/the-sustaining-of-church-officers?lang=eng",
           "filename": "The Sustaining of Church Officers — Monson 2005 Apr"
         },
-        "church-auditing-department-report-2004": {
+        "/2005/04/church-auditing-department-report-2004": {
           "title": "Church Auditing Department Report, 2004",
           "speaker": "Robert W. Cantwell",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/church-auditing-department-report-2004?lang=eng",
           "filename": "Church Auditing Department Report 2004 — Cantwell 2005 Apr"
         },
-        "statistical-report-2004": {
+        "/2005/04/statistical-report-2004": {
           "title": "Statistical Report, 2004",
           "speaker": "F. Michael Watson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/statistical-report-2004?lang=eng",
           "filename": "Statistical Report 2004 — Watson 2005 Apr"
         },
-        "the-virtue-of-kindness": {
+        "/2005/04/the-virtue-of-kindness": {
           "title": "The Virtue of Kindness",
           "speaker": "Joseph B. Wirthlin",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/the-virtue-of-kindness?lang=eng",
           "filename": "The Virtue of Kindness — Wirthlin 2005 Apr"
         },
-        "the-power-of-preach-my-gospel": {
+        "/2005/04/the-power-of-preach-my-gospel": {
           "title": "The Power of Preach My Gospel",
           "speaker": "Richard G. Scott",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/the-power-of-preach-my-gospel?lang=eng",
           "filename": "The Power of Preach My Gospel — Scott 2005 Apr"
         },
-        "the-worth-of-souls": {
+        "/2005/04/the-worth-of-souls": {
           "title": "The Worth of Souls",
           "speaker": "Harold G. Hillam",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/the-worth-of-souls?lang=eng",
           "filename": "The Worth of Souls — Hillam 2005 Apr"
         },
-        "tithing-a-commandment-even-for-the-destitute": {
+        "/2005/04/tithing-a-commandment-even-for-the-destitute": {
           "title": "Tithing—a Commandment Even for the Destitute",
           "speaker": "Lynn G. Robbins",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/tithing-a-commandment-even-for-the-destitute?lang=eng",
           "filename": "Tithing—a Commandment Even for the Destitute — Robbins 2005 Apr"
         },
-        "the-fruits-of-the-first-vision": {
+        "/2005/04/the-fruits-of-the-first-vision": {
           "title": "The Fruits of the First Vision",
           "speaker": "Dieter F. Uchtdorf",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/the-fruits-of-the-first-vision?lang=eng",
           "filename": "The Fruits of the First Vision — Uchtdorf 2005 Apr"
         },
-        "couple-missionaries-blessings-from-sacrifice-and-service": {
+        "/2005/04/couple-missionaries-blessings-from-sacrifice-and-service": {
           "title": "Couple Missionaries: Blessings from Sacrifice and Service",
           "speaker": "Robert D. Hales",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/couple-missionaries-blessings-from-sacrifice-and-service?lang=eng",
@@ -105,37 +105,37 @@
     },
     "Priesthood Session": {
       "talks": {
-        "our-most-distinguishing-feature": {
+        "/2005/04/our-most-distinguishing-feature": {
           "title": "Our Most Distinguishing Feature",
           "speaker": "Jeffrey R. Holland",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/our-most-distinguishing-feature?lang=eng",
           "filename": "Our Most Distinguishing Feature — Holland 2005 Apr"
         },
-        "beware-of-the-evil-behind-the-smiling-eyes": {
+        "/2005/04/beware-of-the-evil-behind-the-smiling-eyes": {
           "title": "Beware of the Evil behind the Smiling Eyes",
           "speaker": "Neil L. Andersen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/beware-of-the-evil-behind-the-smiling-eyes?lang=eng",
           "filename": "Beware of the Evil behind the Smiling Eyes — Andersen 2005 Apr"
         },
-        "whos-on-the-lords-side-who": {
+        "/2005/04/whos-on-the-lords-side-who": {
           "title": "Who’s on the Lord’s Side? Who?",
           "speaker": "Robert C. Oaks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/whos-on-the-lords-side-who?lang=eng",
           "filename": "Who’s on the Lord’s Side Who — Oaks 2005 Apr"
         },
-        "perseverance": {
+        "/2005/04/perseverance": {
           "title": "Perseverance",
           "speaker": "James E. Faust",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/perseverance?lang=eng",
           "filename": "Perseverance — Faust 2005 Apr"
         },
-        "the-sacred-call-of-service": {
+        "/2005/04/the-sacred-call-of-service": {
           "title": "The Sacred Call of Service",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/the-sacred-call-of-service?lang=eng",
           "filename": "The Sacred Call of Service — Monson 2005 Apr"
         },
-        "gambling": {
+        "/2005/04/gambling": {
           "title": "Gambling",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/gambling?lang=eng",
@@ -146,37 +146,37 @@
     },
     "Sunday Morning Session": {
       "talks": {
-        "standing-in-holy-places": {
+        "/2005/04/standing-in-holy-places": {
           "title": "Standing in Holy Places",
           "speaker": "James E. Faust",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/standing-in-holy-places?lang=eng",
           "filename": "Standing in Holy Places — Faust 2005 Apr"
         },
-        "one-more": {
+        "/2005/04/one-more": {
           "title": "One More",
           "speaker": "M. Russell Ballard",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/one-more?lang=eng",
           "filename": "One More — Ballard 2005 Apr"
         },
-        "faith-is-the-answer": {
+        "/2005/04/faith-is-the-answer": {
           "title": "Faith Is the Answer",
           "speaker": "David E. Sorensen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/faith-is-the-answer?lang=eng",
           "filename": "Faith Is the Answer — Sorensen 2005 Apr"
         },
-        "what-greater-goodness-can-we-know-christlike-friends": {
+        "/2005/04/what-greater-goodness-can-we-know-christlike-friends": {
           "title": "What Greater Goodness Can We Know: Christlike Friends",
           "speaker": "Kathleen H. Hughes",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/what-greater-goodness-can-we-know-christlike-friends?lang=eng",
           "filename": "What Greater Goodness Can We Know- Christlike Friends — Hughes 2005 Apr"
         },
-        "hearts-bound-together": {
+        "/2005/04/hearts-bound-together": {
           "title": "Hearts Bound Together",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/hearts-bound-together?lang=eng",
           "filename": "Hearts Bound Together — Eyring 2005 Apr"
         },
-        "the-great-things-which-god-has-revealed": {
+        "/2005/04/the-great-things-which-god-has-revealed": {
           "title": "The Great Things Which God Has Revealed",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/the-great-things-which-god-has-revealed?lang=eng",
@@ -187,43 +187,43 @@
     },
     "Sunday Afternoon Session": {
       "talks": {
-        "what-seek-ye": {
+        "/2005/04/what-seek-ye": {
           "title": "What Seek Ye?",
           "speaker": "L. Tom Perry",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/what-seek-ye?lang=eng",
           "filename": "What Seek Ye — Perry 2005 Apr"
         },
-        "pornography": {
+        "/2005/04/pornography": {
           "title": "Pornography",
           "speaker": "Dallin H. Oaks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/pornography?lang=eng",
           "filename": "Pornography — Oaks 2005 Apr"
         },
-        "strengthen-thy-brethren": {
+        "/2005/04/strengthen-thy-brethren": {
           "title": "Strengthen Thy Brethren",
           "speaker": "Robert J. Whetten",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/strengthen-thy-brethren?lang=eng",
           "filename": "Strengthen Thy Brethren — Whetten 2005 Apr"
         },
-        "be-of-good-cheer-and-faithful-in-adversity": {
+        "/2005/04/be-of-good-cheer-and-faithful-in-adversity": {
           "title": "Be of Good Cheer and Faithful in Adversity",
           "speaker": "Adhemar Damiani",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/be-of-good-cheer-and-faithful-in-adversity?lang=eng",
           "filename": "Be of Good Cheer and Faithful in Adversity — Damiani 2005 Apr"
         },
-        "appreciating-the-counsel-of-those-who-are-bowed-in-years": {
+        "/2005/04/appreciating-the-counsel-of-those-who-are-bowed-in-years": {
           "title": "Appreciating the Counsel of Those Who Are Bowed in Years",
           "speaker": "Stephen B. Oveson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/appreciating-the-counsel-of-those-who-are-bowed-in-years?lang=eng",
           "filename": "Appreciating the Counsel of Those Who Are Bowed in Years — Oveson 2005 Apr"
         },
-        "the-tender-mercies-of-the-lord": {
+        "/2005/04/the-tender-mercies-of-the-lord": {
           "title": "The Tender Mercies of the Lord",
           "speaker": "David A. Bednar",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/the-tender-mercies-of-the-lord?lang=eng",
           "filename": "The Tender Mercies of the Lord — Bednar 2005 Apr"
         },
-        "closing-remarks": {
+        "/2005/04/closing-remarks": {
           "title": "Closing Remarks",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/closing-remarks?lang=eng",
@@ -234,25 +234,25 @@
     },
     "General Young Women Meeting": {
       "talks": {
-        "glad-tidings-from-cumorah": {
+        "/2005/04/glad-tidings-from-cumorah": {
           "title": "Glad Tidings from Cumorah",
           "speaker": "Susan W. Tanner",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/glad-tidings-from-cumorah?lang=eng",
           "filename": "Glad Tidings from Cumorah — Tanner 2005 Apr"
         },
-        "a-work-for-me-to-do": {
+        "/2005/04/a-work-for-me-to-do": {
           "title": "A Work for Me to Do",
           "speaker": "Julie B. Beck",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/a-work-for-me-to-do?lang=eng",
           "filename": "A Work for Me to Do — Beck 2005 Apr"
         },
-        "he-knows-you-by-name": {
+        "/2005/04/he-knows-you-by-name": {
           "title": "He Knows You by Name",
           "speaker": "Elaine S. Dalton",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/he-knows-you-by-name?lang=eng",
           "filename": "He Knows You by Name — Dalton 2005 Apr"
         },
-        "be-thou-an-example": {
+        "/2005/04/be-thou-an-example": {
           "title": "Be Thou an Example",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2005/04/be-thou-an-example?lang=eng",

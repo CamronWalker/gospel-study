@@ -5,43 +5,43 @@
   "sessions": {
     "Friday Morning Session": {
       "talks": {
-        "a-report-and-a-challenge": {
+        "/1976/10/a-report-and-a-challenge": {
           "title": "A Report and a Challenge",
           "speaker": "Spencer W. Kimball",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/a-report-and-a-challenge?lang=eng",
           "filename": "A Report and a Challenge — Kimball 1976 Oct"
         },
-        "the-reconstitution-of-the-first-quorum-of-the-seventy": {
+        "/1976/10/the-reconstitution-of-the-first-quorum-of-the-seventy": {
           "title": "The Reconstitution of the First Quorum of the Seventy",
           "speaker": "Spencer W. Kimball",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/the-reconstitution-of-the-first-quorum-of-the-seventy?lang=eng",
           "filename": "The Reconstitution of the First Quorum of the Seventy — Kimball 1976 Oct"
         },
-        "the-sustaining-of-church-officers": {
+        "/1976/10/the-sustaining-of-church-officers": {
           "title": "The Sustaining of Church Officers",
           "speaker": "N. Eldon Tanner",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/the-sustaining-of-church-officers?lang=eng",
           "filename": "The Sustaining of Church Officers — Tanner 1976 Oct"
         },
-        "i-am-the-vine-ye-are-the-branches": {
+        "/1976/10/i-am-the-vine-ye-are-the-branches": {
           "title": "“I Am the Vine, Ye Are the Branches”",
           "speaker": "Dean L. Larsen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/i-am-the-vine-ye-are-the-branches?lang=eng",
           "filename": "“I Am the Vine Ye Are the Branches” — Larsen 1976 Oct"
         },
-        "notwithstanding-my-weakness": {
+        "/1976/10/notwithstanding-my-weakness": {
           "title": "Notwithstanding My Weakness",
           "speaker": "Neal A. Maxwell",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/notwithstanding-my-weakness?lang=eng",
           "filename": "Notwithstanding My Weakness — Maxwell 1976 Oct"
         },
-        "perfecting-the-saints": {
+        "/1976/10/perfecting-the-saints": {
           "title": "Perfecting the Saints",
           "speaker": "Franklin D. Richards",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/perfecting-the-saints?lang=eng",
           "filename": "Perfecting the Saints — Richards 1976 Oct"
         },
-        "the-temptations-of-christ": {
+        "/1976/10/the-temptations-of-christ": {
           "title": "The Temptations of Christ",
           "speaker": "Howard W. Hunter",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/the-temptations-of-christ?lang=eng",
@@ -52,43 +52,43 @@
     },
     "Friday Afternoon Session": {
       "talks": {
-        "families-are-forever": {
+        "/1976/10/families-are-forever": {
           "title": "Families Are Forever",
           "speaker": "David B. Haight",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/families-are-forever?lang=eng",
           "filename": "Families Are Forever — Haight 1976 Oct"
         },
-        "extending-missionary-service": {
+        "/1976/10/extending-missionary-service": {
           "title": "Extending Missionary Service",
           "speaker": "A. Theodore Tuttle",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/extending-missionary-service?lang=eng",
           "filename": "Extending Missionary Service — Tuttle 1976 Oct"
         },
-        "the-lord-offers-everyone-a-way-back-from-sin": {
+        "/1976/10/the-lord-offers-everyone-a-way-back-from-sin": {
           "title": "The Lord Offers Everyone a Way Back from Sin",
           "speaker": "Robert D. Hales",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/the-lord-offers-everyone-a-way-back-from-sin?lang=eng",
           "filename": "The Lord Offers Everyone a Way Back from Sin — Hales 1976 Oct"
         },
-        "dikes-versus-living-water": {
+        "/1976/10/dikes-versus-living-water": {
           "title": "Dikes versus Living Water",
           "speaker": "Joseph B. Wirthlin",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/dikes-versus-living-water?lang=eng",
           "filename": "Dikes versus Living Water — Wirthlin 1976 Oct"
         },
-        "our-goal-is-perfection": {
+        "/1976/10/our-goal-is-perfection": {
           "title": "Our Goal Is Perfection",
           "speaker": "William H. Bennett",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/our-goal-is-perfection?lang=eng",
           "filename": "Our Goal Is Perfection — Bennett 1976 Oct"
         },
-        "more-joy-and-rejoicing": {
+        "/1976/10/more-joy-and-rejoicing": {
           "title": "More Joy and Rejoicing",
           "speaker": "Marion D. Hanks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/more-joy-and-rejoicing?lang=eng",
           "filename": "More Joy and Rejoicing — Hanks 1976 Oct"
         },
-        "our-priceless-heritage": {
+        "/1976/10/our-priceless-heritage": {
           "title": "Our Priceless Heritage",
           "speaker": "Ezra Taft Benson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/our-priceless-heritage?lang=eng",
@@ -99,37 +99,37 @@
     },
     "Saturday Morning Session": {
       "talks": {
-        "we-believe-in-being-honest": {
+        "/1976/10/we-believe-in-being-honest": {
           "title": "“We Believe in Being Honest”",
           "speaker": "Marion G. Romney",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/we-believe-in-being-honest?lang=eng",
           "filename": "“We Believe in Being Honest” — Romney 1976 Oct"
         },
-        "a-report-on-the-churchs-participation-in-americas-bicentennial-celebration": {
+        "/1976/10/a-report-on-the-churchs-participation-in-americas-bicentennial-celebration": {
           "title": "A Report on the Church’s Participation in America’s Bicentennial Celebration",
           "speaker": "L. Tom Perry",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/a-report-on-the-churchs-participation-in-americas-bicentennial-celebration?lang=eng",
           "filename": "A Report on the Church’s Participation in America’s Bicentennial Celebration — Perry 1976 Oct"
         },
-        "the-spirit-of-missionary-work": {
+        "/1976/10/the-spirit-of-missionary-work": {
           "title": "The Spirit of Missionary Work",
           "speaker": "Carlos E. Asay",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/the-spirit-of-missionary-work?lang=eng",
           "filename": "The Spirit of Missionary Work — Asay 1976 Oct"
         },
-        "there-is-the-light": {
+        "/1976/10/there-is-the-light": {
           "title": "“There Is the Light”",
           "speaker": "John H. Groberg",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/there-is-the-light?lang=eng",
           "filename": "“There Is the Light” — Groberg 1976 Oct"
         },
-        "to-die-well": {
+        "/1976/10/to-die-well": {
           "title": "To Die Well",
           "speaker": "Sterling W. Sill",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/to-die-well?lang=eng",
           "filename": "To Die Well — Sill 1976 Oct"
         },
-        "the-savor-of-men": {
+        "/1976/10/the-savor-of-men": {
           "title": "The Savor of Men",
           "speaker": "Mark E. Petersen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/the-savor-of-men?lang=eng",
@@ -140,43 +140,43 @@
     },
     "Saturday Afternoon Session": {
       "talks": {
-        "which-road-will-you-travel": {
+        "/1976/10/which-road-will-you-travel": {
           "title": "Which Road Will You Travel?",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/which-road-will-you-travel?lang=eng",
           "filename": "Which Road Will You Travel — Monson 1976 Oct"
         },
-        "follow-it": {
+        "/1976/10/follow-it": {
           "title": "“Follow It!”",
           "speaker": "Paul H. Dunn",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/follow-it?lang=eng",
           "filename": "“Follow It!” — Dunn 1976 Oct"
         },
-        "you-never-know-who-you-may-save": {
+        "/1976/10/you-never-know-who-you-may-save": {
           "title": "You Never Know Who You May Save",
           "speaker": "Jacob de Jager",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/you-never-know-who-you-may-save?lang=eng",
           "filename": "You Never Know Who You May Save — Jager 1976 Oct"
         },
-        "a-personal-relationship-with-the-savior": {
+        "/1976/10/a-personal-relationship-with-the-savior": {
           "title": "A Personal Relationship with the Savior",
           "speaker": "James E. Faust",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/a-personal-relationship-with-the-savior?lang=eng",
           "filename": "A Personal Relationship with the Savior — Faust 1976 Oct"
         },
-        "parenthood": {
+        "/1976/10/parenthood": {
           "title": "Parenthood",
           "speaker": "O. Leslie Stone",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/parenthood?lang=eng",
           "filename": "Parenthood — Stone 1976 Oct"
         },
-        "search-the-scriptures": {
+        "/1976/10/search-the-scriptures": {
           "title": "Search the Scriptures",
           "speaker": "Henry D. Taylor",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/search-the-scriptures?lang=eng",
           "filename": "Search the Scriptures — Taylor 1976 Oct"
         },
-        "the-simplicity-in-christ": {
+        "/1976/10/the-simplicity-in-christ": {
           "title": "The Simplicity in Christ",
           "speaker": "LeGrand Richards",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/the-simplicity-in-christ?lang=eng",
@@ -187,25 +187,25 @@
     },
     "Priesthood Session": {
       "talks": {
-        "the-living-prophet": {
+        "/1976/10/the-living-prophet": {
           "title": "The Living Prophet",
           "speaker": "Rex D. Pinegar",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/the-living-prophet?lang=eng",
           "filename": "The Living Prophet — Pinegar 1976 Oct"
         },
-        "your-gift-from-god": {
+        "/1976/10/your-gift-from-god": {
           "title": "Your Gift from God",
           "speaker": "Marion G. Romney",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/your-gift-from-god?lang=eng",
           "filename": "Your Gift from God — Romney 1976 Oct"
         },
-        "ready-to-work-long-hours": {
+        "/1976/10/ready-to-work-long-hours": {
           "title": "Ready to Work Long Hours",
           "speaker": "N. Eldon Tanner",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/ready-to-work-long-hours?lang=eng",
           "filename": "Ready to Work Long Hours — Tanner 1976 Oct"
         },
-        "our-own-liahona": {
+        "/1976/10/our-own-liahona": {
           "title": "Our Own Liahona",
           "speaker": "Spencer W. Kimball",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/our-own-liahona?lang=eng",
@@ -216,31 +216,31 @@
     },
     "Sunday Morning Session": {
       "talks": {
-        "the-purpose-of-conferences": {
+        "/1976/10/the-purpose-of-conferences": {
           "title": "The Purpose of Conferences",
           "speaker": "N. Eldon Tanner",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/the-purpose-of-conferences?lang=eng",
           "filename": "The Purpose of Conferences — Tanner 1976 Oct"
         },
-        "proper-self-management": {
+        "/1976/10/proper-self-management": {
           "title": "Proper Self-Management",
           "speaker": "Marvin J. Ashton",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/proper-self-management?lang=eng",
           "filename": "Proper Self-Management — Ashton 1976 Oct"
         },
-        "the-making-of-a-missionary": {
+        "/1976/10/the-making-of-a-missionary": {
           "title": "The Making of a Missionary",
           "speaker": "M. Russell Ballard",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/the-making-of-a-missionary?lang=eng",
           "filename": "The Making of a Missionary — Ballard 1976 Oct"
         },
-        "we-are-a-covenant-making-people": {
+        "/1976/10/we-are-a-covenant-making-people": {
           "title": "We Are a Covenant-Making People",
           "speaker": "Joseph Anderson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/we-are-a-covenant-making-people?lang=eng",
           "filename": "We Are a Covenant-Making People — Anderson 1976 Oct"
         },
-        "teachings-of-the-apostle-paul": {
+        "/1976/10/teachings-of-the-apostle-paul": {
           "title": "Teachings of the Apostle Paul",
           "speaker": "Delbert L. Stapley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/teachings-of-the-apostle-paul?lang=eng",
@@ -251,55 +251,55 @@
     },
     "Sunday Afternoon Session": {
       "talks": {
-        "everything-to-gain-nothing-to-lose": {
+        "/1976/10/everything-to-gain-nothing-to-lose": {
           "title": "Everything to Gain—Nothing to Lose",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/everything-to-gain-nothing-to-lose?lang=eng",
           "filename": "Everything to Gain—Nothing to Lose — Hinckley 1976 Oct"
         },
-        "a-gospel-of-conversion": {
+        "/1976/10/a-gospel-of-conversion": {
           "title": "A Gospel of Conversion",
           "speaker": "Hartman Rector Jr.",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/a-gospel-of-conversion?lang=eng",
           "filename": "A Gospel of Conversion — Jr. 1976 Oct"
         },
-        "the-lords-support-system": {
+        "/1976/10/the-lords-support-system": {
           "title": "The Lord’s Support System",
           "speaker": "Robert L. Simpson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/the-lords-support-system?lang=eng",
           "filename": "The Lord’s Support System — Simpson 1976 Oct"
         },
-        "i-have-gained": {
+        "/1976/10/i-have-gained": {
           "title": "“I Have Gained”",
           "speaker": "S. Dilworth Young",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/i-have-gained?lang=eng",
           "filename": "“I Have Gained” — Young 1976 Oct"
         },
-        "the-impact-teacher": {
+        "/1976/10/the-impact-teacher": {
           "title": "The Impact Teacher",
           "speaker": "Vaughn J. Featherstone",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/the-impact-teacher?lang=eng",
           "filename": "The Impact Teacher — Featherstone 1976 Oct"
         },
-        "the-dead-who-die-in-the-lord": {
+        "/1976/10/the-dead-who-die-in-the-lord": {
           "title": "The Dead Who Die in the Lord",
           "speaker": "Bruce R. McConkie",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/the-dead-who-die-in-the-lord?lang=eng",
           "filename": "The Dead Who Die in the Lord — McConkie 1976 Oct"
         },
-        "the-greatest-thing-in-my-life": {
+        "/1976/10/the-greatest-thing-in-my-life": {
           "title": "The Greatest Thing in My Life",
           "speaker": "Robert E. Wells",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/the-greatest-thing-in-my-life?lang=eng",
           "filename": "The Greatest Thing in My Life — Wells 1976 Oct"
         },
-        "i-will-never-be-the-same-again": {
+        "/1976/10/i-will-never-be-the-same-again": {
           "title": "“I Will Never Be the Same Again”",
           "speaker": "J. Richard Clarke",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/i-will-never-be-the-same-again?lang=eng",
           "filename": "“I Will Never Be the Same Again” — Clarke 1976 Oct"
         },
-        "a-program-for-man": {
+        "/1976/10/a-program-for-man": {
           "title": "A Program for Man",
           "speaker": "Spencer W. Kimball",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/a-program-for-man?lang=eng",
@@ -310,43 +310,43 @@
     },
     "Welfare Session": {
       "talks": {
-        "welfare-services-essentials-the-bishops-storehouse": {
+        "/1976/10/welfare-services-essentials-the-bishops-storehouse": {
           "title": "Welfare Services Essentials: The Bishops Storehouse",
           "speaker": "Victor L. Brown",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/welfare-services-essentials-the-bishops-storehouse?lang=eng",
           "filename": "Welfare Services Essentials- The Bishops Storehouse — Brown 1976 Oct"
         },
-        "acquiring-and-managing-production-projects": {
+        "/1976/10/acquiring-and-managing-production-projects": {
           "title": "Acquiring and Managing Production Projects",
           "speaker": "H. Burke Peterson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/acquiring-and-managing-production-projects?lang=eng",
           "filename": "Acquiring and Managing Production Projects — Peterson 1976 Oct"
         },
-        "principles-of-welfare": {
+        "/1976/10/principles-of-welfare": {
           "title": "Principles of Welfare",
           "speaker": "Vaughn J. Featherstone",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/principles-of-welfare?lang=eng",
           "filename": "Principles of Welfare — Featherstone 1976 Oct"
         },
-        "she-is-not-afraid-of-the-snow-for-her-household": {
+        "/1976/10/she-is-not-afraid-of-the-snow-for-her-household": {
           "title": "“She Is Not Afraid of the Snow for Her Household …”",
           "speaker": "Barbara B. Smith",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/she-is-not-afraid-of-the-snow-for-her-household?lang=eng",
           "filename": "“She Is Not Afraid of the Snow for Her Household …” — Smith 1976 Oct"
         },
-        "in-mine-own-way": {
+        "/1976/10/in-mine-own-way": {
           "title": "“In Mine Own Way”",
           "speaker": "Marion G. Romney",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/in-mine-own-way?lang=eng",
           "filename": "“In Mine Own Way” — Romney 1976 Oct"
         },
-        "go-and-do-the-work": {
+        "/1976/10/go-and-do-the-work": {
           "title": "Go and Do the Work",
           "speaker": "N. Eldon Tanner",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/go-and-do-the-work?lang=eng",
           "filename": "Go and Do the Work — Tanner 1976 Oct"
         },
-        "loving-one-another": {
+        "/1976/10/loving-one-another": {
           "title": "Loving One Another",
           "speaker": "Spencer W. Kimball",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1976/10/loving-one-another?lang=eng",
