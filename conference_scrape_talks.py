@@ -3,16 +3,12 @@ Sample Usage:
 - To scrape talk content for a range of years (both April and October):
   python3 conference_scrape_talk_content.py 2020-2023
   (This will scrape content for all talks in the specified conferences and update JSON files like 'conference_json/2025-october.json'.)
-
 - To scrape with replace:
   python3 conference_scrape_talk_content.py 2020-2023 --replace
-  (This will replace existing body, full_markdown, sources, and reset resources to just the Gospel Library link.)
-
-  TODO fix the wikilinks not having verses and the verse ranges
+  (This will replace existing body, full_markdown, sources.)
   TODO add conference talk parser to .md links file generator so need md filename in json to wikilink to
-  
+ 
   """
-
 import os
 import json
 import time
@@ -28,14 +24,11 @@ from webdriver_manager.chrome import ChromeDriverManager
 from tqdm import tqdm
 import argparse
 import logging
-
 # Suppress Selenium stacktraces
 logging.getLogger('selenium').setLevel(logging.WARNING)
-
 # Create conference_json directory if it doesn't exist
 JSON_DIR = 'conference_json'
 os.makedirs(JSON_DIR, exist_ok=True)
-
 # Book map for scripture abbreviations to full names
 book_map = {
     # Book of Mormon
@@ -131,31 +124,57 @@ book_map = {
     'pgp/js-h': 'Joseph Smith—History',
     'pgp/a-of-f': 'Articles of Faith',
 }
-
 def get_wikilink(href, text):
+    """
+    Convert a Church scripture URL into proper Obsidian wikilinks with verse support.
+    """
     try:
-        parsed_url = re.match(r'https?://[^/]+(/study/scriptures/[^?]+)', href)
+        # Extract path from absolute or relative URL
+        parsed_url = re.match(r'https?://[^/]+(/study/scriptures/[^?#]+)(\?[^#]*)?(#.*)?', href)
         if not parsed_url:
             return None
         path = parsed_url.group(1)
-        parts = path.split('/')[3:]
+        fragment = parsed_url.group(3) or '' # e.g. "#5" or "#5-8"
+        parts = path.split('/')[3:] # ['bofm', 'alma', '5']
         if len(parts) < 2:
             return None
         corpus = parts[0]
         book_abbr = parts[1]
-        chapter = ''
-        if len(parts) > 2:
-            chapter = parts[2]
-        # Simplified: assuming no query or fragment parsing needed for this version
+        chapter = parts[2] if len(parts) > 2 else None
         key = f"{corpus}/{book_abbr}"
         book_name = book_map.get(key)
         if not book_name:
             return None
-        page_name = f"D&C {chapter}" if book_name == 'D&C' else f"{book_name} {chapter}"
-        return f"[[{page_name}|{text}]]"  # Simplified without verses for brevity
-    except Exception:
+        # Special case for Doctrine and Covenants
+        if book_name == 'D&C':
+            base_name = f"D&C {chapter}" if chapter else "D&C"
+        else:
+            base_name = f"{book_name} {chapter}" if chapter else book_name
+        # No fragment → whole chapter link
+        if not fragment:
+            return f"[[{base_name}|{text}]]"
+        # Parse fragment: #5 or #5-8
+        verse_match = re.match(r'#(\d+)(-(\d+))?', fragment)
+        if not verse_match:
+            return f"[[{base_name}|{text}]]" # fallback
+        start_verse = int(verse_match.group(1))
+        end_verse = int(verse_match.group(3)) if verse_match.group(3) else start_verse
+        # Single verse
+        if start_verse == end_verse:
+            link_text = f"{book_name} {chapter}:{start_verse}" if book_name != 'D&C' else f"D&C {chapter}:{start_verse}"
+            return f"[[{base_name}#{start_verse}|{link_text}]]"
+        # Verse range
+        links = []
+        display_text = f"{book_name} {chapter}:{start_verse}-{end_verse}" if book_name != 'D&C' else f"D&C {chapter}:{start_verse}-{end_verse}"
+        # First link shows the full range
+        links.append(f"[[{base_name}#{start_verse}|{display_text}]]")
+        # Subsequent verses: hidden links (empty display text)
+        for v in range(start_verse + 1, end_verse + 1):
+            links.append(f"[[{base_name}#{v}|]]")
+        return "".join(links)
+    except Exception as e:
+        print(f"Warning: Failed to parse scripture link {href}: {e}")
         return None
-
 def html_to_markdown(html, is_source=False):
     html = re.sub(r'<em>(.*?)</em>', r'*\1*', html, flags=re.IGNORECASE | re.DOTALL)
     html = re.sub(r'<i>(.*?)</i>', r'*\1*', html, flags=re.IGNORECASE | re.DOTALL)
@@ -176,7 +195,6 @@ def html_to_markdown(html, is_source=False):
     html = re.sub(r'<a[^>]+href="([^"]+)"[^>]*>([^<]+)</a>', link_repl, html, flags=re.IGNORECASE | re.DOTALL)
     html = re.sub(r'<[^>]+>', '', html)
     return html.strip()
-
 def get_driver():
     options = Options()
     options.add_argument('--headless')
@@ -185,7 +203,6 @@ def get_driver():
     options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36')
     service = Service(ChromeDriverManager().install())
     return webdriver.Chrome(service=service, options=options)
-
 def scrape_talk_content(url, driver):
     try:
         driver.get(url)
@@ -248,11 +265,9 @@ def scrape_talk_content(url, driver):
     except Exception as e:
         print(f"Error during scraping talk content {url}: {e}")
         return None
-
 def get_conference_filename(year, month):
     sanitized_conference = re.sub(r'[^a-z0-9\- ]', '', f"{year}-{month.lower()}", flags=re.IGNORECASE)
     return os.path.join(JSON_DIR, f"{sanitized_conference}.json")
-
 def process_conference(year, month, replace=False):
     filename = get_conference_filename(year, month)
     if not os.path.exists(filename):
@@ -260,48 +275,82 @@ def process_conference(year, month, replace=False):
         return
     with open(filename, 'r') as f:
         conference_data = json.load(f)
-    driver = get_driver()
-    try:
-        total_talks = 0
+   
+    updated = False
+   
+    # Always check and update resources if needed
+    for session_name, session in conference_data['sessions'].items():
+        if 'talks' in session:
+            for talk_key, talk in session['talks'].items():
+                if re.match(r'^\d{2}', talk_key):
+                    url = talk.get('url')
+                    if not url:
+                        continue
+                    if 'resources' not in talk or not talk['resources']:
+                        talk['resources'] = [{'name': 'Gospel Library', 'url': url}]
+                        updated = True
+   
+    # If replace, clear existing content fields to force re-scrape
+    if replace:
         for session_name, session in conference_data['sessions'].items():
             if 'talks' in session:
-                for talk_key in list(session['talks'].keys()):
-                    if re.match(r'^\d{2}', talk_key):  # Likely a talk key like '12stevenson'
-                        total_talks += 1
-        if total_talks == 0:
-            print(f"No talks found in {filename}")
-            return
+                for talk_key, talk in session['talks'].items():
+                    if re.match(r'^\d{2}', talk_key):
+                        talk.pop('full_markdown', None)
+                        talk.pop('body', None)
+                        talk.pop('sources', None)
+   
+    # Count how many talks need content scraping
+    num_to_scrape = 0
+    for session_name, session in conference_data['sessions'].items():
+        if 'talks' in session:
+            for talk_key, talk in session['talks'].items():
+                if re.match(r'^\d{2}', talk_key):
+                    if not all(key in talk for key in ['full_markdown', 'body', 'sources']):
+                        num_to_scrape += 1
+   
+    if num_to_scrape == 0:
+        if updated:
+            with open(filename, 'w') as f:
+                json.dump(conference_data, f, indent=2)
+            print(f"Updated conference data in {filename} (resources only)")
+        else:
+            print(f"Skipping {year}-{month}: All talks already have content and resources.")
+        return
+   
+    # Proceed with scraping
+    driver = get_driver()
+    try:
         print(f"Processing talk content for {year}-{month}:")
-        with tqdm(total=total_talks, desc="Scraping content") as pbar:
+        with tqdm(total=num_to_scrape, desc="Scraping content") as pbar:
             for session_name, session in conference_data['sessions'].items():
                 if 'talks' in session:
                     for talk_key, talk in session['talks'].items():
                         if re.match(r'^\d{2}', talk_key):
                             url = talk.get('url')
                             if not url:
-                                pbar.update(1)
+                                continue
+                            needs_update = not all(key in talk for key in ['full_markdown', 'body', 'sources'])
+                            if not needs_update:
                                 continue
                             content = scrape_talk_content(url, driver)
                             if content:
-                                if replace or 'full_markdown' not in talk:
-                                    talk['full_markdown'] = content['full_markdown']
-                                if replace or 'body' not in talk:
-                                    talk['body'] = content['body']
-                                if replace or 'sources' not in talk:
-                                    talk['sources'] = content['sources']
-                                if replace:
-                                    talk['resources'] = [{'name': 'Gospel Library', 'url': url}]
-                                elif 'resources' not in talk or not talk['resources']:
-                                    talk['resources'] = [{'name': 'Gospel Library', 'url': url}]
+                                talk['full_markdown'] = content['full_markdown']
+                                talk['body'] = content['body']
+                                talk['sources'] = content['sources']
+                                updated = True
                             else:
                                 print(f"Failed to scrape content at {url}")
                             pbar.update(1)
+    finally:
+        driver.quit()
+   
+    if updated:
         with open(filename, 'w') as f:
             json.dump(conference_data, f, indent=2)
         print(f"Updated conference data in {filename}")
-    finally:
-        driver.quit()
-
+    else:
+        print(f"No updates made to {filename}")
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Scrape General Conference talk content")
     parser.add_argument('year_range', help="Year range (e.g., 2020-2023)")
