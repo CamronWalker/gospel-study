@@ -5,12 +5,6 @@
   "sessions": {
     "Saturday Morning Session": {
       "talks": {
-        "saturday-morning-session": {
-          "title": "The Saturday Morning Session of the 194th Annual General Conference of The Church of Jesus Christ of Latter-day Saints held on April 6–7, 2024.",
-          "speaker": "Saturday Morning Session",
-          "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/04/saturday-morning-session?lang=eng",
-          "filename": "The Saturday Morning Session of the 194th Annual General Conference of The Church of Jesus Christ of Latter-day Saints held on April 6–7 2024. — Session 2024 Apr"
-        },
         "11oaks": {
           "title": "Sustaining of General Authorities, Area Seventies, and General Officers",
           "speaker": "Dallin H. Oaks",
@@ -64,12 +58,6 @@
     },
     "Saturday Afternoon Session": {
       "talks": {
-        "saturday-afternoon-session": {
-          "title": "The Saturday Afternoon Session of the 194th Annual General Conference of The Church of Jesus Christ of Latter-day Saints held on April 6–7, 2024.",
-          "speaker": "Saturday Afternoon Session",
-          "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/04/saturday-afternoon-session?lang=eng",
-          "filename": "The Saturday Afternoon Session of the 194th Annual General Conference of The Church of Jesus Christ of Latter-day Saints held on April 6–7 2024. — Session 2024 Apr"
-        },
         "21bednar": {
           "title": "“Be Still, and Know That I Am God”",
           "speaker": "David A. Bednar",
@@ -117,12 +105,6 @@
     },
     "Saturday Evening Session": {
       "talks": {
-        "saturday-evening-session": {
-          "title": "The Saturday Evening Session of the 194th Annual General Conference of The Church of Jesus Christ of Latter-day Saints held on April 6–7, 2024.",
-          "speaker": "Saturday Evening Session",
-          "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/04/saturday-evening-session?lang=eng",
-          "filename": "The Saturday Evening Session of the 194th Annual General Conference of The Church of Jesus Christ of Latter-day Saints held on April 6–7 2024. — Session 2024 Apr"
-        },
         "31bowen": {
           "title": "Miracles, Angels, and Priesthood Power",
           "speaker": "Shayne M. Bowen",
@@ -158,12 +140,6 @@
     },
     "Sunday Morning Session": {
       "talks": {
-        "sunday-morning-session": {
-          "title": "The Sunday Morning Session of the 194th Annual General Conference of The Church of Jesus Christ of Latter-day Saints held on April 6–7, 2024.",
-          "speaker": "Sunday Morning Session",
-          "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/04/sunday-morning-session?lang=eng",
-          "filename": "The Sunday Morning Session of the 194th Annual General Conference of The Church of Jesus Christ of Latter-day Saints held on April 6–7 2024. — Session 2024 Apr"
-        },
         "41rasband": {
           "title": "Words Matter",
           "speaker": "Ronald A. Rasband",
@@ -211,12 +187,6 @@
     },
     "Sunday Afternoon Session": {
       "talks": {
-        "sunday-afternoon-session": {
-          "title": "The Sunday Afternoon Session of the 194th Annual General Conference of The Church of Jesus Christ of Latter-day Saints held on April 6–7, 2024.",
-          "speaker": "Sunday Afternoon Session",
-          "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/04/sunday-afternoon-session?lang=eng",
-          "filename": "The Sunday Afternoon Session of the 194th Annual General Conference of The Church of Jesus Christ of Latter-day Saints held on April 6–7 2024. — Session 2024 Apr"
-        },
         "51christofferson": {
           "title": "The Testimony of Jesus",
           "speaker": "D. Todd Christofferson",

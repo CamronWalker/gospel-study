@@ -5,12 +5,6 @@
   "sessions": {
     "Saturday Morning Session": {
       "talks": {
-        "saturday-morning-session": {
-          "title": "The Saturday morning session of the 195th annual general conference of The Church of Jesus Christ of Latter-day Saints held on April 5–6, 2025.",
-          "speaker": "Saturday Morning Session",
-          "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/saturday-morning-session?lang=eng",
-          "filename": "The Saturday morning session of the 195th annual general conference of The Church of Jesus Christ of Latter-day Saints held on April 5–6 2025. — Session 2025 Apr"
-        },
         "11oaks": {
           "title": "Sustaining of General Authorities, Area Seventies, and General Officers",
           "speaker": "Dallin H. Oaks",
@@ -64,12 +58,6 @@
     },
     "Saturday Afternoon Session": {
       "talks": {
-        "saturday-afternoon-session": {
-          "title": "The Saturday afternoon session of the 195th annual general conference of The Church of Jesus Christ of Latter-day Saints held on April 5–6, 2025.",
-          "speaker": "Saturday Afternoon Session",
-          "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/saturday-afternoon-session?lang=eng",
-          "filename": "The Saturday afternoon session of the 195th annual general conference of The Church of Jesus Christ of Latter-day Saints held on April 5–6 2025. — Session 2025 Apr"
-        },
         "21andersen": {
           "title": "Cherishing Life",
           "speaker": "Neil L. Andersen",
@@ -117,12 +105,6 @@
     },
     "Saturday Evening Session": {
       "talks": {
-        "saturday-evening-session": {
-          "title": "The Saturday evening session of the 195th annual general conference of The Church of Jesus Christ of Latter-day Saints held on April 5–6, 2025.",
-          "speaker": "Saturday Evening Session",
-          "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/saturday-evening-session?lang=eng",
-          "filename": "The Saturday evening session of the 195th annual general conference of The Church of Jesus Christ of Latter-day Saints held on April 5–6 2025. — Session 2025 Apr"
-        },
         "31stevenson": {
           "title": "And We Talk of Christ",
           "speaker": "Gary E. Stevenson",
@@ -158,12 +140,6 @@
     },
     "Sunday Morning Session": {
       "talks": {
-        "sunday-morning-session": {
-          "title": "The Sunday morning session of the 195th annual general conference of The Church of Jesus Christ of Latter-day Saints held on April 5–6, 2025.",
-          "speaker": "Sunday Morning Session",
-          "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/sunday-morning-session?lang=eng",
-          "filename": "The Sunday morning session of the 195th annual general conference of The Church of Jesus Christ of Latter-day Saints held on April 5–6 2025. — Session 2025 Apr"
-        },
         "41bednar": {
           "title": "The Times of Restitution of All Things",
           "speaker": "David A. Bednar",
@@ -211,12 +187,6 @@
     },
     "Sunday Afternoon Session": {
       "talks": {
-        "sunday-afternoon-session": {
-          "title": "The Sunday afternoon session of the 195th annual general conference of The Church of Jesus Christ of Latter-day Saints held on April 5–6, 2025.",
-          "speaker": "Sunday Afternoon Session",
-          "url": "https://www.churchofjesuschrist.org/study/general-conference/2025/04/sunday-afternoon-session?lang=eng",
-          "filename": "The Sunday afternoon session of the 195th annual general conference of The Church of Jesus Christ of Latter-day Saints held on April 5–6 2025. — Session 2025 Apr"
-        },
         "51soares": {
           "title": "Reverence for Sacred Things",
           "speaker": "Ulisses Soares",

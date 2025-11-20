@@ -99,26 +99,43 @@ def scrape_conference(driver, year, month, pbar):
             except:
                 pass
             if author and author != title:
-                # talk
-                if current_session_name is None:
-                    current_session_name = 'Unknown Session'
-                if current_session_name not in conference_data['sessions']:
-                    conference_data['sessions'][current_session_name] = {"talks": {}, "url": None}
                 if has_a and slug:
-                    conference_data['sessions'][current_session_name]["talks"][slug] = {
-                        "title": author,
-                        "speaker": normalize_author(title),
-                        "url": full_url,
-                        "filename": generate_filename(author, normalize_author(title), year, month)
-                    }
+                    if slug.endswith('-session'):
+                        # it's a session
+                        current_session_name = title
+                        if current_session_name not in conference_data['sessions']:
+                            conference_data['sessions'][current_session_name] = {"talks": {}, "url": full_url}
+                        else:
+                            conference_data['sessions'][current_session_name]["url"] = full_url
+                    else:
+                        # talk
+                        if current_session_name is None:
+                            current_session_name = 'Unknown Session'
+                        if current_session_name not in conference_data['sessions']:
+                            conference_data['sessions'][current_session_name] = {"talks": {}, "url": None}
+                        conference_data['sessions'][current_session_name]["talks"][slug] = {
+                            "title": author,
+                            "speaker": normalize_author(title),
+                            "url": full_url,
+                            "filename": generate_filename(author, normalize_author(title), year, month)
+                        }
             else:
-                # session related
+                # session header or other
                 if current_session_name is None or title != current_session_name:
                     current_session_name = title
                     if current_session_name not in conference_data['sessions']:
                         conference_data['sessions'][current_session_name] = {"talks": {}, "url": None}
                 if has_a:
                     conference_data['sessions'][current_session_name]["url"] = full_url
+        # Handle unknown session
+        if 'Unknown Session' in conference_data['sessions']:
+            unknown_talks = conference_data['sessions']['Unknown Session']['talks']
+            if unknown_talks:
+                for sess_name, sess_data in conference_data['sessions'].items():
+                    if sess_name != 'Unknown Session' and not sess_data['talks'] and sess_data['url']:
+                        sess_data['talks'] = unknown_talks
+                        break
+            del conference_data['sessions']['Unknown Session']
         # Save
         with open(filename, 'w') as f:
             json.dump(conference_data, f, indent=2, ensure_ascii=False)

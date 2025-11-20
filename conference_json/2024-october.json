@@ -5,12 +5,6 @@
   "sessions": {
     "Saturday Morning Session": {
       "talks": {
-        "saturday-morning-session": {
-          "title": "The Saturday morning session of the 194th semiannual general conference of The Church of Jesus Christ of Latter-day Saints held on October 5–6, 2024.",
-          "speaker": "Saturday Morning Session",
-          "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/saturday-morning-session?lang=eng",
-          "filename": "The Saturday morning session of the 194th semiannual general conference of The Church of Jesus Christ of Latter-day Saints held on October 5–6 2024. — Session 2024 Oct"
-        },
         "11eyring": {
           "title": "Sustaining of General Authorities, Area Seventies, and General Officers",
           "speaker": "Henry B. Eyring",
@@ -64,12 +58,6 @@
     },
     "Saturday Afternoon Session": {
       "talks": {
-        "saturday-afternoon-session": {
-          "title": "The Saturday afternoon session of the 194th semiannual general conference of The Church of Jesus Christ of Latter-day Saints held on October 5–6, 2024.",
-          "speaker": "Saturday Afternoon Session",
-          "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/saturday-afternoon-session?lang=eng",
-          "filename": "The Saturday afternoon session of the 194th semiannual general conference of The Church of Jesus Christ of Latter-day Saints held on October 5–6 2024. — Session 2024 Oct"
-        },
         "21christofferson": {
           "title": "Burying Our Weapons of Rebellion",
           "speaker": "D. Todd Christofferson",
@@ -123,12 +111,6 @@
     },
     "Saturday Evening Session": {
       "talks": {
-        "saturday-evening-session": {
-          "title": "The Saturday evening session of the 194th semiannual general conference of The Church of Jesus Christ of Latter-day Saints held on October 5–6, 2024.",
-          "speaker": "Saturday Evening Session",
-          "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/saturday-evening-session?lang=eng",
-          "filename": "The Saturday evening session of the 194th semiannual general conference of The Church of Jesus Christ of Latter-day Saints held on October 5–6 2024. — Session 2024 Oct"
-        },
         "31gong": {
           "title": "Holiness to the Lord in Everyday Life",
           "speaker": "Gerrit W. Gong",
@@ -164,12 +146,6 @@
     },
     "Sunday Morning Session": {
       "talks": {
-        "sunday-morning-session": {
-          "title": "The Sunday morning session of the 194th semiannual general conference of The Church of Jesus Christ of Latter-day Saints held on October 5–6, 2024.",
-          "speaker": "Sunday Morning Session",
-          "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/sunday-morning-session?lang=eng",
-          "filename": "The Sunday morning session of the 194th semiannual general conference of The Church of Jesus Christ of Latter-day Saints held on October 5–6 2024. — Session 2024 Oct"
-        },
         "41holland": {
           "title": "“I Am He”",
           "speaker": "Jeffrey R. Holland",
@@ -217,12 +193,6 @@
     },
     "Sunday Afternoon Session": {
       "talks": {
-        "sunday-afternoon-session": {
-          "title": "The Sunday afternoon session of the 194th semiannual general conference of The Church of Jesus Christ of Latter-day Saints held on October 5–6, 2024.",
-          "speaker": "Sunday Afternoon Session",
-          "url": "https://www.churchofjesuschrist.org/study/general-conference/2024/10/sunday-afternoon-session?lang=eng",
-          "filename": "The Sunday afternoon session of the 194th semiannual general conference of The Church of Jesus Christ of Latter-day Saints held on October 5–6 2024. — Session 2024 Oct"
-        },
         "51uchtdorf": {
           "title": "Nourish the Roots, and the Branches Will Grow",
           "speaker": "Dieter F. Uchtdorf",
