@@ -41,6 +41,7 @@ def generate_filename(title, speaker, year, month):
     filename = filename.replace('<', '-')  # Replace less than
     filename = filename.replace('>', '-')  # Replace greater than
     filename = filename.replace('*', '-')  # Replace asterisks
+    filename = filename.replace('!', '')  # Remove exclamation points
     # Remove any multiple spaces and trim
     filename = re.sub(r'\s+', ' ', filename).strip()
     return filename
