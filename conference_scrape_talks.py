@@ -6,7 +6,7 @@ Sample Usage:
 - To scrape with replace:
   python3 conference_scrape_talk_content.py 2020-2023 --replace
   (This will replace existing body, full_markdown, sources.)
-   
+   TODO add error retry logic for failed scrapes --- IGNORE ---
   """
 import os
 import json
@@ -392,14 +392,19 @@ def process_conference(year, month, replace=False):
                             needs_update = not all(key in talk for key in ['full_markdown', 'body', 'sources'])
                             if not needs_update:
                                 continue
-                            content = scrape_talk_content(url, driver)
-                            if content:
-                                talk['full_markdown'] = content['full_markdown']
-                                talk['body'] = content['body']
-                                talk['sources'] = content['sources']
-                                updated = True
+                            for attempt in range(2):
+                                content = scrape_talk_content(url, driver)
+                                if content:
+                                    talk['full_markdown'] = content['full_markdown']
+                                    talk['body'] = content['body']
+                                    talk['sources'] = content['sources']
+                                    updated = True
+                                    break
+                                elif attempt < 1:
+                                    time.sleep(5)
+                                    print(f"Retrying {url} after failure")
                             else:
-                                print(f"Failed to scrape content at {url}")
+                                print(f"Failed to scrape content at {url} after retries")
                             pbar.update(1)
     finally:
         driver.quit()
