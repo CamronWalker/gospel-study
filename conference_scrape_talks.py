@@ -28,6 +28,9 @@ logging.getLogger('selenium').setLevel(logging.WARNING)
 # Create conference_json directory if it doesn't exist
 JSON_DIR = 'conference_json'
 os.makedirs(JSON_DIR, exist_ok=True)
+
+def error_write(msg):
+    tqdm.write(f"\033[91m{msg}\033[0m")
 # Book map for scripture abbreviations to full names
 book_map = {
     # Book of Mormon
@@ -192,7 +195,7 @@ def get_wikilink(href, text):
                 links.append(f"[[{base_name}#{v}|]]")
         return "".join(links)
     except Exception as e:
-        tqdm.write(f"Warning: Failed to parse scripture link {href}: {e}")
+        error_write(f"Warning: Failed to parse scripture link {href}: {e}")
         return None
 
 def get_conference_wikilink(href, text):
@@ -228,7 +231,7 @@ def get_conference_wikilink(href, text):
                     return f"[[{filename}|{text}]]"
         return None
     except Exception as e:
-        tqdm.write(f"Warning: Failed to parse conference link {href}: {e}")
+        error_write(f"Warning: Failed to parse conference link {href}: {e}")
         return None
     
 def html_to_markdown(html, is_source=False):
@@ -273,7 +276,7 @@ def scrape_talk_content(url, driver):
             try:
                 body_element = driver.find_element(By.CLASS_NAME, 'body-content')
             except Exception as e:
-                tqdm.write(f"Error: Body container not found for talk at {url}: {e}")
+                error_write(f"Error: Body container not found for talk at {url}: {e}")
                 return None
         full_html = body_element.get_attribute('innerHTML')
         full_markdown = html_to_markdown(full_html)
@@ -302,7 +305,7 @@ def scrape_talk_content(url, driver):
                     alt = img.get_attribute('alt')
                     body.append({'type': 'image', 'src': src, 'alt': alt})
                 except Exception as e:
-                    tqdm.write(f"Error extracting image for talk at {url}: {e}")
+                    error_write(f"Error extracting image for talk at {url}: {e}")
         sources = []
         try:
             notes_section = driver.find_element(By.CLASS_NAME, 'notes')
@@ -322,7 +325,7 @@ def scrape_talk_content(url, driver):
             'sources': sources
         }
     except Exception as e:
-        tqdm.write(f"Error during scraping talk content {url}: {e}")
+        error_write(f"Error during scraping talk content {url}: {e}")
         return None
 def get_conference_filename(year, month):
     sanitized_conference = re.sub(r'[^a-z0-9\- ]', '', f"{year}-{month.lower()}", flags=re.IGNORECASE)
@@ -402,9 +405,9 @@ def process_conference(year, month, replace=False):
                                     break
                                 elif attempt < 1:
                                     time.sleep(5)
-                                    tqdm.write(f"Retrying {url} after failure")
+                                    error_write(f"Retrying {url} after failure")
                             else:
-                                tqdm.write(f"Failed to scrape content at {url} after retries")
+                                error_write(f"Failed to scrape content at {url} after retries")
                             pbar.update(1)
     finally:
         driver.quit()
