@@ -192,7 +192,7 @@ def get_wikilink(href, text):
                 links.append(f"[[{base_name}#{v}|]]")
         return "".join(links)
     except Exception as e:
-        print(f"Warning: Failed to parse scripture link {href}: {e}")
+        tqdm.write(f"Warning: Failed to parse scripture link {href}: {e}")
         return None
 
 def get_conference_wikilink(href, text):
@@ -228,7 +228,7 @@ def get_conference_wikilink(href, text):
                     return f"[[{filename}|{text}]]"
         return None
     except Exception as e:
-        print(f"Warning: Failed to parse conference link {href}: {e}")
+        tqdm.write(f"Warning: Failed to parse conference link {href}: {e}")
         return None
     
 def html_to_markdown(html, is_source=False):
@@ -273,7 +273,7 @@ def scrape_talk_content(url, driver):
             try:
                 body_element = driver.find_element(By.CLASS_NAME, 'body-content')
             except Exception as e:
-                print(f"Error: Body container not found for talk at {url}: {e}")
+                tqdm.write(f"Error: Body container not found for talk at {url}: {e}")
                 return None
         full_html = body_element.get_attribute('innerHTML')
         full_markdown = html_to_markdown(full_html)
@@ -302,7 +302,7 @@ def scrape_talk_content(url, driver):
                     alt = img.get_attribute('alt')
                     body.append({'type': 'image', 'src': src, 'alt': alt})
                 except Exception as e:
-                    print(f"Error extracting image for talk at {url}: {e}")
+                    tqdm.write(f"Error extracting image for talk at {url}: {e}")
         sources = []
         try:
             notes_section = driver.find_element(By.CLASS_NAME, 'notes')
@@ -322,7 +322,7 @@ def scrape_talk_content(url, driver):
             'sources': sources
         }
     except Exception as e:
-        print(f"Error during scraping talk content {url}: {e}")
+        tqdm.write(f"Error during scraping talk content {url}: {e}")
         return None
 def get_conference_filename(year, month):
     sanitized_conference = re.sub(r'[^a-z0-9\- ]', '', f"{year}-{month.lower()}", flags=re.IGNORECASE)
@@ -330,7 +330,7 @@ def get_conference_filename(year, month):
 def process_conference(year, month, replace=False):
     filename = get_conference_filename(year, month)
     if not os.path.exists(filename):
-        print(f"Skipping {year}-{month}: JSON file does not exist.")
+        tqdm.write(f"Skipping {year}-{month}: JSON file does not exist.")
         return
     with open(filename, 'r') as f:
         conference_data = json.load(f)
@@ -372,15 +372,15 @@ def process_conference(year, month, replace=False):
         if updated:
             with open(filename, 'w') as f:
                 json.dump(conference_data, f, indent=2, ensure_ascii=False)
-            print(f"Updated conference data in {filename} (resources only)")
+            tqdm.write(f"Updated conference data in {filename} (resources only)")
         else:
-            print(f"Skipping {year}-{month}: All talks already have content and resources.")
+            tqdm.write(f"Skipping {year}-{month}: All talks already have content and resources.")
         return
    
     # Proceed with scraping
     driver = get_driver()
     try:
-        print(f"Processing talk content for {year}-{month}:")
+        tqdm.write(f"Processing talk content for {year}-{month}:")
         with tqdm(total=num_to_scrape, desc="Scraping content") as pbar:
             for session_name, session in conference_data['sessions'].items():
                 if 'talks' in session:
@@ -402,9 +402,9 @@ def process_conference(year, month, replace=False):
                                     break
                                 elif attempt < 1:
                                     time.sleep(5)
-                                    print(f"Retrying {url} after failure")
+                                    tqdm.write(f"Retrying {url} after failure")
                             else:
-                                print(f"Failed to scrape content at {url} after retries")
+                                tqdm.write(f"Failed to scrape content at {url} after retries")
                             pbar.update(1)
     finally:
         driver.quit()
@@ -412,9 +412,9 @@ def process_conference(year, month, replace=False):
     if updated:
         with open(filename, 'w') as f:
             json.dump(conference_data, f, indent=2, ensure_ascii=False)
-        print(f"Updated conference data in {filename}")
+        tqdm.write(f"Updated conference data in {filename}")
     else:
-        print(f"No updates made to {filename}")
+        tqdm.write(f"No updates made to {filename}")
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Scrape General Conference talk content")
     parser.add_argument('year_range', help="Year range (e.g., 2020-2023)")
@@ -427,8 +427,8 @@ if __name__ == '__main__':
                 for month in ['April', 'October']:
                     process_conference(year, month, args.replace)
         except ValueError:
-            print('Invalid year range format. Use YYYY-YYYY.')
+            tqdm.write('Invalid year range format. Use YYYY-YYYY.')
             sys.exit(1)
     else:
-        print('Invalid input. Provide a year range like 2020-2023.')
+        tqdm.write('Invalid input. Provide a year range like 2020-2023.')
         sys.exit(1)
