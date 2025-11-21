@@ -6,8 +6,7 @@ Sample Usage:
 - To scrape with replace:
   python3 conference_scrape_talk_content.py 2020-2023 --replace
   (This will replace existing body, full_markdown, sources.)
-  TODO add conference talk parser to .md links file generator so need md filename in json to wikilink to
- 
+   
   """
 import os
 import json
@@ -195,6 +194,43 @@ def get_wikilink(href, text):
     except Exception as e:
         print(f"Warning: Failed to parse scripture link {href}: {e}")
         return None
+
+def get_conference_wikilink(href, text):
+    try:
+        if not href.startswith('http'):
+            href = 'https://www.churchofjesuschrist.org' + href
+        parsed_url = re.match(r'https?://[^/]+(/study/general-conference/[^?#]+)', href)
+        if not parsed_url:
+            return None
+        path = parsed_url.group(1)
+        parts = path.split('/')[3:]  # /study/general-conference/year/month_code/slug
+        if len(parts) != 3:
+            return None
+        year, month_code, slug = parts
+        month_map = {'04': 'april', '10': 'october'}
+        month = month_map.get(month_code)
+        if not month:
+            return None
+        json_filename = f"{year}-{month}.json"
+        talk_key = f"/{year}/{month_code}/{slug}"
+        # Load the conference JSON to get the filename
+        json_path = os.path.join(JSON_DIR, json_filename)
+        if not os.path.exists(json_path):
+            return None
+        with open(json_path, 'r') as f:
+            conference_data = json.load(f)
+        # Find the talk
+        for session in conference_data['sessions'].values():
+            if 'talks' in session and talk_key in session['talks']:
+                talk = session['talks'][talk_key]
+                filename = talk.get('filename')
+                if filename:
+                    return f"[[{filename}|{text}]]"
+        return None
+    except Exception as e:
+        print(f"Warning: Failed to parse conference link {href}: {e}")
+        return None
+    
 def html_to_markdown(html, is_source=False):
     html = re.sub(r'<em>(.*?)</em>', r'*\1*', html, flags=re.IGNORECASE | re.DOTALL)
     html = re.sub(r'<i>(.*?)</i>', r'*\1*', html, flags=re.IGNORECASE | re.DOTALL)
@@ -209,6 +245,9 @@ def html_to_markdown(html, is_source=False):
         text = match.group(2)
         abs_href = href if href.startswith('http') else f"https://www.churchofjesuschrist.org{href}"
         wiki = get_wikilink(abs_href, text)
+        if wiki:
+            return wiki
+        wiki = get_conference_wikilink(abs_href, text)
         if wiki:
             return wiki
         return f"[{text}]({abs_href})"
@@ -302,7 +341,7 @@ def process_conference(year, month, replace=False):
     for session_name, session in conference_data['sessions'].items():
         if 'talks' in session:
             for talk_key, talk in session['talks'].items():
-                if re.match(r'^\d{2}', talk_key):
+                if 'url' in talk:
                     url = talk.get('url')
                     if not url:
                         continue
@@ -315,7 +354,7 @@ def process_conference(year, month, replace=False):
         for session_name, session in conference_data['sessions'].items():
             if 'talks' in session:
                 for talk_key, talk in session['talks'].items():
-                    if re.match(r'^\d{2}', talk_key):
+                    if 'url' in talk:
                         talk.pop('full_markdown', None)
                         talk.pop('body', None)
                         talk.pop('sources', None)
@@ -325,7 +364,7 @@ def process_conference(year, month, replace=False):
     for session_name, session in conference_data['sessions'].items():
         if 'talks' in session:
             for talk_key, talk in session['talks'].items():
-                if re.match(r'^\d{2}', talk_key):
+                if 'url' in talk:
                     if not all(key in talk for key in ['full_markdown', 'body', 'sources']):
                         num_to_scrape += 1
    
@@ -346,7 +385,7 @@ def process_conference(year, month, replace=False):
             for session_name, session in conference_data['sessions'].items():
                 if 'talks' in session:
                     for talk_key, talk in session['talks'].items():
-                        if re.match(r'^\d{2}', talk_key):
+                        if 'url' in talk:
                             url = talk.get('url')
                             if not url:
                                 continue
