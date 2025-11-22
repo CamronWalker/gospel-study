@@ -13,6 +13,7 @@ import json
 import time
 import sys
 import re
+import html
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -235,6 +236,7 @@ def get_conference_wikilink(href, text):
         return None
     
 def html_to_markdown(html, is_source=False):
+    html = html.unescape(html)
     html = re.sub(r'<em>(.*?)</em>', r'*\1*', html, flags=re.IGNORECASE | re.DOTALL)
     html = re.sub(r'<i>(.*?)</i>', r'*\1*', html, flags=re.IGNORECASE | re.DOTALL)
     html = re.sub(r'<strong>(.*?)</strong>', r'**\1**', html, flags=re.IGNORECASE | re.DOTALL)

@@ -8,6 +8,7 @@ import os
 import json
 import sys
 import re
+import html
 import argparse
 import time
 from selenium import webdriver
@@ -84,10 +85,10 @@ def scrape_conference(driver, year, month, pbar):
             ps = li.find_elements(By.TAG_NAME, 'p')
             if len(ps) == 0:
                 continue
-            title = ps[0].text.strip()
+            title = html.unescape(ps[0].text.strip())
             author = None
             if len(ps) >= 2:
-                author = ps[1].text.strip()
+                author = html.unescape(ps[1].text.strip())
             has_a = False
             full_url = None
             slug = None
