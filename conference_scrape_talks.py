@@ -235,16 +235,17 @@ def get_conference_wikilink(href, text):
         error_write(f"Warning: Failed to parse conference link {href}: {e}")
         return None
     
-def html_to_markdown(html, is_source=False):
-    html = html.unescape(html)
-    html = re.sub(r'<em>(.*?)</em>', r'*\1*', html, flags=re.IGNORECASE | re.DOTALL)
-    html = re.sub(r'<i>(.*?)</i>', r'*\1*', html, flags=re.IGNORECASE | re.DOTALL)
-    html = re.sub(r'<strong>(.*?)</strong>', r'**\1**', html, flags=re.IGNORECASE | re.DOTALL)
-    html = re.sub(r'<b>(.*?)</b>', r'**\1**', html, flags=re.IGNORECASE | re.DOTALL)
-    html = re.sub(r'<span[^>]*>(.*?)</span>', r'\1', html, flags=re.IGNORECASE | re.DOTALL)
-    html = re.sub(r'<a[^>]*class="note-ref"[^>]*data-scroll-id="([^"]+)"[^>]*><sup[^>]*>(.*?)</sup></a>', r'[^\1]', html, flags=re.IGNORECASE | re.DOTALL)
+def html_to_markdown(html_content, is_source=False):
+    # Avoid shadowing the `html` module by using a local variable `s` for content
+    s = html.unescape(html_content)
+    s = re.sub(r'<em>(.*?)</em>', r'*\1*', s, flags=re.IGNORECASE | re.DOTALL)
+    s = re.sub(r'<i>(.*?)</i>', r'*\1*', s, flags=re.IGNORECASE | re.DOTALL)
+    s = re.sub(r'<strong>(.*?)</strong>', r'**\1**', s, flags=re.IGNORECASE | re.DOTALL)
+    s = re.sub(r'<b>(.*?)</b>', r'**\1**', s, flags=re.IGNORECASE | re.DOTALL)
+    s = re.sub(r'<span[^>]*>(.*?)</span>', r'\1', s, flags=re.IGNORECASE | re.DOTALL)
+    s = re.sub(r'<a[^>]*class="note-ref"[^>]*data-scroll-id="([^"]+)"[^>]*><sup[^>]*>(.*?)</sup></a>', r'[^\1]', s, flags=re.IGNORECASE | re.DOTALL)
     if is_source:
-        html = re.sub(r'<a[^>]+class="backref"[^>]*>.*?</a>', '', html, flags=re.IGNORECASE | re.DOTALL)
+        s = re.sub(r'<a[^>]+class="backref"[^>]*>.*?</a>', '', s, flags=re.IGNORECASE | re.DOTALL)
     def link_repl(match):
         href = match.group(1)
         text = match.group(2)
@@ -256,9 +257,10 @@ def html_to_markdown(html, is_source=False):
         if wiki:
             return wiki
         return f"[{text}]({abs_href})"
-    html = re.sub(r'<a[^>]+href="([^"]+)"[^>]*>([^<]+)</a>', link_repl, html, flags=re.IGNORECASE | re.DOTALL)
-    html = re.sub(r'<[^>]+>', '', html)
-    return html.strip()
+    s = re.sub(r'<a[^>]+href="([^"]+)"[^>]*>([^<]+)</a>', link_repl, s, flags=re.IGNORECASE | re.DOTALL)
+    s = re.sub(r'<[^>]+>', '', s)
+    return s.strip()
+
 def get_driver():
     options = Options()
     options.add_argument('--headless')
