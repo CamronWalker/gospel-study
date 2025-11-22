@@ -427,7 +427,12 @@ if __name__ == '__main__':
     parser.add_argument('year_range', help="Year range (e.g., 2020-2023)")
     parser.add_argument('--replace', action='store_true', help="Replace existing content and reset resources")
     args = parser.parse_args()
-    if '-' in args.year_range:
+    # Support two input forms:
+    # 1) Year range: YYYY-YYYY  (example: 2020-2023)
+    # 2) Single conference: YYYY-Month  (example: 2013-April or 2020-October)
+    # Detect range only when both sides are numeric years. Otherwise treat as single conference.
+    parts = args.year_range.split('-', 1)
+    if len(parts) == 2 and parts[0].isdigit() and parts[1].isdigit() and len(parts[0]) == 4 and len(parts[1]) == 4:
         try:
             start_year, end_year = map(int, args.year_range.split('-'))
             for year in range(start_year, end_year + 1):
@@ -437,5 +442,26 @@ if __name__ == '__main__':
             tqdm.write('Invalid year range format. Use YYYY-YYYY.')
             sys.exit(1)
     else:
-        tqdm.write('Invalid input. Provide a year range like 2020-2023.')
-        sys.exit(1)
+        # Try to parse a single conference like '2013-April' or '2013-april' or '2013-Apr'
+        m = re.match(r'^(\d{4})-(.+)$', args.year_range)
+        if not m:
+            tqdm.write('Invalid input. Provide a year range like 2020-2023 or a conference like 2013-April.')
+            sys.exit(1)
+        year_str, month_part = m.group(1), m.group(2)
+        try:
+            year = int(year_str)
+        except ValueError:
+            tqdm.write('Invalid year in input. Use YYYY or a range YYYY-YYYY.')
+            sys.exit(1)
+        month_map = {
+            '04': 'April', '4': 'April', 'apr': 'April', 'april': 'April',
+            '10': 'October', '10': 'October', 'oct': 'October', 'october': 'October'
+        }
+        norm = month_part.strip().lower()
+        # Allow numeric month like 04 or 10 as well as names
+        norm_key = norm.lstrip('0') if norm.isdigit() else norm
+        month = month_map.get(norm_key) or month_map.get(norm)
+        if not month:
+            tqdm.write('Invalid month in input. Use "April" or "October" (or 04/10).')
+            sys.exit(1)
+        process_conference(year, month, args.replace)
