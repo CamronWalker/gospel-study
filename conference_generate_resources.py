@@ -205,6 +205,13 @@ def add_byu_resource(talk, byu_talks, conf_hash, replace=False):
         talk['resources'].append({'name': 'BYU Citation Index', 'url': url})
 
 def add_church_news_resource(talk, year, month, replace=False, driver=None):
+    year_int = int(year)
+    if year_int < 2020:
+        if 'resources' in talk:
+            talk['resources'] = [r for r in talk['resources'] if r['name'] != 'Church News']
+            if talk['resources'] == []:
+                del talk['resources']
+        return
     if 'resources' not in talk:
         talk['resources'] = []
     if 'sustaining' in talk['title'].lower() or 'auditing' in talk['title'].lower():
