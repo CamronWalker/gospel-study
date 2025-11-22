@@ -9,31 +9,81 @@
           "title": "“Hold Fast to the Iron Rod”",
           "speaker": "Spencer W. Kimball",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/hold-fast-to-the-iron-rod?lang=eng",
-          "filename": "“Hold Fast to the Iron Rod” — Kimball 1978 Oct"
+          "filename": "“Hold Fast to the Iron Rod” — Kimball 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/hold-fast-to-the-iron-rod?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=D6Mi2eBKVxY"
+            }
+          ]
         },
         "/1978/10/the-relief-society": {
           "title": "The Relief Society",
           "speaker": "Boyd K. Packer",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/the-relief-society?lang=eng",
-          "filename": "The Relief Society — Packer 1978 Oct"
+          "filename": "The Relief Society — Packer 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/the-relief-society?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=Ex21umq_qoc"
+            }
+          ]
         },
         "/1978/10/the-gift-of-love": {
           "title": "The Gift of Love",
           "speaker": "Rex D. Pinegar",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/the-gift-of-love?lang=eng",
-          "filename": "The Gift of Love — Pinegar 1978 Oct"
+          "filename": "The Gift of Love — Pinegar 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/the-gift-of-love?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=qkZPEehtVM8"
+            }
+          ]
         },
         "/1978/10/true-religion": {
           "title": "True Religion",
           "speaker": "Howard W. Hunter",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/true-religion?lang=eng",
-          "filename": "True Religion — Hunter 1978 Oct"
+          "filename": "True Religion — Hunter 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/true-religion?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=Jp4ToZxRiKQ"
+            }
+          ]
         },
         "/1978/10/the-worth-of-souls": {
           "title": "The Worth of Souls",
           "speaker": "Marion G. Romney",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/the-worth-of-souls?lang=eng",
-          "filename": "The Worth of Souls — Romney 1978 Oct"
+          "filename": "The Worth of Souls — Romney 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/the-worth-of-souls?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=1SmRy0vZj2w"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/saturday-morning-session?lang=eng"
@@ -44,61 +94,161 @@
           "title": "Revelation on Priesthood Accepted, Church Officers Sustained",
           "speaker": "N. Eldon Tanner",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/revelation-on-priesthood-accepted-church-officers-sustained?lang=eng",
-          "filename": "Revelation on Priesthood Accepted Church Officers Sustained — Tanner 1978 Oct"
+          "filename": "Revelation on Priesthood Accepted Church Officers Sustained — Tanner 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/revelation-on-priesthood-accepted-church-officers-sustained?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=ZR8YgVNwG4w"
+            }
+          ]
         },
         "/1978/10/behold-your-little-ones": {
           "title": "“Behold Your Little Ones”",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/behold-your-little-ones?lang=eng",
-          "filename": "“Behold Your Little Ones” — Hinckley 1978 Oct"
+          "filename": "“Behold Your Little Ones” — Hinckley 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/behold-your-little-ones?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=gFSeN94Y6JI"
+            }
+          ]
         },
         "/1978/10/response-to-the-call": {
           "title": "Response to the Call",
           "speaker": "James E. Faust",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/response-to-the-call?lang=eng",
-          "filename": "Response to the Call — Faust 1978 Oct"
+          "filename": "Response to the Call — Faust 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/response-to-the-call?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=wI-SVFktl4A"
+            }
+          ]
         },
         "/1978/10/be-one-with-the-prophet": {
           "title": "Be One with the Prophet",
           "speaker": "F. Burton Howard",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/be-one-with-the-prophet?lang=eng",
-          "filename": "Be One with the Prophet — Howard 1978 Oct"
+          "filename": "Be One with the Prophet — Howard 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/be-one-with-the-prophet?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=i4y_twTQNeU"
+            }
+          ]
         },
         "/1978/10/the-gospel-makes-people-happy": {
           "title": "The Gospel Makes People Happy",
           "speaker": "Ted E. Brewerton",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/the-gospel-makes-people-happy?lang=eng",
-          "filename": "The Gospel Makes People Happy — Brewerton 1978 Oct"
+          "filename": "The Gospel Makes People Happy — Brewerton 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/the-gospel-makes-people-happy?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=tANmMAhP3Y0"
+            }
+          ]
         },
         "/1978/10/never-be-weary-of-good-works": {
           "title": "“Never Be Weary of Good Works”",
           "speaker": "Jack H Goaslind Jr.",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/never-be-weary-of-good-works?lang=eng",
-          "filename": "“Never Be Weary of Good Works” — Jr. 1978 Oct"
+          "filename": "“Never Be Weary of Good Works” — Jr. 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/never-be-weary-of-good-works?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=ZqkCLPU4e1g"
+            }
+          ]
         },
         "/1978/10/the-cs-of-spirituality": {
           "title": "The Cs of Spirituality",
           "speaker": "Robert E. Wells",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/the-cs-of-spirituality?lang=eng",
-          "filename": "The Cs of Spirituality — Wells 1978 Oct"
+          "filename": "The Cs of Spirituality — Wells 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/the-cs-of-spirituality?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=nA9Mu7eiZ6s"
+            }
+          ]
         },
         "/1978/10/what-are-the-blessings-of-a-mission-can-ye-tell": {
           "title": "“What Are the Blessings of a Mission? Can Ye Tell?”",
           "speaker": "Vaughn J. Featherstone",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/what-are-the-blessings-of-a-mission-can-ye-tell?lang=eng",
-          "filename": "“What Are the Blessings of a Mission Can Ye Tell” — Featherstone 1978 Oct"
+          "filename": "“What Are the Blessings of a Mission Can Ye Tell” — Featherstone 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/what-are-the-blessings-of-a-mission-can-ye-tell?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=d6jo1NFMBNw"
+            }
+          ]
         },
         "/1978/10/ours-is-a-shared-ancestry": {
           "title": "Ours Is a Shared Ancestry",
           "speaker": "J. Thomas Fyans",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/ours-is-a-shared-ancestry?lang=eng",
-          "filename": "Ours Is a Shared Ancestry — Fyans 1978 Oct"
+          "filename": "Ours Is a Shared Ancestry — Fyans 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/ours-is-a-shared-ancestry?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=iOl4J1xLzXY"
+            }
+          ]
         },
         "/1978/10/worthy-of-all-acceptation": {
           "title": "Worthy of All Acceptation",
           "speaker": "Ezra Taft Benson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/worthy-of-all-acceptation?lang=eng",
-          "filename": "Worthy of All Acceptation — Benson 1978 Oct"
+          "filename": "Worthy of All Acceptation — Benson 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/worthy-of-all-acceptation?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=o-82XsB3RrM"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/saturday-afternoon-session?lang=eng"
@@ -109,37 +259,97 @@
           "title": "The Joy of Serving a Mission",
           "speaker": "LeGrand Richards",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/the-joy-of-serving-a-mission?lang=eng",
-          "filename": "The Joy of Serving a Mission — Richards 1978 Oct"
+          "filename": "The Joy of Serving a Mission — Richards 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/the-joy-of-serving-a-mission?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=gCE7b4myGF8"
+            }
+          ]
         },
         "/1978/10/faith-courage-and-making-choices": {
           "title": "Faith, Courage, and Making Choices",
           "speaker": "Dean L. Larsen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/faith-courage-and-making-choices?lang=eng",
-          "filename": "Faith Courage and Making Choices — Larsen 1978 Oct"
+          "filename": "Faith Courage and Making Choices — Larsen 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/faith-courage-and-making-choices?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=xmZj7QDt05I"
+            }
+          ]
         },
         "/1978/10/let-your-light-so-shine": {
           "title": "Let Your Light So Shine",
           "speaker": "Joseph B. Wirthlin",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/let-your-light-so-shine?lang=eng",
-          "filename": "Let Your Light So Shine — Wirthlin 1978 Oct"
+          "filename": "Let Your Light So Shine — Wirthlin 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/let-your-light-so-shine?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=SO-i-rnYaHE"
+            }
+          ]
         },
         "/1978/10/a-disciple-of-christ": {
           "title": "A Disciple of Christ",
           "speaker": "Marion G. Romney",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/a-disciple-of-christ?lang=eng",
-          "filename": "A Disciple of Christ — Romney 1978 Oct"
+          "filename": "A Disciple of Christ — Romney 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/a-disciple-of-christ?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=HZx483Y4dTc"
+            }
+          ]
         },
         "/1978/10/the-blessing-of-church-interviews": {
           "title": "The Blessing of Church Interviews",
           "speaker": "N. Eldon Tanner",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/the-blessing-of-church-interviews?lang=eng",
-          "filename": "The Blessing of Church Interviews — Tanner 1978 Oct"
+          "filename": "The Blessing of Church Interviews — Tanner 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/the-blessing-of-church-interviews?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=kqo3U-LdkUs"
+            }
+          ]
         },
         "/1978/10/fundamental-principles-to-ponder-and-live": {
           "title": "Fundamental Principles to Ponder and Live",
           "speaker": "Spencer W. Kimball",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/fundamental-principles-to-ponder-and-live?lang=eng",
-          "filename": "Fundamental Principles to Ponder and Live — Kimball 1978 Oct"
+          "filename": "Fundamental Principles to Ponder and Live — Kimball 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/fundamental-principles-to-ponder-and-live?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=jctR1fqirDs"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/priesthood-session?lang=eng"
@@ -150,31 +360,81 @@
           "title": "A Basis for Faith in the Living God",
           "speaker": "N. Eldon Tanner",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/a-basis-for-faith-in-the-living-god?lang=eng",
-          "filename": "A Basis for Faith in the Living God — Tanner 1978 Oct"
+          "filename": "A Basis for Faith in the Living God — Tanner 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/a-basis-for-faith-in-the-living-god?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=vv0EYC9PJbk"
+            }
+          ]
         },
         "/1978/10/who-will-forfeit-the-harvest": {
           "title": "Who Will Forfeit the Harvest?",
           "speaker": "Marvin J. Ashton",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/who-will-forfeit-the-harvest?lang=eng",
-          "filename": "Who Will Forfeit the Harvest — Ashton 1978 Oct"
+          "filename": "Who Will Forfeit the Harvest — Ashton 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/who-will-forfeit-the-harvest?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=Ucv8e6kvXwg"
+            }
+          ]
         },
         "/1978/10/look-to-god-and-live": {
           "title": "“Look to God and Live”",
           "speaker": "Carlos E. Asay",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/look-to-god-and-live?lang=eng",
-          "filename": "“Look to God and Live” — Asay 1978 Oct"
+          "filename": "“Look to God and Live” — Asay 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/look-to-god-and-live?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=4leAy4zFjKo"
+            }
+          ]
         },
         "/1978/10/profiles-of-faith": {
           "title": "Profiles of Faith",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/profiles-of-faith?lang=eng",
-          "filename": "Profiles of Faith — Monson 1978 Oct"
+          "filename": "Profiles of Faith — Monson 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/profiles-of-faith?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=stRFpz2uBLI"
+            }
+          ]
         },
         "/1978/10/the-last-words-of-moroni": {
           "title": "The Last Words of Moroni",
           "speaker": "Mark E. Petersen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/the-last-words-of-moroni?lang=eng",
-          "filename": "The Last Words of Moroni — Petersen 1978 Oct"
+          "filename": "The Last Words of Moroni — Petersen 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/the-last-words-of-moroni?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=vCAqXsWHTf8"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/sunday-morning-session?lang=eng"
@@ -185,43 +445,109 @@
           "title": "“Thou Shalt Receive Revelation”",
           "speaker": "Bruce R. McConkie",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/thou-shalt-receive-revelation?lang=eng",
-          "filename": "“Thou Shalt Receive Revelation” — McConkie 1978 Oct"
+          "filename": "“Thou Shalt Receive Revelation” — McConkie 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/thou-shalt-receive-revelation?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=ni-fBELmxaA"
+            }
+          ]
         },
         "/1978/10/come-home-felila": {
           "title": "“Come Home, Felila”",
           "speaker": "John H. Groberg",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/come-home-felila?lang=eng",
-          "filename": "“Come Home Felila” — Groberg 1978 Oct"
+          "filename": "“Come Home Felila” — Groberg 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/come-home-felila?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=cWyg55oLAA4"
+            }
+          ]
         },
         "/1978/10/he-hath-showed-thee-o-man-what-is-good": {
           "title": "“He Hath Showed Thee, O Man, What Is Good”",
           "speaker": "S. Dilworth Young",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/he-hath-showed-thee-o-man-what-is-good?lang=eng",
-          "filename": "“He Hath Showed Thee O Man What Is Good” — Young 1978 Oct"
+          "filename": "“He Hath Showed Thee O Man What Is Good” — Young 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/he-hath-showed-thee-o-man-what-is-good?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=WH8WelgSsJE"
+            }
+          ]
         },
         "/1978/10/spiritual-development": {
           "title": "Spiritual Development",
           "speaker": "M. Russell Ballard",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/spiritual-development?lang=eng",
-          "filename": "Spiritual Development — Ballard 1978 Oct"
+          "filename": "Spiritual Development — Ballard 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/spiritual-development?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=VSPC_J36YBw"
+            }
+          ]
         },
         "/1978/10/let-there-be-no-misunderstanding": {
           "title": "Let There Be No Misunderstanding",
           "speaker": "Jacob de Jager",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/let-there-be-no-misunderstanding?lang=eng",
-          "filename": "Let There Be No Misunderstanding — Jager 1978 Oct"
+          "filename": "Let There Be No Misunderstanding — Jager 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/let-there-be-no-misunderstanding?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=4WrL_2Kl7gw"
+            }
+          ]
         },
         "/1978/10/home-teaching-a-sacred-calling": {
           "title": "Home Teaching—A Sacred Calling",
           "speaker": "L. Tom Perry",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/home-teaching-a-sacred-calling?lang=eng",
-          "filename": "Home Teaching—A Sacred Calling — Perry 1978 Oct"
+          "filename": "Home Teaching—A Sacred Calling — Perry 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/home-teaching-a-sacred-calling?lang=eng"
+            }
+          ]
         },
         "/1978/10/an-eternal-hope-in-christ": {
           "title": "An Eternal Hope in Christ",
           "speaker": "Spencer W. Kimball",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/an-eternal-hope-in-christ?lang=eng",
-          "filename": "An Eternal Hope in Christ — Kimball 1978 Oct"
+          "filename": "An Eternal Hope in Christ — Kimball 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/an-eternal-hope-in-christ?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=AXYK7qbO_dk"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/sunday-afternoon-session?lang=eng"
@@ -232,43 +558,105 @@
           "title": "The Fruit of Our Welfare Services Labors",
           "speaker": "Spencer W. Kimball",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/the-fruit-of-our-welfare-services-labors?lang=eng",
-          "filename": "The Fruit of Our Welfare Services Labors — Kimball 1978 Oct"
+          "filename": "The Fruit of Our Welfare Services Labors — Kimball 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/the-fruit-of-our-welfare-services-labors?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=bdGECwgvSCw"
+            }
+          ]
         },
         "/1978/10/the-remarkable-example-of-the-bermejillo-mexico-branch": {
           "title": "The Remarkable Example of the Bermejillo, Mexico, Branch",
           "speaker": "Victor L. Brown",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/the-remarkable-example-of-the-bermejillo-mexico-branch?lang=eng",
-          "filename": "The Remarkable Example of the Bermejillo Mexico Branch — Brown 1978 Oct"
+          "filename": "The Remarkable Example of the Bermejillo Mexico Branch — Brown 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/the-remarkable-example-of-the-bermejillo-mexico-branch?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=wHZjgPM3ukc"
+            }
+          ]
         },
         "/1978/10/good-health-a-key-to-joyous-living": {
           "title": "Good Health—A Key to Joyous Living",
           "speaker": "Barbara B. Smith",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/good-health-a-key-to-joyous-living?lang=eng",
-          "filename": "Good Health—A Key to Joyous Living — Smith 1978 Oct"
+          "filename": "Good Health—A Key to Joyous Living — Smith 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/good-health-a-key-to-joyous-living?lang=eng"
+            }
+          ]
         },
         "/1978/10/successful-welfare-stewardship": {
           "title": "Successful Welfare Stewardship",
           "speaker": "J. Richard Clarke",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/successful-welfare-stewardship?lang=eng",
-          "filename": "Successful Welfare Stewardship — Clarke 1978 Oct"
+          "filename": "Successful Welfare Stewardship — Clarke 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/successful-welfare-stewardship?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=gIv2h5MA23g"
+            }
+          ]
         },
         "/1978/10/attending-to-personal-and-family-preparedness": {
           "title": "Attending to Personal and Family Preparedness",
           "speaker": "H. Burke Peterson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/attending-to-personal-and-family-preparedness?lang=eng",
-          "filename": "Attending to Personal and Family Preparedness — Peterson 1978 Oct"
+          "filename": "Attending to Personal and Family Preparedness — Peterson 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/attending-to-personal-and-family-preparedness?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=4sUYK2hu_yQ"
+            }
+          ]
         },
         "/1978/10/the-stake-presidents-role-in-welfare-services": {
           "title": "The Stake President’s Role in Welfare Services",
           "speaker": "David B. Haight",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/the-stake-presidents-role-in-welfare-services?lang=eng",
-          "filename": "The Stake President’s Role in Welfare Services — Haight 1978 Oct"
+          "filename": "The Stake President’s Role in Welfare Services — Haight 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/the-stake-presidents-role-in-welfare-services?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=B-mhTb7dm5Y"
+            }
+          ]
         },
         "/1978/10/caring-for-the-poor-a-covenantal-obligation": {
           "title": "Caring for the Poor—A Covenantal Obligation",
           "speaker": "Marion G. Romney",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/caring-for-the-poor-a-covenantal-obligation?lang=eng",
-          "filename": "Caring for the Poor—A Covenantal Obligation — Romney 1978 Oct"
+          "filename": "Caring for the Poor—A Covenantal Obligation — Romney 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/caring-for-the-poor-a-covenantal-obligation?lang=eng"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/welfare-session?lang=eng"
@@ -279,25 +667,65 @@
           "title": "Privileges and Responsibilities of Sisters",
           "speaker": "Spencer W. Kimball",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/privileges-and-responsibilities-of-sisters?lang=eng",
-          "filename": "Privileges and Responsibilities of Sisters — Kimball 1978 Oct"
+          "filename": "Privileges and Responsibilities of Sisters — Kimball 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/privileges-and-responsibilities-of-sisters?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=t7ZCGKnKzOA"
+            }
+          ]
         },
         "/1978/10/come-listen-to-a-prophets-voice": {
           "title": "“Come, Listen to a Prophet’s Voice”",
           "speaker": "Ruth H. Funk",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/come-listen-to-a-prophets-voice?lang=eng",
-          "filename": "“Come Listen to a Prophet’s Voice” — Funk 1978 Oct"
+          "filename": "“Come Listen to a Prophet’s Voice” — Funk 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/come-listen-to-a-prophets-voice?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=TeliqwGvIHM"
+            }
+          ]
         },
         "/1978/10/if-we-want-to-go-up-we-have-to-get-on": {
           "title": "If We Want to Go Up, We Have to Get On",
           "speaker": "Elaine A. Cannon",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/if-we-want-to-go-up-we-have-to-get-on?lang=eng",
-          "filename": "If We Want to Go Up We Have to Get On — Cannon 1978 Oct"
+          "filename": "If We Want to Go Up We Have to Get On — Cannon 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/if-we-want-to-go-up-we-have-to-get-on?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=zjBPGDZ_vtM"
+            }
+          ]
         },
         "/1978/10/womens-greatest-challenge": {
           "title": "Women’s Greatest Challenge",
           "speaker": "Barbara B. Smith",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/womens-greatest-challenge?lang=eng",
-          "filename": "Women’s Greatest Challenge — Smith 1978 Oct"
+          "filename": "Women’s Greatest Challenge — Smith 1978 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/womens-greatest-challenge?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=Oh986hEv6MQ"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/1978/10/womens-session?lang=eng"

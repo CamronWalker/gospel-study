@@ -9,25 +9,81 @@
           "title": "Turn On Your Light",
           "speaker": "Sharon Eubank",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/turn-on-your-light?lang=eng",
-          "filename": "Turn On Your Light — Eubank 2017 Oct"
+          "filename": "Turn On Your Light — Eubank 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/turn-on-your-light?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/turn-on-your-light/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=IRERZbdVWdc"
+            }
+          ]
         },
         "/2017/10/abiding-in-god-and-repairing-the-breach": {
           "title": "Abiding in God and Repairing the Breach",
           "speaker": "Neill F. Marriott",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/abiding-in-god-and-repairing-the-breach?lang=eng",
-          "filename": "Abiding in God and Repairing the Breach — Marriott 2017 Oct"
+          "filename": "Abiding in God and Repairing the Breach — Marriott 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/abiding-in-god-and-repairing-the-breach?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/abiding-in-god-and-repairing-the-breach/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=FUOInsusox4"
+            }
+          ]
         },
         "/2017/10/value-beyond-measure": {
           "title": "Value beyond Measure",
           "speaker": "Joy D. Jones",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/value-beyond-measure?lang=eng",
-          "filename": "Value beyond Measure — Jones 2017 Oct"
+          "filename": "Value beyond Measure — Jones 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/value-beyond-measure?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/value-beyond-measure/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=JBX-InLxObI"
+            }
+          ]
         },
         "/2017/10/three-sisters": {
           "title": "Three Sisters",
           "speaker": "Dieter F. Uchtdorf",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/three-sisters?lang=eng",
-          "filename": "Three Sisters — Uchtdorf 2017 Oct"
+          "filename": "Three Sisters — Uchtdorf 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/three-sisters?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/three-sisters/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=QpFqIH0_-tI"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/womens-session?lang=eng"
@@ -38,37 +94,121 @@
           "title": "A Yearning for Home",
           "speaker": "Dieter F. Uchtdorf",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/a-yearning-for-home?lang=eng",
-          "filename": "A Yearning for Home — Uchtdorf 2017 Oct"
+          "filename": "A Yearning for Home — Uchtdorf 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/a-yearning-for-home?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/a-yearning-for-home/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=gLunowzT_Nk"
+            }
+          ]
         },
         "/2017/10/the-needs-before-us": {
           "title": "The Needs before Us",
           "speaker": "Bonnie L. Oscarson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-needs-before-us?lang=eng",
-          "filename": "The Needs before Us — Oscarson 2017 Oct"
+          "filename": "The Needs before Us — Oscarson 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-needs-before-us?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/the-needs-before-us/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=fbH4N8NV8RM"
+            }
+          ]
         },
         "/2017/10/the-plan-and-the-proclamation": {
           "title": "The Plan and the Proclamation",
           "speaker": "Dallin H. Oaks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-plan-and-the-proclamation?lang=eng",
-          "filename": "The Plan and the Proclamation — Oaks 2017 Oct"
+          "filename": "The Plan and the Proclamation — Oaks 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-plan-and-the-proclamation?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/the-plan-and-the-proclamation/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=ep3SBgBeUOo"
+            }
+          ]
         },
         "/2017/10/i-have-a-work-for-thee": {
           "title": "“I Have a Work for Thee”",
           "speaker": "John C. Pingree Jr.",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/i-have-a-work-for-thee?lang=eng",
-          "filename": "“I Have a Work for Thee” — Jr. 2017 Oct"
+          "filename": "“I Have a Work for Thee” — Jr. 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/i-have-a-work-for-thee?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/i-have-a-work-for-thee/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=y1sFYAFGesw"
+            }
+          ]
         },
         "/2017/10/the-living-bread-which-came-down-from-heaven": {
           "title": "The Living Bread Which Came Down from Heaven",
           "speaker": "D. Todd Christofferson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-living-bread-which-came-down-from-heaven?lang=eng",
-          "filename": "The Living Bread Which Came Down from Heaven — Christofferson 2017 Oct"
+          "filename": "The Living Bread Which Came Down from Heaven — Christofferson 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-living-bread-which-came-down-from-heaven?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/the-living-bread-which-came-down-from-heaven/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=lhzAO0AJCTU"
+            }
+          ]
         },
         "/2017/10/be-ye-therefore-perfect-eventually": {
           "title": "Be Ye Therefore Perfect—Eventually",
           "speaker": "Jeffrey R. Holland",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/be-ye-therefore-perfect-eventually?lang=eng",
-          "filename": "Be Ye Therefore Perfect—Eventually — Holland 2017 Oct"
+          "filename": "Be Ye Therefore Perfect—Eventually — Holland 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/be-ye-therefore-perfect-eventually?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/be-ye-therefore-perfect-eventually/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=A4LiYbntP_g"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/saturday-morning-session?lang=eng"
@@ -79,43 +219,137 @@
           "title": "The Sustaining of Church Officers",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-sustaining-of-church-officers?lang=eng",
-          "filename": "The Sustaining of Church Officers — Eyring 2017 Oct"
+          "filename": "The Sustaining of Church Officers — Eyring 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-sustaining-of-church-officers?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/the-sustaining-of-church-officers/study-guide"
+            }
+          ]
         },
         "/2017/10/spiritual-eclipse": {
           "title": "Spiritual Eclipse",
           "speaker": "Gary E. Stevenson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/spiritual-eclipse?lang=eng",
-          "filename": "Spiritual Eclipse — Stevenson 2017 Oct"
+          "filename": "Spiritual Eclipse — Stevenson 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/spiritual-eclipse?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/spiritual-eclipse/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=-ieXz0aioas"
+            }
+          ]
         },
         "/2017/10/repentance-is-always-positive": {
           "title": "Repentance Is Always Positive",
           "speaker": "Stephen W. Owen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/repentance-is-always-positive?lang=eng",
-          "filename": "Repentance Is Always Positive — Owen 2017 Oct"
+          "filename": "Repentance Is Always Positive — Owen 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/repentance-is-always-positive?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/repentance-is-always-positive/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=yJpaQqdOb38"
+            }
+          ]
         },
         "/2017/10/the-eternal-everyday": {
           "title": "The Eternal Everyday",
           "speaker": "Quentin L. Cook",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-eternal-everyday?lang=eng",
-          "filename": "The Eternal Everyday — Cook 2017 Oct"
+          "filename": "The Eternal Everyday — Cook 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-eternal-everyday?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/the-eternal-everyday/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=QNAwXdDjHmU"
+            }
+          ]
         },
         "/2017/10/by-divine-design": {
           "title": "By Divine Design",
           "speaker": "Ronald A. Rasband",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/by-divine-design?lang=eng",
-          "filename": "By Divine Design — Rasband 2017 Oct"
+          "filename": "By Divine Design — Rasband 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/by-divine-design?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/by-divine-design/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=ahXjwfsNg1c"
+            }
+          ]
         },
         "/2017/10/the-heart-of-the-widow": {
           "title": "The Heart of the Widow",
           "speaker": "O. Vincent Haleck",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-heart-of-the-widow?lang=eng",
-          "filename": "The Heart of the Widow — Haleck 2017 Oct"
+          "filename": "The Heart of the Widow — Haleck 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-heart-of-the-widow?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/the-heart-of-the-widow/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=yWHND83gX-o"
+            }
+          ]
         },
         "/2017/10/the-book-of-mormon-what-would-your-life-be-like-without-it": {
           "title": "The Book of Mormon: What Would Your Life Be Like without It?",
           "speaker": "Russell M. Nelson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-book-of-mormon-what-would-your-life-be-like-without-it?lang=eng",
-          "filename": "The Book of Mormon- What Would Your Life Be Like without It — Nelson 2017 Oct"
+          "filename": "The Book of Mormon- What Would Your Life Be Like without It — Nelson 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-book-of-mormon-what-would-your-life-be-like-without-it?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/the-book-of-mormon-what-would-your-life-be-like-without-it/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=Iz0jiuMN97E"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/saturday-afternoon-session?lang=eng"
@@ -126,31 +360,101 @@
           "title": "The Priesthood and the Savior’s Atoning Power",
           "speaker": "Dale G. Renlund",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-priesthood-and-the-saviors-atoning-power?lang=eng",
-          "filename": "The Priesthood and the Savior’s Atoning Power — Renlund 2017 Oct"
+          "filename": "The Priesthood and the Savior’s Atoning Power — Renlund 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-priesthood-and-the-saviors-atoning-power?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/the-priesthood-and-the-saviors-atoning-power/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=hABJu_I-oNQ"
+            }
+          ]
         },
         "/2017/10/the-truth-of-all-things": {
           "title": "The Truth of All Things",
           "speaker": "David F. Evans",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-truth-of-all-things?lang=eng",
-          "filename": "The Truth of All Things — Evans 2017 Oct"
+          "filename": "The Truth of All Things — Evans 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-truth-of-all-things?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/the-truth-of-all-things/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=UgePEKdXt2Y"
+            }
+          ]
         },
         "/2017/10/earning-the-trust-of-the-lord-and-your-family": {
           "title": "Earning the Trust of the Lord and Your Family",
           "speaker": "Richard J. Maynes",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/earning-the-trust-of-the-lord-and-your-family?lang=eng",
-          "filename": "Earning the Trust of the Lord and Your Family — Maynes 2017 Oct"
+          "filename": "Earning the Trust of the Lord and Your Family — Maynes 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/earning-the-trust-of-the-lord-and-your-family?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/earning-the-trust-of-the-lord-and-your-family/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=NgKpmb2aAVA"
+            }
+          ]
         },
         "/2017/10/bearers-of-heavenly-light": {
           "title": "Bearers of Heavenly Light",
           "speaker": "Dieter F. Uchtdorf",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/bearers-of-heavenly-light?lang=eng",
-          "filename": "Bearers of Heavenly Light — Uchtdorf 2017 Oct"
+          "filename": "Bearers of Heavenly Light — Uchtdorf 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/bearers-of-heavenly-light?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/bearers-of-heavenly-light/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=ENCgsr1yfZU"
+            }
+          ]
         },
         "/2017/10/the-lord-leads-his-church": {
           "title": "The Lord Leads His Church",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-lord-leads-his-church?lang=eng",
-          "filename": "The Lord Leads His Church — Eyring 2017 Oct"
+          "filename": "The Lord Leads His Church — Eyring 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-lord-leads-his-church?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/the-lord-leads-his-church/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=ayhQ-B---iE"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/priesthood-session?lang=eng"
@@ -161,37 +465,121 @@
           "title": "That Your Joy Might Be Full",
           "speaker": "Jean B. Bingham",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/that-your-joy-might-be-full?lang=eng",
-          "filename": "That Your Joy Might Be Full — Bingham 2017 Oct"
+          "filename": "That Your Joy Might Be Full — Bingham 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/that-your-joy-might-be-full?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/that-your-joy-might-be-full/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=nfqzy6tHZGQ"
+            }
+          ]
         },
         "/2017/10/has-the-day-of-miracles-ceased": {
           "title": "Has the Day of Miracles Ceased?",
           "speaker": "Donald L. Hallstrom",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/has-the-day-of-miracles-ceased?lang=eng",
-          "filename": "Has the Day of Miracles Ceased — Hallstrom 2017 Oct"
+          "filename": "Has the Day of Miracles Ceased — Hallstrom 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/has-the-day-of-miracles-ceased?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/has-the-day-of-miracles-ceased/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=YDS5KluTqtU"
+            }
+          ]
         },
         "/2017/10/exceeding-great-and-precious-promises": {
           "title": "Exceeding Great and Precious Promises",
           "speaker": "David A. Bednar",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/exceeding-great-and-precious-promises?lang=eng",
-          "filename": "Exceeding Great and Precious Promises — Bednar 2017 Oct"
+          "filename": "Exceeding Great and Precious Promises — Bednar 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/exceeding-great-and-precious-promises?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/exceeding-great-and-precious-promises/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=gWiF-LrDKPw"
+            }
+          ]
         },
         "/2017/10/turn-to-the-lord": {
           "title": "Turn to the Lord",
           "speaker": "W. Christopher Waddell",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/turn-to-the-lord?lang=eng",
-          "filename": "Turn to the Lord — Waddell 2017 Oct"
+          "filename": "Turn to the Lord — Waddell 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/turn-to-the-lord?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/turn-to-the-lord/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=smF_CWXDcqg"
+            }
+          ]
         },
         "/2017/10/lord-wilt-thou-cause-that-my-eyes-may-be-opened": {
           "title": "Lord, Wilt Thou Cause That My Eyes May Be Opened",
           "speaker": "W. Craig Zwick",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/lord-wilt-thou-cause-that-my-eyes-may-be-opened?lang=eng",
-          "filename": "Lord Wilt Thou Cause That My Eyes May Be Opened — Zwick 2017 Oct"
+          "filename": "Lord Wilt Thou Cause That My Eyes May Be Opened — Zwick 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/lord-wilt-thou-cause-that-my-eyes-may-be-opened?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/lord-wilt-thou-cause-that-my-eyes-may-be-opened/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=zoq1pMYoWoI"
+            }
+          ]
         },
         "/2017/10/fear-not-to-do-good": {
           "title": "Fear Not to Do Good",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/fear-not-to-do-good?lang=eng",
-          "filename": "Fear Not to Do Good — Eyring 2017 Oct"
+          "filename": "Fear Not to Do Good — Eyring 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/fear-not-to-do-good?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/fear-not-to-do-good/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=efhM30rfJnE"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/sunday-morning-session?lang=eng"
@@ -202,49 +590,161 @@
           "title": "The Trek Continues!",
           "speaker": "M. Russell Ballard",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-trek-continues?lang=eng",
-          "filename": "The Trek Continues — Ballard 2017 Oct"
+          "filename": "The Trek Continues — Ballard 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-trek-continues?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/the-trek-continues/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=WBWV5Xo4N5M"
+            }
+          ]
         },
         "/2017/10/gods-compelling-witness-the-book-of-mormon": {
           "title": "God’s Compelling Witness: The Book of Mormon",
           "speaker": "Tad R. Callister",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/gods-compelling-witness-the-book-of-mormon?lang=eng",
-          "filename": "God’s Compelling Witness- The Book of Mormon — Callister 2017 Oct"
+          "filename": "God’s Compelling Witness- The Book of Mormon — Callister 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/gods-compelling-witness-the-book-of-mormon?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/gods-compelling-witness-the-book-of-mormon/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=at07vw9jtx8"
+            }
+          ]
         },
         "/2017/10/apart-but-still-one": {
           "title": "Apart, but Still One",
           "speaker": "Joni L. Koch",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/apart-but-still-one?lang=eng",
-          "filename": "Apart but Still One — Koch 2017 Oct"
+          "filename": "Apart but Still One — Koch 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/apart-but-still-one?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/apart-but-still-one/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=Gn4rS9xCxZ4"
+            }
+          ]
         },
         "/2017/10/do-we-trust-him-hard-is-good": {
           "title": "Do We Trust Him? Hard Is Good",
           "speaker": "Stanley G. Ellis",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/do-we-trust-him-hard-is-good?lang=eng",
-          "filename": "Do We Trust Him Hard Is Good — Ellis 2017 Oct"
+          "filename": "Do We Trust Him Hard Is Good — Ellis 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/do-we-trust-him-hard-is-good?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/do-we-trust-him-hard-is-good/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=xq3aGYMh1JE"
+            }
+          ]
         },
         "/2017/10/essential-truths-our-need-to-act": {
           "title": "Essential Truths—Our Need to Act",
           "speaker": "Adilson de Paula Parrella",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/essential-truths-our-need-to-act?lang=eng",
-          "filename": "Essential Truths—Our Need to Act — Parrella 2017 Oct"
+          "filename": "Essential Truths—Our Need to Act — Parrella 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/essential-truths-our-need-to-act?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/essential-truths-our-need-to-act/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=7Ito2hWk_gg"
+            }
+          ]
         },
         "/2017/10/seek-ye-out-of-the-best-books": {
           "title": "Seek Ye Out of the Best Books",
           "speaker": "Ian S. Ardern",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/seek-ye-out-of-the-best-books?lang=eng",
-          "filename": "Seek Ye Out of the Best Books — Ardern 2017 Oct"
+          "filename": "Seek Ye Out of the Best Books — Ardern 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/seek-ye-out-of-the-best-books?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/seek-ye-out-of-the-best-books/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=cHeB6yfUmNo"
+            }
+          ]
         },
         "/2017/10/love-one-another-as-he-has-loved-us": {
           "title": "Love One Another as He Has Loved Us",
           "speaker": "José L. Alonso",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/love-one-another-as-he-has-loved-us?lang=eng",
-          "filename": "Love One Another as He Has Loved Us — Alonso 2017 Oct"
+          "filename": "Love One Another as He Has Loved Us — Alonso 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/love-one-another-as-he-has-loved-us?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/love-one-another-as-he-has-loved-us/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=NH3QiH4cGJo"
+            }
+          ]
         },
         "/2017/10/the-voice-of-the-lord": {
           "title": "The Voice of the Lord",
           "speaker": "Neil L. Andersen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-voice-of-the-lord?lang=eng",
-          "filename": "The Voice of the Lord — Andersen 2017 Oct"
+          "filename": "The Voice of the Lord — Andersen 2017 Oct",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-voice-of-the-lord?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2017/10/the-voice-of-the-lord/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=L8BNLqV_bNc"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/2017/10/sunday-afternoon-session?lang=eng"

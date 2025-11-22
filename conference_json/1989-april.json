@@ -9,31 +9,81 @@
           "title": "Beware of Pride",
           "speaker": "Ezra Taft Benson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/beware-of-pride?lang=eng",
-          "filename": "Beware of Pride — Benson 1989 Apr"
+          "filename": "Beware of Pride — Benson 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/beware-of-pride?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=A1JOPxa8ztk"
+            }
+          ]
         },
         "/1989/04/seeds-of-renewal": {
           "title": "Seeds of Renewal",
           "speaker": "Joseph B. Wirthlin",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/seeds-of-renewal?lang=eng",
-          "filename": "Seeds of Renewal — Wirthlin 1989 Apr"
+          "filename": "Seeds of Renewal — Wirthlin 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/seeds-of-renewal?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=D-OdcEyVNMk"
+            }
+          ]
         },
         "/1989/04/now-is-the-time": {
           "title": "Now Is the Time",
           "speaker": "Hugh W. Pinnock",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/now-is-the-time?lang=eng",
-          "filename": "Now Is the Time — Pinnock 1989 Apr"
+          "filename": "Now Is the Time — Pinnock 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/now-is-the-time?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=HRrLU2TSZ_0"
+            }
+          ]
         },
         "/1989/04/proclaim-my-gospel-from-land-to-land": {
           "title": "Proclaim My Gospel from Land to Land",
           "speaker": "L. Tom Perry",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/proclaim-my-gospel-from-land-to-land?lang=eng",
-          "filename": "Proclaim My Gospel from Land to Land — Perry 1989 Apr"
+          "filename": "Proclaim My Gospel from Land to Land — Perry 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/proclaim-my-gospel-from-land-to-land?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=40CdFbXKwms"
+            }
+          ]
         },
         "/1989/04/the-god-that-doest-wonders": {
           "title": "The God That Doest Wonders",
           "speaker": "Howard W. Hunter",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/the-god-that-doest-wonders?lang=eng",
-          "filename": "The God That Doest Wonders — Hunter 1989 Apr"
+          "filename": "The God That Doest Wonders — Hunter 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/the-god-that-doest-wonders?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=UhfXabixO0M"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/saturday-morning-session?lang=eng"
@@ -44,49 +94,125 @@
           "title": "The Sustaining of Church Officers",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/the-sustaining-of-church-officers?lang=eng",
-          "filename": "The Sustaining of Church Officers — Monson 1989 Apr"
+          "filename": "The Sustaining of Church Officers — Monson 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/the-sustaining-of-church-officers?lang=eng"
+            }
+          ]
         },
         "/1989/04/the-church-audit-committee-report": {
           "title": "The Church Audit Committee Report",
           "speaker": "Wilford G. Edling",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/the-church-audit-committee-report?lang=eng",
-          "filename": "The Church Audit Committee Report — Edling 1989 Apr"
+          "filename": "The Church Audit Committee Report — Edling 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/the-church-audit-committee-report?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=X5ueYOnF8kw"
+            }
+          ]
         },
         "/1989/04/statistical-report-1988": {
           "title": "Statistical Report 1988",
           "speaker": "F. Michael Watson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/statistical-report-1988?lang=eng",
-          "filename": "Statistical Report 1988 — Watson 1989 Apr"
+          "filename": "Statistical Report 1988 — Watson 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/statistical-report-1988?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=CI6Hw41i1YU"
+            }
+          ]
         },
         "/1989/04/on-being-worthy": {
           "title": "On Being Worthy",
           "speaker": "Marvin J. Ashton",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/on-being-worthy?lang=eng",
-          "filename": "On Being Worthy — Ashton 1989 Apr"
+          "filename": "On Being Worthy — Ashton 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/on-being-worthy?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=XQSrDcMvV_4"
+            }
+          ]
         },
         "/1989/04/adversity-and-the-divine-purpose-of-mortality": {
           "title": "Adversity and the Divine Purpose of Mortality",
           "speaker": "Ronald E. Poelman",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/adversity-and-the-divine-purpose-of-mortality?lang=eng",
-          "filename": "Adversity and the Divine Purpose of Mortality — Poelman 1989 Apr"
+          "filename": "Adversity and the Divine Purpose of Mortality — Poelman 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/adversity-and-the-divine-purpose-of-mortality?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=PwWRWH5fDdk"
+            }
+          ]
         },
         "/1989/04/follow-the-prophet": {
           "title": "Follow the Prophet",
           "speaker": "Glenn L. Pace",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/follow-the-prophet?lang=eng",
-          "filename": "Follow the Prophet — Pace 1989 Apr"
+          "filename": "Follow the Prophet — Pace 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/follow-the-prophet?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=5Qw6vkKCohk"
+            }
+          ]
         },
         "/1989/04/alternate-voices": {
           "title": "Alternate Voices",
           "speaker": "Dallin H. Oaks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/alternate-voices?lang=eng",
-          "filename": "Alternate Voices — Oaks 1989 Apr"
+          "filename": "Alternate Voices — Oaks 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/alternate-voices?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=w-HW8mFGyHs"
+            }
+          ]
         },
         "/1989/04/the-gift-of-the-holy-ghost-a-sure-compass": {
           "title": "The Gift of the Holy Ghost—A Sure Compass",
           "speaker": "James E. Faust",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/the-gift-of-the-holy-ghost-a-sure-compass?lang=eng",
-          "filename": "The Gift of the Holy Ghost—A Sure Compass — Faust 1989 Apr"
+          "filename": "The Gift of the Holy Ghost—A Sure Compass — Faust 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/the-gift-of-the-holy-ghost-a-sure-compass?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=6oEqPBmL1Tw"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/saturday-afternoon-session?lang=eng"
@@ -97,31 +223,81 @@
           "title": "Trust in the Lord",
           "speaker": "Richard G. Scott",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/trust-in-the-lord?lang=eng",
-          "filename": "Trust in the Lord — Scott 1989 Apr"
+          "filename": "Trust in the Lord — Scott 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/trust-in-the-lord?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=dKXSzTFJYGA"
+            }
+          ]
         },
         "/1989/04/the-beauty-and-importance-of-the-sacrament": {
           "title": "The Beauty and Importance of the Sacrament",
           "speaker": "John H. Groberg",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/the-beauty-and-importance-of-the-sacrament?lang=eng",
-          "filename": "The Beauty and Importance of the Sacrament — Groberg 1989 Apr"
+          "filename": "The Beauty and Importance of the Sacrament — Groberg 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/the-beauty-and-importance-of-the-sacrament?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=Owp_OOnLMs4"
+            }
+          ]
         },
         "/1989/04/making-points-for-righteousness": {
           "title": "Making Points for Righteousness",
           "speaker": "Russell C. Taylor",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/making-points-for-righteousness?lang=eng",
-          "filename": "Making Points for Righteousness — Taylor 1989 Apr"
+          "filename": "Making Points for Righteousness — Taylor 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/making-points-for-righteousness?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=YT5sUSVOmno"
+            }
+          ]
         },
         "/1989/04/go-for-it": {
           "title": "Go For It!",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/go-for-it?lang=eng",
-          "filename": "Go For It — Monson 1989 Apr"
+          "filename": "Go For It — Monson 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/go-for-it?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=8aZI9jCZ-JI"
+            }
+          ]
         },
         "/1989/04/magnify-your-calling": {
           "title": "Magnify Your Calling",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/magnify-your-calling?lang=eng",
-          "filename": "Magnify Your Calling — Hinckley 1989 Apr"
+          "filename": "Magnify Your Calling — Hinckley 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/magnify-your-calling?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=GkVub44gQ4E"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/priesthood-session?lang=eng"
@@ -132,31 +308,81 @@
           "title": "Thanks Be to God",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/thanks-be-to-god?lang=eng",
-          "filename": "Thanks Be to God — Monson 1989 Apr"
+          "filename": "Thanks Be to God — Monson 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/thanks-be-to-god?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=pn6xO9gxuws"
+            }
+          ]
         },
         "/1989/04/to-young-women-and-men": {
           "title": "To Young Women and Men",
           "speaker": "Boyd K. Packer",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/to-young-women-and-men?lang=eng",
-          "filename": "To Young Women and Men — Packer 1989 Apr"
+          "filename": "To Young Women and Men — Packer 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/to-young-women-and-men?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=kwrPvkTq1xI"
+            }
+          ]
         },
         "/1989/04/our-kindred-family-expression-of-eternal-love": {
           "title": "Our Kindred Family—Expression of Eternal Love",
           "speaker": "J. Richard Clarke",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/our-kindred-family-expression-of-eternal-love?lang=eng",
-          "filename": "Our Kindred Family—Expression of Eternal Love — Clarke 1989 Apr"
+          "filename": "Our Kindred Family—Expression of Eternal Love — Clarke 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/our-kindred-family-expression-of-eternal-love?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=bef80TfLPYw"
+            }
+          ]
         },
         "/1989/04/irony-the-crust-on-the-bread-of-adversity": {
           "title": "Irony: The Crust on the Bread of Adversity",
           "speaker": "Neal A. Maxwell",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/irony-the-crust-on-the-bread-of-adversity?lang=eng",
-          "filename": "Irony- The Crust on the Bread of Adversity — Maxwell 1989 Apr"
+          "filename": "Irony- The Crust on the Bread of Adversity — Maxwell 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/irony-the-crust-on-the-bread-of-adversity?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=8bA7jPPEPr0"
+            }
+          ]
         },
         "/1989/04/let-love-be-the-lodestar-of-your-life": {
           "title": "Let Love Be the Lodestar of Your Life",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/let-love-be-the-lodestar-of-your-life?lang=eng",
-          "filename": "Let Love Be the Lodestar of Your Life — Hinckley 1989 Apr"
+          "filename": "Let Love Be the Lodestar of Your Life — Hinckley 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/let-love-be-the-lodestar-of-your-life?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=o_ZldwPQaE4"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/sunday-morning-session?lang=eng"
@@ -167,37 +393,97 @@
           "title": "The Canker of Contention",
           "speaker": "Russell M. Nelson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/the-canker-of-contention?lang=eng",
-          "filename": "The Canker of Contention — Nelson 1989 Apr"
+          "filename": "The Canker of Contention — Nelson 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/the-canker-of-contention?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=YETqZUFftns"
+            }
+          ]
         },
         "/1989/04/university-for-eternal-life": {
           "title": "University for Eternal Life",
           "speaker": "F. Enzio Busche",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/university-for-eternal-life?lang=eng",
-          "filename": "University for Eternal Life — Busche 1989 Apr"
+          "filename": "University for Eternal Life — Busche 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/university-for-eternal-life?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=60W4tX0kELs"
+            }
+          ]
         },
         "/1989/04/lord-when-saw-we-thee-an-hungred": {
           "title": "“Lord, When Saw We Thee an Hungred?”",
           "speaker": "Joy F. Evans",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/lord-when-saw-we-thee-an-hungred?lang=eng",
-          "filename": "“Lord When Saw We Thee an Hungred” — Evans 1989 Apr"
+          "filename": "“Lord When Saw We Thee an Hungred” — Evans 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/lord-when-saw-we-thee-an-hungred?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=qgK-ursTbAY"
+            }
+          ]
         },
         "/1989/04/the-way-to-perfection": {
           "title": "The Way to Perfection",
           "speaker": "Royden G. Derrick",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/the-way-to-perfection?lang=eng",
-          "filename": "The Way to Perfection — Derrick 1989 Apr"
+          "filename": "The Way to Perfection — Derrick 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/the-way-to-perfection?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=G06xSTI3c94"
+            }
+          ]
         },
         "/1989/04/the-effects-of-television": {
           "title": "The Effects of Television",
           "speaker": "M. Russell Ballard",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/the-effects-of-television?lang=eng",
-          "filename": "The Effects of Television — Ballard 1989 Apr"
+          "filename": "The Effects of Television — Ballard 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/the-effects-of-television?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=-jK90qgIGZ8"
+            }
+          ]
         },
         "/1989/04/to-the-children-of-the-church": {
           "title": "To the Children of the Church",
           "speaker": "Ezra Taft Benson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/to-the-children-of-the-church?lang=eng",
-          "filename": "To the Children of the Church — Benson 1989 Apr"
+          "filename": "To the Children of the Church — Benson 1989 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/to-the-children-of-the-church?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=Oq6go00N4Xg"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/1989/04/sunday-afternoon-session?lang=eng"

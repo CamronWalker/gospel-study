@@ -9,37 +9,93 @@
           "title": "The Sustaining of Church Officers",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-sustaining-of-church-officers?lang=eng",
-          "filename": "The Sustaining of Church Officers — Hinckley 1985 Apr"
+          "filename": "The Sustaining of Church Officers — Hinckley 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-sustaining-of-church-officers?lang=eng"
+            }
+          ]
         },
         "/1985/04/our-responsibility-to-share-the-gospel": {
           "title": "Our Responsibility to Share the Gospel",
           "speaker": "Ezra Taft Benson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/our-responsibility-to-share-the-gospel?lang=eng",
-          "filename": "Our Responsibility to Share the Gospel — Benson 1985 Apr"
+          "filename": "Our Responsibility to Share the Gospel — Benson 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/our-responsibility-to-share-the-gospel?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=UOkkdQKBdmk"
+            }
+          ]
         },
         "/1985/04/the-purifying-power-of-gethsemane": {
           "title": "The Purifying Power of Gethsemane",
           "speaker": "Bruce R. McConkie",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-purifying-power-of-gethsemane?lang=eng",
-          "filename": "The Purifying Power of Gethsemane — McConkie 1985 Apr"
+          "filename": "The Purifying Power of Gethsemane — McConkie 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-purifying-power-of-gethsemane?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=w6X425gT4DQ"
+            }
+          ]
         },
         "/1985/04/reverence-for-life": {
           "title": "Reverence for Life",
           "speaker": "Russell M. Nelson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/reverence-for-life?lang=eng",
-          "filename": "Reverence for Life — Nelson 1985 Apr"
+          "filename": "Reverence for Life — Nelson 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/reverence-for-life?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=PZLkpnO1I6w"
+            }
+          ]
         },
         "/1985/04/agency-and-accountability": {
           "title": "Agency and Accountability",
           "speaker": "Victor L. Brown",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/agency-and-accountability?lang=eng",
-          "filename": "Agency and Accountability — Brown 1985 Apr"
+          "filename": "Agency and Accountability — Brown 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/agency-and-accountability?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=kn0bL3zo9h0"
+            }
+          ]
         },
         "/1985/04/christ-our-passover": {
           "title": "Christ, Our Passover",
           "speaker": "Howard W. Hunter",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/christ-our-passover?lang=eng",
-          "filename": "Christ Our Passover — Hunter 1985 Apr"
+          "filename": "Christ Our Passover — Hunter 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/christ-our-passover?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=Gm-qsHXCClI"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/saturday-morning-session?lang=eng"
@@ -50,55 +106,145 @@
           "title": "The Church Audit Committee Report",
           "speaker": "Wilford G. Edling",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-church-audit-committee-report?lang=eng",
-          "filename": "The Church Audit Committee Report — Edling 1985 Apr"
+          "filename": "The Church Audit Committee Report — Edling 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-church-audit-committee-report?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=K5iN29hC_QA"
+            }
+          ]
         },
         "/1985/04/statistical-report-1984": {
           "title": "Statistical Report 1984",
           "speaker": "Francis M. Gibbons",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/statistical-report-1984?lang=eng",
-          "filename": "Statistical Report 1984 — Gibbons 1985 Apr"
+          "filename": "Statistical Report 1984 — Gibbons 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/statistical-report-1984?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=vY69WrH-ERQ"
+            }
+          ]
         },
         "/1985/04/born-of-goodly-parents": {
           "title": "“Born of Goodly Parents”",
           "speaker": "L. Tom Perry",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/born-of-goodly-parents?lang=eng",
-          "filename": "“Born of Goodly Parents” — Perry 1985 Apr"
+          "filename": "“Born of Goodly Parents” — Perry 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/born-of-goodly-parents?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=qajK1sTI05A"
+            }
+          ]
         },
         "/1985/04/the-invitation-of-the-master": {
           "title": "The Invitation of the Master",
           "speaker": "John Sonnenberg",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-invitation-of-the-master?lang=eng",
-          "filename": "The Invitation of the Master — Sonnenberg 1985 Apr"
+          "filename": "The Invitation of the Master — Sonnenberg 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-invitation-of-the-master?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=AoSeUAxUwtU"
+            }
+          ]
         },
         "/1985/04/the-joy-of-service": {
           "title": "The Joy of Service",
           "speaker": "F. Arthur Kay",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-joy-of-service?lang=eng",
-          "filename": "The Joy of Service — Kay 1985 Apr"
+          "filename": "The Joy of Service — Kay 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-joy-of-service?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=wU25uCTFfME"
+            }
+          ]
         },
         "/1985/04/look-for-the-beautiful": {
           "title": "Look for the Beautiful",
           "speaker": "Keith W. Wilcox",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/look-for-the-beautiful?lang=eng",
-          "filename": "Look for the Beautiful — Wilcox 1985 Apr"
+          "filename": "Look for the Beautiful — Wilcox 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/look-for-the-beautiful?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=13KNg8My2a8"
+            }
+          ]
         },
         "/1985/04/the-mantle-of-a-bishop": {
           "title": "The Mantle of a Bishop",
           "speaker": "Robert D. Hales",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-mantle-of-a-bishop?lang=eng",
-          "filename": "The Mantle of a Bishop — Hales 1985 Apr"
+          "filename": "The Mantle of a Bishop — Hales 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-mantle-of-a-bishop?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=mISvcdsiBWg"
+            }
+          ]
         },
         "/1985/04/the-resurrection": {
           "title": "The Resurrection",
           "speaker": "James E. Faust",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-resurrection?lang=eng",
-          "filename": "The Resurrection — Faust 1985 Apr"
+          "filename": "The Resurrection — Faust 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-resurrection?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=CL-hgBCe8js"
+            }
+          ]
         },
         "/1985/04/from-such-turn-away": {
           "title": "“From Such Turn Away”",
           "speaker": "Boyd K. Packer",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/from-such-turn-away?lang=eng",
-          "filename": "“From Such Turn Away” — Packer 1985 Apr"
+          "filename": "“From Such Turn Away” — Packer 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/from-such-turn-away?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=BnhKD4UJZ0A"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/saturday-afternoon-session?lang=eng"
@@ -109,37 +255,97 @@
           "title": "Preparing Yourselves for Missionary Service",
           "speaker": "Ezra Taft Benson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/preparing-yourselves-for-missionary-service?lang=eng",
-          "filename": "Preparing Yourselves for Missionary Service — Benson 1985 Apr"
+          "filename": "Preparing Yourselves for Missionary Service — Benson 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/preparing-yourselves-for-missionary-service?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=XBbKe9UMh8w"
+            }
+          ]
         },
         "/1985/04/pursuing-excellence": {
           "title": "Pursuing Excellence",
           "speaker": "Peter Vidmar",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/pursuing-excellence?lang=eng",
-          "filename": "Pursuing Excellence — Vidmar 1985 Apr"
+          "filename": "Pursuing Excellence — Vidmar 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/pursuing-excellence?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=z3uZNNUf9F4"
+            }
+          ]
         },
         "/1985/04/prepare-to-serve": {
           "title": "Prepare to Serve",
           "speaker": "M. Russell Ballard",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/prepare-to-serve?lang=eng",
-          "filename": "Prepare to Serve — Ballard 1985 Apr"
+          "filename": "Prepare to Serve — Ballard 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/prepare-to-serve?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=NPg_bOai_PA"
+            }
+          ]
         },
         "/1985/04/spencer-w-kimball-a-true-disciple-of-christ": {
           "title": "Spencer W. Kimball: A True Disciple of Christ",
           "speaker": "Marvin J. Ashton",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/spencer-w-kimball-a-true-disciple-of-christ?lang=eng",
-          "filename": "Spencer W. Kimball- A True Disciple of Christ — Ashton 1985 Apr"
+          "filename": "Spencer W. Kimball- A True Disciple of Christ — Ashton 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/spencer-w-kimball-a-true-disciple-of-christ?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=hgWTchCcngg"
+            }
+          ]
         },
         "/1985/04/set-some-personal-goals": {
           "title": "Set Some Personal Goals",
           "speaker": "Spencer W. Kimball",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/set-some-personal-goals?lang=eng",
-          "filename": "Set Some Personal Goals — Kimball 1985 Apr"
+          "filename": "Set Some Personal Goals — Kimball 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/set-some-personal-goals?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=kMv34Pyqeho"
+            }
+          ]
         },
         "/1985/04/to-please-our-heavenly-father": {
           "title": "To Please Our Heavenly Father",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/to-please-our-heavenly-father?lang=eng",
-          "filename": "To Please Our Heavenly Father — Hinckley 1985 Apr"
+          "filename": "To Please Our Heavenly Father — Hinckley 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/to-please-our-heavenly-father?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=MjQbIq6s2DE"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/priesthood-session?lang=eng"
@@ -150,31 +356,81 @@
           "title": "The Victory over Death",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-victory-over-death?lang=eng",
-          "filename": "The Victory over Death — Hinckley 1985 Apr"
+          "filename": "The Victory over Death — Hinckley 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-victory-over-death?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=OjjVZNS1zv0"
+            }
+          ]
         },
         "/1985/04/the-resurrected-christ": {
           "title": "The Resurrected Christ",
           "speaker": "David B. Haight",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-resurrected-christ?lang=eng",
-          "filename": "The Resurrected Christ — Haight 1985 Apr"
+          "filename": "The Resurrected Christ — Haight 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-resurrected-christ?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=T9nvR3GyeeM"
+            }
+          ]
         },
         "/1985/04/the-spirit-of-the-gathering": {
           "title": "The Spirit of the Gathering",
           "speaker": "William Grant Bangerter",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-spirit-of-the-gathering?lang=eng",
-          "filename": "The Spirit of the Gathering — Bangerter 1985 Apr"
+          "filename": "The Spirit of the Gathering — Bangerter 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-spirit-of-the-gathering?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=C2MouK2oi4Q"
+            }
+          ]
         },
         "/1985/04/selflessness-a-pattern-for-happiness": {
           "title": "Selflessness: A Pattern for Happiness",
           "speaker": "H. Burke Peterson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/selflessness-a-pattern-for-happiness?lang=eng",
-          "filename": "Selflessness- A Pattern for Happiness — Peterson 1985 Apr"
+          "filename": "Selflessness- A Pattern for Happiness — Peterson 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/selflessness-a-pattern-for-happiness?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=brLH6G2bsr4"
+            }
+          ]
         },
         "/1985/04/the-spirit-giveth-life": {
           "title": "“The Spirit Giveth Life”",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-spirit-giveth-life?lang=eng",
-          "filename": "“The Spirit Giveth Life” — Monson 1985 Apr"
+          "filename": "“The Spirit Giveth Life” — Monson 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-spirit-giveth-life?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=nimfoO59mDw"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/sunday-morning-session?lang=eng"
@@ -185,55 +441,145 @@
           "title": "“Willing to Submit”",
           "speaker": "Neal A. Maxwell",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/willing-to-submit?lang=eng",
-          "filename": "“Willing to Submit” — Maxwell 1985 Apr"
+          "filename": "“Willing to Submit” — Maxwell 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/willing-to-submit?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=pUV3CXti4pI"
+            }
+          ]
         },
         "/1985/04/hold-up-your-light": {
           "title": "“Hold Up Your Light”",
           "speaker": "J. Richard Clarke",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/hold-up-your-light?lang=eng",
-          "filename": "“Hold Up Your Light” — Clarke 1985 Apr"
+          "filename": "“Hold Up Your Light” — Clarke 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/hold-up-your-light?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=d0eGqN1ZD-Y"
+            }
+          ]
         },
         "/1985/04/ears-to-hear": {
           "title": "Ears to Hear",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/ears-to-hear?lang=eng",
-          "filename": "Ears to Hear — Eyring 1985 Apr"
+          "filename": "Ears to Hear — Eyring 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/ears-to-hear?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=Bi7gb0r6pFM"
+            }
+          ]
         },
         "/1985/04/confidence-in-the-lord": {
           "title": "Confidence in the Lord",
           "speaker": "Glenn L. Pace",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/confidence-in-the-lord?lang=eng",
-          "filename": "Confidence in the Lord — Pace 1985 Apr"
+          "filename": "Confidence in the Lord — Pace 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/confidence-in-the-lord?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=rT964Ke0V80"
+            }
+          ]
         },
         "/1985/04/taking-upon-us-the-name-of-jesus-christ": {
           "title": "Taking upon Us the Name of Jesus Christ",
           "speaker": "Dallin H. Oaks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/taking-upon-us-the-name-of-jesus-christ?lang=eng",
-          "filename": "Taking upon Us the Name of Jesus Christ — Oaks 1985 Apr"
+          "filename": "Taking upon Us the Name of Jesus Christ — Oaks 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/taking-upon-us-the-name-of-jesus-christ?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=kEGKOnqTSn4"
+            }
+          ]
         },
         "/1985/04/the-answers-will-come": {
           "title": "The Answers Will Come",
           "speaker": "Hans B. Ringger",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-answers-will-come?lang=eng",
-          "filename": "The Answers Will Come — Ringger 1985 Apr"
+          "filename": "The Answers Will Come — Ringger 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-answers-will-come?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=JxKYGU1_xvc"
+            }
+          ]
         },
         "/1985/04/this-is-the-work-of-the-lord": {
           "title": "This Is the Work of the Lord",
           "speaker": "Waldo P. Call",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/this-is-the-work-of-the-lord?lang=eng",
-          "filename": "This Is the Work of the Lord — Call 1985 Apr"
+          "filename": "This Is the Work of the Lord — Call 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/this-is-the-work-of-the-lord?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=ZwRxyBL4_Uo"
+            }
+          ]
         },
         "/1985/04/he-is-in-charge": {
           "title": "He Is in Charge",
           "speaker": "Helio R. Camargo",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/he-is-in-charge?lang=eng",
-          "filename": "He Is in Charge — Camargo 1985 Apr"
+          "filename": "He Is in Charge — Camargo 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/he-is-in-charge?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=W0vmlZkD_fk"
+            }
+          ]
         },
         "/1985/04/god-has-a-work-for-us-to-do": {
           "title": "God Has a Work for Us to Do",
           "speaker": "Gordon B. Hinckley",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/god-has-a-work-for-us-to-do?lang=eng",
-          "filename": "God Has a Work for Us to Do — Hinckley 1985 Apr"
+          "filename": "God Has a Work for Us to Do — Hinckley 1985 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/god-has-a-work-for-us-to-do?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=tbJgT7OiCHg"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/1985/04/sunday-afternoon-session?lang=eng"

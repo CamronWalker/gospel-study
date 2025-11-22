@@ -9,43 +9,141 @@
           "title": "Welcome Message",
           "speaker": "Russell M. Nelson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/11nelson?lang=eng",
-          "filename": "Welcome Message — Nelson 2021 Apr"
+          "filename": "Welcome Message — Nelson 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/11nelson?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/11nelson/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=AiP5Z9YgOVI"
+            }
+          ]
         },
         "/2021/04/12uchtdorf": {
           "title": "God among Us",
           "speaker": "Dieter F. Uchtdorf",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/12uchtdorf?lang=eng",
-          "filename": "God among Us — Uchtdorf 2021 Apr"
+          "filename": "God among Us — Uchtdorf 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/12uchtdorf?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/12uchtdorf/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=FPpTHDye3IY"
+            }
+          ]
         },
         "/2021/04/13jones": {
           "title": "Essential Conversations",
           "speaker": "Joy D. Jones",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/13jones?lang=eng",
-          "filename": "Essential Conversations — Jones 2021 Apr"
+          "filename": "Essential Conversations — Jones 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/13jones?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/13jones/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=dZ4P3UAZWxs"
+            }
+          ]
         },
         "/2021/04/14newman": {
           "title": "Teaching in the Savior’s Way",
           "speaker": "Jan E. Newman",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/14newman?lang=eng",
-          "filename": "Teaching in the Savior’s Way — Newman 2021 Apr"
+          "filename": "Teaching in the Savior’s Way — Newman 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/14newman?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/14newman/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=_Ul2BRIFZbc"
+            }
+          ]
         },
         "/2021/04/15stevenson": {
           "title": "Hearts Knit Together",
           "speaker": "Gary E. Stevenson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/15stevenson?lang=eng",
-          "filename": "Hearts Knit Together — Stevenson 2021 Apr"
+          "filename": "Hearts Knit Together — Stevenson 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/15stevenson?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/15stevenson/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=kP52_IPQL60"
+            }
+          ]
         },
         "/2021/04/16gong": {
           "title": "Room in the Inn",
           "speaker": "Gerrit W. Gong",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/16gong?lang=eng",
-          "filename": "Room in the Inn — Gong 2021 Apr"
+          "filename": "Room in the Inn — Gong 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/16gong?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/16gong/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=MMvpsygYMIA"
+            }
+          ]
         },
         "/2021/04/17eyring": {
           "title": "I Love to See the Temple",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/17eyring?lang=eng",
-          "filename": "I Love to See the Temple — Eyring 2021 Apr"
+          "filename": "I Love to See the Temple — Eyring 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/17eyring?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/17eyring/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=I9AvZPOwKZc"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/saturday-morning-session?lang=eng"
@@ -56,49 +154,153 @@
           "title": "Sustaining of General Authorities, Area Seventies, and General Officers",
           "speaker": "Dallin H. Oaks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/21oaks?lang=eng",
-          "filename": "Sustaining of General Authorities Area Seventies and General Officers — Oaks 2021 Apr"
+          "filename": "Sustaining of General Authorities Area Seventies and General Officers — Oaks 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/21oaks?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/21oaks/study-guide"
+            }
+          ]
         },
         "/2021/04/22larson": {
           "title": "Church Auditing Department Report, 2020",
           "speaker": "Jared B. Larson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/22larson?lang=eng",
-          "filename": "Church Auditing Department Report 2020 — Larson 2021 Apr"
+          "filename": "Church Auditing Department Report 2020 — Larson 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/22larson?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/22larson/study-guide"
+            }
+          ]
         },
         "/2021/04/23holland": {
           "title": "Not as the World Giveth",
           "speaker": "Jeffrey R. Holland",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/23holland?lang=eng",
-          "filename": "Not as the World Giveth — Holland 2021 Apr"
+          "filename": "Not as the World Giveth — Holland 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/23holland?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/23holland/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=8kBZQAI_FTQ"
+            }
+          ]
         },
         "/2021/04/24becerra": {
           "title": "Poor Little Ones",
           "speaker": "Jorge T. Becerra",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/24becerra?lang=eng",
-          "filename": "Poor Little Ones — Becerra 2021 Apr"
+          "filename": "Poor Little Ones — Becerra 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/24becerra?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/24becerra/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=e7Ijd-g58b4"
+            }
+          ]
         },
         "/2021/04/25renlund": {
           "title": "Infuriating Unfairness",
           "speaker": "Dale G. Renlund",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/25renlund?lang=eng",
-          "filename": "Infuriating Unfairness — Renlund 2021 Apr"
+          "filename": "Infuriating Unfairness — Renlund 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/25renlund?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/25renlund/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=3mzj-gBeAZg"
+            }
+          ]
         },
         "/2021/04/26andersen": {
           "title": "The Personal Journey of a Child of God",
           "speaker": "Neil L. Andersen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/26andersen?lang=eng",
-          "filename": "The Personal Journey of a Child of God — Andersen 2021 Apr"
+          "filename": "The Personal Journey of a Child of God — Andersen 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/26andersen?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/26andersen/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=xSY13iEeeDM"
+            }
+          ]
         },
         "/2021/04/27mutombo": {
           "title": "Ye Shall Be Free",
           "speaker": "Thierry K. Mutombo",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/27mutombo?lang=eng",
-          "filename": "Ye Shall Be Free — Mutombo 2021 Apr"
+          "filename": "Ye Shall Be Free — Mutombo 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/27mutombo?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/27mutombo/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=mkU91VDTAFE"
+            }
+          ]
         },
         "/2021/04/28ballard": {
           "title": "Hope in Christ",
           "speaker": "M. Russell Ballard",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/28ballard?lang=eng",
-          "filename": "Hope in Christ — Ballard 2021 Apr"
+          "filename": "Hope in Christ — Ballard 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/28ballard?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/28ballard/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=O7n9K9YYb6E"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/saturday-afternoon-session?lang=eng"
@@ -109,37 +311,121 @@
           "title": "Bishops—Shepherds over the Lord’s Flock",
           "speaker": "Quentin L. Cook",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/31cook?lang=eng",
-          "filename": "Bishops—Shepherds over the Lord’s Flock — Cook 2021 Apr"
+          "filename": "Bishops—Shepherds over the Lord’s Flock — Cook 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/31cook?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/31cook/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=XnzmkJIguqM"
+            }
+          ]
         },
         "/2021/04/32corbitt": {
           "title": "You Can Gather Israel!",
           "speaker": "Ahmad S. Corbitt",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/32corbitt?lang=eng",
-          "filename": "You Can Gather Israel — Corbitt 2021 Apr"
+          "filename": "You Can Gather Israel — Corbitt 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/32corbitt?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/32corbitt/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=1vj4DijV2l8"
+            }
+          ]
         },
         "/2021/04/33nielsen": {
           "title": "This Is Our Time!",
           "speaker": "S. Gifford Nielsen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/33nielsen?lang=eng",
-          "filename": "This Is Our Time — Nielsen 2021 Apr"
+          "filename": "This Is Our Time — Nielsen 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/33nielsen?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/33nielsen/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=DzhPoRLzTwU"
+            }
+          ]
         },
         "/2021/04/34eyring": {
           "title": "Bless in His Name",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/34eyring?lang=eng",
-          "filename": "Bless in His Name — Eyring 2021 Apr"
+          "filename": "Bless in His Name — Eyring 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/34eyring?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/34eyring/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=KbEYS0V1wTg"
+            }
+          ]
         },
         "/2021/04/35oaks": {
           "title": "What Has Our Savior Done for Us?",
           "speaker": "Dallin H. Oaks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/35oaks?lang=eng",
-          "filename": "What Has Our Savior Done for Us — Oaks 2021 Apr"
+          "filename": "What Has Our Savior Done for Us — Oaks 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/35oaks?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/35oaks/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=YfYU2rR2PkI"
+            }
+          ]
         },
         "/2021/04/36nelson": {
           "title": "What We Are Learning and Will Never Forget",
           "speaker": "Russell M. Nelson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/36nelson?lang=eng",
-          "filename": "What We Are Learning and Will Never Forget — Nelson 2021 Apr"
+          "filename": "What We Are Learning and Will Never Forget — Nelson 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/36nelson?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/36nelson/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=Jd7kpHyCfdw"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/priesthood-session?lang=eng"
@@ -150,55 +436,181 @@
           "title": "Jesus Christ: The Caregiver of Our Soul",
           "speaker": "Ulisses Soares",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/41soares?lang=eng",
-          "filename": "Jesus Christ- The Caregiver of Our Soul — Soares 2021 Apr"
+          "filename": "Jesus Christ- The Caregiver of Our Soul — Soares 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/41soares?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/41soares/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=y3QMuYicVnQ"
+            }
+          ]
         },
         "/2021/04/42aburto": {
           "title": "The Grave Has No Victory",
           "speaker": "Reyna I. Aburto",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/42aburto?lang=eng",
-          "filename": "The Grave Has No Victory — Aburto 2021 Apr"
+          "filename": "The Grave Has No Victory — Aburto 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/42aburto?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/42aburto/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=z5xiS_WKsm8"
+            }
+          ]
         },
         "/2021/04/43palmer": {
           "title": "Our Sorrow Shall Be Turned into Joy",
           "speaker": "S. Mark Palmer",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/43palmer?lang=eng",
-          "filename": "Our Sorrow Shall Be Turned into Joy — Palmer 2021 Apr"
+          "filename": "Our Sorrow Shall Be Turned into Joy — Palmer 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/43palmer?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/43palmer/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=4NhzPuNcGkA"
+            }
+          ]
         },
         "/2021/04/44dube": {
           "title": "Pressing toward the Mark",
           "speaker": "Edward Dube",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/44dube?lang=eng",
-          "filename": "Pressing toward the Mark — Dube 2021 Apr"
+          "filename": "Pressing toward the Mark — Dube 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/44dube?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/44dube/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=YByAuuyzxAw"
+            }
+          ]
         },
         "/2021/04/45teixeira": {
           "title": "Remember Your Way Back Home",
           "speaker": "José A. Teixeira",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/45teixeira?lang=eng",
-          "filename": "Remember Your Way Back Home — Teixeira 2021 Apr"
+          "filename": "Remember Your Way Back Home — Teixeira 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/45teixeira?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/45teixeira/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=v82FvnlLrJI"
+            }
+          ]
         },
         "/2021/04/46wakolo": {
           "title": "God Loves His Children",
           "speaker": "Taniela B. Wakolo",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/46wakolo?lang=eng",
-          "filename": "God Loves His Children — Wakolo 2021 Apr"
+          "filename": "God Loves His Children — Wakolo 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/46wakolo?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/46wakolo/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=VjgbMFpaj-E"
+            }
+          ]
         },
         "/2021/04/47wong": {
           "title": "They Cannot Prevail; We Cannot Fall",
           "speaker": "Chi Hong (Sam) Wong",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/47wong?lang=eng",
-          "filename": "They Cannot Prevail; We Cannot Fall — Wong 2021 Apr"
+          "filename": "They Cannot Prevail; We Cannot Fall — Wong 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/47wong?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/47wong/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=1J7JTsMqJsY"
+            }
+          ]
         },
         "/2021/04/48teh": {
           "title": "Our Personal Savior",
           "speaker": "Michael John U. Teh",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/48teh?lang=eng",
-          "filename": "Our Personal Savior — Teh 2021 Apr"
+          "filename": "Our Personal Savior — Teh 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/48teh?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/48teh/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=aUsBX-A6UJk"
+            }
+          ]
         },
         "/2021/04/49nelson": {
           "title": "Christ Is Risen; Faith in Him Will Move Mountains",
           "speaker": "Russell M. Nelson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/49nelson?lang=eng",
-          "filename": "Christ Is Risen; Faith in Him Will Move Mountains — Nelson 2021 Apr"
+          "filename": "Christ Is Risen; Faith in Him Will Move Mountains — Nelson 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/49nelson?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/49nelson/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=-VGCEQLzITk"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/sunday-morning-session?lang=eng"
@@ -209,43 +621,141 @@
           "title": "Defending Our Divinely Inspired Constitution",
           "speaker": "Dallin H. Oaks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/51oaks?lang=eng",
-          "filename": "Defending Our Divinely Inspired Constitution — Oaks 2021 Apr"
+          "filename": "Defending Our Divinely Inspired Constitution — Oaks 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/51oaks?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/51oaks/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=ELmbCr_5n30"
+            }
+          ]
         },
         "/2021/04/52rasband": {
           "title": "“Behold! I Am a God of Miracles”",
           "speaker": "Ronald A. Rasband",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/52rasband?lang=eng",
-          "filename": "“Behold I Am a God of Miracles” — Rasband 2021 Apr"
+          "filename": "“Behold I Am a God of Miracles” — Rasband 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/52rasband?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/52rasband/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=ep9RLEJhZAc"
+            }
+          ]
         },
         "/2021/04/53dyches": {
           "title": "Light Cleaveth unto Light",
           "speaker": "Timothy J. Dyches",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/53dyches?lang=eng",
-          "filename": "Light Cleaveth unto Light — Dyches 2021 Apr"
+          "filename": "Light Cleaveth unto Light — Dyches 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/53dyches?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/53dyches/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=GiwKnKtOESk"
+            }
+          ]
         },
         "/2021/04/54christofferson": {
           "title": "Why the Covenant Path",
           "speaker": "D. Todd Christofferson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/54christofferson?lang=eng",
-          "filename": "Why the Covenant Path — Christofferson 2021 Apr"
+          "filename": "Why the Covenant Path — Christofferson 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/54christofferson?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/54christofferson/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=KPDq8eKnhd0"
+            }
+          ]
         },
         "/2021/04/55walker": {
           "title": "The Gospel Light of Truth and Love",
           "speaker": "Alan R. Walker",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/55walker?lang=eng",
-          "filename": "The Gospel Light of Truth and Love — Walker 2021 Apr"
+          "filename": "The Gospel Light of Truth and Love — Walker 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/55walker?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/55walker/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=mfyGmHbla7A"
+            }
+          ]
         },
         "/2021/04/56bednar": {
           "title": "“The Principles of My Gospel”",
           "speaker": "David A. Bednar",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/56bednar?lang=eng",
-          "filename": "“The Principles of My Gospel” — Bednar 2021 Apr"
+          "filename": "“The Principles of My Gospel” — Bednar 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/56bednar?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/56bednar/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=H4VzqqhyhEk"
+            }
+          ]
         },
         "/2021/04/57nelson": {
           "title": "COVID-19 and Temples",
           "speaker": "Russell M. Nelson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/57nelson?lang=eng",
-          "filename": "COVID-19 and Temples — Nelson 2021 Apr"
+          "filename": "COVID-19 and Temples — Nelson 2021 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/57nelson?lang=eng"
+            },
+            {
+              "name": "Saints AI Study Guide",
+              "url": "https://saintsai.org/study/general-conference/2021/04/57nelson/study-guide"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=3IlFD5_fnEc"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/2021/04/sunday-afternoon-session?lang=eng"

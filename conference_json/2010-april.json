@@ -9,43 +9,113 @@
           "title": "Welcome to Conference",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/welcome-to-conference?lang=eng",
-          "filename": "Welcome to Conference — Monson 2010 Apr"
+          "filename": "Welcome to Conference — Monson 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/welcome-to-conference?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=XnLQzxdP0R4"
+            }
+          ]
         },
         "/2010/04/the-power-of-the-priesthood": {
           "title": "The Power of the Priesthood",
           "speaker": "Boyd K. Packer",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/the-power-of-the-priesthood?lang=eng",
-          "filename": "The Power of the Priesthood — Packer 2010 Apr"
+          "filename": "The Power of the Priesthood — Packer 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/the-power-of-the-priesthood?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=tK5cJCA-Ios"
+            }
+          ]
         },
         "/2010/04/and-upon-the-handmaids-in-those-days-will-i-pour-out-my-spirit": {
           "title": "“And upon the Handmaids in Those Days Will I Pour Out My Spirit”",
           "speaker": "Julie B. Beck",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/and-upon-the-handmaids-in-those-days-will-i-pour-out-my-spirit?lang=eng",
-          "filename": "“And upon the Handmaids in Those Days Will I Pour Out My Spirit” — Beck 2010 Apr"
+          "filename": "“And upon the Handmaids in Those Days Will I Pour Out My Spirit” — Beck 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/and-upon-the-handmaids-in-those-days-will-i-pour-out-my-spirit?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=KcRQontJtP8"
+            }
+          ]
         },
         "/2010/04/our-path-of-duty": {
           "title": "Our Path of Duty",
           "speaker": "Keith B. McMullin",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/our-path-of-duty?lang=eng",
-          "filename": "Our Path of Duty — McMullin 2010 Apr"
+          "filename": "Our Path of Duty — McMullin 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/our-path-of-duty?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=h-eaLV2IL0k"
+            }
+          ]
         },
         "/2010/04/the-rock-of-our-redeemer": {
           "title": "The Rock of Our Redeemer",
           "speaker": "Wilford W. Andersen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/the-rock-of-our-redeemer?lang=eng",
-          "filename": "The Rock of Our Redeemer — Andersen 2010 Apr"
+          "filename": "The Rock of Our Redeemer — Andersen 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/the-rock-of-our-redeemer?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=Dil15qzXnNw"
+            }
+          ]
         },
         "/2010/04/mothers-and-daughters": {
           "title": "Mothers and Daughters",
           "speaker": "M. Russell Ballard",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/mothers-and-daughters?lang=eng",
-          "filename": "Mothers and Daughters — Ballard 2010 Apr"
+          "filename": "Mothers and Daughters — Ballard 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/mothers-and-daughters?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=S8mOnSQ4OfA"
+            }
+          ]
         },
         "/2010/04/help-them-on-their-way-home": {
           "title": "Help Them on Their Way Home",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/help-them-on-their-way-home?lang=eng",
-          "filename": "Help Them on Their Way Home — Eyring 2010 Apr"
+          "filename": "Help Them on Their Way Home — Eyring 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/help-them-on-their-way-home?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=SUTfJj8YMxo"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/saturday-morning-session?lang=eng"
@@ -56,55 +126,137 @@
           "title": "The Sustaining of Church Officers",
           "speaker": "Dieter F. Uchtdorf",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/the-sustaining-of-church-officers?lang=eng",
-          "filename": "The Sustaining of Church Officers — Uchtdorf 2010 Apr"
+          "filename": "The Sustaining of Church Officers — Uchtdorf 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/the-sustaining-of-church-officers?lang=eng"
+            }
+          ]
         },
         "/2010/04/church-auditing-department-report-2009": {
           "title": "Church Auditing Department Report, 2009",
           "speaker": "Robert W. Cantwell",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/church-auditing-department-report-2009?lang=eng",
-          "filename": "Church Auditing Department Report 2009 — Cantwell 2010 Apr"
+          "filename": "Church Auditing Department Report 2009 — Cantwell 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/church-auditing-department-report-2009?lang=eng"
+            }
+          ]
         },
         "/2010/04/statistical-report-2009": {
           "title": "Statistical Report, 2009",
           "speaker": "Brook P. Hales",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/statistical-report-2009?lang=eng",
-          "filename": "Statistical Report 2009 — Hales 2010 Apr"
+          "filename": "Statistical Report 2009 — Hales 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/statistical-report-2009?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=GE1gniufyco"
+            }
+          ]
         },
         "/2010/04/mothers-teaching-children-in-the-home": {
           "title": "Mothers Teaching Children in the Home",
           "speaker": "L. Tom Perry",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/mothers-teaching-children-in-the-home?lang=eng",
-          "filename": "Mothers Teaching Children in the Home — Perry 2010 Apr"
+          "filename": "Mothers Teaching Children in the Home — Perry 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/mothers-teaching-children-in-the-home?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=kleNfMTaJpU"
+            }
+          ]
         },
         "/2010/04/the-blessing-of-scripture": {
           "title": "The Blessing of Scripture",
           "speaker": "D. Todd Christofferson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/the-blessing-of-scripture?lang=eng",
-          "filename": "The Blessing of Scripture — Christofferson 2010 Apr"
+          "filename": "The Blessing of Scripture — Christofferson 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/the-blessing-of-scripture?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=VrOD8x6CyhM"
+            }
+          ]
         },
         "/2010/04/helping-hands-saving-hands": {
           "title": "Helping Hands, Saving Hands",
           "speaker": "Koichi Aoyagi",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/helping-hands-saving-hands?lang=eng",
-          "filename": "Helping Hands Saving Hands — Aoyagi 2010 Apr"
+          "filename": "Helping Hands Saving Hands — Aoyagi 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/helping-hands-saving-hands?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=ioL5uC7ZTag"
+            }
+          ]
         },
         "/2010/04/when-the-lord-commands": {
           "title": "When the Lord Commands",
           "speaker": "Bruce A. Carlson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/when-the-lord-commands?lang=eng",
-          "filename": "When the Lord Commands — Carlson 2010 Apr"
+          "filename": "When the Lord Commands — Carlson 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/when-the-lord-commands?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=smK1ew5RzcA"
+            }
+          ]
         },
         "/2010/04/watching-with-all-perseverance": {
           "title": "Watching with All Perseverance",
           "speaker": "David A. Bednar",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/watching-with-all-perseverance?lang=eng",
-          "filename": "Watching with All Perseverance — Bednar 2010 Apr"
+          "filename": "Watching with All Perseverance — Bednar 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/watching-with-all-perseverance?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=jDZR5Rdypwg"
+            }
+          ]
         },
         "/2010/04/place-no-more-for-the-enemy-of-my-soul": {
           "title": "Place No More for the Enemy of My Soul",
           "speaker": "Jeffrey R. Holland",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/place-no-more-for-the-enemy-of-my-soul?lang=eng",
-          "filename": "Place No More for the Enemy of My Soul — Holland 2010 Apr"
+          "filename": "Place No More for the Enemy of My Soul — Holland 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/place-no-more-for-the-enemy-of-my-soul?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=71vlgwLp4mI"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/saturday-afternoon-session?lang=eng"
@@ -115,37 +267,97 @@
           "title": "Healing the Sick",
           "speaker": "Dallin H. Oaks",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/healing-the-sick?lang=eng",
-          "filename": "Healing the Sick — Oaks 2010 Apr"
+          "filename": "Healing the Sick — Oaks 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/healing-the-sick?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=nTTvDsQOPFw"
+            }
+          ]
         },
         "/2010/04/the-divine-call-of-a-missionary": {
           "title": "The Divine Call of a Missionary",
           "speaker": "Ronald A. Rasband",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/the-divine-call-of-a-missionary?lang=eng",
-          "filename": "The Divine Call of a Missionary — Rasband 2010 Apr"
+          "filename": "The Divine Call of a Missionary — Rasband 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/the-divine-call-of-a-missionary?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=YU4zZni1poQ"
+            }
+          ]
         },
         "/2010/04/the-magnificent-aaronic-priesthood": {
           "title": "The Magnificent Aaronic Priesthood",
           "speaker": "David L. Beck",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/the-magnificent-aaronic-priesthood?lang=eng",
-          "filename": "The Magnificent Aaronic Priesthood — Beck 2010 Apr"
+          "filename": "The Magnificent Aaronic Priesthood — Beck 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/the-magnificent-aaronic-priesthood?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=ppJLxggJT6Q"
+            }
+          ]
         },
         "/2010/04/continue-in-patience": {
           "title": "Continue in Patience",
           "speaker": "Dieter F. Uchtdorf",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/continue-in-patience?lang=eng",
-          "filename": "Continue in Patience — Uchtdorf 2010 Apr"
+          "filename": "Continue in Patience — Uchtdorf 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/continue-in-patience?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=tpypZZ-Ntzw"
+            }
+          ]
         },
         "/2010/04/act-in-all-diligence": {
           "title": "Act in All Diligence",
           "speaker": "Henry B. Eyring",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/act-in-all-diligence?lang=eng",
-          "filename": "Act in All Diligence — Eyring 2010 Apr"
+          "filename": "Act in All Diligence — Eyring 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/act-in-all-diligence?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=yUUGh9mMnj8"
+            }
+          ]
         },
         "/2010/04/preparation-brings-blessings": {
           "title": "Preparation Brings Blessings",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/preparation-brings-blessings?lang=eng",
-          "filename": "Preparation Brings Blessings — Monson 2010 Apr"
+          "filename": "Preparation Brings Blessings — Monson 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/preparation-brings-blessings?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=BUjA0E0ACfc"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/priesthood-session?lang=eng"
@@ -156,37 +368,97 @@
           "title": "“You Are My Hands”",
           "speaker": "Dieter F. Uchtdorf",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/you-are-my-hands?lang=eng",
-          "filename": "“You Are My Hands” — Uchtdorf 2010 Apr"
+          "filename": "“You Are My Hands” — Uchtdorf 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/you-are-my-hands?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=upPT4lliseE"
+            }
+          ]
         },
         "/2010/04/he-lives-all-glory-to-his-name": {
           "title": "He Lives! All Glory to His Name!",
           "speaker": "Richard G. Scott",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/he-lives-all-glory-to-his-name?lang=eng",
-          "filename": "He Lives All Glory to His Name — Scott 2010 Apr"
+          "filename": "He Lives All Glory to His Name — Scott 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/he-lives-all-glory-to-his-name?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=tmonl3eMBMA"
+            }
+          ]
         },
         "/2010/04/turn-to-the-lord": {
           "title": "Turn to the Lord",
           "speaker": "Donald L. Hallstrom",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/turn-to-the-lord?lang=eng",
-          "filename": "Turn to the Lord — Hallstrom 2010 Apr"
+          "filename": "Turn to the Lord — Hallstrom 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/turn-to-the-lord?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=eth4iy6t7K4"
+            }
+          ]
         },
         "/2010/04/that-our-children-might-see-the-face-of-the-savior": {
           "title": "That Our Children Might See the Face of the Savior",
           "speaker": "Cheryl C. Lant",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/that-our-children-might-see-the-face-of-the-savior?lang=eng",
-          "filename": "That Our Children Might See the Face of the Savior — Lant 2010 Apr"
+          "filename": "That Our Children Might See the Face of the Savior — Lant 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/that-our-children-might-see-the-face-of-the-savior?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=gRVpezuv4z0"
+            }
+          ]
         },
         "/2010/04/we-follow-jesus-christ": {
           "title": "We Follow Jesus Christ",
           "speaker": "Quentin L. Cook",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/we-follow-jesus-christ?lang=eng",
-          "filename": "We Follow Jesus Christ — Cook 2010 Apr"
+          "filename": "We Follow Jesus Christ — Cook 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/we-follow-jesus-christ?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=J226xcl0lq0"
+            }
+          ]
         },
         "/2010/04/he-is-risen": {
           "title": "He Is Risen!",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/he-is-risen?lang=eng",
-          "filename": "He Is Risen — Monson 2010 Apr"
+          "filename": "He Is Risen — Monson 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/he-is-risen?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=zrQsfY-gIIM"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/sunday-morning-session?lang=eng"
@@ -197,49 +469,129 @@
           "title": "Generations Linked in Love",
           "speaker": "Russell M. Nelson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/generations-linked-in-love?lang=eng",
-          "filename": "Generations Linked in Love — Nelson 2010 Apr"
+          "filename": "Generations Linked in Love — Nelson 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/generations-linked-in-love?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=dRoXXSmqRz8"
+            }
+          ]
         },
         "/2010/04/our-duty-to-god-the-mission-of-parents-and-leaders-to-the-rising-generation": {
           "title": "Our Duty to God: The Mission of Parents and Leaders to the Rising Generation",
           "speaker": "Robert D. Hales",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/our-duty-to-god-the-mission-of-parents-and-leaders-to-the-rising-generation?lang=eng",
-          "filename": "Our Duty to God- The Mission of Parents and Leaders to the Rising Generation — Hales 2010 Apr"
+          "filename": "Our Duty to God- The Mission of Parents and Leaders to the Rising Generation — Hales 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/our-duty-to-god-the-mission-of-parents-and-leaders-to-the-rising-generation?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=Lw7o-yy1wlQ"
+            }
+          ]
         },
         "/2010/04/mother-told-me": {
           "title": "Mother Told Me",
           "speaker": "Bradley D. Foster",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/mother-told-me?lang=eng",
-          "filename": "Mother Told Me — Foster 2010 Apr"
+          "filename": "Mother Told Me — Foster 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/mother-told-me?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=4oNtLYxooGQ"
+            }
+          ]
         },
         "/2010/04/all-things-work-together-for-good": {
           "title": "All Things Work Together for Good",
           "speaker": "James B. Martino",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/all-things-work-together-for-good?lang=eng",
-          "filename": "All Things Work Together for Good — Martino 2010 Apr"
+          "filename": "All Things Work Together for Good — Martino 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/all-things-work-together-for-good?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=UQecFqctVhw"
+            }
+          ]
         },
         "/2010/04/developing-good-judgment-and-not-judging-others": {
           "title": "Developing Good Judgment and Not Judging Others",
           "speaker": "Gregory A. Schwitzer",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/developing-good-judgment-and-not-judging-others?lang=eng",
-          "filename": "Developing Good Judgment and Not Judging Others — Schwitzer 2010 Apr"
+          "filename": "Developing Good Judgment and Not Judging Others — Schwitzer 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/developing-good-judgment-and-not-judging-others?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=jqGW5VntUpI"
+            }
+          ]
         },
         "/2010/04/things-pertaining-to-righteousness": {
           "title": "Things Pertaining to Righteousness",
           "speaker": "Francisco J. Viñas",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/things-pertaining-to-righteousness?lang=eng",
-          "filename": "Things Pertaining to Righteousness — Viñas 2010 Apr"
+          "filename": "Things Pertaining to Righteousness — Viñas 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/things-pertaining-to-righteousness?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=GZeOEPaVvDc"
+            }
+          ]
         },
         "/2010/04/tell-me-the-stories-of-jesus": {
           "title": "Tell Me the Stories of Jesus",
           "speaker": "Neil L. Andersen",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/tell-me-the-stories-of-jesus?lang=eng",
-          "filename": "Tell Me the Stories of Jesus — Andersen 2010 Apr"
+          "filename": "Tell Me the Stories of Jesus — Andersen 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/tell-me-the-stories-of-jesus?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=WUjAZsUQGpI"
+            }
+          ]
         },
         "/2010/04/a-word-at-closing": {
           "title": "A Word at Closing",
           "speaker": "Thomas S. Monson",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/a-word-at-closing?lang=eng",
-          "filename": "A Word at Closing — Monson 2010 Apr"
+          "filename": "A Word at Closing — Monson 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/a-word-at-closing?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=3VBkv6sSf38"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/sunday-afternoon-session?lang=eng"
@@ -250,25 +602,65 @@
           "title": "Be of a Good Courage",
           "speaker": "Ann M. Dibb",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/be-of-a-good-courage?lang=eng",
-          "filename": "Be of a Good Courage — Dibb 2010 Apr"
+          "filename": "Be of a Good Courage — Dibb 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/be-of-a-good-courage?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=BOj0p-B0_48"
+            }
+          ]
         },
         "/2010/04/never-never-never-give-up": {
           "title": "Never, Never, Never Give Up!",
           "speaker": "Mary N. Cook",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/never-never-never-give-up?lang=eng",
-          "filename": "Never Never Never Give Up — Cook 2010 Apr"
+          "filename": "Never Never Never Give Up — Cook 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/never-never-never-give-up?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=xPWKThLDL3E"
+            }
+          ]
         },
         "/2010/04/remember-who-you-are": {
           "title": "Remember Who You Are!",
           "speaker": "Elaine S. Dalton",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/remember-who-you-are?lang=eng",
-          "filename": "Remember Who You Are — Dalton 2010 Apr"
+          "filename": "Remember Who You Are — Dalton 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/remember-who-you-are?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=OlJViUJCl6Q"
+            }
+          ]
         },
         "/2010/04/your-happily-ever-after": {
           "title": "Your Happily Ever After",
           "speaker": "Dieter F. Uchtdorf",
           "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/your-happily-ever-after?lang=eng",
-          "filename": "Your Happily Ever After — Uchtdorf 2010 Apr"
+          "filename": "Your Happily Ever After — Uchtdorf 2010 Apr",
+          "resources": [
+            {
+              "name": "Gospel Library",
+              "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/your-happily-ever-after?lang=eng"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=HXm4sgYcjb4"
+            }
+          ]
         }
       },
       "url": "https://www.churchofjesuschrist.org/study/general-conference/2010/04/young-women-session?lang=eng"
