@@ -227,11 +227,6 @@ def add_church_news_resource(talk, year, month, replace=False, driver=None):
     for attempt in range(attempts):
         try:
             driver.get(search_url)
-            WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, 'filter_item')))
-            filter_div = driver.find_element(By.CSS_SELECTOR, 'div.filter_item[data-filter-value="General Conference"]')
-            if 'selectedFilterItem' not in filter_div.get_attribute('class'):
-                driver.execute_script("searchPage.dofacetedsearch(0,'section','General Conference')")
-                time.sleep(2)
             WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, 'queryly_item_row')))
             time.sleep(2)
 
