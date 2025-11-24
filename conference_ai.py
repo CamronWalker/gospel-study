@@ -1,21 +1,3 @@
-"""
-Conference AI
-TODO Talk Summary with Adult as the Audience
-TODO Talk Summary with Youth as the Audience
-TODO Talk Summary with Children as the Audience
-TODO Talk Summary with New Members as the Audience
-TODO Talk Summary with Non-Members as the Audience
-
-TODO Talk Key Topics (Names for Section Headings)
-    TODO Topic Summary
-    TODO Topic Open Ended Questions for Reflection or Discussion
-    TODO Topic Key Quotes that Capture the Essence of the Topic or help provide context for the discussion questions.
-    
-
-TODO Talk Related Talks
-TODO Talk Related Scriptures
-"""
-
 # This script generates AI-powered summaries and resources for talks in LDS General Conference JSON files using the xAI SDK.
 # It supports updating entire conferences or ranges of conferences.
 # Requires an XAI_API_KEY environment variable set in a .env file.
@@ -44,12 +26,21 @@ from dotenv import load_dotenv
 import argparse
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
+
+# Load environment variables from .env file first so values like XAI_API_KEY are available
+load_dotenv()
+
+# Suppress noisy C++/absl/grpc logs that can appear before the logging system is initialized.
+# These env vars should be set before importing modules that initialize gRPC/TensorFlow/absl.
+os.environ.setdefault("TF_CPP_MIN_LOG_LEVEL", os.getenv("TF_CPP_MIN_LOG_LEVEL", "2"))
+os.environ.setdefault("ABSL_CPP_MIN_LOG_LEVEL", os.getenv("ABSL_CPP_MIN_LOG_LEVEL", "2"))
+os.environ.setdefault("GRPC_VERBOSITY", os.getenv("GRPC_VERBOSITY", "ERROR"))
+os.environ.setdefault("GRPC_TRACE", os.getenv("GRPC_TRACE", ""))
+
+# Now import the xAI SDK (and any other libraries that might initialize gRPC/absl)
 from xai_sdk import Client
 from xai_sdk.chat import user
 from xai_sdk.search import SearchParameters, web_source
-
-# Load environment variables from .env file
-load_dotenv()
 
 # Set your xAI API key (retrieve from environment variable for security)
 api_key = os.getenv('XAI_API_KEY')
@@ -458,7 +449,7 @@ def process_talk(sessions, session_name, talk_id, search_enabled, debug):
     
     return talk, total_in, total_comp, total_reas, total_search
 
-def update_conference(file_path, search_enabled=False, debug=False):
+def update_conference(file_path, search_enabled=False, debug=False, show_talk_progress=True):
     """Update all talks in a conference JSON."""
     with open(file_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -481,12 +472,23 @@ def update_conference(file_path, search_enabled=False, debug=False):
 
     with ThreadPoolExecutor(max_workers=100) as executor:
         futures = [executor.submit(process_task, task) for task in talk_tasks]
-        for future in tqdm(as_completed(futures), total=total_talks, desc=f"Processing {os.path.basename(file_path)}", unit="talk"):
-            _, in_t, comp_t, reas_t, search_t = future.result()
-            total_input += in_t
-            total_completion += comp_t
-            total_reasoning += reas_t
-            total_searches += search_t
+        if show_talk_progress:
+            # Show a per-talk progress bar (existing behavior) — useful when updating a single conference.
+            for future in tqdm(as_completed(futures), total=total_talks, desc=f"Processing {os.path.basename(file_path)}", unit="talk"):
+                _, in_t, comp_t, reas_t, search_t = future.result()
+                total_input += in_t
+                total_completion += comp_t
+                total_reasoning += reas_t
+                total_searches += search_t
+        else:
+            # When processing multiple conferences, avoid many nested per-talk progress bars.
+            # Instead process the conference silently here and let the caller show a conference-level progress bar.
+            for future in as_completed(futures):
+                _, in_t, comp_t, reas_t, search_t = future.result()
+                total_input += in_t
+                total_completion += comp_t
+                total_reasoning += reas_t
+                total_searches += search_t
 
     with open(file_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
@@ -507,13 +509,25 @@ if __name__ == "__main__":
     processed = False
     base_dir = "conference_json"
 
-    for file_name in file_names:
-        file_path = os.path.join(base_dir, file_name)
-        if os.path.exists(file_path):
-            update_conference(file_path, search_enabled, debug)
-            processed = True
-        else:
-            print(f"Conference file {file_name} not found.")
+    # If multiple conferences requested, show an outer progress bar over conferences and
+    # run each conference without a per-talk tqdm (because each conference is already parallel).
+    if len(file_names) > 1:
+        for file_name in tqdm(file_names, desc="Conferences", unit="conf"):
+            file_path = os.path.join(base_dir, file_name)
+            if os.path.exists(file_path):
+                update_conference(file_path, search_enabled, debug, show_talk_progress=False)
+                processed = True
+            else:
+                print(f"Conference file {file_name} not found.")
+    else:
+        # Single conference: keep per-talk progress bars for detail
+        for file_name in file_names:
+            file_path = os.path.join(base_dir, file_name)
+            if os.path.exists(file_path):
+                update_conference(file_path, search_enabled, debug, show_talk_progress=True)
+                processed = True
+            else:
+                print(f"Conference file {file_name} not found.")
 
     if processed:
         print("AI resources have been added to the conference files successfully.")
