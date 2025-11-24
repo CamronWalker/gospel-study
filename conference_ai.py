@@ -95,9 +95,9 @@ def generate_summaries(title, speaker, full_text, debug=False):
         f"New Members Summary: [new members summary here]\n"
         f"Non-Members Summary: [non-members summary here]\n"
     )
-    
+
     if debug:
-        print(f"Debug: Prompt for summaries ({title}):\n{prompt}\n")
+        tqdm.write(f"Debug: Prompt for summaries ({title}):\n{prompt}\n")
     
     max_retries = 5
     for attempt in range(max_retries):
@@ -111,7 +111,7 @@ def generate_summaries(title, speaker, full_text, debug=False):
             response = chat.sample()
             
             if debug:
-                print(f"Debug: Response for summaries ({title}):\n{response.content}\n")
+                tqdm.write(f"Debug: Response for summaries ({title}):\n{response.content}\n")
             
             output = response.content.strip()
             lines = output.split("\n")
@@ -171,15 +171,15 @@ def generate_summaries(title, speaker, full_text, debug=False):
             searches = response.usage.num_sources_used if hasattr(response.usage, 'num_sources_used') else 0
             
             if debug:
-                print(f"Debug: Parsed summaries for {title}: {summaries}\n")
-                print(f"Tokens: Input {prompt_tokens}, Completion {completion_tokens}, Reasoning {reasoning_tokens}, Searches {searches}\n")
+                tqdm.write(f"Debug: Parsed summaries for {title}: {summaries}\n")
+                tqdm.write(f"Tokens: Input {prompt_tokens}, Completion {completion_tokens}, Reasoning {reasoning_tokens}, Searches {searches}\n")
             
             return summaries, prompt_tokens, completion_tokens, reasoning_tokens, searches
         except Exception as e:
             wait_time = 2 ** attempt
-            print(f"Error generating summaries for {title}: {e}. Retrying in {wait_time}s... (Attempt {attempt + 1}/{max_retries})")
+            tqdm.write(f"Error generating summaries for {title}: {e}. Retrying in {wait_time}s... (Attempt {attempt + 1}/{max_retries})")
             time.sleep(wait_time)
-    print(f"Max retries exceeded for summaries ({title})")
+    tqdm.write(f"Max retries exceeded for summaries ({title})")
     return {}, 0, 0, 0, 0
 
 def generate_topics(title, speaker, body, debug=False):
@@ -223,7 +223,7 @@ def generate_topics(title, speaker, body, debug=False):
     )
     
     if debug:
-        print(f"Debug: Prompt for topics ({title}):\n{prompt}\n")
+        tqdm.write(f"Debug: Prompt for topics ({title}):\n{prompt}\n")
     
     max_retries = 5
     for attempt in range(max_retries):
@@ -237,7 +237,7 @@ def generate_topics(title, speaker, body, debug=False):
             response = chat.sample()
             
             if debug:
-                print(f"Debug: Response for topics ({title}):\n{response.content}\n")
+                tqdm.write(f"Debug: Response for topics ({title}):\n{response.content}\n")
             
             output = response.content.strip()
             topics = []
@@ -315,15 +315,15 @@ def generate_topics(title, speaker, body, debug=False):
             searches = response.usage.num_sources_used if hasattr(response.usage, 'num_sources_used') else 0
             
             if debug:
-                print(f"Debug: Parsed topics for {title}: {topics}\n")
-                print(f"Tokens: Input {prompt_tokens}, Completion {completion_tokens}, Reasoning {reasoning_tokens}, Searches {searches}\n")
+                tqdm.write(f"Debug: Parsed topics for {title}: {topics}\n")
+                tqdm.write(f"Tokens: Input {prompt_tokens}, Completion {completion_tokens}, Reasoning {reasoning_tokens}, Searches {searches}\n")
             
             return topics, prompt_tokens, completion_tokens, reasoning_tokens, searches
         except Exception as e:
             wait_time = 2 ** attempt
-            print(f"Error generating topics for {title}: {e}. Retrying in {wait_time}s... (Attempt {attempt + 1}/{max_retries})")
+            tqdm.write(f"Error generating topics for {title}: {e}. Retrying in {wait_time}s... (Attempt {attempt + 1}/{max_retries})")
             time.sleep(wait_time)
-    print(f"Max retries exceeded for topics ({title})")
+    tqdm.write(f"Max retries exceeded for topics ({title})")
     return [], 0, 0, 0, 0
 
 def parse_related_content(s, is_scriptures=False):
@@ -361,7 +361,7 @@ def generate_related(title, speaker, full_text, search_enabled=False, debug=Fals
     )
     
     if debug:
-        print(f"Debug: Prompt for related ({title}):\n{prompt}\n")
+        tqdm.write(f"Debug: Prompt for related ({title}):\n{prompt}\n")
     
     max_retries = 5
     for attempt in range(max_retries):
@@ -381,7 +381,7 @@ def generate_related(title, speaker, full_text, search_enabled=False, debug=Fals
             response = chat.sample()
             
             if debug:
-                print(f"Debug: Response for related ({title}):\n{response.content}\n")
+                tqdm.write(f"Debug: Response for related ({title}):\n{response.content}\n")
             
             output = response.content.strip()
             # Parse Related Talks and Scriptures
@@ -403,15 +403,15 @@ def generate_related(title, speaker, full_text, search_enabled=False, debug=Fals
             searches = response.usage.num_sources_used if hasattr(response.usage, 'num_sources_used') else 0
             
             if debug:
-                print(f"Debug: Parsed related for {title}: Talks {related_talks}, Scriptures {related_scriptures}\n")
-                print(f"Tokens: Input {prompt_tokens}, Completion {completion_tokens}, Reasoning {reasoning_tokens}, Searches {searches}\n")
+                tqdm.write(f"Debug: Parsed related for {title}: Talks {related_talks}, Scriptures {related_scriptures}\n")
+                tqdm.write(f"Tokens: Input {prompt_tokens}, Completion {completion_tokens}, Reasoning {reasoning_tokens}, Searches {searches}\n")
             
             return related_talks, related_scriptures, prompt_tokens, completion_tokens, reasoning_tokens, searches
         except Exception as e:
             wait_time = 2 ** attempt
-            print(f"Error generating related for {title}: {e}. Retrying in {wait_time}s... (Attempt {attempt + 1}/{max_retries})")
+            tqdm.write(f"Error generating related for {title}: {e}. Retrying in {wait_time}s... (Attempt {attempt + 1}/{max_retries})")
             time.sleep(wait_time)
-    print(f"Max retries exceeded for related ({title})")
+    tqdm.write(f"Max retries exceeded for related ({title})")
     return [], [], 0, 0, 0, 0
 
 def process_talk(sessions, session_name, talk_id, search_enabled, debug):
@@ -492,7 +492,7 @@ def update_conference(file_path, search_enabled=False, debug=False, show_talk_pr
 
     with open(file_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"Conference updated: Input Tokens: {total_input}, Completion: {total_completion}, Reasoning: {total_reasoning}, Searches: {total_searches}")
+    tqdm.write(f"Conference updated: Input Tokens: {total_input}, Completion: {total_completion}, Reasoning: {total_reasoning}, Searches: {total_searches}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Update AI resources in JSON conference files.")
@@ -515,10 +515,11 @@ if __name__ == "__main__":
         for file_name in tqdm(file_names, desc="Conferences", unit="conf"):
             file_path = os.path.join(base_dir, file_name)
             if os.path.exists(file_path):
-                update_conference(file_path, search_enabled, debug, show_talk_progress=False)
+                # show_talk_progress=True so each conference shows its own per-talk bar
+                update_conference(file_path, search_enabled, debug, show_talk_progress=True)
                 processed = True
             else:
-                print(f"Conference file {file_name} not found.")
+                tqdm.write(f"Conference file {file_name} not found.")
     else:
         # Single conference: keep per-talk progress bars for detail
         for file_name in file_names:
@@ -527,9 +528,9 @@ if __name__ == "__main__":
                 update_conference(file_path, search_enabled, debug, show_talk_progress=True)
                 processed = True
             else:
-                print(f"Conference file {file_name} not found.")
+                tqdm.write(f"Conference file {file_name} not found.")
 
     if processed:
-        print("AI resources have been added to the conference files successfully.")
+        tqdm.write("AI resources have been added to the conference files successfully.")
     else:
-        print("No updates performed.")
+        tqdm.write("No updates performed.")
