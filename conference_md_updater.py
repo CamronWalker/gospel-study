@@ -65,18 +65,20 @@ def build_properties(talk):
     properties.append('>Resources:')
     links = "    |    ".join(f"[{res['name']}]({res['url']})" for res in talk.get('resources', []))
     properties.append(f'>{links}')
-    if 'ai_context' in talk:
-        properties.append('')
+    ai_res = talk.get('ai_resources', {})
+    summaries = ai_res.get('summaries', {})
+    if 'youth' in summaries:
         properties.append('>> [!AI]- AI Context')
-        properties.append('>' + talk['ai_context'])
-    if 'ai_child_summary' in talk:
-        properties.append('')
+        properties.append('>>' + summaries['youth'])
+        properties.append('>')
+    if 'children' in summaries:
         properties.append('>> [!AI]- AI Child Summary')
-        properties.append('>' + talk['ai_child_summary'])
-    if 'ai_summary' in talk:
-        properties.append('')
+        properties.append('>>' + summaries['children'])
+        properties.append('>')
+    if 'adult' in summaries:
         properties.append('>> [!AI]- AI Summary')
-        properties.append('>' + talk['ai_summary'])
+        properties.append('>>' + summaries['adult'])
+        properties.append('>')
     return '\n'.join(properties) + '\n'
 
 def build_invitation(talk):
