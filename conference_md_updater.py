@@ -48,9 +48,9 @@ def build_frontmatter(talk):
         f'month: "{talk["month"].capitalize()}"',  # Full month name
         f'session: "{talk["session"]}"',
         f'speaker: "{format_wikilink(talk["speaker"])}"',
-        f'speaker-role: "{talk["speaker_role"]}"',
+        f'speaker-role: "{talk.get("speaker_role", "")}"',
         f'title: "{talk["title"]}"',
-        f'thumbnail: "{talk["thumbnail"]}"',
+        f'thumbnail: "{talk.get("thumbnail", "")}"',
     ]
     if talk.get('kicker'):
         frontmatter.append(f'kicker: "{talk["kicker"]}"')
@@ -59,18 +59,25 @@ def build_frontmatter(talk):
     return '\n'.join(frontmatter)
 
 def build_properties(talk):
-    properties = ['> [!Properties]- Resources']
+    properties = ['> [!Properties]+ Resources']
     properties.append(f'>Session: {talk["session"]}')
     properties.append(f'>URL: {talk["url"]}')
     properties.append('>Resources:')
     links = "    |    ".join(f"[{res['name']}]({res['url']})" for res in talk.get('resources', []))
     properties.append(f'>{links}')
-    return '\n'.join(properties) + '\n'
-
-def build_ai_summary(talk):
+    if 'ai_context' in talk:
+        properties.append('')
+        properties.append('>> [!AI]- AI Context')
+        properties.append('>' + talk['ai_context'])
+    if 'ai_child_summary' in talk:
+        properties.append('')
+        properties.append('>> [!AI]- AI Child Summary')
+        properties.append('>' + talk['ai_child_summary'])
     if 'ai_summary' in talk:
-        return '> [!ai]- AI Summary\n' + talk['ai_summary'] + '\n'
-    return ''
+        properties.append('')
+        properties.append('>> [!AI]- AI Summary')
+        properties.append('>' + talk['ai_summary'])
+    return '\n'.join(properties) + '\n'
 
 def build_invitation(talk):
     if 'invitation' in talk:
@@ -129,7 +136,6 @@ def build_talk_body(talk):
 def build_full_md(talk):
     md = build_frontmatter(talk) + '\n\n'
     md += build_properties(talk) + '\n'
-    md += build_ai_summary(talk) + '\n'
     md += build_invitation(talk) + '\n'
     md += '# Notes\n\n\n\n'
     md += build_talk_body(talk)
@@ -148,7 +154,6 @@ def update_md_prefix(existing_md, talk):
     # Generate new prefix
     new_prefix = build_frontmatter(talk) + '\n\n'
     new_prefix += build_properties(talk) + '\n'
-    new_prefix += build_ai_summary(talk) + '\n'
     new_prefix += build_invitation(talk) + '\n'
     
     # Combine
@@ -163,17 +168,15 @@ def process_conference(json_file, replace=False):
     conf_folder = f"Conference/{year}-{get_month_abbr(month)}"
     os.makedirs(conf_folder, exist_ok=True)
 
-    for session_name, talks in data['sessions'].items():
-        for talk in talks:
+    for session_name, session_data in data['sessions'].items():
+        talks = session_data['talks']
+        for talk_id, talk in talks.items():
             talk['conference'] = data['conference']
             talk['year'] = data['year']
             talk['month'] = data['month']
             talk['session'] = session_name
 
-            title = talk['title']
-            speaker_last = get_last_name(talk['speaker'])
-            mon_abbr = get_month_abbr(month)
-            filename = f"{sanitize_filename(title)} — {speaker_last} {year} {mon_abbr}.md"
+            filename = talk['filename'] + '.md'
             filepath = os.path.join(conf_folder, filename)
 
             if replace or not os.path.exists(filepath):
