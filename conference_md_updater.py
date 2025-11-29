@@ -67,17 +67,10 @@ def build_properties(talk):
     properties.append(f'>{links}')
     ai_res = talk.get('ai_resources', {})
     summaries = ai_res.get('summaries', {})
-    if 'youth' in summaries:
-        properties.append('>> [!AI]- AI Context')
-        properties.append('>>' + summaries['youth'])
-        properties.append('>')
-    if 'children' in summaries:
-        properties.append('>> [!AI]- AI Child Summary')
-        properties.append('>>' + summaries['children'])
-        properties.append('>')
-    if 'adult' in summaries:
-        properties.append('>> [!AI]- AI Summary')
-        properties.append('>>' + summaries['adult'])
+    for key, summary in summaries.items():
+        title = f'AI Summary {key.replace("_", " ").title()}'
+        properties.append(f'>> [!AI]- {title}')
+        properties.append('>>' + summary)
         properties.append('>')
     return '\n'.join(properties) + '\n'
 
@@ -113,9 +106,9 @@ def build_talk_body(talk):
             body.append('#' * level + ' ' + md)
             # NO blank after heading
         elif 'type' in item and item['type'] == 'paragraph':
-            if 'verse' in item:
-                body.append(f"###### {item['verse']}")
-                body.append(f"{item['verse']} {md}")
+            if 'paragraph' in item:
+                body.append(f"###### {item['paragraph']}")
+                body.append(f"{item['paragraph']} {md}")
             else:
                 body.append(md)
             # NO blank after paragraph
