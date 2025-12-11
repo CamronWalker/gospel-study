@@ -79,6 +79,25 @@ def build_invitation(talk):
         return '> [!invite]- Invitations\n' + talk['invitation'] + '\n'
     return ''
 
+def build_key_topics(talk):
+    ai_res = talk.get('ai_resources', {})
+    topics = ai_res.get('topics', [])
+    if not topics:
+        return ''
+    filename = talk['filename'] + '.md'
+    lines = ['## Key Topics']
+    for topic in topics:
+        lines.append(f'### {topic["name"]}')
+        for pair in topic.get('question_quote_pairs', []):
+            question = pair['question']
+            quote = pair['quote'].strip('"')
+            para_key = pair['paragraph_key']
+            lines.append(f'- {question}')
+            lines.append(f'  > "{quote}"')
+            lines.append(f'  (See [[{filename}#{para_key}|paragraph {para_key}]])')
+            lines.append('')
+    return '\n'.join(lines) + '\n'
+
 def find_youtube_url(resources):
     for res in resources:
         if res['name'] == 'YouTube Video':
@@ -132,6 +151,7 @@ def build_full_md(talk):
     md = build_frontmatter(talk) + '\n\n'
     md += build_properties(talk) + '\n'
     md += build_invitation(talk) + '\n'
+    md += build_key_topics(talk) + '\n'
     md += '# Notes\n\n\n\n'
     md += build_talk_body(talk)
     return md
@@ -150,6 +170,7 @@ def update_md_prefix(existing_md, talk):
     new_prefix = build_frontmatter(talk) + '\n\n'
     new_prefix += build_properties(talk) + '\n'
     new_prefix += build_invitation(talk) + '\n'
+    new_prefix += build_key_topics(talk) + '\n'
     
     # Combine
     return new_prefix + remaining_content
