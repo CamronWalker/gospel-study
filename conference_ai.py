@@ -16,6 +16,15 @@
 # 4. Update with debug logging enabled:
 #    python3 conference_ai.py --update 2025-10 --debug
 #
+# 5. Update specific summaries (e.g., only adult and youth) for a talk:
+#    python3 conference_ai.py --update 2025-10 --talk /2025/10/19oaks --update-summaries adult,youth
+#
+# 6. Update questions (regenerates topics):
+#    python3 conference_ai.py --update 2025-10 --update-questions
+#
+# 7. Force overwrite existing data:
+#    python3 conference_ai.py --update 2025-10 --force
+#
 # Note: Conferences are April (04) and October (10). Input 'YYYY-MM' for specific, 'YYYY1-YYYY2' for range.
 
 import os
@@ -75,29 +84,47 @@ def parse_conference_target(target):
             files.append(f"{year}-{month}.json")
     return files
 
-def generate_summaries(title, speaker, full_text, debug=False):
-    """Generate summaries for different audiences."""
+def generate_summaries(title, speaker, full_text, summary_types='all', debug=False):
+    """Generate summaries for specified audiences or all."""
+    all_types = ['adult', 'youth', 'children', 'new_members', 'non_members', 'kicker']
+    if summary_types == 'all':
+        selected = all_types
+    else:
+        selected = [t.strip() for t in summary_types.split(',') if t.strip() in all_types]
+        if not selected:
+            return {}, 0, 0, 0, 0
+
+    prompt_parts = []
+    if 'adult' in selected:
+        prompt_parts.append("1. Adult Summary: A detailed summary (3-4 sentences, max 150 words) for adults, capturing main points, teachings, and applications.")
+    if 'youth' in selected:
+        prompt_parts.append("2. Youth Summary: An engaging summary (2-3 sentences, max 100 words) for youth, relating to their lives and challenges.")
+    if 'children' in selected:
+        prompt_parts.append("3. Children Summary: A simple, story-like summary (1-2 sentences, max 50 words) for children.")
+    if 'new_members' in selected:
+        prompt_parts.append("4. New Members Summary: A welcoming summary (2-3 sentences, max 100 words) explaining key concepts for new members.")
+    if 'non_members' in selected:
+        prompt_parts.append("5. Non-Members Summary: An accessible introduction (2-3 sentences, max 100 words) to the talk's message for non-members.")
+    if 'kicker' in selected:
+        prompt_parts.append("6. Kicker: A compelling 5-10 word phrase to draw readers into the talk's message.")
+
+    if not prompt_parts:
+        return {}, 0, 0, 0, 0
+
     prompt = (
-        f"Provide the following summaries for the talk '{title}' by {speaker}:\n"
-        f"1. Adult Summary: A detailed summary (3-4 sentences, max 150 words) for adults, capturing main points, teachings, and applications.\n"
-        f"2. Youth Summary: An engaging summary (2-3 sentences, max 100 words) for youth, relating to their lives and challenges.\n"
-        f"3. Children Summary: A simple, story-like summary (1-2 sentences, max 50 words) for children.\n"
-        f"4. New Members Summary: A welcoming summary (2-3 sentences, max 100 words) explaining key concepts for new members.\n"
-        f"5. Non-Members Summary: An accessible introduction (2-3 sentences, max 100 words) to the talk's message for non-members.\n"
+        f"Provide the following for the talk '{title}' by {speaker}:\n"
+        + "\n".join(prompt_parts) + "\n"
         f"Notes:\n"
         f"- Do not start summaries with redundant references to the title or speaker.\n"
         f"- Keep concise and focused on the essence.\n"
         f"Talk text:\n{full_text}\n\n"
         f"Output Format:\n"
-        f"Adult Summary: [adult summary here]\n"
-        f"Youth Summary: [youth summary here]\n"
-        f"Children Summary: [children summary here]\n"
-        f"New Members Summary: [new members summary here]\n"
-        f"Non-Members Summary: [non-members summary here]\n"
     )
+    for t in selected:
+        prompt += f"{t.capitalize()} Summary: [{t} summary here]\n" if t != 'kicker' else f"Kicker: [kicker here]\n"
 
     if debug:
-        tqdm.write(f"Debug: Prompt for summaries ({title}):\n{prompt}\n")
+        tqdm.write(f"Debug: Prompt for summaries ({title}, types: {selected}):\n{prompt}\n")
     
     max_retries = 5
     for attempt in range(max_retries):
@@ -115,50 +142,21 @@ def generate_summaries(title, speaker, full_text, debug=False):
             
             output = response.content.strip()
             lines = output.split("\n")
-            summaries = {
-                "adult": "",
-                "youth": "",
-                "children": "",
-                "new_members": "",
-                "non_members": ""
-            }
+            summaries = {}
             current_key = None
             current_lines = []
             for line in lines:
                 line = line.strip()
-                if line.startswith("Adult Summary:"):
-                    current_key = "adult"
-                    content = line.split(":", 1)[1].strip() if ":" in line else ""
-                    if content:
-                        current_lines = [content]
-                elif line.startswith("Youth Summary:"):
-                    if current_key:
-                        summaries[current_key] = " ".join(current_lines)
-                    current_key = "youth"
-                    content = line.split(":", 1)[1].strip() if ":" in line else ""
-                    if content:
-                        current_lines = [content]
-                elif line.startswith("Children Summary:"):
-                    if current_key:
-                        summaries[current_key] = " ".join(current_lines)
-                    current_key = "children"
-                    content = line.split(":", 1)[1].strip() if ":" in line else ""
-                    if content:
-                        current_lines = [content]
-                elif line.startswith("New Members Summary:"):
-                    if current_key:
-                        summaries[current_key] = " ".join(current_lines)
-                    current_key = "new_members"
-                    content = line.split(":", 1)[1].strip() if ":" in line else ""
-                    if content:
-                        current_lines = [content]
-                elif line.startswith("Non-Members Summary:"):
-                    if current_key:
-                        summaries[current_key] = " ".join(current_lines)
-                    current_key = "non_members"
-                    content = line.split(":", 1)[1].strip() if ":" in line else ""
-                    if content:
-                        current_lines = [content]
+                for t in selected:
+                    start_str = f"{t.capitalize()} Summary:" if t != 'kicker' else "Kicker:"
+                    if line.startswith(start_str):
+                        if current_key:
+                            summaries[current_key] = " ".join(current_lines)
+                        current_key = t
+                        content = line.split(":", 1)[1].strip() if ":" in line else ""
+                        if content:
+                            current_lines = [content]
+                        break
                 else:
                     if current_key and line:
                         current_lines.append(line)
@@ -182,8 +180,10 @@ def generate_summaries(title, speaker, full_text, debug=False):
     tqdm.write(f"Max retries exceeded for summaries ({title})")
     return {}, 0, 0, 0, 0
 
-def generate_topics(title, speaker, body, debug=False):
-    """Generate key topics with summaries, questions, and quotes using body paragraphs."""
+def generate_topics(title, speaker, body, update_questions_only=False, debug=False):
+    """Generate key topics with summaries, questions, and quotes using body paragraphs.
+    If update_questions_only, regenerate only question-quote pairs (but for simplicity, regenerate all topics)."""
+    # Note: For now, update_questions_only just regenerates all topics, as separating pairs is complex.
     # Construct body text with paragraph numbers
     body_text = ""
     for item in body:
@@ -325,212 +325,3 @@ def generate_topics(title, speaker, body, debug=False):
             time.sleep(wait_time)
     tqdm.write(f"Max retries exceeded for topics ({title})")
     return [], 0, 0, 0, 0
-
-def parse_related_content(s, is_scriptures=False):
-    """Parse related items from string like 'item1 ~ reason; item2 ~ reason'."""
-    if not s:
-        return []
-    s = s.strip("[] ")
-    parts = s.split(';')
-    result = []
-    for part in parts:
-        part = part.strip()
-        if part:
-            splitted = re.split(r'\s*~\s*', part, maxsplit=1)
-            if len(splitted) == 2:
-                link = splitted[0].strip()
-                desc = splitted[1].strip()
-                result.append({"link": link, "description": desc})
-    return result
-
-def generate_related(title, speaker, full_text, search_enabled=False, debug=False):
-    """Generate related talks and scriptures, with search if enabled."""
-    if not search_enabled:
-        return [], [], 0, 0, 0, 0
-    
-    allowed_websites = ["churchofjesuschrist.org", "scriptures.byu.edu"]
-    prompt = (
-        f"Search for 2-3 related general conference talks and 2-3 related scriptures for the talk '{title}' by {speaker}.\n"
-        f"For each related talk: Provide 'Title by Speaker, Conference YYYY Month' and brief reason (max 25 words).\n"
-        f"For each related scripture: Wiki-style link (e.g., [[Matthew 5]] or [[D&C 88#118|D&C 88:118-126]][[D&C 88#119|]]...) and brief reason (max 25 words).\n"
-        f"Prioritize official sources.\n"
-        f"Talk text:\n{full_text}\n\n"
-        f"Output Format:\n"
-        f"Related Talks: [talk1 ~ reason; ...]\n"
-        f"Related Scriptures: [link1 ~ reason; ...]\n"
-    )
-    
-    if debug:
-        tqdm.write(f"Debug: Prompt for related ({title}):\n{prompt}\n")
-    
-    max_retries = 5
-    for attempt in range(max_retries):
-        try:
-            search_params = SearchParameters(
-                mode="auto",
-                max_search_results=5,
-                sources=[web_source(allowed_websites=allowed_websites)]
-            ) if search_enabled else None
-            chat = client.chat.create(
-                model="grok-4-1-fast-reasoning",
-                temperature=0.7,
-                max_tokens=1024,
-                search_parameters=search_params
-            )
-            chat.append(user(prompt))
-            response = chat.sample()
-            
-            if debug:
-                tqdm.write(f"Debug: Response for related ({title}):\n{response.content}\n")
-            
-            output = response.content.strip()
-            # Parse Related Talks and Scriptures
-            related_talks_str = ""
-            related_scriptures_str = ""
-            lines = output.split("\n")
-            for line in lines:
-                if line.startswith("Related Talks:"):
-                    related_talks_str = line.split(":", 1)[1].strip() if ":" in line else ""
-                elif line.startswith("Related Scriptures:"):
-                    related_scriptures_str = line.split(":", 1)[1].strip() if ":" in line else ""
-            
-            related_talks = parse_related_content(related_talks_str, is_scriptures=False)
-            related_scriptures = parse_related_content(related_scriptures_str, is_scriptures=True)
-            
-            prompt_tokens = response.usage.prompt_tokens if hasattr(response.usage, 'prompt_tokens') else 0
-            completion_tokens = response.usage.completion_tokens if hasattr(response.usage, 'completion_tokens') else 0
-            reasoning_tokens = response.usage.reasoning_tokens if hasattr(response.usage, 'reasoning_tokens') else 0
-            searches = response.usage.num_sources_used if hasattr(response.usage, 'num_sources_used') else 0
-            
-            if debug:
-                tqdm.write(f"Debug: Parsed related for {title}: Talks {related_talks}, Scriptures {related_scriptures}\n")
-                tqdm.write(f"Tokens: Input {prompt_tokens}, Completion {completion_tokens}, Reasoning {reasoning_tokens}, Searches {searches}\n")
-            
-            return related_talks, related_scriptures, prompt_tokens, completion_tokens, reasoning_tokens, searches
-        except Exception as e:
-            wait_time = 2 ** attempt
-            tqdm.write(f"Error generating related for {title}: {e}. Retrying in {wait_time}s... (Attempt {attempt + 1}/{max_retries})")
-            time.sleep(wait_time)
-    tqdm.write(f"Max retries exceeded for related ({title})")
-    return [], [], 0, 0, 0, 0
-
-def process_talk(sessions, session_name, talk_id, search_enabled, debug):
-    """Process a single talk."""
-    session = sessions[session_name]
-    talk = session["talks"][talk_id]
-    title = talk.get("title", "")
-    speaker = talk.get("speaker", "")
-    full_text = talk.get("full_markdown", "")
-    body = talk.get("body", [])
-    
-    if not full_text:
-        return talk, 0, 0, 0, 0
-    
-    # Generate summaries using full_text
-    summaries, s_in, s_comp, s_reas, s_search = generate_summaries(title, speaker, full_text, debug)
-    
-    # Generate topics using body
-    topics, t_in, t_comp, t_reas, t_search = generate_topics(title, speaker, body, debug)
-    
-    # Generate related using full_text
-    related_talks, related_scriptures, r_in, r_comp, r_reas, r_search = generate_related(title, speaker, full_text, search_enabled, debug)
-    
-    total_in = s_in + t_in + r_in
-    total_comp = s_comp + t_comp + r_comp
-    total_reas = s_reas + t_reas + r_reas
-    total_search = s_search + t_search + r_search
-    
-    if "ai_resources" not in talk:
-        talk["ai_resources"] = {}
-    talk["ai_resources"]["summaries"] = summaries
-    talk["ai_resources"]["topics"] = topics
-    talk["ai_resources"]["related_talks"] = related_talks
-    talk["ai_resources"]["related_scriptures"] = related_scriptures
-    
-    return talk, total_in, total_comp, total_reas, total_search
-
-def update_conference(file_path, search_enabled=False, debug=False, show_talk_progress=True):
-    """Update all talks in a conference JSON."""
-    with open(file_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    
-    sessions = data.get("sessions", {})
-    talk_tasks = []
-    for session_name in sessions:
-        talks = sessions[session_name].get("talks", {})
-        for talk_id in talks:
-            talk_tasks.append((sessions, session_name, talk_id))
-    
-    total_talks = len(talk_tasks)
-    total_input = 0
-    total_completion = 0
-    total_reasoning = 0
-    total_searches = 0
-
-    def process_task(task):
-        return process_talk(*task, search_enabled, debug)
-
-    with ThreadPoolExecutor(max_workers=100) as executor:
-        futures = [executor.submit(process_task, task) for task in talk_tasks]
-        if show_talk_progress:
-            # Show a per-talk progress bar (existing behavior) — useful when updating a single conference.
-            for future in tqdm(as_completed(futures), total=total_talks, desc=f"Processing {os.path.basename(file_path)}", unit="talk"):
-                _, in_t, comp_t, reas_t, search_t = future.result()
-                total_input += in_t
-                total_completion += comp_t
-                total_reasoning += reas_t
-                total_searches += search_t
-        else:
-            # When processing multiple conferences, avoid many nested per-talk progress bars.
-            # Instead process the conference silently here and let the caller show a conference-level progress bar.
-            for future in as_completed(futures):
-                _, in_t, comp_t, reas_t, search_t = future.result()
-                total_input += in_t
-                total_completion += comp_t
-                total_reasoning += reas_t
-                total_searches += search_t
-
-    with open(file_path, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-    tqdm.write(f"Conference updated: Input Tokens: {total_input}, Completion: {total_completion}, Reasoning: {total_reasoning}, Searches: {total_searches}")
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Update AI resources in JSON conference files.")
-    parser.add_argument("--update", required=True, help="Conference (e.g., 2025-10) or range (e.g., 2023-2025)")
-    parser.add_argument("--search", action="store_true", help="Enable search for related talks/scriptures")
-    parser.add_argument("--debug", action="store_true", help="Enable debug logging")
-    args = parser.parse_args()
-
-    target = args.update.strip()
-    search_enabled = args.search
-    debug = args.debug
-
-    file_names = parse_conference_target(target)
-    processed = False
-    base_dir = "conference_json"
-
-    # If multiple conferences requested, show an outer progress bar over conferences and
-    # run each conference without a per-talk tqdm (because each conference is already parallel).
-    if len(file_names) > 1:
-        for file_name in tqdm(file_names, desc="Conferences", unit="conf"):
-            file_path = os.path.join(base_dir, file_name)
-            if os.path.exists(file_path):
-                # show_talk_progress=True so each conference shows its own per-talk bar
-                update_conference(file_path, search_enabled, debug, show_talk_progress=True)
-                processed = True
-            else:
-                tqdm.write(f"Conference file {file_name} not found.")
-    else:
-        # Single conference: keep per-talk progress bars for detail
-        for file_name in file_names:
-            file_path = os.path.join(base_dir, file_name)
-            if os.path.exists(file_path):
-                update_conference(file_path, search_enabled, debug, show_talk_progress=True)
-                processed = True
-            else:
-                tqdm.write(f"Conference file {file_name} not found.")
-
-    if processed:
-        tqdm.write("AI resources have been added to the conference files successfully.")
-    else:
-        tqdm.write("No updates performed.")
