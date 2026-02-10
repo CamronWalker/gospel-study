@@ -325,3 +325,174 @@ def generate_topics(title, speaker, body, update_questions_only=False, debug=Fal
             time.sleep(wait_time)
     tqdm.write(f"Max retries exceeded for topics ({title})")
     return [], 0, 0, 0, 0
+
+def generate_mindmap(title, speaker, body, debug=False):
+    """Generate a Mermaid mindmap with central idea, sub-branches, and keywords using body paragraphs."""
+    # Construct body text with paragraph numbers
+    body_text = ""
+    for item in body:
+        if item.get("type") == "paragraph":
+            para_num = item.get("paragraph")
+            markdown = item.get("markdown", "")
+            body_text += f"Paragraph {para_num}: {markdown}\n"
+        elif item.get("type") == "heading":
+            level = item.get("level", 2)
+            markdown = item.get("markdown", "")
+            body_text += f"{'#' * level} {markdown}\n"
+    
+    prompt = (
+        f"Generate a Mermaid mindmap diagram for the talk '{title}' by {speaker}.\n"
+        f"The central idea should be the main theme or core message of the talk (keep it concise, 5-10 words).\n"
+        f"Create 3-5 sub-branches representing key topics or sections.\n"
+        f"Under each sub-branch, add 2-4 keywords or short phrases as child nodes.\n"
+        f"Use Mermaid mindmap syntax.\n"
+        f"Notes:\n"
+        f"- Keep the structure simple and hierarchical.\n"
+        f"- Use double parentheses (( )) for the central idea.\n"
+        f"- Use indentation for branches and sub-nodes.\n"
+        f"- Ensure keywords are relevant and extracted or derived from the talk.\n"
+        f"Body:\n{body_text}\n\n"
+        f"Output ONLY the Mermaid code, starting with 'mindmap' and properly indented. Do not include any explanations or code fences."
+    )
+    
+    if debug:
+        tqdm.write(f"Debug: Prompt for mindmap ({title}):\n{prompt}\n")
+    
+    max_retries = 5
+    for attempt in range(max_retries):
+        try:
+            chat = client.chat.create(
+                model="grok-4-1-fast-reasoning",
+                temperature=0.5,
+                max_tokens=1024
+            )
+            chat.append(user(prompt))
+            response = chat.sample()
+            
+            if debug:
+                tqdm.write(f"Debug: Response for mindmap ({title}):\n{response.content}\n")
+            
+            mindmap_code = response.content.strip()
+            # Clean up if code fences are present despite instructions
+            if mindmap_code.startswith("```mermaid"):
+                mindmap_code = mindmap_code.split("\n", 1)[1].rsplit("\n", 1)[0].strip()
+            elif mindmap_code.startswith("```"):
+                mindmap_code = mindmap_code.strip("```").strip()
+            
+            prompt_tokens = response.usage.prompt_tokens if hasattr(response.usage, 'prompt_tokens') else 0
+            completion_tokens = response.usage.completion_tokens if hasattr(response.usage, 'completion_tokens') else 0
+            reasoning_tokens = response.usage.reasoning_tokens if hasattr(response.usage, 'reasoning_tokens') else 0
+            searches = response.usage.num_sources_used if hasattr(response.usage, 'num_sources_used') else 0
+            
+            if debug:
+                tqdm.write(f"Debug: Parsed mindmap for {title}:\n{mindmap_code}\n")
+                tqdm.write(f"Tokens: Input {prompt_tokens}, Completion {completion_tokens}, Reasoning {reasoning_tokens}, Searches {searches}\n")
+            
+            return mindmap_code, prompt_tokens, completion_tokens, reasoning_tokens, searches
+        except Exception as e:
+            wait_time = 2 ** attempt
+            tqdm.write(f"Error generating mindmap for {title}: {e}. Retrying in {wait_time}s... (Attempt {attempt + 1}/{max_retries})")
+            time.sleep(wait_time)
+    tqdm.write(f"Max retries exceeded for mindmap ({title})")
+    return "", 0, 0, 0, 0
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Update LDS General Conference JSON with AI summaries.")
+    parser.add_argument("--update", required=True, help="Conference target (e.g., 2025-10 or 2023-2025)")
+    parser.add_argument("--force", action="store_true", help="Force overwrite existing data")
+    parser.add_argument("--debug", action="store_true", help="Enable debug logging")
+    parser.add_argument("--search", action="store_true", help="Enable search for related content")
+    parser.add_argument("--talk", help="Specific talk slug to update (e.g., /2025/10/19oaks)")
+    parser.add_argument("--update-summaries", help="Specific summaries to update (e.g., adult,youth)")
+    parser.add_argument("--update-questions", action="store_true", help="Update questions/topics")
+
+    args = parser.parse_args()
+
+    conference_files = parse_conference_target(args.update)
+    json_dir = "conference_json"  # Adjust if different
+
+    total_prompt_tokens = total_completion_tokens = total_reasoning_tokens = total_searches = 0
+
+    for conf_file in conference_files:
+        file_path = os.path.join(json_dir, conf_file)
+        if not os.path.exists(file_path):
+            tqdm.write(f"File not found: {file_path}")
+            continue
+
+        with open(file_path, "r") as f:
+            data = json.load(f)
+
+        # Flatten talks from nested sessions
+        all_talks = []
+        for session_name, session in data.get("sessions", {}).items():
+            for slug, talk in session.get("talks", {}).items():
+                talk["slug"] = slug  # Add slug for matching
+                all_talks.append(talk)
+
+        with ThreadPoolExecutor(max_workers=5) as executor:
+            futures = []
+            for talk in all_talks:
+                if args.talk and talk["slug"] != args.talk.lstrip("/"):  # Handle optional leading /
+                    continue
+
+                title = talk.get("title")
+                speaker = talk.get("speaker")
+                body = talk.get("body", [])
+                full_text = " ".join([item.get("markdown", "") for item in body if item.get("type") == "paragraph"])
+
+                ai_res = talk.get("ai_resources", {})
+                has_summaries = "summaries" in ai_res
+                has_topics = "topics" in ai_res
+                has_mindmap = "mindmap" in ai_res
+
+                # Decide what to update
+                do_summ = args.update_summaries or (not has_summaries or args.force)
+                do_topics = args.update_questions or (not has_topics or args.force)
+                do_mindmap = not has_mindmap or args.force  # Always add/update mindmap if missing or force
+
+                if not (do_summ or do_topics or do_mindmap):
+                    continue
+
+                search_params = SearchParameters(web_source()) if args.search else None
+
+                if do_summ:
+                    future_summ = executor.submit(generate_summaries, title, speaker, full_text, args.update_summaries or "all", args.debug)
+                    futures.append((talk, "summ", future_summ))
+                if do_topics:
+                    future_topics = executor.submit(generate_topics, title, speaker, body, args.update_questions, args.debug)
+                    futures.append((talk, "topics", future_topics))
+                if do_mindmap:
+                    future_mindmap = executor.submit(generate_mindmap, title, speaker, body, args.debug)
+                    futures.append((talk, "mindmap", future_mindmap))
+
+            for talk, typ, future in tqdm(futures, desc=f"Processing talks in {conf_file}"):
+                result = future.result()
+                if typ == "summ":
+                    summaries, pt, ct, rt, s = result
+                    if summaries:
+                        talk.setdefault("ai_resources", {})["summaries"] = summaries
+                    total_prompt_tokens += pt
+                    total_completion_tokens += ct
+                    total_reasoning_tokens += rt
+                    total_searches += s
+                elif typ == "topics":
+                    topics, pt, ct, rt, s = result
+                    if topics:
+                        talk.setdefault("ai_resources", {})["topics"] = topics
+                    total_prompt_tokens += pt
+                    total_completion_tokens += ct
+                    total_reasoning_tokens += rt
+                    total_searches += s
+                elif typ == "mindmap":
+                    mindmap, pt, ct, rt, s = result
+                    if mindmap:
+                        talk.setdefault("ai_resources", {})["mindmap"] = mindmap
+                    total_prompt_tokens += pt
+                    total_completion_tokens += ct
+                    total_reasoning_tokens += rt
+                    total_searches += s
+
+        # Save updated JSON
+        with open(file_path, "w") as f:
+            json.dump(data, f, indent=4)
+        tqdm.write(f"Updated {file_path}. Total tokens: Prompt {total_prompt_tokens}, Completion {total_completion_tokens}, Reasoning {total_reasoning_tokens}, Searches {total_searches}")
