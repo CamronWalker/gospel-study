@@ -494,5 +494,5 @@ if __name__ == "__main__":
 
         # Save updated JSON
         with open(file_path, "w") as f:
-            json.dump(data, f, indent=4)
+            json.dump(data, f, indent=2, ensure_ascii=False)
         tqdm.write(f"Updated {file_path}. Total tokens: Prompt {total_prompt_tokens}, Completion {total_completion_tokens}, Reasoning {total_reasoning_tokens}, Searches {total_searches}")
