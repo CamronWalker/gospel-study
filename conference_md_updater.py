@@ -66,13 +66,37 @@ def build_properties(talk):
     properties.append('>Resources:')
     links = "    |    ".join(f"[{res['name']}]({res['url']})" for res in talk.get('resources', []))
     properties.append(f'>{links}')
+
     ai_res = talk.get('ai_resources', {})
+
+    # AI Summaries nested callout
     summaries = ai_res.get('summaries', {})
-    for key, summary in summaries.items():
-        title = f'AI Summary {key.replace("_", " ").title()}'
-        properties.append(f'>> [!AI]- {title}')
-        properties.append('>>' + summary)
+    if summaries:
         properties.append('>')
+        properties.append('>> [!AI]- AI Summaries')
+        for key, summary in summaries.items():
+            title = f'AI Summary {key.replace("_", " ").title()}'
+            properties.append(f'>>> [!AI]- {title}')
+            properties.append('>>>' + summary)
+            properties.append('>>')
+
+    # AI Topics nested callout
+    topics = ai_res.get('topics', [])
+    if topics:
+        filename = talk['filename'] + '.md'
+        properties.append('>')
+        properties.append('>> [!AI]- AI Topics')
+        for topic in topics:
+            properties.append(f'>>> [!topic]- {topic["name"]}')
+            for pair in topic.get('question_quote_pairs', []):
+                question = pair['question']
+                quote = pair['quote'].strip('"')
+                para_key = pair['paragraph_key']
+                properties.append(f'>>> - {question}')
+                properties.append(f'>>>   > "{quote}"')
+                properties.append(f'>>>   (See [[{filename}#{para_key}|paragraph {para_key}]])')
+            properties.append('>>')
+
     return '\n'.join(properties) + '\n'
 
 def build_invitation(talk):
@@ -80,24 +104,6 @@ def build_invitation(talk):
         return '> [!invite]- Invitations\n' + talk['invitation'] + '\n'
     return ''
 
-def build_key_topics(talk):
-    ai_res = talk.get('ai_resources', {})
-    topics = ai_res.get('topics', [])
-    if not topics:
-        return ''
-    filename = talk['filename'] + '.md'
-    lines = ['## Key Topics']
-    for topic in topics:
-        lines.append(f'### {topic["name"]}')
-        for pair in topic.get('question_quote_pairs', []):
-            question = pair['question']
-            quote = pair['quote'].strip('"')
-            para_key = pair['paragraph_key']
-            lines.append(f'- {question}')
-            lines.append(f'  > "{quote}"')
-            lines.append(f'  (See [[{filename}#{para_key}|paragraph {para_key}]])')
-            lines.append('')
-    return '\n'.join(lines) + '\n'
 
 def find_youtube_url(resources):
     for res in resources:
@@ -109,7 +115,7 @@ def build_talk_body(talk):
     youtube_url = find_youtube_url(talk.get('resources', []))
     body = ['# Talk']
     if youtube_url:
-        body.append(f'![]({youtube_url})')
+        body.append(f'![{talk.get("title", "")}]({youtube_url})')
     if talk.get('kicker'):
         body.append(talk['kicker'])
     body.append('')  # blank line
@@ -152,7 +158,6 @@ def build_full_md(talk):
     md = build_frontmatter(talk) + '\n\n'
     md += build_properties(talk) + '\n'
     md += build_invitation(talk) + '\n'
-    md += build_key_topics(talk) + '\n'
     md += '# Notes\n\n\n\n'
     md += build_talk_body(talk)
     return md
@@ -171,7 +176,6 @@ def update_md_prefix(existing_md, talk):
     new_prefix = build_frontmatter(talk) + '\n\n'
     new_prefix += build_properties(talk) + '\n'
     new_prefix += build_invitation(talk) + '\n'
-    new_prefix += build_key_topics(talk) + '\n'
     
     # Combine
     return new_prefix + remaining_content
