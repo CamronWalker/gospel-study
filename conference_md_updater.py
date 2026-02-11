@@ -43,6 +43,7 @@ def build_frontmatter(talk):
     frontmatter = [
         '---',
         'publish: true',
+        f'talk_id: "{talk.get("talk_id", "")}"',
         f'conference: "{talk["conference"]}"',
         f'year: {talk["year"]}',
         f'month: "{talk["month"].capitalize()}"',  # Full month name
