@@ -1,33 +1,83 @@
 # Gospel Study in Obsidian
 
-This project scrapes LDS General Conference talks and scriptures, processes them into JSON format, adds resources and AI-generated summaries, and generates/updates Markdown files for Obsidian. The goal is to create cross-referenced study materials.
+Scrapes LDS General Conference talks and scriptures, processes them into JSON, enriches with AI summaries, and generates Obsidian Markdown with cross-referenced wiki-links.
+
+## Quick Start
+
+```bash
+# Scrape a conference (structure + talks + IDs + thumbnails + resources → JSON + Markdown)
+py conference.py pipeline 2026-april
+
+# Or run steps individually:
+py conference.py scrape 2026-april          # scrape to JSON
+py conference.py resources 2026-april       # add YouTube, Saints AI, BYU, Gospel Library links
+py conference.py markdown 2026-april        # generate Obsidian markdown
+
+# Re-scrape or overwrite existing data
+py conference.py pipeline 2026-april --replace
+
+# Year ranges work too
+py conference.py scrape 2020-2025
+```
 
 ## Project Structure
 
-### Folders
-- `conference_json/`: JSON files for conferences (e.g., `2024-october.json`)
-- `scriptures_json/`: JSON files for scripture volumes (e.g., `book_of_mormon.json`)
-- `Conference/`: Generated Markdown files for conference talks
-- `Scriptures/`: Generated Markdown files for scriptures (created by scripts)
+```
+conference.py              # Unified conference pipeline (scrape, resources, markdown)
+conference_ai.py           # AI summaries via xAI Grok (separate step)
+scripture_ai.py            # AI summaries for scripture chapters
+scripture_md_updater.py    # Generate scripture Markdown files
 
-### Scripts
-- `conference_ai.py`: Generates AI summaries, tags, and related resources for conference talks using x.ai API.
-- `conference_md_updater.py`: Creates or updates Markdown files for conference talks in Obsidian, incorporating frontmatter, properties, AI summaries, and talk content.
-- `conference_create_json.py`: Scrapes LDS General Conference years to create json files for each year listing talks.
-- `conference_scrape_talks.py`: Scrapes the LDS General Conference talks listed in the conferences in folder `conference_json`. 
-- `scripture_ai.py`: Generates AI summaries, tags, and related scriptures for scripture chapters using x.ai API.
-- `scripture_md_updater.py`: Creates or updates Markdown files for scriptures in Obsidian, adding frontmatter, resources, AI summaries, and preserving verse content.
+conference_json/           # Conference JSON files (source of truth)
+scriptures_json/           # Scripture volume JSON files
+Conference/                # Generated conference Markdown for Obsidian
+Scriptures/                # Generated scripture Markdown for Obsidian
+archive/                   # Old scripts and backup data
+```
 
-## Workflow
-1. Scrape conference data: `python conference_scrape_to_json.py <year> <month>`
-2. Add AI to conference: `python conference_ai.py <year> <month>`
-3. Update conference MD: `python conference_md_updater.py <year> <month>`
-4. Add AI to scriptures: `python scripture_ai.py`
-5. Update scripture MD: `python scripture_md_updater.py`
+## Conference Pipeline
+
+| Step | Command | What it does |
+|------|---------|-------------|
+| Scrape | `py conference.py scrape 2026-april` | Fetches conference list + all talk content → JSON |
+| Resources | `py conference.py resources 2026-april` | Adds YouTube, Gospel Library, Saints AI, BYU links |
+| Markdown | `py conference.py markdown 2026-april` | Generates Obsidian notes from JSON |
+| All-in-one | `py conference.py pipeline 2026-april` | Runs scrape → resources → markdown |
+
+Target formats: `2026-april`, `2026-04`, `2020-2025`, `2026`
+
+### Resource Links
+
+- **Gospel Library** — direct link to churchofjesuschrist.org
+- **YouTube Video** — exact video link via playlist API (falls back to search URL if no API key)
+- **Saints AI Study Guide** — saintsai.org study guide (2017+)
+- **BYU Citation Index** — scriptures.byu.edu cross-references
+
+### AI Summaries (separate step)
+
+```bash
+py conference_ai.py --update 2026-04              # add AI summaries to JSON
+py conference_ai.py --update 2026-04 --force      # re-generate all
+py conference.py markdown 2026-april --replace    # then regenerate markdown
+```
+
+## Scripture Pipeline
+
+```bash
+py scripture_ai.py --update "Matthew 5"           # AI summaries for a chapter
+py scripture_ai.py --update new_testament.json     # entire volume
+py scripture_md_updater.py                         # generate all scripture Markdown
+```
 
 ## Dependencies
-- Python libraries: selenium, webdriver-manager, requests, openai, dotenv, tqdm, concurrent.futures
-- ChromeDriver (auto-managed)
-- x.ai API key in .env for AI summaries
-- YouTube API key in .env for resource addition
 
+```bash
+pip install requests beautifulsoup4 tqdm python-dotenv
+```
+
+Optional:
+- `YOUTUBE_API_KEY` in `.env` — exact YouTube video links via playlist lookup (~3 API calls per conference)
+- `XAI_API_KEY` in `.env` — AI summaries via xAI Grok (`conference_ai.py`)
+- Without API keys, YouTube falls back to search URLs and AI step is skipped
+
+See `.env.example` for setup.
